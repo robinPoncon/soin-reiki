@@ -1,10 +1,9 @@
 import Image from "next/image";
-import HeaderMenu from "@/components/Menu/HeaderMenu";
+import HeaderMenu from "@/app/_components/Menu/headerMenu";
 
 const MainPage = () => {
 	return (
 		<main>
-			<HeaderMenu />
 			<figure>
 				<Image
 					alt="main image of the site with a tree and energy"

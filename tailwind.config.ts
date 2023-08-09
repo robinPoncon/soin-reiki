@@ -7,6 +7,9 @@ const config: Config = {
 			backgroundColor: {
 				darker: "#062933"
 			}
+		},
+		fontFamily: {
+			sans: ["Helvetica", "sans-serif"]
 		}
 	},
 	plugins: []
