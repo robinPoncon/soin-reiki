@@ -3,7 +3,8 @@
 	letter-spacing: 1px;
 	font-size: 20px;
 	font-weight: 600;
-	&:hover {
+	transition: color 0.5s, text-shadow 0.5s;
+	&:hover, &.activeLink {
 		color: #3ad9bc;
 		text-shadow: #3ad9bc 0px 0px 10px;
 	}

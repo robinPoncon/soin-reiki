@@ -3,7 +3,7 @@ import Image from "next/image";
 const MainPage = () => {
 	return (
 		<main>
-			<figure>
+			<figure className="-mt-20">
 				<Image
 					alt="main image of the site with a tree and energy"
 					src="/main-site-image.png"
