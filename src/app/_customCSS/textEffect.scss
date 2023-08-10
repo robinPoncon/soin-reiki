@@ -1,0 +1,10 @@
+.greenLight {
+	color: #fcf2d9;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 600;
+	&:hover {
+		color: #3ad9bc;
+		text-shadow: #3ad9bc 0px 0px 10px;
+	}
+}

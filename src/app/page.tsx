@@ -1,5 +1,4 @@
 import Image from "next/image";
-import HeaderMenu from "@/app/_components/Menu/headerMenu";
 
 const MainPage = () => {
 	return (

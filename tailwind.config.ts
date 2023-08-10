@@ -5,7 +5,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			backgroundColor: {
-				darker: "#062933"
+				darker: "#062933",
 			}
 		},
 		fontFamily: {
