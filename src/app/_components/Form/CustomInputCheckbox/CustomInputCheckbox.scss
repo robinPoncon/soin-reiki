@@ -1,0 +1,18 @@
+.customInputCheckbox {
+	display: flex;
+	gap: 10px;
+	width: fit-content;
+	input {
+		cursor: pointer;
+		width: 18px;
+		height: 18px;
+		accent-color: var(--secondary-900);
+	}
+	label {
+		cursor: pointer;
+		font-size: 14px;
+		font-family: var(--font-roboto);
+		height: 18px;
+		line-height: 18px;
+	}
+}

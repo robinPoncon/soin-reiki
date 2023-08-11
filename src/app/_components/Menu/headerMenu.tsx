@@ -1,16 +1,21 @@
 "use client";
 
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const HeaderMenu = () => {
-	const getURL = document.URL;
+	const [pageURL, setPageURL] = useState<string>("");
 
-	const isURLContains = (link: string) => {
-		return getURL.includes(link);
+	useEffect(() => {
+		setPageURL(document.URL);
+	}, []);
+
+	const isURLContains = (path: string) => {
+		return pageURL.includes(path);
 	};
 
 	return (
-		<header className="fixed top-0 w-full h-20 bg-darker">
+		<header className="fixed top-0 w-full h-20 bg-darker z-10">
 			<ul className="flex justify-center gap-5 h-full ml-10">
 				<li>
 					<a

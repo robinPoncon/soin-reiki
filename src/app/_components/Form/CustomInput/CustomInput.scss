@@ -1,0 +1,55 @@
+.componentCustomInput {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+	label {
+		font-size: 14px;
+		&.required:after {
+			content: " *";
+			color: rgb(220 38 38);
+		}
+	}
+	.blocInput {
+		position: relative;
+		input {
+			border: 1.5px solid #d2d4d4;
+			border-radius: 6px;
+			height: 38px;
+			padding: 0 10px;
+			width: 100%;
+			&.error {
+				border: 1.5px solid rgb(220 38 38);
+			}
+			&.validated {
+				border: 1.5px solid rgb(16 185 129);
+			}
+		}
+		.iconPassword {
+			background-color: transparent;
+			border: 0;
+			cursor: pointer;
+			height: 24px;
+			position: absolute;
+			right: 7px;
+			top: 7px;
+		}
+		.blocCardLogos {
+			display: flex;
+			gap: 10px;
+			position: absolute;
+			right: 7px;
+			top: 7px;
+		}
+		&.iconsCardInput input {
+			padding-right: 102px;
+		}
+	}
+	p {
+		color: rgb(220 38 38);
+		font-size: 12px;
+		font-style: italic;
+		margin-top: -5px;
+		text-align: right;
+	}
+}

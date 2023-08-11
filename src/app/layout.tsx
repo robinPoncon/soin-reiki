@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import HeaderMenu from "./_components/Menu/headerMenu";
+import HeaderMenu from "./_components/Menu/HeaderMenu";
 import "./_customCSS/textEffect.scss";
 
 export const metadata: Metadata = {
