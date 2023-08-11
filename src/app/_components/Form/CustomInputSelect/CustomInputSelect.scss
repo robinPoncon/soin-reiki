@@ -9,7 +9,7 @@
 			font-size: 14px;
 			font-family: var(--font-roboto);
 			&.required:after {
-				content: ' *';
+				content: " *";
 				color: #e1280c;
 			}
 		}
@@ -60,7 +60,7 @@
 				margin-top: auto;
 				margin-bottom: auto;
 				overflow-x: hidden;
-                text-overflow: ellipsis;
+				text-overflow: ellipsis;
 				white-space: nowrap;
 			}
 		}

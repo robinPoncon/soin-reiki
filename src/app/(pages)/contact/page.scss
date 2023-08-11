@@ -1,0 +1,18 @@
+.submitBtn {
+	background-color: #062933;
+	border-radius: 8px;
+	color: white;
+	height: 40px;
+	margin-top: 20px;
+	width: 160px;
+	transition: color 0.5s, box-shadow 0.5s;
+	&:hover {
+		box-shadow: 0px 0px 10px #3ad9bc;
+		color: #3ad9bc;
+		// text-shadow: #3ad9bc 0px 0px 10px;
+	}
+	&.disabledBtn {
+		pointer-events: none;
+		opacity: 0.7;
+	}
+}

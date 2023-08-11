@@ -4,7 +4,7 @@
 	gap: 10px;
 	width: 100%;
 	label {
-		font-size: 14px;
+		font-size: 16px;
 		&.required:after {
 			content: " *";
 			color: rgb(220 38 38);
@@ -13,8 +13,9 @@
 	.blocInput {
 		position: relative;
 		input {
-			border: 1.5px solid #d2d4d4;
+			border: 1.5px solid #abb0af;
 			border-radius: 6px;
+			font-size: 14px;
 			height: 38px;
 			padding: 0 10px;
 			width: 100%;

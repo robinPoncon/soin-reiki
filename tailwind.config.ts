@@ -5,7 +5,12 @@ const config: Config = {
 	theme: {
 		extend: {
 			backgroundColor: {
-				darker: "#062933",
+				darkTurquoise: "#062933",
+				customWhite: "#fcf2d9"
+			},
+			colors: {
+				darkTurquoise: "#062933",
+				customWhite: "#fcf2d9"
 			}
 		},
 		fontFamily: {

@@ -15,7 +15,7 @@ const HeaderMenu = () => {
 	};
 
 	return (
-		<header className="fixed top-0 w-full h-20 bg-darker z-10">
+		<header className="fixed top-0 w-full h-20 bg-darkTurquoise z-10">
 			<ul className="flex justify-center gap-5 h-full ml-10">
 				<li>
 					<a
@@ -41,7 +41,7 @@ const HeaderMenu = () => {
 						<Image
 							className="rounded-full"
 							alt="website logo with a tree and energy"
-							src="/website-logo.png"
+							src="/logos/website-logo.png"
 							height={100}
 							width={100}
 						/>
