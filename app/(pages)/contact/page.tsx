@@ -25,7 +25,7 @@ const ContactPage = () => {
 
 				if (response.ok) {
 					const data = await response.json();
-					console.log(data);
+					console.log("ok data", data)
 				} else {
 					console.error("Failed to send email");
 				}
