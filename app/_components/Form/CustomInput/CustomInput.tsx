@@ -1,6 +1,6 @@
 import React, { ChangeEvent, FocusEvent, HTMLInputTypeAttribute, useEffect, useState } from "react";
 import "./CustomInput.scss";
-import { formatters, validatorFunction, validators } from "@/app/_utils/form";
+import { formatters, validatorFunction, validators } from "../../../_utils/form";
 import Image from "next/image";
 
 type CustomInputProps = {

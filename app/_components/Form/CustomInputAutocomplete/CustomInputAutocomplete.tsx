@@ -1,8 +1,8 @@
 import React, { ChangeEvent, FocusEvent, useEffect, useRef, useState } from "react";
 import "./CustomInputAutocomplete.scss";
-import { formatters, validatorFunction, validators } from "@/app/_utils/form";
+import { formatters, validatorFunction, validators } from "../../../_utils/form";
 import Image from "next/image";
-import useOutsideClick from "@/app/_utils/hideComponentClickOutside";
+import useOutsideClick from "../../../_utils/hideComponentClickOutside";
 
 type ObjectCustom = {
 	[key: string]: any;

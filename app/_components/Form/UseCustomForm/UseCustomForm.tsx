@@ -1,4 +1,4 @@
-import { validatorFunction } from "@/app/_utils/form";
+import { validatorFunction } from "../../../_utils/form";
 import { FormEvent, useEffect, useState } from "react";
 
 type FormValues = {

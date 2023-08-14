@@ -1,42 +1,67 @@
 "use client";
 
-import CustomInput from "@/app/_components/Form/CustomInput/CustomInput";
-import CustomTextarea from "@/app/_components/Form/CustomTextarea/CustomTextarea";
-import useCustomForm from "@/app/_components/Form/UseCustomForm/UseCustomForm";
+import CustomInput from "../../_components/Form/CustomInput/CustomInput";
+import CustomTextarea from "../../_components/Form/CustomTextarea/CustomTextarea";
+import useCustomForm from "../../_components/Form/UseCustomForm/UseCustomForm";
 import Image from "next/image";
 import "./page.scss";
 
 const ContactPage = () => {
 	const getSubmit = (submitDatas: FormData) => {
-		console.log(submitDatas);
+		// console.log(submitDatas);
 		setIsSubmitBtnDisabled(true);
+
+		const sendEmail = async () => {
+			try {
+				const response = await fetch("/api/contactEmail", {
+					method: "POST", // or 'GET' depending on your API route configuration
+					headers: {
+						"Content-Type": "application/json" // Specify the content type as JSON
+					},
+					body: JSON.stringify(submitDatas)
+				});
+
+				console.log("response", response);
+
+				if (response.ok) {
+					const data = await response.json();
+					console.log(data);
+				} else {
+					console.error("Failed to send email");
+				}
+			} catch (error) {
+				console.error("An error occurred", error);
+			}
+		};
+
+		sendEmail().then((data) => console.log("data", data));
 	};
 
 	const { formDatas, isSubmitBtnDisabled, setIsSubmitBtnDisabled, handleChange, handleSubmit } = useCustomForm(
 		[
 			{
 				name: "message",
-				value: "",
+				value: "test",
 				validator: "notEmpty"
 			},
 			{
 				name: "firstName",
-				value: "",
+				value: "rob",
 				validator: "notEmpty"
 			},
 			{
 				name: "lastName",
-				value: "",
+				value: "pon",
 				validator: "notEmpty"
 			},
 			{
 				name: "email",
-				value: "",
+				value: "test@tes.fr",
 				validator: "email"
 			},
 			{
 				name: "phoneNumber",
-				value: "",
+				value: "0897654323",
 				validator: "phoneNumber"
 			}
 		],

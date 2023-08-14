@@ -1,4 +1,4 @@
-import useOutsideClick from "@/app/_utils/hideComponentClickOutside";
+import useOutsideClick from "../../../_utils/hideComponentClickOutside";
 import Image from "next/image";
 import { useRef, useState } from "react";
 import "./CustomInputSelect.scss";

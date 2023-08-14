@@ -1,4 +1,4 @@
-import { validatorFunction, validators } from "@/app/_utils/form";
+import { validatorFunction, validators } from "../../../_utils/form";
 import { ChangeEvent, FocusEvent, useEffect, useState } from "react";
 import "./CustomTextarea.scss";
 
