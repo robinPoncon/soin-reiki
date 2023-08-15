@@ -139,3 +139,11 @@ export const validatorFunction = (valueInput: string, previousErrors: string[] |
 
 	return { errors, isValidated };
 };
+
+export const formDataToObject = (formData: FormData) => {
+	const object: Record<string, FormDataEntryValue> = {};
+	formData.forEach((value, key) => {
+		object[key] = value;
+	});
+	return object;
+};

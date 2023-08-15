@@ -5,36 +5,31 @@ import CustomTextarea from "../../_components/Form/CustomTextarea/CustomTextarea
 import useCustomForm from "../../_components/Form/UseCustomForm/UseCustomForm";
 import Image from "next/image";
 import "./page.scss";
+import { formDataToObject } from "@/_utils/form";
 
 const ContactPage = () => {
-	const getSubmit = (submitDatas: FormData) => {
-		// console.log(submitDatas);
+	const getSubmit = async (submitDatas: FormData) => {
 		setIsSubmitBtnDisabled(true);
+		const submitDatasConverted = formDataToObject(submitDatas);
 
-		const sendEmail = async () => {
-			try {
-				const response = await fetch("/api/contactEmail", {
-					method: "POST", // or 'GET' depending on your API route configuration
-					headers: {
-						"Content-Type": "application/json" // Specify the content type as JSON
-					},
-					body: JSON.stringify(submitDatas)
-				});
+		try {
+			const response = await fetch("/api/contactEmail", {
+				method: "POST",
+				body: JSON.stringify(submitDatasConverted)
+			});
 
-				console.log("response", response);
-
-				if (response.ok) {
-					const data = await response.json();
-					console.log("ok data", data)
-				} else {
-					console.error("Failed to send email");
-				}
-			} catch (error) {
-				console.error("An error occurred", error);
+			if (response.ok) {
+				const data = await response.json();
+				console.log("Email sent successfully:", data);
+				// Handle success, reset form, show notification, etc.
+			} else {
+				console.error("Failed to send email");
+				// Handle error, show error message, etc.
 			}
-		};
-
-		sendEmail().then((data) => console.log("data", data));
+		} catch (error) {
+			console.error("An error occurred", error);
+			// Handle error, show error message, etc.
+		}
 	};
 
 	const { formDatas, isSubmitBtnDisabled, setIsSubmitBtnDisabled, handleChange, handleSubmit } = useCustomForm(
@@ -67,6 +62,7 @@ const ContactPage = () => {
 		],
 		getSubmit
 	);
+
 	return (
 		<div className="mt-48">
 			<h1 className="text-3xl mb-12 pl-24">Vous désirez plus d'informations ? Envoyez-moi un message !</h1>
