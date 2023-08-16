@@ -10,7 +10,7 @@
 			font-family: var(--font-roboto);
 			&.required:after {
 				content: " *";
-				color: #e1280c;
+				color: var(--error700);
 			}
 		}
 		button {

@@ -7,7 +7,7 @@
 		font-size: 16px;
 		&.required:after {
 			content: " *";
-			color: rgb(220 38 38);
+			color: var(--error700);
 		}
 	}
 	textarea {
@@ -19,14 +19,16 @@
 		padding: 10px;
 		width: 100%;
 		&.error {
-			border: 1.5px solid rgb(220 38 38);
+			border: 1.5px solid var(--error700);
+			background-color: var(--error300);
 		}
 		&.validated {
-			border: 1.5px solid rgb(16 185 129);
+			border: 1.5px solid var(--success700);
+			background-color: var(--success300);
 		}
 	}
 	p {
-		color: rgb(220 38 38);
+		color: var(--error700);
 		font-size: 12px;
 		font-style: italic;
 		margin-top: -5px;

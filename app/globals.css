@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+	--darkTurquoise: #062933;
+	--customWhite: #fcf2d9;
+	--blueGreen: #3ad9bc;
+
+	--success300: #f9fefc;
+	--success500: #d1fbed;
+	--success600: #8df5d3;
+	--success700: #10b981;
+
+	--error300: #fef9f9;
+	--error500: #f9dcdc;
+	--error600: #f1a8a8;
+	--error700: #dc2626;
+}

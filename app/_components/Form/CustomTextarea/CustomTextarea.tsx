@@ -58,6 +58,7 @@ const CustomTextarea = ({ label, name, returnedValue, placeholder, maxLength, de
 				onChange={onChange}
 				onBlur={onBlur}
 			/>
+			{errors && errors.map((errorMsg, index) => <p key={index}>{errorMsg}</p>)}
 		</div>
 	);
 };

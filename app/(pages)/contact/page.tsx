@@ -6,30 +6,51 @@ import useCustomForm from "../../_components/Form/UseCustomForm/UseCustomForm";
 import Image from "next/image";
 import "./page.scss";
 import { formDataToObject } from "@/_utils/form";
+import { useContext } from "react";
+import FlashMessagesContext from "@/_context/FlashMessagesContext";
 
 const ContactPage = () => {
+	const flashMessage = useContext(FlashMessagesContext);
+
 	const getSubmit = async (submitDatas: FormData) => {
 		setIsSubmitBtnDisabled(true);
 		const submitDatasConverted = formDataToObject(submitDatas);
 
-		try {
-			const response = await fetch("/api/contactEmail", {
-				method: "POST",
-				body: JSON.stringify(submitDatasConverted)
-			});
+		flashMessage.addMessage({
+			type: "success",
+			visible: true,
+			title: "Succès",
+			text: "Merci ! Votre message a bien été envoyé, je vous ferai un retour rapidement."
+		});
 
-			if (response.ok) {
-				const data = await response.json();
-				console.log("Email sent successfully:", data);
-				// Handle success, reset form, show notification, etc.
-			} else {
-				console.error("Failed to send email");
-				// Handle error, show error message, etc.
-			}
-		} catch (error) {
-			console.error("An error occurred", error);
-			// Handle error, show error message, etc.
-		}
+		// try {
+		// 	const response = await fetch("/api/contactEmail", {
+		// 		method: "POST",
+		// 		body: JSON.stringify(submitDatasConverted)
+		// 	});
+
+		// 	if (response.ok) {
+		// 		flashMessage.addMessage({
+		// 			type: "success",
+		// 			title: "Succès",
+		// 			text: "Merci ! Votre message a bien été envoyé, je vous ferai un retour rapidement."
+		// 		});
+		// 	} else {
+		// 		setIsSubmitBtnDisabled(false);
+		// 		flashMessage.addMessage({
+		// 			type: "error",
+		// 			title: "Erreur",
+		// 			text: "Une erreur est survenue durant l'envoi de votre message, n'hésitez pas à me contacter directement par email. Vous trouverez l'email en bas de la page."
+		// 		});
+		// 	}
+		// } catch (error) {
+		// 	setIsSubmitBtnDisabled(false);
+		// 	flashMessage.addMessage({
+		// 		type: "error",
+		// 		title: "Erreur",
+		// 		text: "Une erreur est survenue durant l'envoi de votre message, n'hésitez pas à me contacter directement par email. Vous trouverez l'email en bas de la page."
+		// 	});
+		// }
 	};
 
 	const { formDatas, isSubmitBtnDisabled, setIsSubmitBtnDisabled, handleChange, handleSubmit } = useCustomForm(
@@ -129,7 +150,7 @@ const ContactPage = () => {
 				</form>
 				<figure className="w-1/3 pr-24">
 					<Image
-						className="m-auto rounded-[30px]"
+						className="m-auto rounded-[20px]"
 						alt="illustration of sending email"
 						src="/illustrations/illustration-mail.png"
 						height={350}
