@@ -6,11 +6,13 @@ const config: Config = {
 		extend: {
 			backgroundColor: {
 				darkTurquoise: "#062933",
-				customWhite: "#fcf2d9"
+				customWhite: "#fcf2d9",
+				blueGreen: "#3ad9bc"
 			},
 			colors: {
 				darkTurquoise: "#062933",
-				customWhite: "#fcf2d9"
+				customWhite: "#fcf2d9",
+				blueGreen: "#3ad9bc"
 			}
 		},
 		fontFamily: {

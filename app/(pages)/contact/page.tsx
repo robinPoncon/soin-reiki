@@ -53,31 +53,38 @@ const ContactPage = () => {
 		}
 	};
 
-	const { formDatas, isSubmitBtnDisabled, setIsSubmitBtnDisabled, handleChange, handleSubmit, resetFormDataValues } = useCustomForm(
+	const {
+		formDatas,
+		isSubmitBtnDisabled,
+		setIsSubmitBtnDisabled,
+		handleChange,
+		handleSubmit,
+		resetFormDataValues
+	} = useCustomForm(
 		[
 			{
 				name: "message",
-				value: "test",
+				value: "",
 				validator: "notEmpty"
 			},
 			{
 				name: "firstName",
-				value: "rob",
+				value: "",
 				validator: "notEmpty"
 			},
 			{
 				name: "lastName",
-				value: "pon",
+				value: "",
 				validator: "notEmpty"
 			},
 			{
 				name: "email",
-				value: "test@tes.fr",
+				value: "",
 				validator: "email"
 			},
 			{
 				name: "phoneNumber",
-				value: "0897654323",
+				value: "",
 				validator: "phoneNumber"
 			}
 		],
@@ -85,8 +92,13 @@ const ContactPage = () => {
 	);
 
 	return (
-		<div className={`mt-48 ${isLoading ? "blur-md" : ""}`}>
-			<h1 className="text-3xl mb-12 pl-24">Vous désirez plus d'informations ? Envoyez-moi un message !</h1>
+		<div className={`mt-40 ${isLoading ? "blur-md" : ""}`}>
+			<h1 className="text-3xl mb-8 pl-24">Ensemble vers votre rééquilibre énergétique !</h1>
+			<h2 className="text-base mb-8 pl-24 w-2/4 italic text-justify">
+				Je suis là pour répondre à toutes vos questions et vous fournir des informations
+				détaillées sur le <strong>Soin Reiki</strong>. Utilisez simplement le formulaire
+				ci-dessous pour me contacter, et je vous répondrai dans les plus brefs délais !
+			</h2>
 			<div className="flex justify-between">
 				<form
 					className="w-2/3 px-24 gap-5 flex flex-col"
@@ -95,7 +107,7 @@ const ContactPage = () => {
 					<CustomTextarea
 						label="Votre message"
 						name="message"
-						placeholder="Exemple : Je voudrais plus de renseignements"
+						placeholder="Exemple : Je voudrais plus de renseignements sur un soin reiki"
 						required
 						validator={formDatas[0].validator}
 						defaultValue={formDatas[0].value}
