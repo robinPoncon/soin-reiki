@@ -91,12 +91,21 @@ const useCustomForm = (initialDatas: FormValues, onSubmit: (submitDatas: FormDat
 		}
 	};
 
+	const resetFormDataValues = () => {
+		const newFormDatas = [...formDatas];
+		for (const data of newFormDatas) {
+			data.value = "";
+		}
+		setFormDatas(newFormDatas);
+	};
+
 	return {
 		formDatas,
 		isSubmitBtnDisabled,
 		setIsSubmitBtnDisabled,
 		handleChange,
-		handleSubmit
+		handleSubmit,
+		resetFormDataValues
 	};
 };
 

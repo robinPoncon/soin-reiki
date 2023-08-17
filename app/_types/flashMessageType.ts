@@ -7,7 +7,6 @@ export type Message = {
 	title: string;
 	buttonText?: string;
 	buttonAction?: () => void;
-	visible: boolean;
 };
 
 export type FlashMessagesContextType = {

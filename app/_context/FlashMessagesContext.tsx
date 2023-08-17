@@ -1,4 +1,5 @@
 "use client";
+
 import FlashMessages from "@/_components/FlashMessages/FlashMessages";
 import { FlashMessagesContextType, Message } from "@/_types/flashMessageType";
 import React, { ReactNode, createContext, useState } from "react";

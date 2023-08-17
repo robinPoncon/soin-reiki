@@ -8,52 +8,52 @@ import "./page.scss";
 import { formDataToObject } from "@/_utils/form";
 import { useContext } from "react";
 import FlashMessagesContext from "@/_context/FlashMessagesContext";
+import { useLoader } from "@/_context/LoaderContext";
 
 const ContactPage = () => {
 	const flashMessage = useContext(FlashMessagesContext);
+	const { isLoading, showLoader, hideLoader } = useLoader();
 
 	const getSubmit = async (submitDatas: FormData) => {
 		setIsSubmitBtnDisabled(true);
+		showLoader();
 		const submitDatasConverted = formDataToObject(submitDatas);
 
-		flashMessage.addMessage({
-			type: "success",
-			visible: true,
-			title: "Succès",
-			text: "Merci ! Votre message a bien été envoyé, je vous ferai un retour rapidement."
-		});
+		try {
+			const response = await fetch("/api/contactEmail", {
+				method: "POST",
+				body: JSON.stringify(submitDatasConverted)
+			});
 
-		// try {
-		// 	const response = await fetch("/api/contactEmail", {
-		// 		method: "POST",
-		// 		body: JSON.stringify(submitDatasConverted)
-		// 	});
-
-		// 	if (response.ok) {
-		// 		flashMessage.addMessage({
-		// 			type: "success",
-		// 			title: "Succès",
-		// 			text: "Merci ! Votre message a bien été envoyé, je vous ferai un retour rapidement."
-		// 		});
-		// 	} else {
-		// 		setIsSubmitBtnDisabled(false);
-		// 		flashMessage.addMessage({
-		// 			type: "error",
-		// 			title: "Erreur",
-		// 			text: "Une erreur est survenue durant l'envoi de votre message, n'hésitez pas à me contacter directement par email. Vous trouverez l'email en bas de la page."
-		// 		});
-		// 	}
-		// } catch (error) {
-		// 	setIsSubmitBtnDisabled(false);
-		// 	flashMessage.addMessage({
-		// 		type: "error",
-		// 		title: "Erreur",
-		// 		text: "Une erreur est survenue durant l'envoi de votre message, n'hésitez pas à me contacter directement par email. Vous trouverez l'email en bas de la page."
-		// 	});
-		// }
+			if (response.ok) {
+				hideLoader();
+				flashMessage.addMessage({
+					type: "success",
+					title: "Succès",
+					text: "Merci ! Votre message a bien été envoyé, je vous ferai un retour rapidement."
+				});
+				resetFormDataValues();
+			} else {
+				hideLoader();
+				setIsSubmitBtnDisabled(false);
+				flashMessage.addMessage({
+					type: "error",
+					title: "Erreur",
+					text: "Une erreur est survenue durant l'envoi de votre message, n'hésitez pas à me contacter directement par email. Vous trouverez mon email en bas de la page."
+				});
+			}
+		} catch (error) {
+			hideLoader();
+			setIsSubmitBtnDisabled(false);
+			flashMessage.addMessage({
+				type: "error",
+				title: "Erreur",
+				text: "Une erreur est survenue durant l'envoi de votre message, n'hésitez pas à me contacter directement par email. Vous trouverez mon email en bas de la page."
+			});
+		}
 	};
 
-	const { formDatas, isSubmitBtnDisabled, setIsSubmitBtnDisabled, handleChange, handleSubmit } = useCustomForm(
+	const { formDatas, isSubmitBtnDisabled, setIsSubmitBtnDisabled, handleChange, handleSubmit, resetFormDataValues } = useCustomForm(
 		[
 			{
 				name: "message",
@@ -85,7 +85,7 @@ const ContactPage = () => {
 	);
 
 	return (
-		<div className="mt-48">
+		<div className={`mt-48 ${isLoading ? "blur-md" : ""}`}>
 			<h1 className="text-3xl mb-12 pl-24">Vous désirez plus d'informations ? Envoyez-moi un message !</h1>
 			<div className="flex justify-between">
 				<form

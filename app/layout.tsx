@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import HeaderMenu from "./_components/Menu/HeaderMenu";
 import "./_customCSS/textEffect.scss";
 import { FlashMessagesProvider } from "./_context/FlashMessagesContext";
+import { LoaderProvider } from "./_context/LoaderContext";
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -13,8 +14,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="en">
 			<body className="font-helvetica mt-20 bg-customWhite text-darkTurquoise">
-				<HeaderMenu />
-				<FlashMessagesProvider>{children}</FlashMessagesProvider>
+				<FlashMessagesProvider>
+					<LoaderProvider>
+						<HeaderMenu />
+						{children}
+					</LoaderProvider>
+				</FlashMessagesProvider>
 			</body>
 		</html>
 	);

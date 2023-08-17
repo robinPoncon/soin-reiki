@@ -1,10 +1,4 @@
-type Formatters = {
-	[key: string]: (value: string) => string;
-};
-
-type Validators = {
-	[key: string]: (value: string) => string[] | null;
-};
+import { CustomObject, Formatters, Validators } from "@/_types/formType";
 
 export const formatters: Formatters = {
 	number: (value: string) => value.replace(/[^0-9]+/, ""),
@@ -141,7 +135,7 @@ export const validatorFunction = (valueInput: string, previousErrors: string[] |
 };
 
 export const formDataToObject = (formData: FormData) => {
-	const object: Record<string, FormDataEntryValue> = {};
+	const object: CustomObject = {};
 	formData.forEach((value, key) => {
 		object[key] = value;
 	});

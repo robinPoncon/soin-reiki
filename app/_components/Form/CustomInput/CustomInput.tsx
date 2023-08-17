@@ -6,18 +6,18 @@ import Image from "next/image";
 type CustomInputProps = {
 	label: string;
 	name: string;
+	defaultValue: string;
 	returnedValue: (name: string, value: string, isValidated: boolean) => void;
 	placeholder?: string;
 	type?: string;
 	maxLength?: number;
-	defaultValue: string;
 	required?: boolean;
 	formatter?: "number" | "date" | "cardDate" | "price";
 	validator?: "authentication" | "notEmpty" | "email" | "date" | "cardNumber" | "cardDate" | "cardSecurityCode" | "password" | "iban" | "phoneNumber";
 	icon?: string;
 };
 
-const CustomInput = ({ label, name, returnedValue, placeholder, type = "text", maxLength, defaultValue, required, formatter, validator, icon }: CustomInputProps): JSX.Element => {
+const CustomInput = ({ label, name, defaultValue, returnedValue, placeholder, type = "text", maxLength, required, formatter, validator, icon }: CustomInputProps): JSX.Element => {
 	const [valueInput, setValueInput] = useState<string>(defaultValue || "");
 	const [typeInput, setTypeInput] = useState<HTMLInputTypeAttribute>(type);
 	const [errors, setErrors] = useState<string[] | null>(null);
@@ -30,6 +30,10 @@ const CustomInput = ({ label, name, returnedValue, placeholder, type = "text", m
 		returnedValue(name, valueInput, validatorResult.isValidated);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [valueInput]);
+
+	useEffect(() => {
+		setValueInput(defaultValue);
+	}, [defaultValue]);
 
 	const onChange = (e: ChangeEvent<HTMLInputElement>) => {
 		let value = e?.currentTarget?.value;

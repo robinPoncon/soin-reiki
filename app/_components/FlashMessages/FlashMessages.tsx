@@ -9,19 +9,19 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 const FlashMessages = () => {
 	const { messages, removeMessage } = useContext<FlashMessagesContextType>(FlashMessagesContext);
 
-	// useEffect(() => {
-	// 	let messageLength = messages[0]?.text.length || 0;
+	useEffect(() => {
+		let messageLength = messages[0]?.text.length || 0;
 
-	// 	const timer = setInterval(() => {
-	// 		if (messages.length > 0) {
-	// 			removeMessage(messages[0].id);
-	// 		}
-	// 	}, 3000 + messageLength * 50);
+		const timer = setInterval(() => {
+			if (messages.length > 0) {
+				removeMessage(messages[0].id);
+			}
+		}, 3000 + messageLength * 50);
 
-	// 	return () => {
-	// 		clearInterval(timer);
-	// 	};
-	// }, [messages, removeMessage]);
+		return () => {
+			clearInterval(timer);
+		};
+	}, [messages, removeMessage]);
 
 	const removeFlashMessage = (id: number) => {
 		removeMessage(id);

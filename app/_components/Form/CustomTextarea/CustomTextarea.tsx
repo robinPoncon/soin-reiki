@@ -5,15 +5,15 @@ import "./CustomTextarea.scss";
 type CustomInputProps = {
 	label: string;
 	name: string;
+	defaultValue: string;
 	returnedValue: (name: string, value: string, isValidated: boolean) => void;
 	placeholder?: string;
 	maxLength?: number;
-	defaultValue: string;
 	required?: boolean;
 	validator?: "authentication" | "notEmpty" | "email" | "date" | "cardNumber" | "cardDate" | "cardSecurityCode" | "password" | "iban" | "phoneNumber";
 };
 
-const CustomTextarea = ({ label, name, returnedValue, placeholder, maxLength, defaultValue, required, validator }: CustomInputProps): JSX.Element => {
+const CustomTextarea = ({ label, name, defaultValue, returnedValue, placeholder, maxLength, required, validator }: CustomInputProps): JSX.Element => {
 	const [valueInput, setValueInput] = useState<string>(defaultValue || "");
 	const [errors, setErrors] = useState<string[] | null>(null);
 	const [isValidatedInput, setIsValidatedInput] = useState<boolean>(required ? false : true);
@@ -25,6 +25,10 @@ const CustomTextarea = ({ label, name, returnedValue, placeholder, maxLength, de
 		returnedValue(name, valueInput, validatorResult.isValidated);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [valueInput]);
+
+	useEffect(() => {
+		setValueInput(defaultValue);
+	}, [defaultValue]);
 
 	const onChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
 		let value = e?.currentTarget?.value;

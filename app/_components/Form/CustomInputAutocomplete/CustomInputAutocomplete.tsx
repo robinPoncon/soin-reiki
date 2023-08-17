@@ -11,6 +11,7 @@ type ObjectCustom = {
 type CustomInputAutocompleteProps = {
 	label: string;
 	name: string;
+	defaultValue: string;
 	returnedValue: (name: string, value: string, isValidated: boolean) => void;
 	returnedAutocompleteDatas: (object: ObjectCustom) => void;
 	arrayDatas: ObjectCustom[];
@@ -19,7 +20,6 @@ type CustomInputAutocompleteProps = {
 	placeholder?: string;
 	type?: string;
 	maxLength?: number;
-	defaultValue?: string;
 	required?: boolean;
 	formatter?: "number" | "date" | "cardDate" | "price";
 	validator?: "authentication" | "notEmpty" | "email" | "date" | "cardNumber" | "cardDate" | "cardSecurityCode" | "password" | "iban" | "phoneNumber";
@@ -30,6 +30,7 @@ type CustomInputAutocompleteProps = {
 const CustomInputAutocomplete = ({
 	label,
 	name,
+	defaultValue,
 	returnedValue,
 	returnedAutocompleteDatas,
 	arrayDatas,
@@ -38,7 +39,6 @@ const CustomInputAutocomplete = ({
 	placeholder,
 	type = "text",
 	maxLength,
-	defaultValue,
 	required,
 	formatter,
 	validator,
@@ -63,6 +63,10 @@ const CustomInputAutocomplete = ({
 		returnedValue(name, valueInput, validatorResult.isValidated);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [valueInput]);
+
+	useEffect(() => {
+		setValueInput(defaultValue);
+	}, [defaultValue]);
 
 	const onFocus = () => {
 		if (displayDatasOnFocusWithEmptyInputValue || valueInput) {
