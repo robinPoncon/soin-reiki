@@ -2,23 +2,23 @@ import Link from "next/link";
 
 const SoinReikiPage = () => {
 	return (
-		<div className="mt-40 px-24">
+		<section className="mt-40 px-24">
 			<h1 className="text-3xl mb-12">
 				Comment se passe concrètement un{" "}
 				<strong className="italic text-blueGreen">Soin Reiki</strong> avec moi ?
 			</h1>
-			<section>
+			<article>
 				<h2 className="text-2xl">Étape 1 : Préparation Bienveillante</h2>
 				<p className="text-justify">
 					Dès le début, nous prenons le temps de discuter de vos intentions et des
 					bienfaits que vous recherchez à travers les séances de soin. Je partage ensuite
 					mes connaissances et mon expérience en Reiki, afin que nous puissions collaborer
-					pour trouver des solutions durables à vos besoins. En plus, je vous propose une
-					guidance énergétique à travers le tirage d'une carte, pour éclairer votre chemin
-					vers la guérison.
+					pour trouver des solutions durables à vos besoins. De plus, je vous propose une
+					guidance énergétique à travers le tirage d'une carte, pour vous guider un peu
+					plus loin sur le chemin de la guérison.
 				</p>
-			</section>
-			<section>
+			</article>
+			<article>
 				<h2 className="text-2xl">Étape 2 : L'Harmonie Énergétique </h2>
 				<p className="text-justify">
 					Pendant le soin, vous restez confortablement vêtu(e) allongé(e) sur une table de
@@ -27,10 +27,10 @@ const SoinReikiPage = () => {
 					délicatement mes mains sur les zones de votre corps nécessitant un rééquilibrage
 					énergétique. Pendant cette étape, des sensations telles que chaleur, fraîcheur,
 					picotements, émotions, images, sons ou pensées peuvent se manifester. Tout cela
-					est un signe que l'énergie agit en vous de manière naturelle.
+					est signe que l'énergie agit en vous de manière naturelle.
 				</p>
-			</section>
-			<section>
+			</article>
+			<article>
 				<h2 className="text-2xl">Étape 3 : Intégration et Planification </h2>
 				<p className="text-justify">
 					Une fois le soin achevé, nous prenons le temps de partager nos impressions sur
@@ -40,7 +40,7 @@ const SoinReikiPage = () => {
 					semaines. Dans les jours qui suivent le soin, hydratez-vous davantage pour
 					favoriser la purification et l'élimination des toxines énergétiques.
 				</p>
-			</section>
+			</article>
 			<section>
 				<h2 className="text-2xl">Prenez Contact pour en Savoir Plus</h2>
 				<p className="text-justify">
@@ -52,11 +52,11 @@ const SoinReikiPage = () => {
 					>
 						Ici
 					</Link>
-					. Je serai ravi de vous répondre et de vous accompagner dans votre quête
-					d'harmonie énergétique et de bien-être.
+					. Je serai ravi de vous répondre et de vous accompagner dans votre quête de
+					bien-être.
 				</p>
 			</section>
-		</div>
+		</section>
 	);
 };
 
