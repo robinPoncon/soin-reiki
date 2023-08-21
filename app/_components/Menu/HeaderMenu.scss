@@ -1,10 +1,20 @@
+.logo {
+	border-radius: 100%;
+	box-shadow: none;
+	transition: box-shadow 0.5s;
+	&:hover {
+		box-shadow: 0px 0px 10px #3ad9bc;
+	}
+}
+
 .greenLight {
 	color: #fcf2d9;
 	letter-spacing: 1px;
 	font-size: 20px;
 	font-weight: 600;
 	transition: color 0.5s, text-shadow 0.5s;
-	&:hover, &.activeLink {
+	&:hover,
+	&.activeLink {
 		color: #3ad9bc;
 		text-shadow: #3ad9bc 0px 0px 10px;
 	}
