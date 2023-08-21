@@ -1,7 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import HeaderMenu from "./_components/Menu/HeaderMenu";
-import "./_customCSS/textEffect.scss";
 import { FlashMessagesProvider } from "./_context/FlashMessagesContext";
 import { LoaderProvider } from "./_context/LoaderContext";
 

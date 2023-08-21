@@ -4,6 +4,7 @@ import { useLoader } from "@/_context/LoaderContext";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import "./HeaderMenu.scss";
 
 const HeaderMenu = () => {
 	const { isLoading } = useLoader();
@@ -44,7 +45,7 @@ const HeaderMenu = () => {
 							className="block mt-5"
 						>
 							<Image
-								className="rounded-full"
+								className="logo"
 								alt="website logo with a tree and energy"
 								src="/logos/website-logo.png"
 								height={100}
