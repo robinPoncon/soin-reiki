@@ -6,6 +6,7 @@
 	--darkTurquoise: #062933;
 	--customWhite: #fcf2d9;
 	--blueGreen: #3ad9bc;
+	--customYellow: "#fdd542";
 
 	--success300: #f9fefc;
 	--success500: #d1fbed;
@@ -16,4 +17,16 @@
 	--error500: #f9dcdc;
 	--error600: #f1a8a8;
 	--error700: #dc2626;
+}
+
+.customBorderBottomBlue {
+	border-bottom: 7px double #3ad9bc;
+	border-top: 7px double #3ad9bc;
+	border-radius: 30px;
+}
+
+.customBorderBottomYellow {
+	border-bottom: 7px double #fdd542;
+	border-top: 7px double #fdd542;
+	border-radius: 30px;
 }
