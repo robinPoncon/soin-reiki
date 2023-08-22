@@ -11,15 +11,18 @@ const config: Config = {
 			backgroundColor: {
 				darkTurquoise: "#062933",
 				customWhite: "#fcf2d9",
-				blueGreen: "#3ad9bc"
+				blueGreen: "#3ad9bc",
+				customYellow: "#fdd542"
 			},
 			colors: {
 				darkTurquoise: "#062933",
 				customWhite: "#fcf2d9",
-				blueGreen: "#3ad9bc"
+				blueGreen: "#3ad9bc",
+				customYellow: "#fdd542"
 			},
 			boxShadow: {
-				blueGreen: "0 0 10px #3ad9bc"
+				blueGreen: "0 0 10px #3ad9bc",
+				customYellow: "0 0 10px #fdd542"
 			}
 		},
 		fontFamily: {

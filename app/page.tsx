@@ -66,12 +66,14 @@ const MainPage = () => {
 				/>
 			</figure>
 			<section>
-				<h1 className="text-5xl text-center">Bienvenue dans l'univers du Reiki !</h1>
-				<article>
-					<h2 className="text-4xl text-center my-12">Qu'est-ce que le Reiki ?</h2>
-					<div className="flex justify-center gap-5">
-						<div className="w-1/3 flex flex-col gap-3">
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto ">
+				{/* <h1 className="text-5xl text-center">Bienvenue sur les racines de la guérison !</h1> */}
+				<article className="py-12">
+					<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBottomBlue p-4">
+						Qu'est-ce que le Reiki ?
+					</h2>
+					<div className="flex justify-center">
+						<div className="w-1/3 flex flex-col">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
 									className="mx-auto"
 									alt="universe icon"
@@ -80,7 +82,7 @@ const MainPage = () => {
 									height={48}
 								/>
 							</p>
-							<h3 className="text-xl text-center font-semibold italic">
+							<h3 className="text-xl text-center font-semibold italic mt-6 mb-2">
 								Une énergie universelle
 							</h3>
 							<p className="text-justify max-w-xs mx-auto">
@@ -90,8 +92,8 @@ const MainPage = () => {
 								sérénité, lâcher prise et bien être !
 							</p>
 						</div>
-						<div className="w-1/3 flex flex-col gap-3">
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto ">
+						<div className="w-1/3 flex flex-col">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
 									className="mx-auto"
 									alt="yin yang icon"
@@ -100,7 +102,7 @@ const MainPage = () => {
 									height={48}
 								/>
 							</p>
-							<h3 className="text-xl text-center font-semibold italic">
+							<h3 className="text-xl text-center font-semibold italic mt-6 mb-2">
 								Une harmonisation énergétique
 							</h3>
 							<p className="text-justify max-w-xs mx-auto">
@@ -110,8 +112,8 @@ const MainPage = () => {
 								corps physique. C'est un moment de reconnexion avec soi !
 							</p>
 						</div>
-						<div className="w-1/3 flex flex-col gap-3">
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto ">
+						<div className="w-1/3 flex flex-col">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
 									className="mx-auto"
 									alt="hands icon"
@@ -120,7 +122,7 @@ const MainPage = () => {
 									height={48}
 								/>
 							</p>
-							<h3 className="text-xl text-center font-semibold italic">
+							<h3 className="text-xl text-center font-semibold italic mt-6 mb-2">
 								Un toucher thérapeutique
 							</h3>
 							<p className="text-justify max-w-xs mx-auto">
@@ -132,34 +134,46 @@ const MainPage = () => {
 						</div>
 					</div>
 				</article>
-				<article>
-					<h2 className="text-3xl text-center">Origine du Reiki</h2>
-					<div>
-						<div>
-							<Image
-								alt="plant icon"
-								src="/icons/icon_plant.svg"
-								width={48}
-								height={48}
-							/>
-							<h3>Des racines japonaises</h3>
-							<p>
-								Le Reiki a été découvert par Mikao Usui, un érudit et guérisseur
-								japonais du XIXe siècle lors d'une retraite introspective de 21
-								jours sur le Mont Kurama. Cette expérience transpersonnelle lui a
-								transmis les enseignements et techniques du Reiki que nous
-								connaissons aujourd'hui.
+				<article className="bg-darkTurquoise text-customWhite py-12">
+					<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderBottomYellow">
+						Origines du Reiki
+					</h2>
+					<div className="flex justify-center">
+						<div className="w-1/3 flex flex-col">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
+								<Image
+									alt="plant icon"
+									src="/icons/icon_plant.svg"
+									width={48}
+									height={48}
+								/>
+							</p>
+							<h3 className="text-xl text-center font-semibold italic mt-6 mb-2 text-customYellow">
+								Des racines japonaises
+							</h3>
+							<p className="text-justify max-w-xs mx-auto">
+								Le Reiki fut révélé à Mikao Usui, érudit et guérisseur japonais du
+								XIXe siècle, durant une retraite introspective de 21 jours au Mont
+								Kurama. Cette expérience transpersonnelle lui transmit les
+								enseignements et techniques du Reiki, que nous pratiquons
+								actuellement. Son attrait universel réside dans sa simplicité et son
+								efficacité. Le Reiki ne cherche pas à se substituer à la médecine,
+								mais plutôt à agir en complémentarité avec elle !
 							</p>
 						</div>
-						<div>
-							<Image
-								alt="light icon"
-								src="/icons/icon_light.svg"
-								width={48}
-								height={48}
-							/>
-							<h3>Ses principes et sa philosophie</h3>
-							<p>
+						<div className="w-1/3 flex flex-col">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
+								<Image
+									alt="light icon"
+									src="/icons/icon_light.svg"
+									width={48}
+									height={48}
+								/>
+							</p>
+							<h3 className="text-xl text-center font-semibold italic mt-6 mb-2 text-customYellow">
+								Ses principes et sa philosophie
+							</h3>
+							<p className="text-justify max-w-xs mx-auto">
 								Le Reiki repose sur cinq principes essentiels, appelés les "Cinq
 								Préceptes du Reiki". Ils guident les praticiens vers l'harmonie
 								intérieure et le bien-être en promouvant des valeurs telles que la
@@ -169,15 +183,19 @@ const MainPage = () => {
 								l'énergie qui nous entoure.
 							</p>
 						</div>
-						<div>
-							<Image
-								alt="globe icon"
-								src="/icons/icon_globe.svg"
-								width={48}
-								height={48}
-							/>
-							<h3>Un Développement mondial</h3>
-							<p>
+						<div className="w-1/3 flex flex-col">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
+								<Image
+									alt="globe icon"
+									src="/icons/icon_globe.svg"
+									width={48}
+									height={48}
+								/>
+							</p>
+							<h3 className="text-xl text-center font-semibold italic mt-6 mb-2 text-customYellow">
+								Un développement mondial
+							</h3>
+							<p className="text-justify max-w-xs mx-auto">
 								Depuis ses modestes débuts au Japon, le Reiki a transcendé les
 								frontières pour devenir une pratique mondiale de guérison et de
 								bien-être. Son attrait universel réside dans sa simplicité et son
@@ -189,18 +207,24 @@ const MainPage = () => {
 						</div>
 					</div>
 				</article>
-				<article>
-					<h2 className="text-3xl">Les bienfaits du Reiki</h2>
-					<div>
-						<div>
-							<Image
-								alt="brain icon"
-								src="/icons/icon_brain.svg"
-								width={48}
-								height={48}
-							/>
-							<h3>Sérénité mentale et détente</h3>
-							<p>
+				<article className="py-12">
+					<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBottomBlue p-4">
+						Les bienfaits du Reiki
+					</h2>
+					<div className="flex justify-center">
+						<div className="w-1/3 flex flex-col">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
+								<Image
+									alt="brain icon"
+									src="/icons/icon_brain.svg"
+									width={48}
+									height={48}
+								/>
+							</p>
+							<h3 className="text-xl text-center font-semibold italic mt-6 mb-2">
+								Sérénité mentale et détente
+							</h3>
+							<p className="text-justify max-w-xs mx-auto">
 								Le Reiki, grâce à sa nature apaisante, ouvre la voie à une
 								relaxation profonde, offrant ainsi un précieux moyen de diminuer le
 								stress et l'anxiété. En encourageant un lâcher-prise mental, il
@@ -209,15 +233,19 @@ const MainPage = () => {
 								le Reiki offre un refuge de calme au cœur du tumulte quotidien.
 							</p>
 						</div>
-						<div>
-							<Image
-								alt="heart icon"
-								src="/icons/icon_heart.svg"
-								width={48}
-								height={48}
-							/>
-							<h3>Apaisement émotionnel profond</h3>
-							<p>
+						<div className="w-1/3 flex flex-col">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
+								<Image
+									alt="heart icon"
+									src="/icons/icon_heart.svg"
+									width={48}
+									height={48}
+								/>
+							</p>
+							<h3 className="text-xl text-center font-semibold italic mt-6 mb-2">
+								Apaisement émotionnel profond
+							</h3>
+							<p className="text-justify max-w-xs mx-auto">
 								Le Reiki offre bien plus qu'une simple relaxation physique. Il
 								travaille également en profondeur pour apaiser les émotions
 								tourmentées, libérant ainsi les blocages qui entravent le bien-être
@@ -226,15 +254,19 @@ const MainPage = () => {
 								profondément à vous-même.
 							</p>
 						</div>
-						<div>
-							<Image
-								alt="energy icon"
-								src="/icons/icon_energy.svg"
-								width={48}
-								height={48}
-							/>
-							<h3>Renforcement de la vitalité</h3>
-							<p>
+						<div className="w-1/3 flex flex-col">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
+								<Image
+									alt="energy icon"
+									src="/icons/icon_energy.svg"
+									width={48}
+									height={48}
+								/>
+							</p>
+							<h3 className="text-xl text-center font-semibold italic mt-6 mb-2">
+								Renforcement de la vitalité
+							</h3>
+							<p className="text-justify max-w-xs mx-auto">
 								Le Reiki, de par sa nature énergétique, revitalise le corps et
 								l'esprit. En stimulant la circulation énergétique, il renforce la
 								vitalité, régénère le corps et favorise un sentiment de vigueur
