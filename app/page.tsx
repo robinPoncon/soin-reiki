@@ -66,43 +66,82 @@ const MainPage = () => {
 				/>
 			</figure>
 			<section>
-				<h1 className="text-4xl text-center">Bienvenue dans l'univers du Reiki !</h1>
+				<h1 className="text-5xl text-center">Bienvenue dans l'univers du Reiki !</h1>
 				<article>
-					<h2 className="text-3xl">Qu'est-ce que le Reiki ?</h2>
-					<div>
-						<div>
-							<h3>Une énergie universelle</h3>
-							<p>
+					<h2 className="text-4xl text-center my-12">Qu'est-ce que le Reiki ?</h2>
+					<div className="flex justify-center gap-5">
+						<div className="w-1/3 flex flex-col gap-3">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto ">
+								<Image
+									className="mx-auto"
+									alt="universe icon"
+									src="/icons/icon_universe.svg"
+									width={48}
+									height={48}
+								/>
+							</p>
+							<h3 className="text-xl text-center font-semibold italic">
+								Une énergie universelle
+							</h3>
+							<p className="text-justify max-w-xs mx-auto">
 								Le Reiki est l'énergie de vie qui englobe toute la matière au sein
 								de notre univers. Elle est partout autour de nous, et mon travail
 								est de la canaliser pour la diffuser en vous. Vous apportant calme,
 								sérénité, lâcher prise et bien être !
 							</p>
 						</div>
-						<div>
-							<h3>Un toucher thérapeutique</h3>
-							<p>
-								L'utilisation du Reiki se fait par apposition des mains sur
-								différentes parties du corps. Elles peuvent être posées délicatement
-								ou être à 5/10cm au-dessus du corps. Il n'y a aucune manipulation ce
-								qui en fait une méthode de soin très douce et agréable !
+						<div className="w-1/3 flex flex-col gap-3">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto ">
+								<Image
+									className="mx-auto"
+									alt="yin yang icon"
+									src="/icons/icon_yin-yang.svg"
+									width={48}
+									height={48}
+								/>
 							</p>
-						</div>
-						<div>
-							<h3>Une harmonisation énergétique</h3>
-							<p>
+							<h3 className="text-xl text-center font-semibold italic">
+								Une harmonisation énergétique
+							</h3>
+							<p className="text-justify max-w-xs mx-auto">
 								Durant un soin, l'énergie va circuler dans certaines parties du
 								corps au travers des méridiens et des chakras. Cette harmonisation
 								apporte un rééquilibre au niveau des pensées, des émotions et du
 								corps physique. C'est un moment de reconnexion avec soi !
 							</p>
 						</div>
+						<div className="w-1/3 flex flex-col gap-3">
+							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto ">
+								<Image
+									className="mx-auto"
+									alt="hands icon"
+									src="/icons/icon_hands.svg"
+									width={48}
+									height={48}
+								/>
+							</p>
+							<h3 className="text-xl text-center font-semibold italic">
+								Un toucher thérapeutique
+							</h3>
+							<p className="text-justify max-w-xs mx-auto">
+								L'utilisation du Reiki se fait par apposition des mains sur
+								différentes parties du corps. Elles peuvent être posées délicatement
+								ou être à 5/10cm au-dessus du corps. Il n'y a aucune manipulation ce
+								qui en fait une méthode de soin très douce et agréable !
+							</p>
+						</div>
 					</div>
 				</article>
 				<article>
-					<h2 className="text-3xl">Origine du Reiki</h2>
+					<h2 className="text-3xl text-center">Origine du Reiki</h2>
 					<div>
 						<div>
+							<Image
+								alt="plant icon"
+								src="/icons/icon_plant.svg"
+								width={48}
+								height={48}
+							/>
 							<h3>Des racines japonaises</h3>
 							<p>
 								Le Reiki a été découvert par Mikao Usui, un érudit et guérisseur
@@ -113,6 +152,12 @@ const MainPage = () => {
 							</p>
 						</div>
 						<div>
+							<Image
+								alt="light icon"
+								src="/icons/icon_light.svg"
+								width={48}
+								height={48}
+							/>
 							<h3>Ses principes et sa philosophie</h3>
 							<p>
 								Le Reiki repose sur cinq principes essentiels, appelés les "Cinq
@@ -125,6 +170,12 @@ const MainPage = () => {
 							</p>
 						</div>
 						<div>
+							<Image
+								alt="globe icon"
+								src="/icons/icon_globe.svg"
+								width={48}
+								height={48}
+							/>
 							<h3>Un Développement mondial</h3>
 							<p>
 								Depuis ses modestes débuts au Japon, le Reiki a transcendé les
@@ -142,6 +193,12 @@ const MainPage = () => {
 					<h2 className="text-3xl">Les bienfaits du Reiki</h2>
 					<div>
 						<div>
+							<Image
+								alt="brain icon"
+								src="/icons/icon_brain.svg"
+								width={48}
+								height={48}
+							/>
 							<h3>Sérénité mentale et détente</h3>
 							<p>
 								Le Reiki, grâce à sa nature apaisante, ouvre la voie à une
@@ -153,6 +210,12 @@ const MainPage = () => {
 							</p>
 						</div>
 						<div>
+							<Image
+								alt="heart icon"
+								src="/icons/icon_heart.svg"
+								width={48}
+								height={48}
+							/>
 							<h3>Apaisement émotionnel profond</h3>
 							<p>
 								Le Reiki offre bien plus qu'une simple relaxation physique. Il
@@ -164,6 +227,12 @@ const MainPage = () => {
 							</p>
 						</div>
 						<div>
+							<Image
+								alt="energy icon"
+								src="/icons/icon_energy.svg"
+								width={48}
+								height={48}
+							/>
 							<h3>Renforcement de la vitalité</h3>
 							<p>
 								Le Reiki, de par sa nature énergétique, revitalise le corps et
