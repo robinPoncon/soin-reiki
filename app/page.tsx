@@ -400,7 +400,7 @@ const MainPage = () => {
 						<Image
 							className="rounded-xl mx-auto mb-12 shadow-customYellow"
 							alt="photo robin ponçon"
-							src="/my-picture2.png"
+							src="/my-picture.png"
 							width={150}
 							height={120}
 						></Image>
