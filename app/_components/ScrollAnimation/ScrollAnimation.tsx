@@ -1,6 +1,6 @@
 import { ReactNode, useEffect } from "react";
 
-type TransitionObject = {
+type TransitionObjectType = {
 	[key: string]: string;
 };
 
@@ -8,8 +8,8 @@ type ScrollAnimationProps = {
 	id: string;
 	children: ReactNode;
 	classContent?: string;
-	styleBeforeTransition: TransitionObject;
-	styleAfterTransition: TransitionObject;
+	styleBeforeTransition: TransitionObjectType;
+	styleAfterTransition: TransitionObjectType;
 };
 
 const ScrollAnimation = ({
@@ -29,9 +29,8 @@ const ScrollAnimation = ({
 				if (elementTop < windowHeight * 0.8 && animateElement instanceof HTMLElement) {
 					for (const property in styleAfterTransition) {
 						if (styleAfterTransition.hasOwnProperty(property)) {
-							animateElement.style[property] = styleAfterTransition[property];
+							animateElement.style[property as any] = styleAfterTransition[property];
 						}
-						// animateElement.style.opacity = "0";
 					}
 				}
 			}

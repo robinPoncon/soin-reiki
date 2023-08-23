@@ -8,7 +8,7 @@ const ReviewsUsers = ({ reviewsUsers }: ReviewsUsersProps): JSX.Element => {
 	return (
 		<div>
 			{reviewsUsers?.map((reviewUser) => (
-				<div>
+				<div key={reviewUser.id}>
 					<div>
 						<p>{reviewUser.name}</p>
 						<p>{reviewUser.note}</p>

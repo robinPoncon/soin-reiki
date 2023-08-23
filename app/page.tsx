@@ -11,24 +11,28 @@ const MainPage = () => {
 	const [spiritualityAge, setSpiritualityAge] = useState<number>(5);
 	const [reviewsUsers, setReviewsUsers] = useState<ReviewsUser[]>([
 		{
+			id: 1,
 			name: "Jean-Michèle",
 			comment:
 				"Je ne connaissais pas cette méthode de soin énergétique et je dois avouer que j'ai été bluffer par son efficacité !",
 			note: 5
 		},
 		{
+			id: 2,
 			name: "Maelly",
 			comment:
 				"Grâce à Robin j'ai pu récupérer un sommeil convenable après 2 ans de bataille d'insomnies",
 			note: 5
 		},
 		{
+			id: 3,
 			name: "Antoine",
 			comment:
 				"C'était un ancien collègue et je dois dire que ses capacités de guérisons sont très efficace sur des brûlures.",
 			note: 5
 		},
 		{
+			id: 4,
 			name: "Peggy",
 			comment:
 				"A chaque fois soin que j'effectue avec Robin c'est un moment de bonheur et de détente profonde. Je recommande à 100% !",
@@ -57,7 +61,7 @@ const MainPage = () => {
 
 	return (
 		<main>
-			<figure className="-mt-20">
+			<figure className="-mt-20 shadow-darkTurquoise">
 				<Image
 					alt="main image of the site with a tree and energy"
 					src="/main-site-image.png"
@@ -78,12 +82,12 @@ const MainPage = () => {
 							classContent="w-1/3 flex flex-col"
 							styleBeforeTransition={{
 								opacity: "0",
-								transition: "opacity 2s, margin-top 2s",
-								marginTop: "100px"
+								transition: "opacity 2.5s, margin-left 2.5s",
+								marginLeft: "100px"
 							}}
 							styleAfterTransition={{
 								opacity: "1",
-								marginTop: "0"
+								marginLeft: "0"
 							}}
 						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
@@ -108,6 +112,15 @@ const MainPage = () => {
 						<ScrollAnimation
 							id="yin-yang-bloc"
 							classContent="w-1/3 flex flex-col"
+							styleBeforeTransition={{
+								opacity: "0",
+								transition: "opacity 2.5s, margin-top 2.5s",
+								marginTop: "100px"
+							}}
+							styleAfterTransition={{
+								opacity: "1",
+								marginTop: "0"
+							}}
 						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
@@ -131,6 +144,15 @@ const MainPage = () => {
 						<ScrollAnimation
 							id="hands-bloc"
 							classContent="w-1/3 flex flex-col"
+							styleBeforeTransition={{
+								opacity: "0",
+								transition: "opacity 2.5s, margin-right 2.5s",
+								marginRight: "100px"
+							}}
+							styleAfterTransition={{
+								opacity: "1",
+								marginRight: "0"
+							}}
 						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
@@ -153,12 +175,24 @@ const MainPage = () => {
 						</ScrollAnimation>
 					</div>
 				</article>
-				<article className="bg-darkTurquoise text-customWhite py-12">
+				<article className="bg-darkTurquoise text-customWhite py-12 shadow-darkTurquoise">
 					<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderBottomYellow">
 						Origines du Reiki
 					</h2>
 					<div className="flex justify-center">
-						<div className="w-1/3 flex flex-col">
+						<ScrollAnimation
+							id="japanese-bloc"
+							classContent="w-1/3 flex flex-col"
+							styleBeforeTransition={{
+								opacity: "0",
+								transition: "opacity 2.5s, margin-left 2.5s",
+								marginLeft: "100px"
+							}}
+							styleAfterTransition={{
+								opacity: "1",
+								marginLeft: "0"
+							}}
+						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
 								<Image
 									alt="plant icon"
@@ -179,8 +213,20 @@ const MainPage = () => {
 								efficacité. Le Reiki ne cherche pas à se substituer à la médecine,
 								mais plutôt à agir en complémentarité avec elle !
 							</p>
-						</div>
-						<div className="w-1/3 flex flex-col">
+						</ScrollAnimation>
+						<ScrollAnimation
+							id="light-bloc"
+							classContent="w-1/3 flex flex-col"
+							styleBeforeTransition={{
+								opacity: "0",
+								transition: "opacity 2.5s, margin-top 2.5s",
+								marginTop: "100px"
+							}}
+							styleAfterTransition={{
+								opacity: "1",
+								marginTop: "0"
+							}}
+						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
 								<Image
 									alt="light icon"
@@ -201,8 +247,20 @@ const MainPage = () => {
 								chacun à cultiver une connexion profonde avec soi-même et avec
 								l'énergie qui nous entoure.
 							</p>
-						</div>
-						<div className="w-1/3 flex flex-col">
+						</ScrollAnimation>
+						<ScrollAnimation
+							id="globe-bloc"
+							classContent="w-1/3 flex flex-col"
+							styleBeforeTransition={{
+								opacity: "0",
+								transition: "opacity 2.5s, margin-right 2.5s",
+								marginRight: "100px"
+							}}
+							styleAfterTransition={{
+								opacity: "1",
+								marginRight: "0"
+							}}
+						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
 								<Image
 									alt="globe icon"
@@ -223,7 +281,7 @@ const MainPage = () => {
 								individuels. Le Reiki ne vise pas à se substituer de la médecine,
 								mais plutôt à agir en complémentarité avec elle !
 							</p>
-						</div>
+						</ScrollAnimation>
 					</div>
 				</article>
 				<article className="py-12">
@@ -231,7 +289,19 @@ const MainPage = () => {
 						Les bienfaits du Reiki
 					</h2>
 					<div className="flex justify-center">
-						<div className="w-1/3 flex flex-col">
+						<ScrollAnimation
+							id="brain-bloc"
+							classContent="w-1/3 flex flex-col"
+							styleBeforeTransition={{
+								opacity: "0",
+								transition: "opacity 2.5s, margin-left 2.5s",
+								marginLeft: "100px"
+							}}
+							styleAfterTransition={{
+								opacity: "1",
+								marginLeft: "0"
+							}}
+						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
 									alt="brain icon"
@@ -251,8 +321,20 @@ const MainPage = () => {
 								concentration et l'estime de soi. Grâce à cette harmonie retrouvée,
 								le Reiki offre un refuge de calme au cœur du tumulte quotidien.
 							</p>
-						</div>
-						<div className="w-1/3 flex flex-col">
+						</ScrollAnimation>
+						<ScrollAnimation
+							id="heart-bloc"
+							classContent="w-1/3 flex flex-col"
+							styleBeforeTransition={{
+								opacity: "0",
+								transition: "opacity 2.5s, margin-top 2.5s",
+								marginTop: "100px"
+							}}
+							styleAfterTransition={{
+								opacity: "1",
+								marginTop: "0"
+							}}
+						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
 									alt="heart icon"
@@ -272,8 +354,20 @@ const MainPage = () => {
 								l'opportunité de pratiquer le pardon et de vous reconnecter
 								profondément à vous-même.
 							</p>
-						</div>
-						<div className="w-1/3 flex flex-col">
+						</ScrollAnimation>
+						<ScrollAnimation
+							id="energy-bloc"
+							classContent="w-1/3 flex flex-col"
+							styleBeforeTransition={{
+								opacity: "0",
+								transition: "opacity 2.5s, margin-right 2.5s",
+								marginRight: "100px"
+							}}
+							styleAfterTransition={{
+								opacity: "1",
+								marginRight: "0"
+							}}
+						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
 									alt="energy icon"
@@ -293,37 +387,53 @@ const MainPage = () => {
 								dynamisant l'ensemble du système immunitaire. Cette énergie nouvelle
 								se traduit par une qualité de vie améliorée.
 							</p>
-						</div>
+						</ScrollAnimation>
 					</div>
 				</article>
 			</section>
-			<section>
-				<h2 className="text-3xl">Mon histoire</h2>
-				<p>
-					Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors d'une période
-					introspective en quête de spiritualité il y a {spiritualityAge} ans. En
-					développant le magnétisme de mes mains, j'ai cherché à apaiser les symptômes du
-					cancer de mon chat, espérant prolonger sa vie et minimiser sa souffrance. Cette
-					expérience a éveillé en moi la volonté d'approfondir cette capacité pour aider
-					autrui.
-				</p>
-				<p>
-					Mon chemin m'a naturellement conduit au Reiki, une approche parallèle au
-					magnétisme, mais différente car je n'utilisais pas mon énergie personnelle pour
-					guérir les autres. J'ai ainsi franchi les trois niveaux du Reiki auprès de
-					Monique Chanoni, une maître Reiki de la lignée de Mikao Usui. Je suis certifié
-					maître praticien dans cette discipline, bien que je ne puisse pas initier
-					d'autres personnes au Reiki en tant que maître enseignant.
-				</p>
-				<p>
-					Ma conception des soins énergétiques repose sur une collaboration étroite avec
-					mes clients. La guérison ne peut advenir sans la volonté consciente ou
-					inconsciente du client. Mon but est d'offrir les outils de développement
-					personnel et de guérison, de sorte qu'ils n'aient plus besoin de mes services
-					sur le long terme. Cela peut sembler idéaliste, mais en guidant chacun vers son
-					équilibre et son épanouissement, nous pouvons peut-être façonner un monde et un
-					avenir meilleurs pour tous.
-				</p>
+			<section className="bg-darkTurquoise text-customWhite py-12 shadow-darkTurquoise">
+				<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderBottomYellow">
+					Mon histoire
+				</h2>
+				<div className="flex">
+					<div className="w-1/3 m-auto">
+						<Image
+							className="rounded-xl mx-auto mb-12 shadow-customYellow"
+							alt="photo robin ponçon"
+							src="/my-picture2.png"
+							width={150}
+							height={120}
+						></Image>
+					</div>
+					<div className="flex flex-col gap-6 w-2/3 text-justify pr-20">
+						<p>
+							Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors d'une
+							période introspective en quête de spiritualité il y a {spiritualityAge}{" "}
+							ans. En développant le magnétisme de mes mains, j'ai cherché à apaiser
+							les symptômes du cancer de mon chat, espérant prolonger sa vie et
+							minimiser ses souffrances. Cette expérience a éveillé en moi la volonté
+							d'approfondir cette capacité pour aider autrui.
+						</p>
+						<p>
+							Mon chemin m'a naturellement conduit vers le Reiki, une approche
+							parallèle au magnétisme, mais avec une approche différente car je
+							n'utilisais plus ma propre énergie pour guérir les autres. J'ai ainsi
+							franchi les trois niveaux du Reiki auprès de Monique Chanoni, une maître
+							Reiki de la lignée de Mikao Usui. Je suis certifié maître praticien dans
+							cette discipline, bien que je ne puisse pas initier d'autres personnes
+							au Reiki en tant que maître enseignant.
+						</p>
+						<p>
+							Ma conception des soins énergétiques repose sur une collaboration
+							étroite avec mes clients. La guérison ne peut advenir sans la volonté
+							consciente ou inconsciente du client. Mon but est d'offrir les outils de
+							développement personnel et de guérison, de sorte qu'ils n'aient plus
+							besoin de mes services sur le long terme. Cela peut sembler idéaliste,
+							mais en guidant chacun vers son équilibre et son épanouissement, nous
+							pouvons peut-être façonner un monde et un avenir meilleurs pour tous.
+						</p>
+					</div>
+				</div>
 			</section>
 			<section>
 				<h2 className="text-3xl">Ils ont essayé, pourquoi pas vous ?</h2>
