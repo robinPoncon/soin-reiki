@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import ReviewsUsers from "./_components/ReviewsUsers/ReviewsUsers";
 import { ReviewsUser } from "./_types/reviewsUserTypes";
+import ScrollAnimation from "./_components/ScrollAnimation/ScrollAnimation";
 
 const MainPage = () => {
 	const [age, setAge] = useState<number>(0);
@@ -72,7 +73,19 @@ const MainPage = () => {
 						Qu'est-ce que le Reiki ?
 					</h2>
 					<div className="flex justify-center">
-						<div className="w-1/3 flex flex-col">
+						<ScrollAnimation
+							id="universe-bloc"
+							classContent="w-1/3 flex flex-col"
+							styleBeforeTransition={{
+								opacity: "0",
+								transition: "opacity 2s, margin-top 2s",
+								marginTop: "100px"
+							}}
+							styleAfterTransition={{
+								opacity: "1",
+								marginTop: "0"
+							}}
+						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
 									className="mx-auto"
@@ -91,8 +104,11 @@ const MainPage = () => {
 								est de la canaliser pour la diffuser en vous. Vous apportant calme,
 								sérénité, lâcher prise et bien être !
 							</p>
-						</div>
-						<div className="w-1/3 flex flex-col">
+						</ScrollAnimation>
+						<ScrollAnimation
+							id="yin-yang-bloc"
+							classContent="w-1/3 flex flex-col"
+						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
 									className="mx-auto"
@@ -111,8 +127,11 @@ const MainPage = () => {
 								apporte un rééquilibre au niveau des pensées, des émotions et du
 								corps physique. C'est un moment de reconnexion avec soi !
 							</p>
-						</div>
-						<div className="w-1/3 flex flex-col">
+						</ScrollAnimation>
+						<ScrollAnimation
+							id="hands-bloc"
+							classContent="w-1/3 flex flex-col"
+						>
 							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
 								<Image
 									className="mx-auto"
@@ -131,7 +150,7 @@ const MainPage = () => {
 								ou être à 5/10cm au-dessus du corps. Il n'y a aucune manipulation ce
 								qui en fait une méthode de soin très douce et agréable !
 							</p>
-						</div>
+						</ScrollAnimation>
 					</div>
 				</article>
 				<article className="bg-darkTurquoise text-customWhite py-12">
