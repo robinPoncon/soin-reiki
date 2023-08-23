@@ -22,7 +22,8 @@ const config: Config = {
 			},
 			boxShadow: {
 				blueGreen: "0 0 10px #3ad9bc",
-				customYellow: "0 0 10px #fdd542"
+				customYellow: "0 0 10px #fdd542",
+				darkTurquoise: "0 0 10px #062933"
 			}
 		},
 		fontFamily: {

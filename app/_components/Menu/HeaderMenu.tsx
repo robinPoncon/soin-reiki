@@ -14,9 +14,7 @@ const HeaderMenu = () => {
 	};
 
 	return (
-		<header
-			className={`fixed top-0 w-full h-20 bg-darkTurquoise z-10 ${isLoading ? "blur" : ""}`}
-		>
+		<header className={`headerComponent ${isLoading ? "blur" : ""}`}>
 			<nav>
 				<ul className="flex justify-center gap-5 h-full ml-10">
 					<li>

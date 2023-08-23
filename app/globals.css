@@ -23,10 +23,12 @@
 	border-bottom: 7px double #3ad9bc;
 	border-top: 7px double #3ad9bc;
 	border-radius: 30px;
+	box-shadow: 0 0 10px #3ad9bc;
 }
 
 .customBorderBottomYellow {
 	border-bottom: 7px double #fdd542;
 	border-top: 7px double #fdd542;
 	border-radius: 30px;
+	box-shadow: 0 0 10px #fdd542;
 }

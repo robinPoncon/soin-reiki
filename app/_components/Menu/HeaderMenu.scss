@@ -1,21 +1,35 @@
-.logo {
-	border-radius: 100%;
-	box-shadow: none;
-	transition: box-shadow 0.5s;
-	&:hover {
-		box-shadow: 0px 0px 10px #3ad9bc;
-	}
-}
+.headerComponent {
+	background-color: var(--darkTurquoise);
+	border-bottom: 3px solid #3ad9bc;
+	// border-bottom-left-radius: 30px;
+	// border-bottom-right-radius: 30px;
+	box-shadow: 0 0 8px #3ad9bc;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
 
-.greenLight {
-	color: #fcf2d9;
-	letter-spacing: 1px;
-	font-size: 20px;
-	font-weight: 600;
-	transition: color 0.5s, text-shadow 0.5s;
-	&:hover,
-	&.activeLink {
-		color: #3ad9bc;
-		text-shadow: #3ad9bc 0px 0px 10px;
+	.logo {
+		border: 3px solid #3ad9bc;
+		box-shadow: 0 0 8px #3ad9bc;
+		border-radius: 100%;
+		transition: box-shadow 0.5s;
+		&:hover {
+			box-shadow: 0px 0px 15px #3ad9bc;
+		}
+	}
+
+	.greenLight {
+		color: #fcf2d9;
+		letter-spacing: 1px;
+		font-size: 20px;
+		font-weight: 600;
+		transition: color 0.5s, text-shadow 0.5s;
+		&:hover,
+		&.activeLink {
+			color: #3ad9bc;
+			text-shadow: #3ad9bc 0px 0px 10px;
+		}
 	}
 }
