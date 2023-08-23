@@ -1,22 +1,40 @@
 import { ReactNode, useEffect } from "react";
 
-interface ScrollAnimationProps {
-	children: ReactNode;
-}
+type TransitionObject = {
+	[key: string]: string;
+};
 
-const ScrollAnimation = ({ children }: ScrollAnimationProps): JSX.Element => {
+type ScrollAnimationProps = {
+	id: string;
+	children: ReactNode;
+	classContent?: string;
+	styleBeforeTransition: TransitionObject;
+	styleAfterTransition: TransitionObject;
+};
+
+const ScrollAnimation = ({
+	children,
+	classContent,
+	id,
+	styleBeforeTransition,
+	styleAfterTransition
+}: ScrollAnimationProps): JSX.Element => {
 	useEffect(() => {
-		const animateElements = document.querySelectorAll(".animate-content");
+		const animateElement = document.getElementById(id);
 		const animateOnScroll = () => {
-			animateElements.forEach((element: Element) => {
-				const elementTop = element.getBoundingClientRect().top;
+			if (animateElement) {
+				const elementTop = animateElement.getBoundingClientRect().top;
 				const windowHeight = window.innerHeight;
 
-				if (elementTop < windowHeight * 0.8 && element instanceof HTMLElement) {
-					element.style.opacity = "1";
-					element.style.transform = "translateY(0)";
+				if (elementTop < windowHeight * 0.8 && animateElement instanceof HTMLElement) {
+					for (const property in styleAfterTransition) {
+						if (styleAfterTransition.hasOwnProperty(property)) {
+							animateElement.style[property] = styleAfterTransition[property];
+						}
+						// animateElement.style.opacity = "0";
+					}
 				}
-			});
+			}
 		};
 		window.addEventListener("scroll", animateOnScroll);
 		return () => {
@@ -25,8 +43,12 @@ const ScrollAnimation = ({ children }: ScrollAnimationProps): JSX.Element => {
 	}, []);
 
 	return (
-		<div className="scrollAnimationComponent">
-			<div className="animate-content">{children}</div>
+		<div
+			style={styleBeforeTransition}
+			id={id}
+			className={classContent}
+		>
+			{children}
 		</div>
 	);
 };
