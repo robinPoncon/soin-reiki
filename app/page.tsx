@@ -37,6 +37,13 @@ const MainPage = () => {
 			comment:
 				"A chaque fois soin que j'effectue avec Robin c'est un moment de bonheur et de détente profonde. Je recommande à 100% !",
 			note: 5
+		},
+		{
+			id: 5,
+			name: "Robin",
+			comment:
+				"A chaque fois soin que j'effectue avec Robin c'est un moment de bonheur et de détente profonde. Je recommande à 100% !",
+			note: 5
 		}
 	]);
 
@@ -175,7 +182,7 @@ const MainPage = () => {
 						</ScrollAnimation>
 					</div>
 				</article>
-				<article className="bg-darkTurquoise text-customWhite py-12 shadow-darkTurquoise">
+				<article className="bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
 					<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderBottomYellow">
 						Origines du Reiki
 					</h2>
@@ -391,7 +398,7 @@ const MainPage = () => {
 					</div>
 				</article>
 			</section>
-			<section className="bg-darkTurquoise text-customWhite py-12 shadow-darkTurquoise">
+			<section className="bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
 				<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderBottomYellow">
 					Mon histoire
 				</h2>

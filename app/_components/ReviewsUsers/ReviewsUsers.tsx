@@ -7,30 +7,28 @@ type ReviewsUsersProps = {
 };
 
 const ReviewsUsers = ({ reviewsUsers }: ReviewsUsersProps): JSX.Element => {
-	const [startIndex, setStartIndex] = useState(0);
-	const reviewsPerGroup = 3;
+	const [currentIndex, setCurrentIndex] = useState(0);
 
-	const showPreviousReviewGroup = () => {
-		setStartIndex((prevStartIndex) => Math.max(prevStartIndex - 1, 0));
+	const handleClickNext = () => {
+		const nextIndex = (currentIndex + 1) % reviewsUsers.length;
+		setCurrentIndex(nextIndex);
 	};
 
-	const showNextReviewGroup = () => {
-		if (startIndex + 1 + reviewsPerGroup > reviewsUsers.length) {
-			// If not enough elements for the next group, reset to the beginning
-			setStartIndex(0);
-		} else {
-			setStartIndex((prevStartIndex) =>
-				Math.min(prevStartIndex + 1, reviewsUsers.length - reviewsPerGroup)
-			);
-		}
+	const handleClickPrevious = () => {
+		const previousIndex = (currentIndex - 1 + reviewsUsers.length) % reviewsUsers.length;
+		setCurrentIndex(previousIndex);
 	};
 
-	const reviewsGroup = reviewsUsers.slice(startIndex, startIndex + reviewsPerGroup);
+	const reviewsUsersShowing = [
+		reviewsUsers[currentIndex],
+		reviewsUsers[(currentIndex + 1) % reviewsUsers.length],
+		reviewsUsers[(currentIndex + 2) % reviewsUsers.length]
+	];
 
 	return (
 		<div className="flex gap-12 justify-center">
 			<button
-				onClick={showPreviousReviewGroup}
+				onClick={handleClickPrevious}
 				className="bg-darkTurquoise rounded-full h-fit hover:shadow-blueGreen my-auto ml-4 w-fit"
 			>
 				<Image
@@ -41,7 +39,7 @@ const ReviewsUsers = ({ reviewsUsers }: ReviewsUsersProps): JSX.Element => {
 				></Image>
 			</button>
 			<div className="flex w-4/5 justify-center gap-10">
-				{reviewsGroup?.map((reviewsUser) => (
+				{reviewsUsersShowing?.map((reviewsUser) => (
 					<div
 						className=""
 						key={reviewsUser.id}
@@ -55,7 +53,7 @@ const ReviewsUsers = ({ reviewsUsers }: ReviewsUsersProps): JSX.Element => {
 				))}
 			</div>
 			<button
-				onClick={showNextReviewGroup}
+				onClick={handleClickNext}
 				className="bg-darkTurquoise rounded-full h-fit w-fit hover:shadow-blueGreen my-auto mr-4"
 			>
 				<Image

@@ -1,9 +1,7 @@
 .headerComponent {
 	background-color: var(--darkTurquoise);
-	border-bottom: 3px solid #3ad9bc;
-	// border-bottom-left-radius: 30px;
-	// border-bottom-right-radius: 30px;
-	box-shadow: 0 0 8px #3ad9bc;
+	// border-bottom: 3px solid #3ad9bc;
+	// box-shadow: 0 0 8px #3ad9bc;
 	height: 80px;
 	position: fixed;
 	top: 0;
@@ -11,12 +9,12 @@
 	z-index: 10;
 
 	.logo {
-		border: 3px solid #3ad9bc;
-		box-shadow: 0 0 8px #3ad9bc;
+		// border: 3px solid #3ad9bc;
+		// box-shadow: 0 0 8px #3ad9bc;
 		border-radius: 100%;
 		transition: box-shadow 0.5s;
 		&:hover {
-			box-shadow: 0px 0px 15px #3ad9bc;
+			box-shadow: 0px 0px 10px #3ad9bc;
 		}
 	}
 

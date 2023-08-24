@@ -10,12 +10,14 @@ const config: Config = {
 		extend: {
 			backgroundColor: {
 				darkTurquoise: "#062933",
+				darkBackground: "#0b3242",
 				customWhite: "#fcf2d9",
 				blueGreen: "#3ad9bc",
 				customYellow: "#fdd542"
 			},
 			colors: {
 				darkTurquoise: "#062933",
+				darkBackground: "#0b3242",
 				customWhite: "#fcf2d9",
 				blueGreen: "#3ad9bc",
 				customYellow: "#fdd542"
