@@ -395,17 +395,40 @@ const MainPage = () => {
 				<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderBottomYellow">
 					Mon histoire
 				</h2>
-				<div className="flex">
-					<div className="w-1/3 m-auto">
+				<div className="flex justify-center gap-24">
+					<ScrollAnimation
+						id="profil-picture-bloc"
+						styleBeforeTransition={{
+							opacity: "0",
+							transition: "opacity 2.5s, margin-left 2.5s",
+							marginLeft: "-100px"
+						}}
+						styleAfterTransition={{
+							opacity: "1",
+							marginLeft: "100px"
+						}}
+					>
 						<Image
-							className="rounded-xl mx-auto mb-12 shadow-customYellow"
+							className="rounded-xl mb-12 shadow-customYellow"
 							alt="photo robin ponçon"
 							src="/my-picture.png"
 							width={150}
-							height={120}
+							height={150}
 						></Image>
-					</div>
-					<div className="flex flex-col gap-6 w-2/3 text-justify pr-20">
+					</ScrollAnimation>
+					<ScrollAnimation
+						id="text-picture-bloc"
+						classContent="flex flex-col gap-6 text-justify pr-20 max-w-3xl"
+						styleBeforeTransition={{
+							opacity: "0",
+							transition: "opacity 2.5s, margin-right 2.5s",
+							marginRight: "100px"
+						}}
+						styleAfterTransition={{
+							opacity: "1",
+							marginRight: "0"
+						}}
+					>
 						<p>
 							Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors d'une
 							période introspective en quête de spiritualité il y a {spiritualityAge}{" "}
@@ -432,11 +455,13 @@ const MainPage = () => {
 							mais en guidant chacun vers son équilibre et son épanouissement, nous
 							pouvons peut-être façonner un monde et un avenir meilleurs pour tous.
 						</p>
-					</div>
+					</ScrollAnimation>
 				</div>
 			</section>
-			<section>
-				<h2 className="text-3xl">Ils ont essayé, pourquoi pas vous ?</h2>
+			<section className="py-12">
+				<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBottomBlue p-4">
+					Ils ont essayé, pourquoi pas vous ?
+				</h2>
 				<ReviewsUsers reviewsUsers={reviewsUsers} />
 			</section>
 		</main>

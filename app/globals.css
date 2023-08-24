@@ -32,3 +32,8 @@
 	border-radius: 30px;
 	box-shadow: 0 0 10px #fdd542;
 }
+
+.disabledBtn {
+	pointer-events: none;
+	opacity: 0.7;
+}
