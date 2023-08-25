@@ -4,3 +4,7 @@ export type ReviewsUser = {
 	comment: string;
 	note: number;
 };
+
+export type ReviewsUsers = {
+	reviewsUsers: ReviewsUser[];
+};
