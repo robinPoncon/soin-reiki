@@ -44,7 +44,7 @@ const HeaderMenu = () => {
 						>
 							<Image
 								className="logo"
-								alt="website logo with a tree and energy"
+								alt="Logo du site internet avec un arbre et de l'énergie"
 								src="/logos/website-logo.png"
 								height={100}
 								width={100}

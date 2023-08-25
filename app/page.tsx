@@ -29,7 +29,7 @@ const MainPage = () => {
 			name: "Antoine",
 			comment:
 				"C'était un ancien collègue et je dois dire que ses capacités de guérisons sont très efficace sur des brûlures.",
-			note: 5
+			note: 4
 		},
 		{
 			id: 4,
@@ -41,9 +41,8 @@ const MainPage = () => {
 		{
 			id: 5,
 			name: "Robin",
-			comment:
-				"A chaque fois soin que j'effectue avec Robin c'est un moment de bonheur et de détente profonde. Je recommande à 100% !",
-			note: 5
+			comment: "C'était une belle découverte ! Ses tirages de carte m'ont parlé.",
+			note: 4
 		}
 	]);
 
@@ -70,7 +69,7 @@ const MainPage = () => {
 		<main>
 			<figure className="-mt-20 shadow-darkTurquoise">
 				<Image
-					alt="main image of the site with a tree and energy"
+					alt="image principal du site avec un arbre et des boules d'énergie"
 					src="/main-site-image.png"
 					height={758}
 					width={1556}
@@ -97,10 +96,10 @@ const MainPage = () => {
 								marginLeft: "0"
 							}}
 						>
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
+							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto">
 								<Image
 									className="mx-auto"
-									alt="universe icon"
+									alt="icône représentant l'énergie universelle"
 									src="/icons/icon_universe.svg"
 									width={48}
 									height={48}
@@ -129,10 +128,10 @@ const MainPage = () => {
 								marginTop: "0"
 							}}
 						>
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
+							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto">
 								<Image
 									className="mx-auto"
-									alt="yin yang icon"
+									alt="icône du yin yang"
 									src="/icons/icon_yin-yang.svg"
 									width={48}
 									height={48}
@@ -161,10 +160,10 @@ const MainPage = () => {
 								marginRight: "0"
 							}}
 						>
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
+							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto">
 								<Image
 									className="mx-auto"
-									alt="hands icon"
+									alt="icône de mains jointes"
 									src="/icons/icon_hands.svg"
 									width={48}
 									height={48}
@@ -200,9 +199,9 @@ const MainPage = () => {
 								marginLeft: "0"
 							}}
 						>
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
+							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
 								<Image
-									alt="plant icon"
+									alt="icône d'une plante"
 									src="/icons/icon_plant.svg"
 									width={48}
 									height={48}
@@ -234,9 +233,9 @@ const MainPage = () => {
 								marginTop: "0"
 							}}
 						>
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
+							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
 								<Image
-									alt="light icon"
+									alt="icône d'une ampoule"
 									src="/icons/icon_light.svg"
 									width={48}
 									height={48}
@@ -268,9 +267,9 @@ const MainPage = () => {
 								marginRight: "0"
 							}}
 						>
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
+							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
 								<Image
-									alt="globe icon"
+									alt="icône de la planète terre"
 									src="/icons/icon_globe.svg"
 									width={48}
 									height={48}
@@ -309,9 +308,9 @@ const MainPage = () => {
 								marginLeft: "0"
 							}}
 						>
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
+							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto">
 								<Image
-									alt="brain icon"
+									alt="icône d'un cerveau"
 									src="/icons/icon_brain.svg"
 									width={48}
 									height={48}
@@ -342,9 +341,9 @@ const MainPage = () => {
 								marginTop: "0"
 							}}
 						>
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
+							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto">
 								<Image
-									alt="heart icon"
+									alt="icône d'un coeur"
 									src="/icons/icon_heart.svg"
 									width={48}
 									height={48}
@@ -375,9 +374,9 @@ const MainPage = () => {
 								marginRight: "0"
 							}}
 						>
-							<p className="bg-darkTurquoise rounded-full w-fit p-2.5 mx-auto shadow-blueGreen">
+							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto">
 								<Image
-									alt="energy icon"
+									alt="icône d'un éclair représentant l'énergie"
 									src="/icons/icon_energy.svg"
 									width={48}
 									height={48}
@@ -417,7 +416,7 @@ const MainPage = () => {
 					>
 						<Image
 							className="rounded-xl mb-12 shadow-customYellow"
-							alt="photo robin ponçon"
+							alt="photo de profil de robin ponçon"
 							src="/my-picture.png"
 							width={150}
 							height={150}
@@ -445,10 +444,10 @@ const MainPage = () => {
 							d'approfondir cette capacité pour aider autrui.
 						</p>
 						<p>
-							Mon chemin m'a naturellement conduit vers le Reiki, une approche
+							Mon chemin m'a naturellement conduit vers le Reiki, une technique
 							parallèle au magnétisme, mais avec une approche différente car je
 							n'utilisais plus ma propre énergie pour guérir les autres. J'ai ainsi
-							franchi les trois niveaux du Reiki auprès de Monique Chanoni, une maître
+							franchi les trois niveaux du Reiki auprès de Monique Chanoni, maître
 							Reiki de la lignée de Mikao Usui. Je suis certifié maître praticien dans
 							cette discipline, bien que je ne puisse pas initier d'autres personnes
 							au Reiki en tant que maître enseignant.

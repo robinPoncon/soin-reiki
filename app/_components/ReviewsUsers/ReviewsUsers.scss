@@ -1,0 +1,49 @@
+.bubbleReview {
+	margin-top: 15px;
+	position: relative;
+	.bubbleCorner {
+		position: absolute;
+		border-left: 15px solid transparent;
+		border-right: 15px solid transparent;
+		border-bottom: 15px solid var(--blueGreen);
+		width: 30px;
+		top: -12px;
+		left: 30px;
+	}
+	.bubbleText {
+		background-color: var(--blueGreen);
+		border-radius: 10px;
+		padding: 15px;
+		text-align: justify;
+		font-style: italic;
+	}
+}
+
+.reviewsUserTransition-enter {
+	opacity: 0;
+	transform: translateX(100%);
+	transition: opacity 300ms ease-in, transform 300ms ease-in;
+}
+
+.reviewsUserTransition-enter-active {
+	opacity: 1;
+	transform: translateX(0);
+	transition: opacity 300ms ease-in, transform 300ms ease-in;
+}
+
+.reviewsUserTransition-exit {
+	opacity: 1;
+	transform: translateX(0);
+	transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
+
+.reviewsUserTransition-exit-active {
+	opacity: 0;
+	transform: translateX(-100%);
+	transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
+
+.reviewsUserTransition-exit-done {
+	opacity: 0;
+	transform: translateX(-100%);
+}

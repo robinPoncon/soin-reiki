@@ -46,7 +46,7 @@ const CustomInputSelect = ({ label, name, required, defaultValue, arrayDatas, re
 				<button onClick={() => setIsSelectDisplayed(!isSelectDisplayed)}>
 					<p>{selectedValue}</p>
 					<Image
-						alt={isSelectDisplayed ? "open select icon" : "close select icon"}
+						alt={isSelectDisplayed ? "icône pour afficher le contenu du select" : "icône pour masquer le contenu du select"}
 						src={isSelectDisplayed ? "icon_arrow_drop_up_black.svg" : "icon_arrow_drop_down_black.svg"}
 						height={24}
 						width={24}
@@ -67,7 +67,7 @@ const CustomInputSelect = ({ label, name, required, defaultValue, arrayDatas, re
 							<p>{data.name}</p>
 							{data.name === selectedValue && (
 								<Image
-									alt="check icon"
+									alt="icône de check pour savoir quel élément est déjà sélectionné"
 									src="icon_check_black.svg"
 									height={20}
 									width={20}
