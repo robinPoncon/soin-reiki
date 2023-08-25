@@ -22,7 +22,17 @@ type CustomInputAutocompleteProps = {
 	maxLength?: number;
 	required?: boolean;
 	formatter?: "number" | "date" | "cardDate" | "price";
-	validator?: "authentication" | "notEmpty" | "email" | "date" | "cardNumber" | "cardDate" | "cardSecurityCode" | "password" | "iban" | "phoneNumber";
+	validator?:
+		| "authentication"
+		| "notEmpty"
+		| "email"
+		| "date"
+		| "cardNumber"
+		| "cardDate"
+		| "cardSecurityCode"
+		| "password"
+		| "iban"
+		| "phoneNumber";
 	icon?: string;
 	displayDatasOnFocusWithEmptyInputValue?: boolean;
 };
@@ -48,7 +58,9 @@ const CustomInputAutocomplete = ({
 	const [valueInput, setValueInput] = useState<string>(defaultValue || "");
 	const [errors, setErrors] = useState<string[] | null>(null);
 	const [isValidatedInput, setIsValidatedInput] = useState<boolean>(required ? false : true);
-	const [filteredDatas, setFilteredDatas] = useState<{}[]>(displayDatasOnFocusWithEmptyInputValue ? arrayDatas : []);
+	const [filteredDatas, setFilteredDatas] = useState<{}[]>(
+		displayDatasOnFocusWithEmptyInputValue ? arrayDatas : []
+	);
 	const [isFilteredDatasDisplayed, setIsFilteredDatasDisplayed] = useState<boolean>(false);
 	const closeAutocomplete = () => {
 		setIsFilteredDatasDisplayed(false);
@@ -76,7 +88,10 @@ const CustomInputAutocomplete = ({
 
 	const checkValue = (object: ObjectCustom, key: string, value: string) => {
 		if (object) {
-			if (key in object && object[key].toString().toLowerCase().includes(value.toLowerCase())) {
+			if (
+				key in object &&
+				object[key].toString().toLowerCase().includes(value.toLowerCase())
+			) {
 				return true;
 			} else {
 				for (const k in object) {
@@ -99,7 +114,9 @@ const CustomInputAutocomplete = ({
 			value = formatters[formatter](value);
 		}
 
-		const newFilteredDatas = arrayDatas.filter((data) => filterKeys.some((key) => checkValue(data, key, value)));
+		const newFilteredDatas = arrayDatas.filter((data) =>
+			filterKeys.some((key) => checkValue(data, key, value))
+		);
 
 		setFilteredDatas(newFilteredDatas);
 		setIsFilteredDatasDisplayed(true);
@@ -150,19 +167,19 @@ const CustomInputAutocomplete = ({
 				{icon === "bank" && (
 					<div className="iconsBank">
 						<Image
-							alt="logo credit agricole"
+							alt="logo de la banque credit agricole"
 							src="logo_CA.svg"
 							width={36}
 							height={24}
 						></Image>
 						<Image
-							alt="logo banque postale"
+							alt="logo de la banque postale"
 							src="logo_banque_postale.svg"
 							width={35}
 							height={24}
 						></Image>
 						<Image
-							alt="logo banque populaire"
+							alt="logo de la banque populaire"
 							src="logo_banque_populaire.svg"
 							width={24}
 							height={24}

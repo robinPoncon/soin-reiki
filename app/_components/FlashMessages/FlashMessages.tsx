@@ -49,7 +49,7 @@ const FlashMessages = () => {
 								src={getIconSource(message.type)}
 								width={24}
 								height={24}
-								alt="icon status flash message"
+								alt="icon du statut d'un message flash"
 							/>
 							<div className="flashMessageContent">
 								<div className="flashMessageTextWrapper">
@@ -77,7 +77,7 @@ const FlashMessages = () => {
 									src="/icons/icon_close.svg"
 									width={24}
 									height={24}
-									alt="icon close"
+									alt="icône d'une croix pour la suppression"
 								/>
 							</button>
 						</div>

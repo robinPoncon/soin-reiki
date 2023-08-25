@@ -26,6 +26,9 @@ const config: Config = {
 				blueGreen: "0 0 10px #3ad9bc",
 				customYellow: "0 0 10px #fdd542",
 				darkTurquoise: "0 0 10px #062933"
+			},
+			border: {
+				blueGreen: "#3ad9bc"
 			}
 		},
 		fontFamily: {

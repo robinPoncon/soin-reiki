@@ -80,7 +80,7 @@ const CustomInput = ({ label, name, defaultValue, returnedValue, placeholder, ty
 						onClick={() => setTypeInput("text")}
 					>
 						<Image
-							alt="icon eye show password"
+							alt="icône d'oeil pour afficher le mot de passe"
 							src="icon_eye.svg"
 							width={24}
 							height={24}
@@ -93,7 +93,7 @@ const CustomInput = ({ label, name, defaultValue, returnedValue, placeholder, ty
 						onClick={() => setTypeInput("password")}
 					>
 						<Image
-							alt="icon eye hide password"
+							alt="icône d'oeil pour masquer le mot de passe"
 							src="icon_eye_closed.svg"
 							width={24}
 							height={24}
@@ -103,19 +103,19 @@ const CustomInput = ({ label, name, defaultValue, returnedValue, placeholder, ty
 				{icon === "bankCard" && (
 					<div className="blocCardLogos">
 						<Image
-							alt="logo mastercard"
+							alt="logo d'une carte bancaire mastercard"
 							src="logo_mastercard.svg"
 							width={24}
 							height={24}
 						></Image>
 						<Image
-							alt="logo visa"
+							alt="logo d'une carte bancaire visa"
 							src="logo_visa.svg"
 							width={24}
 							height={24}
 						></Image>
 						<Image
-							alt="logo american express"
+							alt="logo d'une carte bancaire american express"
 							src="logo_american_express.svg"
 							width={24}
 							height={24}

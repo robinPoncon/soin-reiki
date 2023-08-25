@@ -9,7 +9,7 @@ const Loader = () => {
 	return isLoading ? (
 		<div className="loaderComponent">
 			<Image
-				alt="loader animation with turquoise circle"
+				alt="Animation d'un loader avec des cercles turquoise"
 				width={200}
 				height={200}
 				src="/loader.svg"
