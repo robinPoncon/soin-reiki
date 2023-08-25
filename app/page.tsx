@@ -73,7 +73,6 @@ const MainPage = () => {
 					src="/main-site-image.png"
 					height={758}
 					width={1556}
-					layout="responsive"
 				/>
 			</figure>
 			<section>
