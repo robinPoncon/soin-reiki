@@ -1,8 +1,8 @@
-import { ReviewsUser } from "@/_types/reviewsUserTypes";
+import { ReviewsUserType } from "@/_types/reviewsUsersTypes";
 import Image from "next/image";
 
 type ReviewsUserCardProps = {
-	reviewsUser: ReviewsUser;
+	reviewsUser: ReviewsUserType;
 };
 
 const ReviewsUserCard = ({ reviewsUser }: ReviewsUserCardProps): JSX.Element => {
