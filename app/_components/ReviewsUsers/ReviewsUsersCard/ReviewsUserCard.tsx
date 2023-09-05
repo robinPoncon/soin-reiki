@@ -15,7 +15,7 @@ const ReviewsUserCard = ({ reviewsUser }: ReviewsUserCardProps): JSX.Element => 
 		}
 	};
 	return (
-		<div className="max-w-xs">
+		<div className="max-w-xs h-48">
 			<div className="flex gap-4">
 				<p className="font-semibold ml-4">{reviewsUser.name}</p>
 				<div className="flex gap-2 mb-auto">

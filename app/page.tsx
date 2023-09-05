@@ -43,7 +43,7 @@ const MainPage = () => {
 			<section>
 				{/* <h1 className="text-5xl text-center">Bienvenue sur les racines de la guérison !</h1> */}
 				<article className="py-12">
-					<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBottomBlue p-4">
+					<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBlue p-4">
 						Qu'est-ce que le Reiki ?
 					</h2>
 					<div className="flex justify-center">
@@ -146,7 +146,7 @@ const MainPage = () => {
 					</div>
 				</article>
 				<article className="bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
-					<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderBottomYellow">
+					<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderYellow">
 						Origines du Reiki
 					</h2>
 					<div className="flex justify-center">
@@ -255,7 +255,7 @@ const MainPage = () => {
 					</div>
 				</article>
 				<article className="py-12">
-					<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBottomBlue p-4">
+					<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBlue p-4">
 						Les bienfaits du Reiki
 					</h2>
 					<div className="flex justify-center">
@@ -362,7 +362,7 @@ const MainPage = () => {
 				</article>
 			</section>
 			<section className="bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
-				<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderBottomYellow">
+				<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderYellow">
 					Mon histoire
 				</h2>
 				<div className="flex justify-center gap-24">
@@ -429,7 +429,7 @@ const MainPage = () => {
 				</div>
 			</section>
 			<section className="py-12">
-				<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBottomBlue p-4">
+				<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBlue p-4">
 					Ils ont essayé, pourquoi pas vous ?
 				</h2>
 				<ReviewsUsers reviewsUsers={reviewsUsers} />

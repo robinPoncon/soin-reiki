@@ -9,9 +9,14 @@ import { ReviewsUserType } from "@/_types/reviewsUsersTypes";
 type ReviewsUsersProps = {
 	reviewsUsers: ReviewsUserType[];
 	isOnlyToShow?: boolean;
+	fullWidth?: boolean;
 };
 
-const ReviewsUsers = ({ reviewsUsers, isOnlyToShow }: ReviewsUsersProps): JSX.Element => {
+const ReviewsUsers = ({
+	reviewsUsers,
+	isOnlyToShow,
+	fullWidth
+}: ReviewsUsersProps): JSX.Element => {
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [isTransitionActive, setIsTransitionActive] = useState<boolean>(false);
 	const [saveNextOrPreviousIndex, setSaveNextOrPreviousIndex] = useState(0);
@@ -79,7 +84,11 @@ const ReviewsUsers = ({ reviewsUsers, isOnlyToShow }: ReviewsUsersProps): JSX.El
 					></Image>
 				</button>
 			)}
-			<div className={`reviewsUserBloc ${isTransitionActive ? "transitionActive" : ""}`}>
+			<div
+				className={`reviewsUserBloc ${isTransitionActive ? "transitionActive" : ""} ${
+					fullWidth ? "fullWidth" : ""
+				}`}
+			>
 				{reviewsUsersShowing?.map(
 					(reviewsUser) =>
 						reviewsUser && (

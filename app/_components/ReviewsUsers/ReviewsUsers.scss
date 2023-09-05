@@ -7,6 +7,9 @@
 	&.transitionActive {
 		opacity: 0;
 	}
+	&.fullWidth {
+		width: 100%;
+	}
 	.bubbleReview {
 		margin-top: 15px;
 		position: relative;
