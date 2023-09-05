@@ -16,20 +16,44 @@ const HeaderMenu = () => {
 	return (
 		<header className={`headerComponent ${isLoading ? "blur" : ""}`}>
 			<nav>
-				<ul className="flex justify-center gap-5 h-full ml-10">
-					<li>
-						<Link
-							className={`greenLight leading-[80px] ${
-								isActiveLink("/soin-reiki") ? "activeLink" : ""
+				<ul className="flex justify-center gap-5 h-full ml-9">
+					<li className="showServices">
+						<p
+							className={`servicesText greenLight text-xl leading-[80px] ${
+								isActiveLink("/soin-reiki") || isActiveLink("/guidance")
+									? "activeLink"
+									: ""
 							}`}
-							href="/soin-reiki"
 						>
-							Soin Reiki
-						</Link>
+							Services
+							<span className="servicesIcon" />
+						</p>
+						<div className="flex flex-col">
+							<p>
+								<Link
+									className={`greenLight text-lg ${
+										isActiveLink("/soin-reiki") ? "activeLink" : ""
+									}`}
+									href="/soin-reiki"
+								>
+									Soin Reiki
+								</Link>
+							</p>
+							<p>
+								<Link
+									className={`greenLight text-lg ${
+										isActiveLink("/guidance") ? "activeLink" : ""
+									}`}
+									href="/guidance"
+								>
+									Guidance
+								</Link>
+							</p>
+						</div>
 					</li>
-					<li>
+					<li className="mr-24">
 						<Link
-							className={`greenLight leading-[80px] ${
+							className={`greenLight text-xl leading-[80px] ${
 								isActiveLink("/tarifs") ? "activeLink" : ""
 							}`}
 							href="/tarifs"
@@ -39,21 +63,7 @@ const HeaderMenu = () => {
 					</li>
 					<li>
 						<Link
-							href="/"
-							className="block mt-5"
-						>
-							<Image
-								className="logo"
-								alt="Logo du site internet avec un arbre et de l'énergie"
-								src="/logos/website-logo.png"
-								height={100}
-								width={100}
-							/>
-						</Link>
-					</li>
-					<li>
-						<Link
-							className={`greenLight leading-[80px] ${
+							className={`greenLight text-xl leading-[80px] ${
 								isActiveLink("/reservation") ? "activeLink" : ""
 							}`}
 							href="/reservation"
@@ -63,7 +73,7 @@ const HeaderMenu = () => {
 					</li>
 					<li>
 						<Link
-							className={`greenLight leading-[80px] ${
+							className={`greenLight text-xl leading-[80px] ${
 								isActiveLink("/contact") ? "activeLink" : ""
 							}`}
 							href="/contact"
@@ -72,6 +82,18 @@ const HeaderMenu = () => {
 						</Link>
 					</li>
 				</ul>
+				<Link
+					href="/"
+					className="block mt-5 logoLink"
+				>
+					<Image
+						className="logo"
+						alt="Logo du site internet avec un arbre et de l'énergie"
+						src="/logos/website-logo.png"
+						height={100}
+						width={100}
+					/>
+				</Link>
 			</nav>
 		</header>
 	);
