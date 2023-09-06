@@ -1,0 +1,58 @@
+.tarifsPageComponent {
+	a {
+		font-weight: 700;
+		font-style: italic;
+	}
+
+	.blockOffer1,
+	.blockOffer2,
+	.blockOffer3 {
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+	}
+	.blockOffer1 {
+		border: 5px double var(--blueGreen);
+	}
+	.blockOffer2 {
+		border: 5px double var(--customYellow);
+	}
+	.blockOffer3 {
+		border: 5px double pink;
+	}
+
+	.separator1,
+	.separator2,
+	.separator3 {
+		width: 100%;
+		height: 2px;
+		margin: 20px auto;
+		border-radius: 10px;
+	}
+	.separator1 {
+		background-color: var(--blueGreen);
+	}
+	.separator2 {
+		background-color: var(--customYellow);
+	}
+	.separator3 {
+		background-color: pink;
+	}
+
+	.bottom1 {
+		background-color: var(--blueGreen);
+		border-radius: 5px;
+		padding: 10px;
+	}
+	.bottom2 {
+		background-color: var(--customYellow);
+		border-radius: 5px;
+		padding: 10px;
+	}
+	.bottom3 {
+		background-color: pink;
+		border-radius: 5px;
+		padding: 10px;
+	}
+}

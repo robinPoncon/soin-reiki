@@ -34,6 +34,14 @@ const Footer = () => {
 							<li>
 								<Link
 									className="lightHover"
+									href="/guidance"
+								>
+									Guidance
+								</Link>
+							</li>
+							<li>
+								<Link
+									className="lightHover"
 									href="/tarifs"
 								>
 									Tarifs
