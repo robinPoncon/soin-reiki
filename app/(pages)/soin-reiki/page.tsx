@@ -12,22 +12,23 @@ const SoinReikiPage = () => {
 				<p className="text-justify">
 					Dès le début, nous prenons le temps de discuter de vos intentions et des
 					bienfaits que vous recherchez à travers les séances de soin. Je partage ensuite
-					mes connaissances et mon expérience en Reiki, afin que nous puissions collaborer
-					pour trouver des solutions durables à vos besoins. De plus, je vous propose une
-					guidance énergétique à travers le tirage d'une carte, pour vous guider un peu
-					plus loin sur le chemin de la guérison.
+					mes connaissances et mon expérience en Reiki, afin que nous puissions trouver
+					des solutions durables à vos besoins. De plus, je vous propose une guidance
+					énergétique à travers le tirage d'une carte, pour vous guider un peu plus loin
+					sur le chemin de la guérison.
 				</p>
 			</article>
 			<article>
 				<h2 className="text-2xl">Étape 2 : L'Harmonie Énergétique </h2>
 				<p className="text-justify">
 					Pendant le soin, vous restez confortablement vêtu(e) allongé(e) sur une table de
-					massage standard. L'objectif est de vous mettre à l'aise, et j'accompagne cela
+					massage standard. L'objectif est que vous soyez à l'aise, et j'accompagne cela
 					avec une douce musique apaisante. Je commence alors le soin en plaçant
 					délicatement mes mains sur les zones de votre corps nécessitant un rééquilibrage
 					énergétique. Pendant cette étape, des sensations telles que chaleur, fraîcheur,
 					picotements, émotions, images, sons ou pensées peuvent se manifester. Tout cela
-					est signe que l'énergie agit en vous de manière naturelle.
+					est normal et fait parti du processus naturel de la circulation de l'énergie en
+					vous.
 				</p>
 			</article>
 			<article>

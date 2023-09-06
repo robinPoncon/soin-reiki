@@ -432,7 +432,20 @@ const MainPage = () => {
 				<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBlue p-4">
 					Ils ont essayé, pourquoi pas vous ?
 				</h2>
-				<ReviewsUsers reviewsUsers={reviewsUsers} />
+				<ScrollAnimation
+					id="reviewsUsers-bloc"
+					styleBeforeTransition={{
+						opacity: "0",
+						transition: "opacity 2s, margin-top 2s",
+						marginTop: "-50px"
+					}}
+					styleAfterTransition={{
+						opacity: "1",
+						marginTop: "0px"
+					}}
+				>
+					<ReviewsUsers reviewsUsers={reviewsUsers} />
+				</ScrollAnimation>
 			</section>
 		</main>
 	);

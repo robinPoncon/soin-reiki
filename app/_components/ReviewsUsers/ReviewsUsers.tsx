@@ -70,7 +70,7 @@ const ReviewsUsers = ({
 		  ];
 
 	return (
-		<div className="flex gap-12 justify-center">
+		<div className={`flex gap-12 justify-center ${isOnlyToShow ? "text-customWhite" : ""}`}>
 			{!isOnlyToShow && (
 				<button
 					onClick={handleClickPrevious}
