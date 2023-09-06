@@ -20,7 +20,8 @@ const config: Config = {
 				darkBackground: "#0b3242",
 				customWhite: "#fcf2d9",
 				blueGreen: "#3ad9bc",
-				customYellow: "#fdd542"
+				customYellow: "#fdd542",
+				darkTurquoiseLighter: "#148bad"
 			},
 			boxShadow: {
 				blueGreen: "0 0 10px #3ad9bc",

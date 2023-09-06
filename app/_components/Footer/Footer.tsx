@@ -7,18 +7,17 @@ import { useDatas } from "@/_context/ReviewsUsersDataContext";
 
 const Footer = () => {
 	const { reviewsUsers } = useDatas();
-	console.log(reviewsUsers);
 
 	return (
-		<footer className="bg-darkTurquoise text-customWhite p-5">
-			<div className="flex justify-around">
+		<footer className="bg-darkTurquoise text-darkTurquoiseLighter p-5">
+			<div className="flex justify-around mt-8">
 				<div className="flex justify-center gap-20">
 					<div className="mt-5">
-						<h3 className="mb-3 italic borderBottomBlue">NAVIGATION</h3>
+						<h3 className="mb-3 italic borderBottomYellow text-sm">NAVIGATION</h3>
 						<ul>
 							<li>
 								<Link
-									className="greenLight"
+									className="lightHover"
 									href="/"
 								>
 									Accueil
@@ -26,7 +25,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									className="greenLight"
+									className="lightHover"
 									href="/soin-reiki"
 								>
 									Soin reiki
@@ -34,7 +33,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									className="greenLight"
+									className="lightHover"
 									href="/tarifs"
 								>
 									Tarifs
@@ -42,7 +41,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									className="greenLight"
+									className="lightHover"
 									href="/reservation"
 								>
 									Réservation
@@ -50,7 +49,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									className="greenLight"
+									className="lightHover"
 									href="/contact"
 								>
 									Contact
@@ -58,15 +57,15 @@ const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="mt-5">
-						<h3 className="mb-3 italic borderBottomBlue">À PROPOS</h3>
+					<div className="mt-5 text-sm">
+						<h3 className="mb-3 italic borderBottomYellow">À PROPOS</h3>
 						<p>Robin Ponçon</p>
 						<p>59 rue Pierre Renaudel</p>
 						<p>33130 Bègles</p>
 						<p>
 							E-mail:{" "}
 							<a
-								className="greenLight"
+								className="lightHover"
 								href="mailto:poncon.robin@gmail.com"
 							>
 								poncon.robin@gmail.com
@@ -74,11 +73,11 @@ const Footer = () => {
 						</p>
 					</div>
 					<div className="mt-5">
-						<h3 className="mb-3 italic borderBottomBlue">INFORMATIONS</h3>
+						<h3 className="mb-3 italic borderBottomYellow text-sm">INFORMATIONS</h3>
 						<ul>
 							<li>
 								<Link
-									className="greenLight"
+									className="lightHover"
 									href="/mentions-legales"
 								>
 									Mentions légales
@@ -86,7 +85,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									className="greenLight"
+									className="lightHover"
 									href="/protection-donnee"
 								>
 									Protection des données
@@ -94,7 +93,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<Link
-									className="greenLight"
+									className="lightHover"
 									href="/certifications"
 								>
 									Mes certifications

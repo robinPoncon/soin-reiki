@@ -1,14 +1,14 @@
 footer {
-	.greenLight {
-		color: #fcf2d9;
-		font-size: 16px;
+	.lightHover {
+		color: #148bad;
+		font-size: 14px;
 		transition: color 0.5s, text-shadow 0.5s;
 		&:hover {
-			color: #3ad9bc;
-			text-shadow: #3ad9bc 0px 0px 10px;
+			color: #fcf2d9;
+			text-shadow: #fcf2d9 0px 0px 10px;
 		}
 	}
-	.borderBottomBlue {
+	.borderBottomYellow {
 		border-bottom: 2px solid var(--customYellow);
 		width: fit-content;
 	}
