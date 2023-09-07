@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const SoinReikiPage = () => {
 	return (
-		<section className="mt-40 px-24">
+		<section className="pt-20 px-24">
 			<h1 className="text-3xl mb-12">
 				Comment se passe concrètement un{" "}
 				<strong className="italic text-blueGreen">Soin Reiki</strong> avec moi ?

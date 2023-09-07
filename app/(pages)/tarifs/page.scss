@@ -13,10 +13,10 @@
 		padding: 20px;
 	}
 	.blockOffer1 {
-		border: 5px double var(--blueGreen);
+		border: 5px double var(--customYellow);
 	}
 	.blockOffer2 {
-		border: 5px double var(--customYellow);
+		border: 5px double var(--blueGreen);
 	}
 	.blockOffer3 {
 		border: 5px double pink;
@@ -31,28 +31,51 @@
 		border-radius: 10px;
 	}
 	.separator1 {
-		background-color: var(--blueGreen);
+		background-color: var(--customYellow);
 	}
 	.separator2 {
-		background-color: var(--customYellow);
+		background-color: var(--blueGreen);
 	}
 	.separator3 {
 		background-color: pink;
 	}
 
 	.bottom1 {
-		background-color: var(--blueGreen);
-		border-radius: 5px;
-		padding: 10px;
-	}
-	.bottom2 {
 		background-color: var(--customYellow);
 		border-radius: 5px;
-		padding: 10px;
+		padding: 10px 15px;
+		margin-left: 10px;
+		font-style: italic;
+		font-weight: 600;
+	}
+	.bottom2 {
+		background-color: var(--blueGreen);
+		border-radius: 5px;
+		padding: 10px 15px;
+		margin-left: 10px;
+		font-style: italic;
+		font-weight: 600;
 	}
 	.bottom3 {
 		background-color: pink;
 		border-radius: 5px;
-		padding: 10px;
+		padding: 10px 15px;
+		margin-left: 10px;
+		font-style: italic;
+		font-weight: 600;
+	}
+
+	.linkGuidance {
+		transition: text-shadow 0.5s;
+		&:hover {
+			text-shadow: 0 0 10px var(--customYellow);
+		}
+	}
+
+	.linkReiki {
+		transition: text-shadow 0.5s;
+		&:hover {
+			text-shadow: 0 0 10px var(--blueGreen);
+		}
 	}
 }

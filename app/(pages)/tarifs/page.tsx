@@ -3,11 +3,11 @@ import "./page.scss";
 
 const TarifsPage = () => {
 	return (
-		<section className="tarifsPageComponent">
-			<h1 className="text-4xl mb-20 mt-40 mx-auto w-fit customBorderBlue p-4">
+		<section className="pt-20 tarifsPageComponent">
+			<h1 className="text-4xl mb-20 mx-auto w-fit customBorderBlue p-4">
 				Tarifs de mes Prestations
 			</h1>
-			<div className="flex justify-around mb-20">
+			<div className="flex justify-around pb-20">
 				<article className="w-1/3 max-w-xs blockOffer1">
 					<h2 className="text-lg font-semibold italic text-center">
 						Guidance Tirage de Carte <br />
@@ -17,7 +17,14 @@ const TarifsPage = () => {
 					<p className="text-justify">
 						Lors de cette séance, je réalise un tirage de 5 cartes minimum, accompagné
 						de quelques oracles pour vous guider. Pour plus de détails sur le processus,
-						consultez la <Link href="/guidance">page dédiée</Link>.
+						consultez la{" "}
+						<Link
+							className="linkGuidance"
+							href="/guidance"
+						>
+							page dédiée
+						</Link>
+						.
 					</p>
 					<p className="separator1"></p>
 					<p>
@@ -25,7 +32,7 @@ const TarifsPage = () => {
 						<span className="italic"> 30 minutes à 45 minutes</span>
 					</p>
 					<p className="text-lg mt-5">
-						<strong>Prix :</strong> <span className="italic bottom1">50 €</span>
+						<strong>Prix :</strong> <span className="bottom1">50 €</span>
 					</p>
 				</article>
 				<article className="w-1/3 max-w-xs blockOffer2">
@@ -37,7 +44,13 @@ const TarifsPage = () => {
 						Le Soin Reiki Complet est une expérience classique et complète qui se
 						déroule sur une table de massage. Vous pouvez en savoir plus sur le
 						déroulement d'une séance sur cette{" "}
-						<Link href="/soin-reiki">page dédiée</Link>.
+						<Link
+							className="linkReiki"
+							href="/soin-reiki"
+						>
+							page dédiée
+						</Link>
+						.
 					</p>
 					<p className="separator2"></p>
 					<p>
@@ -45,7 +58,7 @@ const TarifsPage = () => {
 						<span className="italic">45 minutes à 1 heure</span>
 					</p>
 					<p className="text-lg mt-5">
-						<strong>Prix :</strong> <span className="italic bottom2">60 €</span>
+						<strong>Prix :</strong> <span className="bottom2">60 €</span>
 					</p>
 				</article>
 
@@ -65,7 +78,7 @@ const TarifsPage = () => {
 						<span className="italic">1 heure à 1 heure 30</span>
 					</p>
 					<p className="text-lg mt-5">
-						<strong>Prix :</strong> <span className="italic bottom3">90 €</span>
+						<strong>Prix :</strong> <span className="bottom3">90 €</span>
 					</p>
 				</article>
 			</div>
