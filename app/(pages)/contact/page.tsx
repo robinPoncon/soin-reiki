@@ -92,12 +92,13 @@ const ContactPage = () => {
 	);
 
 	return (
-		<div className={`mt-40 ${isLoading ? "blur-md" : ""}`}>
+		<div className={`pt-20 ${isLoading ? "blur-md" : ""}`}>
 			<h1 className="text-3xl mb-8 pl-24">Ensemble vers votre rééquilibre énergétique !</h1>
 			<h2 className="text-base mb-8 pl-24 w-2/4 italic text-justify">
 				Je suis là pour répondre à toutes vos questions et vous fournir des informations
-				détaillées sur le <strong>Soin Reiki</strong>. Utilisez simplement le formulaire
-				ci-dessous pour me contacter, et je vous répondrai dans les plus brefs délais !
+				détaillées sur le <strong>Soin Reiki</strong> ou sur les{" "}
+				<strong>guidances en tirage de cartes</strong>. Utilisez simplement le formulaire
+				ci-dessous pour me contacter, et je vous répondrai dans les meilleurs délais !
 			</h2>
 			<div className="flex justify-between">
 				<form

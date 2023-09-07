@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">
-			<body className="font-helvetica mt-20 bg-customWhite text-darkTurquoise">
+			<body className="font-helvetica pt-20 bg-customWhite text-darkTurquoise">
 				<FlashMessagesProvider>
 					<LoaderProvider>
 						<ReviewsUsersDataProvider>
