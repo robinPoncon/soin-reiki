@@ -9,8 +9,8 @@ const CertificationsPage = () => {
 	};
 
 	return (
-		<section className="pt-20 bg-darkBackground text-customWhite">
-			<h1 className="text-4xl mb-20 mx-auto w-fit customBorderYellow p-4">
+		<section className="pt-20">
+			<h1 className="text-4xl mb-20 mx-auto w-fit customBorderBlue p-4">
 				Mes certifications
 			</h1>
 			<div className="flex justify-around">
