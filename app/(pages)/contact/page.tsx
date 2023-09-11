@@ -4,7 +4,6 @@ import CustomInput from "../../_components/Form/CustomInput/CustomInput";
 import CustomTextarea from "../../_components/Form/CustomTextarea/CustomTextarea";
 import useCustomForm from "../../_components/Form/UseCustomForm/UseCustomForm";
 import Image from "next/image";
-import "./page.scss";
 import { formDataToObject } from "@/_utils/form";
 import { useContext } from "react";
 import FlashMessagesContext from "@/_context/FlashMessagesContext";
@@ -93,7 +92,9 @@ const ContactPage = () => {
 
 	return (
 		<div className={`pt-20 ${isLoading ? "blur-md" : ""}`}>
-			<h1 className="text-4xl mb-10 mx-auto w-fit customBorderBlue p-4">Ensemble vers votre rééquilibre énergétique !</h1>
+			<h1 className="text-4xl mb-20 mx-auto w-fit customBorderBlue p-4">
+				Ensemble vers votre rééquilibre énergétique !
+			</h1>
 			<h2 className="text-base mb-8 pl-24 w-2/4 italic text-justify">
 				Je suis là pour répondre à toutes vos questions et vous fournir des informations
 				détaillées sur le <strong>Soin Reiki</strong> ou sur les{" "}
@@ -155,7 +156,7 @@ const ContactPage = () => {
 						/>
 					</div>
 					<button
-						className={`submitBtn ${isSubmitBtnDisabled ? "disabledBtn" : ""}`}
+						className={`actionBtn ${isSubmitBtnDisabled ? "disabledBtn" : ""}`}
 						type="submit"
 					>
 						Envoyer
