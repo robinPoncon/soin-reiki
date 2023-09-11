@@ -1,0 +1,12 @@
+.soinReikiPageComponent {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+	padding: 5rem 6rem;
+	.customImg {
+		border: 5px double var(--customYellow);
+		border-radius: 4px;
+        // margin-top: auto;
+        // margin-bottom: auto;
+	}
+}

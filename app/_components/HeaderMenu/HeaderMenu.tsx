@@ -89,9 +89,10 @@ const HeaderMenu = () => {
 					<Image
 						className="logo"
 						alt="Logo du site internet avec un arbre et de l'énergie"
-						src="/logos/website-logo.png"
+						src="/logos/logo_website.png"
 						height={100}
 						width={100}
+						priority
 					/>
 				</Link>
 			</nav>

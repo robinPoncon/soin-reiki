@@ -1,4 +1,4 @@
-import "./globals.css";
+import "./globals.scss";
 import type { Metadata } from "next";
 import HeaderMenu from "./_components/HeaderMenu/HeaderMenu";
 import { FlashMessagesProvider } from "./_context/FlashMessagesContext";
