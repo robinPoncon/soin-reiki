@@ -3,9 +3,8 @@ import Link from "next/link";
 const SoinReikiPage = () => {
 	return (
 		<section className="pt-20 px-24">
-			<h1 className="text-3xl mb-12">
-				Comment se passe concrètement un{" "}
-				<strong className="italic text-blueGreen">Soin Reiki</strong> avec moi ?
+			<h1 className="text-4xl mb-10 mx-auto w-fit customBorderBlue p-4">
+				Déroulement d'un soin reiki
 			</h1>
 			<article>
 				<h2 className="text-2xl">Étape 1 : Préparation Bienveillante</h2>
@@ -46,12 +45,12 @@ const SoinReikiPage = () => {
 				<h2 className="text-2xl">Prenez Contact pour en Savoir Plus</h2>
 				<p className="text-justify">
 					Si vous désirez en savoir davantage sur les bienfaits du Reiki ou pour toute
-					autre information, n'hésitez pas à me laisser un message{" "}
+					autre information, n'hésitez pas à me laisser un message via la{" "}
 					<Link
-						className="text-blueGreen font-bold"
+						className="redirectLink"
 						href="/contact"
 					>
-						Ici
+						page de contact
 					</Link>
 					. Je serai ravi de vous répondre et de vous accompagner dans votre quête de
 					bien-être.

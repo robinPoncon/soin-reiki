@@ -37,3 +37,12 @@
 	pointer-events: none;
 	opacity: 0.7;
 }
+
+.redirectLink {
+	font-weight: 600;
+	font-style: italic;
+	transition: text-shadow 0.5s;
+	&:hover {
+		text-shadow: 0 0 10px var(--blueGreen);
+	}
+}

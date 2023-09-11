@@ -1,5 +1,4 @@
 import Link from "next/link";
-import "./page.scss";
 
 const MentionsLegalesPage = () => {
 	return (
@@ -69,7 +68,7 @@ const MentionsLegalesPage = () => {
 				<h2 className="text-3xl mb-2">Liens externes</h2>
 				<p>
 					Ce site peut contenir des liens vers des sites web externes. Je ne suis pas
-					responsables du contenu ou des pratiques de confidentialité de ces sites, et je
+					responsable du contenu ou des pratiques de confidentialité de ces sites, et je
 					vous encourage à consulter leurs propres politiques de confidentialité et
 					mentions légales.
 				</p>
