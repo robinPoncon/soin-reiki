@@ -93,7 +93,7 @@ const ContactPage = () => {
 
 	return (
 		<div className={`pt-20 ${isLoading ? "blur-md" : ""}`}>
-			<h1 className="text-3xl mb-8 pl-24">Ensemble vers votre rééquilibre énergétique !</h1>
+			<h1 className="text-4xl mb-10 mx-auto w-fit customBorderBlue p-4">Ensemble vers votre rééquilibre énergétique !</h1>
 			<h2 className="text-base mb-8 pl-24 w-2/4 italic text-justify">
 				Je suis là pour répondre à toutes vos questions et vous fournir des informations
 				détaillées sur le <strong>Soin Reiki</strong> ou sur les{" "}

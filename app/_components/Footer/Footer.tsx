@@ -13,7 +13,7 @@ const Footer = () => {
 			<div className="flex justify-around mt-8">
 				<div className="flex justify-center gap-20">
 					<div className="mt-5">
-						<h3 className="mb-3 italic borderBottomYellow text-sm">NAVIGATION</h3>
+						<h3 className="mb-2 italic font-semibold tracking-widest">NAVIGATION</h3>
 						<ul>
 							<li>
 								<Link
@@ -65,12 +65,12 @@ const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="mt-5 text-sm">
-						<h3 className="mb-3 italic borderBottomYellow">À PROPOS</h3>
-						<p>Robin Ponçon</p>
-						<p>59 rue Pierre Renaudel</p>
-						<p>33130 Bègles</p>
-						<p>
+					<div className="mt-5">
+						<h3 className="mb-2 italic font-semibold tracking-widest">À PROPOS</h3>
+						<p className="text-sm">Robin Ponçon</p>
+						<p className="text-sm">59 rue Pierre Renaudel</p>
+						<p className="text-sm">33130 Bègles</p>
+						<p className="text-sm">
 							E-mail:{" "}
 							<a
 								className="lightHover"
@@ -81,7 +81,7 @@ const Footer = () => {
 						</p>
 					</div>
 					<div className="mt-5">
-						<h3 className="mb-3 italic borderBottomYellow text-sm">INFORMATIONS</h3>
+						<h3 className="mb-2 italic font-semibold tracking-widest">INFORMATIONS</h3>
 						<ul>
 							<li>
 								<Link
