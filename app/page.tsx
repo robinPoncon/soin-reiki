@@ -379,7 +379,7 @@ const MainPage = () => {
 						}}
 					>
 						<Image
-							className="rounded-xl mb-12 shadow-customYellow"
+							className="customImg"
 							alt="photo de profil de robin ponçon"
 							src="/my-picture.png"
 							width={150}

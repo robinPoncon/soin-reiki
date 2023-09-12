@@ -61,3 +61,13 @@
 		color: #3ad9bc;
 	}
 }
+
+.customImgYellow {
+	border: 5px double var(--customYellow);
+	border-radius: 4px;
+}
+
+.customImgBlueGreen {
+	border: 5px double var(--blueGreen);
+	border-radius: 4px;
+}
