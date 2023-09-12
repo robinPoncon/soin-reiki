@@ -164,7 +164,7 @@ const ContactPage = () => {
 				</form>
 				<figure className="w-1/3 pr-24">
 					<Image
-						className="m-auto rounded-[20px]"
+						className="m-auto customImgBlueGreen"
 						alt="illustration d'un envoi d'email"
 						src="/illustrations/illustration-mail.png"
 						height={350}

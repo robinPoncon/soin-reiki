@@ -1,10 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import "./page.scss";
 
 const SoinReikiPage = () => {
 	return (
-		<section className="soinReikiPageComponent">
+		<section className="flex flex-col gap-20 py-20 px-24">
 			<h1 className="text-4xl mx-auto w-fit customBorderBlue p-4">
 				Déroulement d'un soin reiki
 			</h1>
@@ -14,7 +13,7 @@ const SoinReikiPage = () => {
 				</h2>
 				<div className="flex justify-center gap-10 mt-5">
 					<Image
-						className="customImg"
+						className="customImgBlueGreen"
 						alt="illustration of discussion between two people"
 						src="/illustrations/illustration_discussion.png"
 						width={320}
@@ -46,7 +45,7 @@ const SoinReikiPage = () => {
 						processus naturel de la circulation de l'énergie en vous.
 					</p>
 					<Image
-						className="customImg"
+						className="customImgBlueGreen"
 						alt="illustration of discussion between two people"
 						src="/illustrations/illustration_energetic-heal.png"
 						width={320}
@@ -60,7 +59,7 @@ const SoinReikiPage = () => {
 				</h2>
 				<div className="flex justify-center gap-10 mt-5">
 					<Image
-						className="customImg"
+						className="customImgBlueGreen"
 						alt="illustration of discussion between two people"
 						src="/illustrations/illustration_calendar.png"
 						width={320}
