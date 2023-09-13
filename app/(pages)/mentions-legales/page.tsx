@@ -46,7 +46,7 @@ const MentionsLegalesPage = () => {
 					personnelles conformément à la politique de protection des données. Veuillez
 					vous référer à{" "}
 					<Link
-						className="redirectLink"
+						className="redirectLinkBlue"
 						href="/protection-donnee"
 					>
 						cette dernière
@@ -79,7 +79,7 @@ const MentionsLegalesPage = () => {
 					Si vous avez des questions concernant ces mentions légales ou le site en
 					général, n'hésitez pas à me contacter grâce au{" "}
 					<Link
-						className="redirectLink"
+						className="redirectLinkBlue"
 						href="/contact"
 					>
 						formulaire de contact

@@ -33,17 +33,42 @@
 	box-shadow: 0 0 10px #fdd542;
 }
 
+.customBorderPink {
+	border-bottom: 7px double pink;
+	border-top: 7px double pink;
+	border-radius: 30px;
+	box-shadow: 0 0 10px pink;
+}
+
 .disabledBtn {
 	pointer-events: none;
 	opacity: 0.7;
 }
 
-.redirectLink {
+.redirectLinkBlue {
 	font-weight: 600;
 	font-style: italic;
 	transition: text-shadow 0.5s;
 	&:hover {
 		text-shadow: 0 0 10px var(--blueGreen);
+	}
+}
+
+.redirectLinkYellow {
+	font-weight: 600;
+	font-style: italic;
+	transition: text-shadow 0.5s;
+	&:hover {
+		text-shadow: 0 0 10px var(--customYellow);
+	}
+}
+
+.redirectLinkPink {
+	font-weight: 600;
+	font-style: italic;
+	transition: text-shadow 0.5s;
+	&:hover {
+		text-shadow: 0 0 10px pink;
 	}
 }
 
