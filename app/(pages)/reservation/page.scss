@@ -3,4 +3,12 @@
 	iframe {
 		outline: none;
 	}
+	.hidePartOfIframe {
+		background-color: var(--customWhite);
+		position: relative;
+		z-index: 1;
+		height: 100px;
+		margin-bottom: -120px;
+		margin-top: 10px;
+	}
 }

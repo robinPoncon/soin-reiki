@@ -379,7 +379,7 @@ const MainPage = () => {
 						}}
 					>
 						<Image
-							className="customImg"
+							className="customImgYellow"
 							alt="photo de profil de robin ponçon"
 							src="/my-picture.png"
 							width={150}
