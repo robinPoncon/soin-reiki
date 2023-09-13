@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SoinReikiPage = () => {
 	return (
-		<section className="flex flex-col gap-20 py-20 px-24">
+		<section className="flex flex-col gap-24 py-20 px-24">
 			<h1 className="text-4xl mx-auto w-fit customBorderBlue p-4">
 				Déroulement d'un soin reiki
 			</h1>
@@ -11,7 +11,7 @@ const SoinReikiPage = () => {
 				<h2 className="text-2xl text-center font-semibold italic">
 					Étape 1 : Une Préparation Bienveillante
 				</h2>
-				<div className="flex justify-center gap-10 mt-5">
+				<div className="flex justify-center gap-10 mt-10">
 					<Image
 						className="customImgBlueGreen"
 						alt="illustration of discussion between two people"
@@ -33,7 +33,7 @@ const SoinReikiPage = () => {
 				<h2 className="text-2xl text-center font-semibold italic">
 					Étape 2 : L'Harmonie Énergétique{" "}
 				</h2>
-				<div className="flex justify-center gap-10 mt-5">
+				<div className="flex justify-center gap-10 mt-10">
 					<p className="text-justify max-w-xs my-auto">
 						Pendant le soin, vous restez confortablement vêtu(e) allongé(e) sur une
 						table de massage standard. L'objectif est que vous soyez à l'aise, et
@@ -57,7 +57,7 @@ const SoinReikiPage = () => {
 				<h2 className="text-2xl text-center font-semibold italic">
 					Étape 3 : Intégration et Planification{" "}
 				</h2>
-				<div className="flex justify-center gap-10 mt-5">
+				<div className="flex justify-center gap-10 mt-10">
 					<Image
 						className="customImgBlueGreen"
 						alt="illustration of discussion between two people"
@@ -77,10 +77,10 @@ const SoinReikiPage = () => {
 			</article>
 			<article className="mx-auto max-w-2xl">
 				<h2 className="text-2xl text-center font-semibold italic">Pour aller plus loin</h2>
-				<p className="text-center mt-5">
+				<p className="text-center mt-10">
 					Envie de tenter l'expérience ?{" "}
 					<Link
-						className="redirectLink"
+						className="redirectLinkBlue"
 						href="/reservation"
 					>
 						Je réserve ma séance.
@@ -91,7 +91,7 @@ const SoinReikiPage = () => {
 					Si vous désirez en savoir davantage sur les bienfaits du Reiki ou pour toute
 					autre information, n'hésitez pas à me laisser un message via la{" "}
 					<Link
-						className="redirectLink"
+						className="redirectLinkBlue"
 						href="/contact"
 					>
 						page de contact.

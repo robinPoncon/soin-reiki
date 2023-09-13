@@ -5,7 +5,7 @@ import "./page.scss";
 const ReservationPage = () => {
 	return (
 		<section className="reservationPageComponent">
-			<h1 className="text-4xl mx-auto w-fit customBorderBlue p-4">Réserver ma séance</h1>
+			<h1 className="text-4xl mx-auto w-fit customBorderPink p-4">Réserver ma séance</h1>
 			<div className="mt-12 relative z-10 -mb-20">
 				<h2 className="text-2xl text-center font-semibold italic">
 					Important à savoir avant de réserver !
@@ -15,7 +15,7 @@ const ReservationPage = () => {
 					! Pour un rendez-vous à distance merci de bien vouloir me contacter par email ou
 					via{" "}
 					<Link
-						className="redirectLink"
+						className="redirectLinkPink"
 						href="/contact"
 					>
 						page de contact

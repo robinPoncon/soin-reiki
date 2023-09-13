@@ -3,13 +3,13 @@ import Link from "next/link";
 
 const GuidancePage = () => {
 	return (
-		<section className="flex flex-col gap-20 py-20 px-24">
-			<h1 className="text-4xl mx-auto w-fit customBorderBlue p-4">
+		<section className="flex flex-col gap-24 py-20 px-24">
+			<h1 className="text-4xl mx-auto w-fit customBorderYellow p-4">
 				Déroulement d'une guidance
 			</h1>
 			<article>
 				<h2 className="text-2xl text-center font-semibold italic">En présentiel</h2>
-				<div className="flex justify-center gap-10 mt-5">
+				<div className="flex justify-center gap-10 mt-10">
 					<Image
 						className="customImgYellow max-h-80 my-auto"
 						alt="illustration of discussion between two people"
@@ -33,7 +33,7 @@ const GuidancePage = () => {
 			</article>
 			<article>
 				<h2 className="text-2xl text-center font-semibold italic">À distance</h2>
-				<div className="flex justify-center gap-10 mt-5">
+				<div className="flex justify-center gap-10 mt-10">
 					<p className="text-justify max-w-sm my-auto">
 						Tout d'abord, notre processus démarre par un échange par courrier
 						électronique par sms ou par appel, afin de définir votre question et de la
@@ -60,7 +60,7 @@ const GuidancePage = () => {
 				<h2 className="text-2xl text-center font-semibold italic">
 					Important à savoir avant une guidance
 				</h2>
-				<div className="flex justify-center gap-10 mt-5">
+				<div className="flex justify-center gap-10 mt-10">
 					<Image
 						className="customImgYellow max-h-80 my-auto"
 						alt="illustration of discussion between two people"
@@ -86,21 +86,21 @@ const GuidancePage = () => {
 			</article>
 			<article className="mx-auto max-w-2xl">
 				<h2 className="text-2xl text-center font-semibold italic">Pour aller plus loin</h2>
-				<p className="text-center mt-5">
+				<p className="text-center mt-10">
 					Envie de tenter l'expérience ?{" "}
 					<Link
-						className="redirectLink"
+						className="redirectLinkYellow"
 						href="/reservation"
 					>
 						Je réserve ma séance.
 					</Link>
 				</p>
 
-				<p className="text-center mt-5">
+				<p className="text-center mt-10">
 					Si vous désirez en savoir davantage sur les guidances en tirage de carte ou pour
 					toute autre information, n'hésitez pas à me laisser un message via la{" "}
 					<Link
-						className="redirectLink"
+						className="redirectLinkYellow"
 						href="/contact"
 					>
 						page de contact.
