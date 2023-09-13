@@ -71,7 +71,7 @@ const Footer = () => {
 						<p className="text-sm">59 rue Pierre Renaudel</p>
 						<p className="text-sm">33130 Bègles</p>
 						<p className="text-sm">
-							E-mail:{" "}
+							Email:{" "}
 							<a
 								className="lightHover"
 								href="mailto:poncon.robin@gmail.com"

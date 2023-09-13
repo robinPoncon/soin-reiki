@@ -75,7 +75,7 @@ const SoinReikiPage = () => {
 					</p>
 				</div>
 			</article>
-			<section className="mx-auto max-w-2xl">
+			<article className="mx-auto max-w-2xl">
 				<h2 className="text-2xl text-center font-semibold italic">Pour aller plus loin</h2>
 				<p className="text-center mt-5">
 					Envie de tenter l'expérience ?{" "}
@@ -83,7 +83,7 @@ const SoinReikiPage = () => {
 						className="redirectLink"
 						href="/reservation"
 					>
-						Je réserve ma séance
+						Je réserve ma séance.
 					</Link>
 				</p>
 
@@ -94,11 +94,10 @@ const SoinReikiPage = () => {
 						className="redirectLink"
 						href="/contact"
 					>
-						page de contact
+						page de contact.
 					</Link>
-					.
 				</p>
-			</section>
+			</article>
 		</section>
 	);
 };

@@ -20,7 +20,7 @@ const ProtectionDonneePage = () => {
 				</p>
 				<p>
 					<strong>- Informations d'identification</strong> : Votre nom, votre prénom,
-					votre numéro de téléphone, votre adresse e-mail et éventuellement d'autres
+					votre numéro de téléphone, votre adresse email et éventuellement d'autres
 					coordonnées que vous choisissez de me fournir via mes formulaires de contact.
 				</p>
 				<p>

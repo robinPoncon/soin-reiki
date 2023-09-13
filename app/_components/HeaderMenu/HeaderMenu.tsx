@@ -15,6 +15,11 @@ const HeaderMenu = () => {
 
 	return (
 		<header className={`headerComponent ${isLoading ? "blur" : ""}`}>
+			<div>
+				<p className="websiteName">
+					Les racines <br /> de la guérison
+				</p>
+			</div>
 			<nav>
 				<ul className="flex justify-center gap-5 h-full ml-9">
 					<li className="showServices">

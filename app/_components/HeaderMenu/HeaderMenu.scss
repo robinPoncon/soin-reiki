@@ -20,6 +20,17 @@
 		}
 	}
 
+	.websiteName {
+		color: var(--customWhite);
+		font-size: 20px;
+		font-weight: bold;
+		position: absolute;
+		left: 20px;
+		top: 10px;
+		font-style: italic;
+		text-align: center;
+	}
+
 	.showServices {
 		position: relative;
 		&:hover .servicesText {

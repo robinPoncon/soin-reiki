@@ -19,7 +19,7 @@ const MentionsLegalesPage = () => {
 					<strong>- Adresse</strong> : 59 rue Pierre Renaudel 33130 Bègles
 				</p>
 				<p>
-					<strong>- Adresse e-mail</strong> : poncon.robin@gmail.com
+					<strong>- Adresse email</strong> : poncon.robin@gmail.com
 				</p>
 			</article>
 			<article>
@@ -84,7 +84,7 @@ const MentionsLegalesPage = () => {
 					>
 						formulaire de contact
 					</Link>{" "}
-					ou directement à l'adresse e-mail suivante : poncon.robin@gmail.com
+					ou directement à l'adresse email suivante : poncon.robin@gmail.com
 				</p>
 			</article>
 		</section>
