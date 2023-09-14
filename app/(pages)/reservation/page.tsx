@@ -13,7 +13,7 @@ const ReservationPage = () => {
 				<p className="text-justify mt-5 max-w-lg mx-auto">
 					Les réservations se font uniquement pour les prises de rendez-vous en présentiel
 					! Pour un rendez-vous à distance merci de bien vouloir me contacter par email ou
-					via{" "}
+					via la{" "}
 					<Link
 						className="redirectLinkPink"
 						href="/contact"

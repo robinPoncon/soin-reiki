@@ -14,36 +14,37 @@ export const ReviewsUsersDataProvider = ({ children }: { children: ReactNode }) 
 		setReviewsUsers([
 			{
 				id: 1,
-				name: "Jean-Michèle",
+				name: "Adeline P",
 				comment:
-					"Je ne connaissais pas cette méthode de soin énergétique et je dois avouer que j'ai été bluffer par son efficacité !",
+					"Pour ma première séance de reiki je me suis senti vraiment bien, les douleurs se sont rapidement atténuées, je recommande !",
 				note: 5
 			},
 			{
 				id: 2,
-				name: "Maelly",
+				name: "Elsa D",
 				comment:
-					"Grâce à Robin j'ai pu récupérer un sommeil convenable après 2 ans de bataille d'insomnies",
+					"J'ai fait deux séances de Reiki avec Robin, qui m'ont beaucoup aidée à apaiser des peines et me sentir plus légère. Après la séance, Robin a su poser des mots sur des émotions que je n'arrivais pas à cerner moi-même. Je ne peux que recommander !",
 				note: 5
 			},
 			{
 				id: 3,
-				name: "Antoine",
+				name: "Antoine D",
 				comment:
 					"C'était un ancien collègue et je dois dire que ses capacités de guérisons sont très efficace sur des brûlures.",
 				note: 4
 			},
 			{
 				id: 4,
-				name: "Peggy",
+				name: "Adeline P",
 				comment:
 					"A chaque fois soin que j'effectue avec Robin c'est un moment de bonheur et de détente profonde. Je recommande à 100% !",
 				note: 5
 			},
 			{
 				id: 5,
-				name: "Robin",
-				comment: "C'était une belle découverte ! Ses tirages de carte m'ont parlé.",
+				name: "Frédéric P",
+				comment:
+					"J'avais des douleurs au ventre depuis deux mois et en quelques séances, les douleurs ont disparu !",
 				note: 4
 			}
 		]);

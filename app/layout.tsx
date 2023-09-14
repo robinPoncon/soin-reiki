@@ -5,6 +5,7 @@ import { FlashMessagesProvider } from "./_context/FlashMessagesContext";
 import { LoaderProvider } from "./_context/LoaderContext";
 import Footer from "./_components/Footer/Footer";
 import { ReviewsUsersDataProvider } from "./_context/ReviewsUsersDataContext";
+import CookieBar from "./_components/CookieBar/CookieBar";
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 						<ReviewsUsersDataProvider>
 							<HeaderMenu />
 							{children}
+							<CookieBar />
 							<Footer />
 						</ReviewsUsersDataProvider>
 					</LoaderProvider>
