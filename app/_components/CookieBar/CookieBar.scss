@@ -1,0 +1,18 @@
+.cookieBarComponent {
+	background-color: var(--darkTurquoise);
+	color: var(--customWhite);
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+	bottom: 0;
+	padding: 15px;
+	width: 100%;
+	z-index: 10;
+	button {
+		transition: color 0.5s, text-shadow 0.5s;
+		&:hover {
+			color: var(--blueGreen);
+			text-shadow: 0 0 10px var(--blueGreen);
+		}
+	}
+}
