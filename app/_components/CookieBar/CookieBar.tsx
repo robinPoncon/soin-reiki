@@ -1,12 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./CookieBar.scss";
 
 const CookieBar = () => {
-	const [consent, setConsent] = useState<boolean | null>(
-		localStorage.getItem("cookieConsent") === "true" ? true : null
-	);
+	const [consent, setConsent] = useState<boolean | null>(false);
+
+	useEffect(() => {
+		setConsent(localStorage?.getItem("cookieConsent") === "true" ? true : null);
+	}, []);
 
 	const handleAccept = () => {
 		localStorage.setItem("cookieConsent", "true");
