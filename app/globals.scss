@@ -90,9 +90,17 @@
 .customImgYellow {
 	border: 5px double var(--customYellow);
 	border-radius: 4px;
+	box-shadow: 0 0 10px var(--customYellow);
 }
 
 .customImgBlueGreen {
 	border: 5px double var(--blueGreen);
 	border-radius: 4px;
+	box-shadow: 0 0 10px var(--blueGreen);
+}
+
+.customImgPink {
+	border: 5px double pink;
+	border-radius: 4px;
+	box-shadow: 0 0 10px pink;
 }

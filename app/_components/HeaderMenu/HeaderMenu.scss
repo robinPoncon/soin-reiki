@@ -67,6 +67,9 @@
 			width: 24px;
 			margin-top: -2px;
 			transition: background-image 0.5s;
+			&.activeLink {
+				background-image: url("/icons/icon_login-blue.svg");
+			}
 		}
 	}
 

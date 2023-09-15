@@ -106,8 +106,10 @@ const HeaderMenu = () => {
 				href="/connexion"
 				className="loginLinkBloc"
 			>
-				<p className="textContent">Connexion</p>
-				<p className="iconContent"></p>
+				<p className={`greenLight ${isActiveLink("/connexion") ? "activeLink" : ""}`}>
+					Connexion
+				</p>
+				<p className={`iconContent ${isActiveLink("/connexion") ? "activeLink" : ""}`}></p>
 			</Link>
 		</header>
 	);

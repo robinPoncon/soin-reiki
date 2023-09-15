@@ -14,9 +14,8 @@ export const ReviewsUsersDataProvider = ({ children }: { children: ReactNode }) 
 		setReviewsUsers([
 			{
 				id: 1,
-				name: "Adeline P",
-				comment:
-					"Pour ma première séance de reiki je me suis senti vraiment bien, les douleurs se sont rapidement atténuées, je recommande !",
+				name: "JB",
+				comment: "Sans hésitation je recommande !",
 				note: 5
 			},
 			{
@@ -28,14 +27,14 @@ export const ReviewsUsersDataProvider = ({ children }: { children: ReactNode }) 
 			},
 			{
 				id: 3,
-				name: "Antoine D",
+				name: "Adeline P",
 				comment:
-					"C'était un ancien collègue et je dois dire que ses capacités de guérisons sont très efficace sur des brûlures.",
-				note: 4
+					"Pour ma première séance de reiki je me suis senti vraiment bien, les douleurs se sont rapidement atténuées, je recommande !",
+				note: 5
 			},
 			{
 				id: 4,
-				name: "Adeline P",
+				name: "Michel",
 				comment:
 					"A chaque fois soin que j'effectue avec Robin c'est un moment de bonheur et de détente profonde. Je recommande à 100% !",
 				note: 5
