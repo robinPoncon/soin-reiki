@@ -1,10 +1,10 @@
 const ProtectionDonneePage = () => {
 	return (
-		<section className="my-20 px-24 flex flex-col gap-10 text-justify">
-			<h1 className="text-4xl mb-10 mx-auto w-fit customBorderBlue p-4">
+		<section className="flex flex-col gap-12 py-20 px-4 lg:px-24">
+			<h1 className="font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Protection des données
 			</h1>
-			<p>
+			<p className="text-justify">
 				Bienvenue sur ma page dédiée à la protection de vos données sur{" "}
 				<strong className="italic">Les racines de la guérison</strong>. Je tiens à vous
 				assurer que je prends très au sérieux la confidentialité et la sécurité de vos
@@ -13,17 +13,17 @@ const ProtectionDonneePage = () => {
 				données.
 			</p>
 			<article>
-				<h2 className="text-3xl mb-2">Collecte de vos données personnelles</h2>
-				<p className="mb-2">
+				<h2 className="text-2xl mb-2 font-semibold">Collecte de vos données personnelles</h2>
+				<p className="mb-2 text-justify">
 					Lorsque vous visitez mon site web, je peux collecter certaines informations
 					personnelles, notamment :
 				</p>
-				<p>
+				<p className="text-justify">
 					<strong>- Informations d'identification</strong> : Votre nom, votre prénom,
 					votre numéro de téléphone, votre adresse email et éventuellement d'autres
 					coordonnées que vous choisissez de me fournir via mes formulaires de contact.
 				</p>
-				<p>
+				<p className="text-justify">
 					<strong>- Informations échangées lors d'une séance</strong> : Dans un second
 					temps, je prévois de mettre en place un tableau de bord personnel où nous
 					pourrons répertorier toutes les informations échangées lors de nos séances de
@@ -31,7 +31,7 @@ const ProtectionDonneePage = () => {
 					les conseils et les guidances que nous avons partagés, tout en vous offrant la
 					possibilité de suivre de près votre évolution personnelle au fil du temps.
 				</p>
-				<p>
+				<p className="text-justify">
 					<strong>- Données de navigation</strong> : Les informations recueillies
 					automatiquement lorsque vous visitez mon site, telles que votre adresse IP, le
 					type de navigateur que vous utilisez, les pages que vous consultez et la manière
@@ -39,35 +39,35 @@ const ProtectionDonneePage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Utilisation de vos données personnelles</h2>
-				<p className="mb-2">
+				<h2 className="text-2xl mb-2 font-semibold">Utilisation de vos données personnelles</h2>
+				<p className="mb-2 text-justify">
 					J'utilise les données personnelles collectées pour les finalités suivantes :
 				</p>
-				<p>
+				<p className="text-justify">
 					<strong>- Répondre à vos demandes</strong> : Si vous me contactez via mon
 					formulaire de contact, j'utilise vos informations pour répondre à vos questions
 					ou demandes.
 				</p>
-				<p>
+				<p className="text-justify">
 					<strong>- Amélioration de mon site</strong> : Je peux utiliser les données de
 					navigation pour comprendre comment les visiteurs utilisent mon site et ainsi
 					l'améliorer en conséquence.
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Partage de vos données</h2>
-				<p className="mb-2">
+				<h2 className="text-2xl mb-2 font-semibold">Partage de vos données</h2>
+				<p className="mb-2 text-justify">
 					Je ne partage pas vos données personnelles avec des tiers, sauf dans le cas
 					suivant :
 				</p>
-				<p>
+				<p className="text-justify">
 					<strong>- Obligations légales</strong> : Je peux être tenu de divulguer vos
 					informations si la loi l'exige.
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Sécurité de vos données</h2>
-				<p>
+				<h2 className="text-2xl mb-2 font-semibold">Sécurité de vos données</h2>
+				<p className="text-justify">
 					Je prends des mesures de sécurité appropriées pour protéger vos données
 					personnelles contre la perte, l'accès non autorisé, la divulgation, la
 					modification ou la destruction. Cependant, aucune méthode de transmission sur
@@ -76,8 +76,8 @@ const ProtectionDonneePage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Vos droits</h2>
-				<p>
+				<h2 className="text-2xl mb-2 font-semibold">Vos droits</h2>
+				<p className="text-justify">
 					Vous avez le droit d'accéder à vos données personnelles, de les rectifier, de
 					les supprimer, de vous opposer au traitement ou de demander leur portabilité.
 					Pour exercer ces droits ou poser des questions sur ma politique de protection
@@ -86,8 +86,8 @@ const ProtectionDonneePage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Modifications de la politique</h2>
-				<p>
+				<h2 className="text-2xl mb-2 font-semibold">Modifications de la politique</h2>
+				<p className="text-justify">
 					Je me réserve le droit de mettre à jour cette politique de protection des
 					données à tout moment pour refléter les changements apportés à mes pratiques ou
 					aux exigences légales. Je vous encourage à consulter régulièrement cette page
