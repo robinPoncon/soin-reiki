@@ -7,7 +7,7 @@ const ReservationPage = () => {
 		<section className="reservationPageComponent">
 			<h1 className="text-4xl mx-auto w-fit customBorderPink p-4">Réserver ma séance</h1>
 			<div className="mt-12 mb-10">
-				<h2 className="text-2xl text-center font-semibold italic">
+				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Important à savoir avant de réserver !
 				</h2>
 				<p className="text-justify mt-5 max-w-lg mx-auto">

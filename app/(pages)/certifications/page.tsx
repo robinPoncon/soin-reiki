@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import "./page.scss";
 
 const CertificationsPage = () => {
 	const openImgInNewWindow = (path: string) => {

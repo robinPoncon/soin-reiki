@@ -13,7 +13,7 @@ const MentionsLegalesPage = () => {
 				prendre quelques instants pour lire les informations suivantes.
 			</p>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Responsable du site</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Responsable du site</h2>
 				<p className="flex flex-col">
 					<strong>- Nom du responsable :</strong>
 					<span className="italic ml-2">Robin Ponçon</span>
@@ -28,7 +28,7 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Hébergement</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Hébergement</h2>
 				{/* TODO maj herbegement */}
 				<p className="mb-2">Ce site est hébergé par : O2switch</p>
 				<p className="flex flex-col">
@@ -37,7 +37,7 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Propriété intellectuelle</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Propriété intellectuelle</h2>
 				<p className="mb-2 text-justify">
 					Le contenu de ce site, y compris textes, images, vidéos, et autres éléments, est
 					protégé par les lois sur la propriété intellectuelle. Tous les droits sont
@@ -46,7 +46,7 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Collecte de données personnelles</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Collecte de données personnelles</h2>
 				<p className="text-justify">
 					Lorsque vous visitez mon site, je peux collecter certaines informations
 					personnelles conformément à la politique de protection des données. Veuillez
@@ -62,7 +62,7 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Responsabilité</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Responsabilité</h2>
 				<p className="text-justify">
 					Je fais de mon mieux pour fournir des informations précises et à jour sur ce
 					site. Cependant, je ne peux garantir l'exactitude, la pertinence ou
@@ -71,7 +71,7 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Liens externes</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Liens externes</h2>
 				<p className="text-justify">
 					Ce site peut contenir des liens vers des sites web externes. Je ne suis pas
 					responsable du contenu ou des pratiques de confidentialité de ces sites, et je
@@ -80,7 +80,7 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Contact</h2>
+				<h2 className="text-2xl mb-2 font-semibold md:text-2xl">Contact</h2>
 				<p className="text-justify">
 					Si vous avez des questions concernant ces mentions légales ou le site en
 					général, n'hésitez pas à me contacter grâce au{" "}
