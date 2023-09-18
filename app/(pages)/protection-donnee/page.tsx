@@ -13,7 +13,7 @@ const ProtectionDonneePage = () => {
 				données.
 			</p>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Collecte de vos données personnelles</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Collecte de vos données personnelles</h2>
 				<p className="mb-2 text-justify">
 					Lorsque vous visitez mon site web, je peux collecter certaines informations
 					personnelles, notamment :
@@ -39,7 +39,7 @@ const ProtectionDonneePage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Utilisation de vos données personnelles</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Utilisation de vos données personnelles</h2>
 				<p className="mb-2 text-justify">
 					J'utilise les données personnelles collectées pour les finalités suivantes :
 				</p>
@@ -55,7 +55,7 @@ const ProtectionDonneePage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Partage de vos données</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Partage de vos données</h2>
 				<p className="mb-2 text-justify">
 					Je ne partage pas vos données personnelles avec des tiers, sauf dans le cas
 					suivant :
@@ -66,7 +66,7 @@ const ProtectionDonneePage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Sécurité de vos données</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Sécurité de vos données</h2>
 				<p className="text-justify">
 					Je prends des mesures de sécurité appropriées pour protéger vos données
 					personnelles contre la perte, l'accès non autorisé, la divulgation, la
@@ -76,7 +76,7 @@ const ProtectionDonneePage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Vos droits</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Vos droits</h2>
 				<p className="text-justify">
 					Vous avez le droit d'accéder à vos données personnelles, de les rectifier, de
 					les supprimer, de vous opposer au traitement ou de demander leur portabilité.
@@ -86,7 +86,7 @@ const ProtectionDonneePage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-2xl mb-2 font-semibold">Modifications de la politique</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Modifications de la politique</h2>
 				<p className="text-justify">
 					Je me réserve le droit de mettre à jour cette politique de protection des
 					données à tout moment pour refléter les changements apportés à mes pratiques ou
