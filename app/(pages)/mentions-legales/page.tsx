@@ -3,7 +3,7 @@ import Link from "next/link";
 const MentionsLegalesPage = () => {
 	return (
 		<section className="flex flex-col gap-12 py-20 px-4 lg:px-24">
-			<h1 className="font-semibold text-2xl sm:text-2xl md:text-4xl mx-auto w-fit customBorderBlue p-4">
+			<h1 className="font-semibold text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Mentions légales
 			</h1>
 			<p className="text-justify">

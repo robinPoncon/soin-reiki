@@ -9,13 +9,13 @@ const CertificationsPage = () => {
 	};
 
 	return (
-		<section className="pt-20">
-			<h1 className="text-4xl mb-20 mx-auto w-fit customBorderBlue p-4">
+		<section className="flex flex-col py-20 px-4 gap-20">
+			<h1 className="font-semibold text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Mes certifications
 			</h1>
-			<div className="flex justify-around">
+			<div className="flex flex-col justify-around gap-20 lg:flex-row">
 				<Image
-					className="rounded-lg cursor-pointer hoverShadow"
+					className="customImgBlueGreen cursor-pointer mx-auto"
 					alt="diplome reiki niveau 1"
 					src="/diplome_reiki-niveau-1.jpg"
 					onClick={() => openImgInNewWindow("/diplome_reiki-niveau-1.jpg")}
@@ -23,7 +23,7 @@ const CertificationsPage = () => {
 					height={600}
 				></Image>
 				<Image
-					className="rounded-lg cursor-pointer hoverShadow"
+					className="customImgBlueGreen cursor-pointer mx-auto"
 					alt="diplome reiki niveau 2"
 					src="/diplome_reiki-niveau-2.jpg"
 					onClick={() => openImgInNewWindow("/diplome_reiki-niveau-2.jpg")}
@@ -31,9 +31,9 @@ const CertificationsPage = () => {
 					height={600}
 				></Image>
 			</div>
-			<div className="flex justify-around py-20">
+			<div className="flex flex-col justify-around gap-20 lg:flex-row">
 				<Image
-					className="rounded-lg cursor-pointer hoverShadow"
+					className="customImgBlueGreen cursor-pointer mx-auto"
 					alt="diplome reiki niveau 3"
 					src="/diplome_reiki-niveau-3.jpg"
 					onClick={() => openImgInNewWindow("/diplome_reiki-niveau-3.jpg")}
@@ -41,7 +41,7 @@ const CertificationsPage = () => {
 					height={600}
 				></Image>
 				<Image
-					className="rounded-lg cursor-pointer hoverShadow"
+					className="customImgBlueGreen cursor-pointer mx-auto"
 					alt="diplome cartomancie"
 					src="/diplome_cartomancie.jpg"
 					onClick={() => openImgInNewWindow("/diplome_cartomancie.jpg")}
