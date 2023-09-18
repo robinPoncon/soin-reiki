@@ -3,12 +3,12 @@ import "./page.scss";
 
 const TarifsPage = () => {
 	return (
-		<section className="pt-20 tarifsPageComponent">
-			<h1 className="text-4xl mb-20 mx-auto w-fit customBorderBlue p-4">
+		<section className="flex flex-col gap-20 py-20 px-4 tarifsPageComponent">
+			<h1 className="font-semibold text-center text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Tarifs de mes Prestations
 			</h1>
-			<div className="flex justify-around pb-20">
-				<article className="w-1/3 max-w-xs blockOffer1">
+			<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
+				<article className="blockOffer1 max-w-xs mx-auto lg:w-1/3">
 					<h2 className="text-lg font-semibold italic text-center">
 						Guidance Tirage de Carte <br />
 						(1 seule question à la fois)
@@ -35,7 +35,7 @@ const TarifsPage = () => {
 						<strong>Prix :</strong> <span className="bottom1">50 €</span>
 					</p>
 				</article>
-				<article className="w-1/3 max-w-xs blockOffer2">
+				<article className="blockOffer2 max-w-xs mx-auto lg:w-1/3">
 					<h2 className="text-lg font-semibold italic text-center">
 						Soin Reiki Complet <br /> (soin traditionnel)
 					</h2>
@@ -62,7 +62,7 @@ const TarifsPage = () => {
 					</p>
 				</article>
 
-				<article className="w-1/3 max-w-xs blockOffer3">
+				<article className="blockOffer3 max-w-xs mx-auto lg:w-1/3">
 					<h2 className="text-lg font-semibold italic text-center">
 						Rééquilibrage des Chakras + Guidance Tirage de Carte
 					</h2>
