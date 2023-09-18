@@ -2,37 +2,43 @@ import Link from "next/link";
 
 const MentionsLegalesPage = () => {
 	return (
-		<section className="my-20 px-24 flex flex-col gap-10 text-justify">
-			<h1 className="text-4xl mb-10 mx-auto w-fit customBorderBlue p-4">Mentions légales</h1>
-			<p>
+		<section className="flex flex-col gap-12 py-20 px-4 lg:px-24">
+			<h1 className="font-semibold text-2xl sm:text-2xl md:text-4xl mx-auto w-fit customBorderBlue p-4">
+				Mentions légales
+			</h1>
+			<p className="text-justify">
 				Bienvenue sur la page des mentions légales sur{" "}
 				<strong className="italic">Les racines de la guérison</strong>. Je tiens à vous
 				informer de manière transparente sur les aspects juridiques de mon site. Veuillez
 				prendre quelques instants pour lire les informations suivantes.
 			</p>
 			<article>
-				<h2 className="text-3xl mb-2">Responsable du site</h2>
-				<p>
-					<strong>- Nom du responsable</strong> : Robin Ponçon
+				<h2 className="text-2xl mb-2 font-semibold">Responsable du site</h2>
+				<p className="flex flex-col">
+					<strong>- Nom du responsable :</strong>
+					<span className="italic ml-2">Robin Ponçon</span>
 				</p>
-				<p>
-					<strong>- Adresse</strong> : 59 rue Pierre Renaudel 33130 Bègles
+				<p className="flex flex-col">
+					<strong>- Adresse :</strong>
+					<span className="italic ml-2">59 rue Pierre Renaudel 33130 Bègles</span>
 				</p>
-				<p>
-					<strong>- Adresse email</strong> : poncon.robin@gmail.com
+				<p className="flex flex-col">
+					<strong>- Adresse email :</strong>
+					<span className="italic ml-2">poncon.robin@gmail.com</span>
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Hébergement</h2>
+				<h2 className="text-2xl mb-2 font-semibold">Hébergement</h2>
 				{/* TODO maj herbegement */}
-				<p className="mb-2">Ce site est hébergé par :</p>
-				<p>
-					<strong>- Adresse de l'hébergeur</strong> :
+				<p className="mb-2">Ce site est hébergé par : O2switch</p>
+				<p className="flex flex-col">
+					<strong>- Adresse de l'hébergeur :</strong>
+					<span className="italic ml-2">O2switch.com</span>
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Propriété intellectuelle</h2>
-				<p className="mb-2">
+				<h2 className="text-2xl mb-2 font-semibold">Propriété intellectuelle</h2>
+				<p className="mb-2 text-justify">
 					Le contenu de ce site, y compris textes, images, vidéos, et autres éléments, est
 					protégé par les lois sur la propriété intellectuelle. Tous les droits sont
 					réservés. Vous n'êtes pas autorisé à reproduire, distribuer ou utiliser le
@@ -40,8 +46,8 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Collecte de données personnelles</h2>
-				<p>
+				<h2 className="text-2xl mb-2 font-semibold">Collecte de données personnelles</h2>
+				<p className="text-justify">
 					Lorsque vous visitez mon site, je peux collecter certaines informations
 					personnelles conformément à la politique de protection des données. Veuillez
 					vous référer à{" "}
@@ -56,8 +62,8 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Responsabilité</h2>
-				<p>
+				<h2 className="text-2xl mb-2 font-semibold">Responsabilité</h2>
+				<p className="text-justify">
 					Je fais de mon mieux pour fournir des informations précises et à jour sur ce
 					site. Cependant, je ne peux garantir l'exactitude, la pertinence ou
 					l'exhaustivité de ces informations. En tant que visiteur, vous êtes responsable
@@ -65,8 +71,8 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Liens externes</h2>
-				<p>
+				<h2 className="text-2xl mb-2 font-semibold">Liens externes</h2>
+				<p className="text-justify">
 					Ce site peut contenir des liens vers des sites web externes. Je ne suis pas
 					responsable du contenu ou des pratiques de confidentialité de ces sites, et je
 					vous encourage à consulter leurs propres politiques de confidentialité et
@@ -74,8 +80,8 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-3xl mb-2">Contact</h2>
-				<p>
+				<h2 className="text-2xl mb-2 font-semibold">Contact</h2>
+				<p className="text-justify">
 					Si vous avez des questions concernant ces mentions légales ou le site en
 					général, n'hésitez pas à me contacter grâce au{" "}
 					<Link

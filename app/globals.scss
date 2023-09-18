@@ -49,7 +49,8 @@
 	font-weight: 600;
 	font-style: italic;
 	transition: text-shadow 0.5s;
-	&:hover {
+	&:hover,
+	&:active {
 		text-shadow: 0 0 10px var(--blueGreen);
 	}
 }
@@ -58,7 +59,8 @@
 	font-weight: 600;
 	font-style: italic;
 	transition: text-shadow 0.5s;
-	&:hover {
+	&:hover,
+	&:active {
 		text-shadow: 0 0 10px var(--customYellow);
 	}
 }
@@ -67,7 +69,8 @@
 	font-weight: 600;
 	font-style: italic;
 	transition: text-shadow 0.5s;
-	&:hover {
+	&:hover,
+	&:active {
 		text-shadow: 0 0 10px pink;
 	}
 }
