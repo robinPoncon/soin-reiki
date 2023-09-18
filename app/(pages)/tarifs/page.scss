@@ -14,12 +14,15 @@
 	}
 	.blockOffer1 {
 		border: 5px double var(--customYellow);
+		box-shadow: 0 0 10px var(--customYellow);
 	}
 	.blockOffer2 {
 		border: 5px double var(--blueGreen);
+		box-shadow: 0 0 10px var(--blueGreen);
 	}
 	.blockOffer3 {
 		border: 5px double pink;
+		box-shadow: 0 0 10px pink;
 	}
 
 	.separator1,
