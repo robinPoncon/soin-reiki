@@ -10,9 +10,9 @@ const Footer = () => {
 
 	return (
 		<footer className="bg-darkTurquoise text-darkTurquoiseLighter p-5">
-			<div className="flex justify-around mt-8">
-				<div className="flex justify-center gap-20">
-					<div className="mt-5">
+			<div className="flex flex-col justify-around lg:mt-8 lg:flex-row">
+				<div className="flex flex-col justify-center gap-5 md:flex-row md:gap-20 md:mb-10 lg:gap-10 lg:mb-0 xl:gap-20">
+					<div className="mt-5 text-center md:text-start">
 						<h3 className="mb-2 italic font-semibold tracking-widest">NAVIGATION</h3>
 						<ul>
 							<li>
@@ -65,7 +65,7 @@ const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="mt-5">
+					<div className="mt-5 text-center md:text-start">
 						<h3 className="mb-2 italic font-semibold tracking-widest">À PROPOS</h3>
 						<p className="text-sm">Robin Ponçon</p>
 						<p className="text-sm">59 rue Pierre Renaudel</p>
@@ -80,7 +80,7 @@ const Footer = () => {
 							</a>
 						</p>
 					</div>
-					<div className="mt-5">
+					<div className="mt-5 text-center mb-10 md:text-start md:mb-0">
 						<h3 className="mb-2 italic font-semibold tracking-widest">INFORMATIONS</h3>
 						<ul>
 							<li>
@@ -116,7 +116,7 @@ const Footer = () => {
 					reviewsUsers={reviewsUsers}
 				/>
 			</div>
-			<div className="text-center mt-5">
+			<div className="text-center mt-20">
 				© 2023 - {new Date().getFullYear()}. Les racines de la guérison. Tous droits
 				réservés.
 			</div>
