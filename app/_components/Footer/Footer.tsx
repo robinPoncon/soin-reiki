@@ -121,7 +121,7 @@ const Footer = () => {
 					reviewsUsers={reviewsUsers}
 				/>
 			</div>
-			<div className="text-center mt-20">
+			<div className="text-center">
 				© 2023 - {new Date().getFullYear()}. Les racines de la guérison. Tous droits
 				réservés.
 			</div>

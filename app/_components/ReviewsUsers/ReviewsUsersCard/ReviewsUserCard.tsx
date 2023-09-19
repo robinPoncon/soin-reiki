@@ -15,7 +15,7 @@ const ReviewsUserCard = ({ reviewsUser }: ReviewsUserCardProps): JSX.Element => 
 		}
 	};
 	return (
-		<div className="max-w-xs h-52 mx-auto">
+		<div className="max-w-xs h-72 mx-auto">
 			<div className="flex gap-4">
 				<p className="font-semibold ml-4">{reviewsUser.name}</p>
 				<div className="flex gap-2 mb-auto">
@@ -30,7 +30,7 @@ const ReviewsUserCard = ({ reviewsUser }: ReviewsUserCardProps): JSX.Element => 
 					))}
 				</div>
 			</div>
-			<div className="bubbleReview">
+			<div className="bubbleReview w-full">
 				<p className="bubbleCorner" />
 				<p className="bubbleText">{reviewsUser.comment}</p>
 			</div>

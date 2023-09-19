@@ -44,7 +44,7 @@ export const ReviewsUsersDataProvider = ({ children }: { children: ReactNode }) 
 				name: "Frédéric P",
 				comment:
 					"J'avais des douleurs au ventre depuis deux mois et en quelques séances, les douleurs ont disparu !",
-				note: 4
+				note: 5
 			}
 		]);
 	}, []);

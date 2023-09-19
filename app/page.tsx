@@ -11,6 +11,14 @@ const MainPage = () => {
 	const [age, setAge] = useState<number>(0);
 	const [spiritualityAge, setSpiritualityAge] = useState<number>(5);
 
+	const [breakpointResponsiveValue, setBreakpointResponsiveValue] = useState<number>(0);
+
+	useEffect(() => {
+		if (typeof window !== "undefined") {
+			setBreakpointResponsiveValue(window.innerWidth);
+		}
+	}, []);
+
 	const calculateAge = (date: string) => {
 		const birthdayDate = new Date(date);
 		const today = new Date();
@@ -31,8 +39,8 @@ const MainPage = () => {
 	}, []);
 
 	return (
-		<main>
-			<figure className="-mt-20 shadow-darkTurquoise">
+		<main className="flex flex-col gap-20">
+			<figure className="md:-mt-20 shadow-darkTurquoise">
 				<Image
 					alt="image principal du site avec un arbre et des boules d'énergie"
 					src="/main-site-image.png"
@@ -40,25 +48,39 @@ const MainPage = () => {
 					width={1556}
 				/>
 			</figure>
-			<section>
-				{/* <h1 className="text-5xl text-center">Bienvenue sur les racines de la guérison !</h1> */}
-				<article className="py-12">
-					<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBlue p-4">
+			<section className="flex flex-col gap-20">
+				<article className="flex flex-col gap-10">
+					<h2 className="font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 						Qu'est-ce que le Reiki ?
 					</h2>
-					<div className="flex justify-center">
+					<div className="flex flex-col justify-center px-4 gap-10 lg:flex-row">
 						<ScrollAnimation
 							id="universe-bloc"
-							classContent="w-1/3 flex flex-col"
-							styleBeforeTransition={{
-								opacity: "0",
-								transition: "opacity 2.5s, margin-left 2.5s",
-								marginLeft: "100px"
-							}}
-							styleAfterTransition={{
-								opacity: "1",
-								marginLeft: "0"
-							}}
+							classContent="flex flex-col lg:w-1/3"
+							styleBeforeTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-top 2.5s",
+											marginTop: "100px"
+									  }
+									: {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-left 2.5s",
+											marginLeft: "100px"
+									  }
+							}
+							styleAfterTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "1",
+											marginTop: "0px"
+									  }
+									: {
+											opacity: "1",
+											marginLeft: "0px"
+									  }
+							}
 						>
 							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto">
 								<Image
@@ -81,7 +103,7 @@ const MainPage = () => {
 						</ScrollAnimation>
 						<ScrollAnimation
 							id="yin-yang-bloc"
-							classContent="w-1/3 flex flex-col"
+							classContent="flex flex-col lg:w-1/3"
 							styleBeforeTransition={{
 								opacity: "0",
 								transition: "opacity 2.5s, margin-top 2.5s",
@@ -113,16 +135,31 @@ const MainPage = () => {
 						</ScrollAnimation>
 						<ScrollAnimation
 							id="hands-bloc"
-							classContent="w-1/3 flex flex-col"
-							styleBeforeTransition={{
-								opacity: "0",
-								transition: "opacity 2.5s, margin-right 2.5s",
-								marginRight: "100px"
-							}}
-							styleAfterTransition={{
-								opacity: "1",
-								marginRight: "0"
-							}}
+							classContent="flex flex-col lg:w-1/3"
+							styleBeforeTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-top 2.5s",
+											marginTop: "100px"
+									  }
+									: {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-right 2.5s",
+											marginRight: "100px"
+									  }
+							}
+							styleAfterTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "1",
+											marginTop: "0px"
+									  }
+									: {
+											opacity: "1",
+											marginRight: "0px"
+									  }
+							}
 						>
 							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto">
 								<Image
@@ -145,23 +182,38 @@ const MainPage = () => {
 						</ScrollAnimation>
 					</div>
 				</article>
-				<article className="bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
-					<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderYellow">
+				<article className="flex flex-col gap-10 bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
+					<h2 className="font-semibold text-2xl text-center mx-auto w-fit customBorderYellow p-4 md:text-4xl">
 						Origines du Reiki
 					</h2>
-					<div className="flex justify-center">
+					<div className="flex flex-col justify-center px-4 gap-10 lg:flex-row">
 						<ScrollAnimation
 							id="japanese-bloc"
-							classContent="w-1/3 flex flex-col"
-							styleBeforeTransition={{
-								opacity: "0",
-								transition: "opacity 2.5s, margin-left 2.5s",
-								marginLeft: "100px"
-							}}
-							styleAfterTransition={{
-								opacity: "1",
-								marginLeft: "0"
-							}}
+							classContent="flex flex-col lg:w-1/3"
+							styleBeforeTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-top 2.5s",
+											marginTop: "100px"
+									  }
+									: {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-left 2.5s",
+											marginLeft: "100px"
+									  }
+							}
+							styleAfterTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "1",
+											marginTop: "0px"
+									  }
+									: {
+											opacity: "1",
+											marginLeft: "0px"
+									  }
+							}
 						>
 							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
 								<Image
@@ -186,7 +238,7 @@ const MainPage = () => {
 						</ScrollAnimation>
 						<ScrollAnimation
 							id="light-bloc"
-							classContent="w-1/3 flex flex-col"
+							classContent="flex flex-col lg:w-1/3"
 							styleBeforeTransition={{
 								opacity: "0",
 								transition: "opacity 2.5s, margin-top 2.5s",
@@ -220,16 +272,31 @@ const MainPage = () => {
 						</ScrollAnimation>
 						<ScrollAnimation
 							id="globe-bloc"
-							classContent="w-1/3 flex flex-col"
-							styleBeforeTransition={{
-								opacity: "0",
-								transition: "opacity 2.5s, margin-right 2.5s",
-								marginRight: "100px"
-							}}
-							styleAfterTransition={{
-								opacity: "1",
-								marginRight: "0"
-							}}
+							classContent="flex flex-col lg:w-1/3"
+							styleBeforeTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-top 2.5s",
+											marginTop: "100px"
+									  }
+									: {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-right 2.5s",
+											marginRight: "100px"
+									  }
+							}
+							styleAfterTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "1",
+											marginTop: "0px"
+									  }
+									: {
+											opacity: "1",
+											marginRight: "0px"
+									  }
+							}
 						>
 							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto shadow-customYellow">
 								<Image
@@ -254,23 +321,38 @@ const MainPage = () => {
 						</ScrollAnimation>
 					</div>
 				</article>
-				<article className="py-12">
-					<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBlue p-4">
+				<article className="flex flex-col gap-10">
+					<h2 className="font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 						Les bienfaits du Reiki
 					</h2>
-					<div className="flex justify-center">
+					<div className="flex flex-col justify-center px-4 gap-10 lg:flex-row">
 						<ScrollAnimation
 							id="brain-bloc"
-							classContent="w-1/3 flex flex-col"
-							styleBeforeTransition={{
-								opacity: "0",
-								transition: "opacity 2.5s, margin-left 2.5s",
-								marginLeft: "100px"
-							}}
-							styleAfterTransition={{
-								opacity: "1",
-								marginLeft: "0"
-							}}
+							classContent="flex flex-col lg:w-1/3"
+							styleBeforeTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-top 2.5s",
+											marginTop: "100px"
+									  }
+									: {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-left 2.5s",
+											marginLeft: "100px"
+									  }
+							}
+							styleAfterTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "1",
+											marginTop: "0"
+									  }
+									: {
+											opacity: "1",
+											marginLeft: "0"
+									  }
+							}
 						>
 							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto">
 								<Image
@@ -294,7 +376,7 @@ const MainPage = () => {
 						</ScrollAnimation>
 						<ScrollAnimation
 							id="heart-bloc"
-							classContent="w-1/3 flex flex-col"
+							classContent="flex flex-col lg:w-1/3"
 							styleBeforeTransition={{
 								opacity: "0",
 								transition: "opacity 2.5s, margin-top 2.5s",
@@ -327,16 +409,31 @@ const MainPage = () => {
 						</ScrollAnimation>
 						<ScrollAnimation
 							id="energy-bloc"
-							classContent="w-1/3 flex flex-col"
-							styleBeforeTransition={{
-								opacity: "0",
-								transition: "opacity 2.5s, margin-right 2.5s",
-								marginRight: "100px"
-							}}
-							styleAfterTransition={{
-								opacity: "1",
-								marginRight: "0"
-							}}
+							classContent="flex flex-col lg:w-1/3"
+							styleBeforeTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-top 2.5s",
+											marginTop: "100px"
+									  }
+									: {
+											opacity: "0",
+											transition: "opacity 2.5s, margin-right 2.5s",
+											marginRight: "100px"
+									  }
+							}
+							styleAfterTransition={
+								breakpointResponsiveValue < 1024
+									? {
+											opacity: "1",
+											marginTop: "0"
+									  }
+									: {
+											opacity: "1",
+											marginRight: "0"
+									  }
+							}
 						>
 							<p className="bg-darkBackground rounded-full w-fit p-2.5 mx-auto">
 								<Image
@@ -361,11 +458,11 @@ const MainPage = () => {
 					</div>
 				</article>
 			</section>
-			<section className="bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
-				<h2 className="text-4xl mb-12 mx-auto w-fit p-4 customBorderYellow">
+			<section className="flex flex-col gap-10 bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
+				<h2 className="font-semibold text-2xl text-center mx-auto w-fit customBorderYellow p-4 md:text-4xl">
 					Mon histoire
 				</h2>
-				<div className="flex justify-center gap-24">
+				<div className="flex flex-col justify-center px-4 gap-10 lg:flex-row">
 					<ScrollAnimation
 						id="profil-picture-bloc"
 						styleBeforeTransition={{
@@ -375,11 +472,11 @@ const MainPage = () => {
 						}}
 						styleAfterTransition={{
 							opacity: "1",
-							marginLeft: "100px"
+							marginLeft: "0"
 						}}
 					>
 						<Image
-							className="customImgYellow"
+							className="customImgYellow mx-auto lg:ml-10"
 							alt="photo de profil de robin ponçon"
 							src="/my-picture.png"
 							width={150}
@@ -388,16 +485,31 @@ const MainPage = () => {
 					</ScrollAnimation>
 					<ScrollAnimation
 						id="text-picture-bloc"
-						classContent="flex flex-col gap-6 text-justify pr-20 max-w-3xl"
-						styleBeforeTransition={{
-							opacity: "0",
-							transition: "opacity 2.5s, margin-right 2.5s",
-							marginRight: "100px"
-						}}
-						styleAfterTransition={{
-							opacity: "1",
-							marginRight: "0"
-						}}
+						classContent="flex flex-col gap-6 text-justify max-w-3xl lg:pr-10"
+						styleBeforeTransition={
+							breakpointResponsiveValue < 1024
+								? {
+										opacity: "0",
+										transition: "opacity 2.5s, margin-top 2.5s",
+										marginTop: "100px"
+								  }
+								: {
+										opacity: "0",
+										transition: "opacity 2.5s, margin-right 2.5s",
+										marginRight: "100px"
+								  }
+						}
+						styleAfterTransition={
+							breakpointResponsiveValue < 1024
+								? {
+										opacity: "1",
+										marginTop: "0"
+								  }
+								: {
+										opacity: "1",
+										marginRight: "0"
+								  }
+						}
 					>
 						<p>
 							Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors d'une
@@ -428,8 +540,8 @@ const MainPage = () => {
 					</ScrollAnimation>
 				</div>
 			</section>
-			<section className="py-12">
-				<h2 className="text-4xl mb-12 mx-auto w-fit customBorderBlue p-4">
+			<section className="flex flex-col gap-20 px-4">
+				<h2 className="font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 					Ils ont essayé, pourquoi pas vous ?
 				</h2>
 				<ScrollAnimation
@@ -441,7 +553,7 @@ const MainPage = () => {
 					}}
 					styleAfterTransition={{
 						opacity: "1",
-						marginTop: "0px"
+						marginTop: "0"
 					}}
 				>
 					<ReviewsUsers reviewsUsers={reviewsUsers} />
