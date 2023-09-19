@@ -4,12 +4,17 @@ import Link from "next/link";
 import "./Footer.scss";
 import ReviewsUsers from "../ReviewsUsers/ReviewsUsers";
 import { useDatas } from "@/_context/ReviewsUsersDataContext";
+import { useLoader } from "@/_context/LoaderContext";
 
 const Footer = () => {
 	const { reviewsUsers } = useDatas();
 
+	const { isLoading } = useLoader();
+
 	return (
-		<footer className="bg-darkTurquoise text-darkTurquoiseLighter p-5">
+		<footer
+			className={`bg-darkTurquoise text-darkTurquoiseLighter p-5 ${isLoading ? "blur" : ""}`}
+		>
 			<div className="flex flex-col justify-around lg:mt-8 lg:flex-row">
 				<div className="flex flex-col justify-center gap-5 md:flex-row md:gap-20 md:mb-10 lg:gap-10 lg:mb-0 xl:gap-20">
 					<div className="mt-5 text-center md:text-start">
