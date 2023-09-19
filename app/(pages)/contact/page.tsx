@@ -5,7 +5,7 @@ import CustomTextarea from "../../_components/Form/CustomTextarea/CustomTextarea
 import useCustomForm from "../../_components/Form/UseCustomForm/UseCustomForm";
 import Image from "next/image";
 import { formDataToObject } from "@/_utils/form";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import FlashMessagesContext from "@/_context/FlashMessagesContext";
 import { useLoader } from "@/_context/LoaderContext";
 
@@ -91,19 +91,19 @@ const ContactPage = () => {
 	);
 
 	return (
-		<div className={`pt-20 ${isLoading ? "blur-md" : ""}`}>
-			<h1 className="text-4xl mb-20 mx-auto w-fit customBorderBlue p-4">
+		<div className={`flex flex-col gap-20 py-20 px-4 lg:px-24 ${isLoading ? "blur-md" : ""}`}>
+			<h1 className="font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Ensemble vers votre rééquilibre énergétique !
 			</h1>
-			<h2 className="text-base mb-8 pl-24 w-2/4 italic text-justify">
+			<p className="italic text-justify md:w-3/4 mx-auto">
 				Je suis là pour répondre à toutes vos questions et vous fournir des informations
 				détaillées sur le <strong>Soin Reiki</strong> ou sur les{" "}
 				<strong>guidances en tirage de cartes</strong>. Utilisez simplement le formulaire
 				ci-dessous pour me contacter, et je vous répondrai dans les meilleurs délais !
-			</h2>
-			<div className="flex justify-between">
+			</p>
+			<div className="flex flex-col-reverse gap-20 justify-between lg:flex-row">
 				<form
-					className="w-2/3 px-24 gap-5 flex flex-col"
+					className="gap-5 flex flex-col lg:w-2/3"
 					onSubmit={handleSubmit}
 				>
 					<CustomTextarea
@@ -115,7 +115,7 @@ const ContactPage = () => {
 						defaultValue={formDatas[0].value}
 						returnedValue={handleChange}
 					/>
-					<div className="flex gap-10">
+					<div className="flex flex-col gap-5 md:flex-row">
 						<CustomInput
 							label="Votre prénom"
 							name="firstName"
@@ -135,7 +135,7 @@ const ContactPage = () => {
 							returnedValue={handleChange}
 						/>
 					</div>
-					<div className="flex gap-10">
+					<div className="flex flex-col gap-5 md:flex-row">
 						<CustomInput
 							label="Votre email"
 							name="email"
@@ -162,7 +162,7 @@ const ContactPage = () => {
 						Envoyer
 					</button>
 				</form>
-				<figure className="w-1/3 pr-24">
+				<figure className="lg:w-1/3">
 					<Image
 						className="m-auto customImgBlueGreen"
 						alt="illustration d'un envoi d'email"
