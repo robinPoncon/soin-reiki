@@ -456,6 +456,15 @@ const MainPage = () => {
 							</p>
 						</ScrollAnimation>
 					</div>
+					<div className="flex flex-col gap-5">
+						<h3 className="text-xl text-center font-semibold italic mt-6 mb-2">
+							Souhaitez-vous expérimenter une séance de Reiki ?
+						</h3>
+						<button className="actionBtnLink">
+							<span className="textActionBtnLink">Déroulement d'une séance</span>
+							<span className="iconActionBtnLink"/>
+						</button>
+					</div>
 				</article>
 			</section>
 			<section className="flex flex-col gap-10 bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
