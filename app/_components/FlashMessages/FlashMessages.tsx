@@ -35,7 +35,7 @@ const FlashMessages = () => {
 	};
 
 	return (
-		<div className="flashMessages">
+		<div className="flashMessages w-full px-4">
 			<TransitionGroup>
 				{messages.map((message) => (
 					<CSSTransition
@@ -43,7 +43,7 @@ const FlashMessages = () => {
 						timeout={750}
 						classNames="flashMessageTransition"
 					>
-						<div className={`flashMessage ${message.type}`}>
+						<div className={`flashMessage w-full ${message.type}`}>
 							<Image
 								className="mb-auto"
 								src={getIconSource(message.type)}

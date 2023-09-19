@@ -13,6 +13,14 @@ const ContactPage = () => {
 	const flashMessage = useContext(FlashMessagesContext);
 	const { isLoading, showLoader, hideLoader } = useLoader();
 
+	useEffect(() => {
+		flashMessage.addMessage({
+			type: "success",
+			title: "Succès",
+			text: "Merci ! Votre message a bien été envoyé, je vous ferai un retour rapidement."
+		});
+	}, []);
+
 	const getSubmit = async (submitDatas: FormData) => {
 		setIsSubmitBtnDisabled(true);
 		showLoader();
