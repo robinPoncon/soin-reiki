@@ -29,6 +29,8 @@ const ScrollAnimation = ({
 				if (elementTop < windowHeight * 0.8 && animateElement instanceof HTMLElement) {
 					for (const property in styleAfterTransition) {
 						if (styleAfterTransition.hasOwnProperty(property)) {
+							console.log(id, "styleAfterTransition", styleAfterTransition);
+
 							animateElement.style[property as any] = styleAfterTransition[property];
 						}
 					}
@@ -39,7 +41,7 @@ const ScrollAnimation = ({
 		return () => {
 			window.removeEventListener("scroll", animateOnScroll);
 		};
-	}, []);
+	}, [styleBeforeTransition, styleAfterTransition]);
 
 	return (
 		<div

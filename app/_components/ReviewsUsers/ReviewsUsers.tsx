@@ -20,6 +20,13 @@ const ReviewsUsers = ({
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [isTransitionActive, setIsTransitionActive] = useState<boolean>(false);
 	const [saveNextOrPreviousIndex, setSaveNextOrPreviousIndex] = useState(0);
+	const [breakpointResponsiveValue, setBreakpointResponsiveValue] = useState<number>(0);
+
+	useEffect(() => {
+		if (typeof window !== "undefined") {
+			setBreakpointResponsiveValue(window.innerWidth);
+		}
+	}, []);
 
 	useEffect(() => {
 		if (isTransitionActive) {
@@ -35,7 +42,7 @@ const ReviewsUsers = ({
 	}, [isTransitionActive]);
 
 	useEffect(() => {
-		if (isOnlyToShow) {
+		if (isOnlyToShow || breakpointResponsiveValue < 576) {
 			const nextIndex = (currentIndex + 1) % reviewsUsers.length;
 			const messageLength = reviewsUsers[nextIndex]?.comment.length || 0;
 			const timer = setInterval(() => {
@@ -50,28 +57,49 @@ const ReviewsUsers = ({
 	}, [currentIndex, isOnlyToShow, reviewsUsers.length]);
 
 	const handleClickNext = () => {
-		const nextIndex = (currentIndex + 3) % reviewsUsers.length;
+		let nextIndex;
+		if (breakpointResponsiveValue < 1024) {
+			nextIndex = (currentIndex + 1) % reviewsUsers.length;
+		} else if (breakpointResponsiveValue >= 1024 && breakpointResponsiveValue < 1280) {
+			nextIndex = (currentIndex + 2) % reviewsUsers.length;
+		} else {
+			nextIndex = (currentIndex + 3) % reviewsUsers.length;
+		}
 		setSaveNextOrPreviousIndex(nextIndex);
 		setIsTransitionActive(true);
 	};
 
 	const handleClickPrevious = () => {
-		const previousIndex = (currentIndex - 3 + reviewsUsers.length) % reviewsUsers.length;
+		let previousIndex;
+		if (breakpointResponsiveValue < 1024) {
+			previousIndex = (currentIndex - 1 + reviewsUsers.length) % reviewsUsers.length;
+		} else if (breakpointResponsiveValue >= 1024 && breakpointResponsiveValue < 1280) {
+			previousIndex = (currentIndex - 2 + reviewsUsers.length) % reviewsUsers.length;
+		} else {
+			previousIndex = (currentIndex - 3 + reviewsUsers.length) % reviewsUsers.length;
+		}
 		setSaveNextOrPreviousIndex(previousIndex);
 		setIsTransitionActive(true);
 	};
 
-	const reviewsUsersShowing = isOnlyToShow
-		? [reviewsUsers[currentIndex]]
-		: [
-				reviewsUsers[currentIndex],
-				reviewsUsers[(currentIndex + 1) % reviewsUsers.length],
-				reviewsUsers[(currentIndex + 2) % reviewsUsers.length]
-		  ];
+	const reviewsUsersShowing =
+		isOnlyToShow || breakpointResponsiveValue < 1024
+			? [reviewsUsers[currentIndex]]
+			: breakpointResponsiveValue >= 1024 && breakpointResponsiveValue < 1280
+			? [reviewsUsers[currentIndex], reviewsUsers[(currentIndex + 1) % reviewsUsers.length]]
+			: [
+					reviewsUsers[currentIndex],
+					reviewsUsers[(currentIndex + 1) % reviewsUsers.length],
+					reviewsUsers[(currentIndex + 2) % reviewsUsers.length]
+			  ];
 
 	return (
-		<div className={`flex gap-12 justify-center ${isOnlyToShow ? "text-customWhite" : ""}`}>
-			{!isOnlyToShow && (
+		<div
+			className={`flex gap-5 justify-center lg:gap-12 ${
+				isOnlyToShow ? "text-customWhite" : ""
+			}`}
+		>
+			{!isOnlyToShow && breakpointResponsiveValue >= 576 && (
 				<button
 					onClick={handleClickPrevious}
 					className="bg-darkTurquoise rounded-full h-fit hover:shadow-blueGreen ml-4 mt-5 w-fit"
@@ -86,7 +114,7 @@ const ReviewsUsers = ({
 			)}
 			<div
 				className={`reviewsUserBloc ${isTransitionActive ? "transitionActive" : ""} ${
-					fullWidth ? "fullWidth" : ""
+					fullWidth || breakpointResponsiveValue < 576 ? "fullWidth" : ""
 				}`}
 			>
 				{reviewsUsersShowing?.map(
@@ -99,7 +127,7 @@ const ReviewsUsers = ({
 						)
 				)}
 			</div>
-			{!isOnlyToShow && (
+			{!isOnlyToShow && breakpointResponsiveValue >= 576 && (
 				<button
 					onClick={handleClickNext}
 					className="bg-darkTurquoise rounded-full h-fit w-fit hover:shadow-blueGreen mt-5 mr-4"
