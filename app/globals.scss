@@ -75,21 +75,6 @@
 	}
 }
 
-.actionBtn {
-	background-color: #062933;
-	border-radius: 8px;
-	color: white;
-	height: 40px;
-	margin: 20px 0;
-	padding: 0 40px;
-	width: fit-content;
-	transition: color 0.5s, box-shadow 0.5s;
-	&:hover {
-		box-shadow: 0px 0px 10px #3ad9bc;
-		color: #3ad9bc;
-	}
-}
-
 .customImgYellow {
 	border: 5px double var(--customYellow);
 	border-radius: 4px;
@@ -106,4 +91,57 @@
 	border: 5px double pink;
 	border-radius: 4px;
 	box-shadow: 0 0 10px pink;
+}
+
+.actionBtn {
+	background-color: #062933;
+	border-radius: 8px;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 30px;
+	width: fit-content;
+	transition: color 0.5s, box-shadow 0.5s;
+	&:hover {
+		box-shadow: 0px 0px 10px #3ad9bc;
+		color: #3ad9bc;
+	}
+}
+
+.actionBtnLink {
+	background-color: #062933;
+	border-radius: 8px;
+	color: white;
+	display: flex;
+	gap: 10px;
+	height: 40px;
+	letter-spacing: 0.025rem;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 40px;
+	padding: 0 30px;
+	width: 300px;
+	transition: color 0.5s, box-shadow 0.5s;
+	&:hover {
+		box-shadow: 0px 0px 10px #3ad9bc;
+		color: #3ad9bc;
+		& .iconActionBtnLink {
+			background-image: url("/icons/icon_double-right-arrow-blue.svg");
+		}
+		& .textActionBtnLink {
+			margin-right: 15px;
+		}
+	}
+	.iconActionBtnLink {
+		background-image: url("/icons/icon_double-right-arrow.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 24px;
+		transition: background-image 0.5s;
+	}
+
+	.textActionBtnLink {
+		white-space: nowrap;
+		transition: margin-right 0.5s;
+	}
 }
