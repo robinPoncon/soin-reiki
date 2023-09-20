@@ -50,22 +50,37 @@ const MainPage = () => {
 					width={1556}
 				/>
 			</figure>
-			<section className="flex flex-col gap-10">
+			<section className="flex flex-col gap-10 px-2">
 				<h2 className="font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 					Bienvenue sur <span className="italic">Les racines de la guérison !</span>
 				</h2>
 				<ScrollAnimation
 					id="text-welcome-bloc"
-					classContent="flex flex-col gap-10"
-					styleBeforeTransition={{
-						opacity: "0",
-						transition: "opacity 2.5s, margin-left 2.5s",
-						marginLeft: "200px"
-					}}
-					styleAfterTransition={{
-						opacity: "1",
-						marginLeft: "0px"
-					}}
+					classContent="flex flex-col gap-10 px-2"
+					styleBeforeTransition={
+						breakpointResponsiveValue < 1024
+							? {
+									opacity: "0",
+									transition: "opacity 2.5s, margin-top 2.5s",
+									marginTop: "100px"
+							  }
+							: {
+									opacity: "0",
+									transition: "opacity 2.5s, margin-left 2.5s",
+									marginLeft: "200px"
+							  }
+					}
+					styleAfterTransition={
+						breakpointResponsiveValue < 1024
+							? {
+									opacity: "1",
+									marginTop: "0px"
+							  }
+							: {
+									opacity: "1",
+									marginLeft: "0px"
+							  }
+					}
 				>
 					<p className="text-justify max-w-2xl mx-auto">
 						Je suis ravi de vous accueillir sur mon site dédié au Reiki et à la guidance
@@ -77,19 +92,34 @@ const MainPage = () => {
 						agréable visite !
 					</p>
 				</ScrollAnimation>
-				<p className="separatorBlue max-w-xl mx-auto" />
+				<p className="separatorBlue max-w-sm mx-auto md:max-w-xl" />
 				<ScrollAnimation
 					id="citation-welcome-bloc"
-					classContent="flex flex-col gap-10"
-					styleBeforeTransition={{
-						opacity: "0",
-						transition: "opacity 2.5s, margin-right 2.5s",
-						marginRight: "200px"
-					}}
-					styleAfterTransition={{
-						opacity: "1",
-						marginRight: "0px"
-					}}
+					classContent="flex flex-col gap-10 px-2"
+					styleBeforeTransition={
+						breakpointResponsiveValue < 1024
+							? {
+									opacity: "0",
+									transition: "opacity 2.5s, margin-top 2.5s",
+									marginTop: "100px"
+							  }
+							: {
+									opacity: "0",
+									transition: "opacity 2.5s, margin-right 2.5s",
+									marginRight: "200px"
+							  }
+					}
+					styleAfterTransition={
+						breakpointResponsiveValue < 1024
+							? {
+									opacity: "1",
+									marginTop: "0px"
+							  }
+							: {
+									opacity: "1",
+									marginRight: "0px"
+							  }
+					}
 				>
 					<p className="font-semibold italic text-center max-w-2xl mx-auto">
 						"Mon but est de trouver la racine des problèmes et de les traiter ou
@@ -98,6 +128,8 @@ const MainPage = () => {
 						éclore les fleurs de notre épanouissement."
 					</p>
 				</ScrollAnimation>
+			</section>
+			<section className="flex flex-col gap-10">
 				<BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					darkMode
@@ -299,7 +331,33 @@ const MainPage = () => {
 							transitionType: "right"
 						}
 					]}
-				/>
+				>
+					<ScrollAnimation
+						id="redirectLinkGuidance"
+						classContent="flex flex-col gap-5"
+						styleBeforeTransition={{
+							opacity: "0",
+							transition: "opacity 2.5s, margin-top 2.5s",
+							marginTop: "100px"
+						}}
+						styleAfterTransition={{
+							opacity: "1",
+							marginTop: "0"
+						}}
+					>
+						<h3 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+							Souhaitez-vous expérimenter une séance de guidance au travers des cartes
+							?
+						</h3>
+						<Link
+							href="/guidance"
+							className="actionLinkBlue"
+						>
+							<span className="textActionLink">Déroulement d'une séance</span>
+							<span className="iconActionLink" />
+						</Link>
+					</ScrollAnimation>
+				</BlocTextContent>
 			</section>
 			<section className="flex flex-col gap-10 bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
 				<h2 className="font-semibold text-2xl text-center mx-auto w-fit customBorderYellow p-4 md:text-4xl">

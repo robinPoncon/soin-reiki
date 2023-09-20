@@ -103,7 +103,8 @@
 	padding: 0 30px;
 	width: fit-content;
 	transition: color 0.5s, box-shadow 0.5s;
-	&:hover {
+	&:hover,
+	&:active {
 		box-shadow: 0px 0px 10px var(--blueGreen);
 		color: var(--blueGreen);
 	}
@@ -139,7 +140,8 @@
 .actionLinkBlue {
 	background-color: var(--darkTurquoise);
 	color: white;
-	&:hover {
+	&:hover,
+	&:active {
 		box-shadow: 0px 0px 10px var(--blueGreen);
 		color: var(--blueGreen);
 		& .iconActionLink {
@@ -155,7 +157,8 @@
 	background-color: var(--darkBackground);
 	color: white;
 	border: 1px solid white;
-	&:hover {
+	&:hover,
+	&:active {
 		box-shadow: 0px 0px 10px var(--customYellow);
 		color: var(--customYellow);
 		border: 1px solid var(--customYellow);

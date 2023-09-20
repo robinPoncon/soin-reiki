@@ -10,7 +10,8 @@
 	z-index: 10;
 	button {
 		transition: color 0.5s, text-shadow 0.5s;
-		&:hover {
+		&:hover,
+		&:active {
 			color: var(--blueGreen);
 			text-shadow: 0 0 10px var(--blueGreen);
 		}
