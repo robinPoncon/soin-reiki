@@ -3,7 +3,8 @@ footer {
 		color: #148bad;
 		font-size: 14px;
 		transition: color 0.5s, text-shadow 0.5s;
-		&:hover {
+		&:hover,
+		&:active {
 			color: #fcf2d9;
 			text-shadow: #fcf2d9 0px 0px 10px;
 		}

@@ -70,14 +70,16 @@
 
 	.linkGuidance {
 		transition: text-shadow 0.5s;
-		&:hover {
+		&:hover,
+		&:active {
 			text-shadow: 0 0 10px var(--customYellow);
 		}
 	}
 
 	.linkReiki {
 		transition: text-shadow 0.5s;
-		&:hover {
+		&:hover,
+		&:active {
 			text-shadow: 0 0 10px var(--blueGreen);
 		}
 	}

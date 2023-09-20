@@ -111,10 +111,12 @@
 			background-color: transparent;
 			margin-bottom: auto;
 			border-radius: 4px;
-			&.success:hover {
+			&.success:hover,
+			&:active {
 				background-color: var(--success600);
 			}
-			&.error:hover {
+			&.error:hover,
+			&:active {
 				background-color: var(--error600);
 			}
 		}

@@ -50,6 +50,7 @@
 			padding: 10px;
 			width: 100%;
 			&:hover,
+			&:active,
 			&.isSelected {
 				background-color: var(--secondary-hover);
 			}
