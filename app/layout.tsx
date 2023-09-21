@@ -6,6 +6,7 @@ import { LoaderProvider } from "./_context/LoaderContext";
 import Footer from "./_components/Footer/Footer";
 import { ReviewsUsersDataProvider } from "./_context/ReviewsUsersDataContext";
 import CookieBar from "./_components/CookieBar/CookieBar";
+import { handleeFont } from "./fonts";
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -15,7 +16,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">
-			<body className="font-helvetica pt-20 bg-customWhite text-darkTurquoise">
+			<body
+				className={`font-helvetica pt-20 bg-customWhite text-darkTurquoise ${handleeFont.variable}`}
+			>
 				<FlashMessagesProvider>
 					<LoaderProvider>
 						<ReviewsUsersDataProvider>

@@ -4,7 +4,7 @@ import Link from "next/link";
 const SoinReikiPage = () => {
 	return (
 		<section className="flex flex-col gap-20 py-20 px-4 lg:px-24">
-			<h1 className="font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
+			<h1 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Déroulement d'un soin reiki
 			</h1>
 			<article>

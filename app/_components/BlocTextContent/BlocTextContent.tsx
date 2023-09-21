@@ -33,7 +33,7 @@ const BlocTextContent = ({
 			}`}
 		>
 			<h2
-				className={`font-semibold text-2xl text-center mx-auto w-fit p-4 md:text-4xl ${
+				className={`titleFont font-semibold text-2xl text-center mx-auto w-fit p-4 md:text-4xl ${
 					darkMode ? "customBorderYellow" : "customBorderBlue"
 				}`}
 			>

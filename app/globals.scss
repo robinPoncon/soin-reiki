@@ -20,6 +20,11 @@
 	--error700: #dc2626;
 }
 
+.titleFont {
+	font-family: var(--font-handlee);
+	letter-spacing: 1px;
+}
+
 .customBorderBlue {
 	border-bottom: 7px double var(--blueGreen);
 	border-top: 7px double var(--blueGreen);
