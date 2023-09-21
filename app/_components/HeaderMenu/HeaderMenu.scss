@@ -133,4 +133,54 @@
 			text-shadow: #3ad9bc 0px 0px 10px;
 		}
 	}
+
+	.headerContentMobile {
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+
+		button {
+			height: 100%;
+			line-height: 80px;
+			margin-left: 16px;
+		}
+
+		.logoOnMobile {
+			position: absolute;
+			left: 50%;
+			margin-left: -40px;
+			top: 40px;
+			img {
+				border-radius: 100%;
+			}
+		}
+
+		.mainTitleSmallMobile, .mainTitleMobile {
+			color: var(--customYellow);
+			font-family: var(--font-handlee);
+			font-size: 22px;
+			font-style: italic;
+			letter-spacing: 1px;
+			text-align: center;
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+
+		.mainTitleMobile {
+			margin-top: 6px;
+			font-size: 24px;
+		}
+
+		.loginLinkBlocMobile {
+			background-image: url("/icons/icon_login-mobile.svg");
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 36px;
+			margin-right: 16px;
+			transition: background-image 0.5s;
+			&.activeLink {
+				background-image: url("/icons/icon_login-mobile-blue.svg");
+			}
+		}
+	}
 }
