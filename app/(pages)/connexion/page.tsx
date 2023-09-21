@@ -3,7 +3,7 @@ import Image from "next/image";
 const LoginPage = () => {
 	return (
 		<section className="flex flex-col gap-12 py-20 px-2 lg:px-24">
-			<h1 className="font-semibold sm:text-2xl md:text-4xl mx-auto w-fit customBorderPink p-4">
+			<h1 className="titleFont font-semibold sm:text-2xl md:text-4xl mx-auto w-fit customBorderPink p-4">
 				Nouvelle fonctionnalité à venir !
 			</h1>
 			<div className="flex flex-col mx-auto md:flex-row justify-center gap-12">

@@ -51,7 +51,7 @@ const MainPage = () => {
 				/>
 			</figure>
 			<section className="flex flex-col gap-10 px-2">
-				<h2 className="font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
+				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 					Bienvenue sur <span className="italic">Les racines de la guérison !</span>
 				</h2>
 				<ScrollAnimation
@@ -360,7 +360,7 @@ const MainPage = () => {
 				</BlocTextContent>
 			</section>
 			<section className="flex flex-col gap-10 bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
-				<h2 className="font-semibold text-2xl text-center mx-auto w-fit customBorderYellow p-4 md:text-4xl">
+				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderYellow p-4 md:text-4xl">
 					Mon histoire
 				</h2>
 				<div className="flex flex-col justify-center px-4 gap-10 lg:flex-row">
@@ -443,7 +443,7 @@ const MainPage = () => {
 				</div>
 			</section>
 			<section className="flex flex-col gap-20 px-4">
-				<h2 className="font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
+				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 					Ils ont essayé, pourquoi pas vous ?
 				</h2>
 				<ScrollAnimation

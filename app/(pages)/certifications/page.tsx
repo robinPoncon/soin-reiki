@@ -9,7 +9,7 @@ const CertificationsPage = () => {
 
 	return (
 		<section className="flex flex-col py-20 px-4 gap-20">
-			<h1 className="font-semibold text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
+			<h1 className="titleFont font-semibold text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Mes certifications
 			</h1>
 			<div className="flex flex-col justify-around gap-20 lg:flex-row">

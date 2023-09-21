@@ -41,7 +41,6 @@ const config: Config = {
 			lg: "1024px",
 			xl: "1280px"
 		}
-	},
-	plugins: []
+	}
 };
 export default config;

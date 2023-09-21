@@ -4,8 +4,10 @@ import "./page.scss";
 const TarifsPage = () => {
 	return (
 		<section className="flex flex-col gap-20 py-20 px-4 tarifsPageComponent">
-			<h1 className="font-semibold text-center text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
-				Tarifs de mes Prestations
+			<h1
+				className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl"
+			>
+				Tarifs de mes prestations
 			</h1>
 			<p className="text-justify italic mx-auto lg:max-w-3xl">
 				Pour régler une séance, vous avez actuellement la possibilité de payer en{" "}

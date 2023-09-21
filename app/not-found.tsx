@@ -21,7 +21,7 @@ const Custom404 = () => {
 
 	return (
 		<section className="flex flex-col gap-10 py-20 px-1">
-			<h1 className="font-semibold text-center text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
+			<h1 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Oups, il semble que cette page n'existe pas !
 			</h1>
 			<p className="text-justify italic mx-auto px-3 sm:max-w-lg md:max-w-2xl">
