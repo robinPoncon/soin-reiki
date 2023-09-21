@@ -80,6 +80,15 @@ const SoinReikiPage = () => {
 					Pour aller plus loin
 				</h2>
 				<p className="text-center mt-5">
+					Besoin d'informations sur les prix ?{" "}
+					<Link
+						className="redirectLinkBlue"
+						href="/tarifs"
+					>
+						Je consulte les tarifs.
+					</Link>
+				</p>
+				<p className="text-center mt-5">
 					Envie de tenter l'expérience ?{" "}
 					<Link
 						className="redirectLinkBlue"
@@ -88,7 +97,6 @@ const SoinReikiPage = () => {
 						Je réserve ma séance.
 					</Link>
 				</p>
-
 				<p className="text-center mt-5">
 					Si vous désirez en savoir davantage sur les bienfaits du Reiki ou pour toute
 					autre information, n'hésitez pas à me laisser un message via la{" "}
