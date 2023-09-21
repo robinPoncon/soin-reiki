@@ -67,20 +67,4 @@
 		font-style: italic;
 		font-weight: 600;
 	}
-
-	.linkGuidance {
-		transition: text-shadow 0.5s;
-		&:hover,
-		&:active {
-			text-shadow: 0 0 10px var(--customYellow);
-		}
-	}
-
-	.linkReiki {
-		transition: text-shadow 0.5s;
-		&:hover,
-		&:active {
-			text-shadow: 0 0 10px var(--blueGreen);
-		}
-	}
 }

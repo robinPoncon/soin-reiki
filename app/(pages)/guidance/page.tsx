@@ -91,6 +91,15 @@ const GuidancePage = () => {
 					Pour aller plus loin
 				</h2>
 				<p className="text-center mt-5">
+					Besoin d'informations sur les prix ?{" "}
+					<Link
+						className="redirectLinkYellow"
+						href="/tarifs"
+					>
+						Je consulte les tarifs.
+					</Link>
+				</p>
+				<p className="text-center mt-5">
 					Envie de tenter l'expérience ?{" "}
 					<Link
 						className="redirectLinkYellow"

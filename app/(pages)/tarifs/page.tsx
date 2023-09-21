@@ -7,6 +7,19 @@ const TarifsPage = () => {
 			<h1 className="font-semibold text-center text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Tarifs de mes Prestations
 			</h1>
+			<p className="text-justify italic mx-auto lg:max-w-3xl">
+				Pour régler une séance, vous avez actuellement la possibilité de payer en{" "}
+				<strong>espèces</strong> ou par <strong>chèque</strong> à la fin de la séance. Je
+				prévois d'introduire d'autres moyens de paiement à l'avenir pour plus de commodité.
+				Pour les séances à distance, veuillez me contacter par email en utilisant la{" "}
+				<Link
+					href="/contact"
+					className="redirectLinkBlue"
+				>
+					page de contact
+				</Link>{" "}
+				pour discuter des modalités de paiement appropriées.
+			</p>
 			<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
 				<article className="blockOffer1 max-w-xs mx-auto lg:w-1/3">
 					<h2 className="text-lg font-semibold italic text-center">
@@ -19,7 +32,7 @@ const TarifsPage = () => {
 						de quelques oracles pour vous guider. Pour plus de détails sur le processus,
 						consultez la{" "}
 						<Link
-							className="linkGuidance"
+							className="redirectLinkYellow"
 							href="/guidance"
 						>
 							page dédiée
@@ -45,7 +58,7 @@ const TarifsPage = () => {
 						déroule sur une table de massage. Vous pouvez en savoir plus sur le
 						déroulement d'une séance sur cette{" "}
 						<Link
-							className="linkReiki"
+							className="redirectLinkBlue"
 							href="/soin-reiki"
 						>
 							page dédiée
