@@ -177,7 +177,7 @@
 		background-image: url("/icons/icon_login-mobile.svg");
 		background-repeat: no-repeat;
 		background-position: center;
-		width: 36px;
+		width: 48px;
 		margin-right: 16px;
 		transition: background-image 0.5s;
 		&.activeLink {
@@ -191,5 +191,27 @@
 		width: 100%;
 		height: 100%;
 		top: 80px;
+	}
+
+	.mobileNavTransition-enter {
+		margin-top: 140px;
+		opacity: 0;
+	}
+
+	.mobileNavTransition-enter-active {
+		margin-top: 40px;
+		opacity: 1;
+		transition: margin-top 750ms, opacity 750ms;
+	}
+
+	.mobileNavTransition-exit {
+		margin-top: 40px;
+		opacity: 1;
+	}
+
+	.mobileNavTransition-exit-active {
+		margin-top: 140px;
+		opacity: 0;
+		transition: margin-top 750ms, opacity 750ms;
 	}
 }

@@ -5,11 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import "./HeaderMenu.scss";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 const HeaderMenu = () => {
 	const { isLoading } = useLoader();
 	const [openMobileMenu, setOpenMobileMenu] = useState<boolean>(false);
+	const nodeRef = useRef(null);
 
 	const isActiveLink = (path: string) => {
 		return usePathname() === path;
@@ -130,65 +132,101 @@ const HeaderMenu = () => {
 						height={48}
 					></Image>
 				</button>
-				{openMobileMenu && (
+				<CSSTransition
+					timeout={1000}
+					in={openMobileMenu}
+					unmountOnExit
+					nodeRef={nodeRef}
+					classNames="mobileNavTransition"
+				>
 					<nav className="mobileNav">
-						<ul>
-							<li>
-								<p>
-									Services
-									<span className="servicesIcon" />
-								</p>
-								<div className="flex flex-col">
-									<p>
-										<Link
-											className={`greenLight text-lg ${
-												isActiveLink("/soin-reiki") ? "activeLink" : ""
-											}`}
-											href="/soin-reiki"
-										>
-											Soin Reiki
-										</Link>
-									</p>
-									<p>
-										<Link
-											className={`greenLight text-lg ${
-												isActiveLink("/guidance") ? "activeLink" : ""
-											}`}
-											href="/guidance"
-										>
-											Guidance
-										</Link>
-									</p>
-								</div>
+						<ul
+							ref={nodeRef}
+							className="flex flex-col gap-5 w-fit mx-auto mt-10"
+						>
+							<li onClick={() => setOpenMobileMenu(false)}>
+								<Link
+									className={`greenLight text-xl ${
+										isActiveLink("/soin-reiki") ? "activeLink" : ""
+									}`}
+									href="/soin-reiki"
+								>
+									Soin Reiki
+								</Link>
+							</li>
+							<li onClick={() => setOpenMobileMenu(false)}>
+								<Link
+									className={`greenLight text-xl ${
+										isActiveLink("/guidance") ? "activeLink" : ""
+									}`}
+									href="/guidance"
+								>
+									Guidance
+								</Link>
+							</li>
+							<li onClick={() => setOpenMobileMenu(false)}>
+								<Link
+									className={`greenLight text-xl ${
+										isActiveLink("/tarifs") ? "activeLink" : ""
+									}`}
+									href="/tarifs"
+								>
+									Tarifs
+								</Link>
+							</li>
+							<li onClick={() => setOpenMobileMenu(false)}>
+								<Link
+									className={`greenLight text-xl ${
+										isActiveLink("/reservation") ? "activeLink" : ""
+									}`}
+									href="/reservation"
+								>
+									Réservation
+								</Link>
+							</li>
+							<li onClick={() => setOpenMobileMenu(false)}>
+								<Link
+									className={`greenLight text-xl ${
+										isActiveLink("/contact") ? "activeLink" : ""
+									}`}
+									href="/contact"
+								>
+									Contact
+								</Link>
 							</li>
 						</ul>
 					</nav>
-				)}
+				</CSSTransition>
 				<Link
+					onClick={() => setOpenMobileMenu(false)}
 					href="/"
 					className="mainTitleSmallMobile sm:hidden"
 				>
 					Les racines <br /> de la guérison
 				</Link>
 				<Link
+					onClick={() => setOpenMobileMenu(false)}
 					href="/"
 					className="mainTitleMobile hidden sm:block"
 				>
 					Les racines de la guérison
 				</Link>
+				{!openMobileMenu && (
+					<Link
+						href="/"
+						className="logoOnMobile hidden sm:block"
+					>
+						<Image
+							alt="Logo du site internet avec un arbre et de l'énergie"
+							src="/logos/logo_website.png"
+							height={80}
+							width={80}
+							priority
+						/>
+					</Link>
+				)}
 				<Link
-					href="/"
-					className="logoOnMobile hidden sm:block"
-				>
-					<Image
-						alt="Logo du site internet avec un arbre et de l'énergie"
-						src="/logos/logo_website.png"
-						height={80}
-						width={80}
-						priority
-					/>
-				</Link>
-				<Link
+					onClick={() => setOpenMobileMenu(false)}
 					href="/connexion"
 					className={`loginLinkBlocMobile ${
 						isActiveLink("/connexion") ? "activeLink" : ""
