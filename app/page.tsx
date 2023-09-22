@@ -42,7 +42,7 @@ const MainPage = () => {
 
 	return (
 		<main className="flex flex-col gap-20">
-			<figure className="md:-mt-20 shadow-darkTurquoise">
+			<figure className="shadow-darkTurquoise sm:-mt-5 md:-mt-10 lg:-mt-20">
 				<Image
 					alt="image principal du site avec un arbre et des boules d'énergie"
 					src="/main-site-image.png"
@@ -122,7 +122,7 @@ const MainPage = () => {
 					}
 				>
 					<p className="font-semibold italic text-center max-w-2xl mx-auto">
-						"Mon but est de trouver la racine des problèmes et de les traiter ou
+						"Mon but est de trouver la source des problèmes et de les traiter ou
 						idéalement, de les apaiser. Plus profonde sont nos racines, moins nous
 						sommes affectés par les événements de la vie, et plus nous pouvons faire
 						éclore les fleurs de notre épanouissement."
