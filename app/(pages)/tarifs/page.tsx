@@ -25,7 +25,7 @@ const TarifsPage = () => {
 			<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
 				<article className="blockOffer1 max-w-xs mx-auto lg:w-1/3">
 					<h2 className="text-lg font-semibold italic text-center">
-						Guidance Tirage de Carte <br />
+						Guidance Tirage de Cartes <br />
 						(1 seule question à la fois)
 					</h2>
 					<p className="separator1"></p>
@@ -79,7 +79,7 @@ const TarifsPage = () => {
 
 				<article className="blockOffer3 max-w-xs mx-auto lg:w-1/3">
 					<h2 className="text-lg font-semibold italic text-center">
-						Rééquilibrage des Chakras + Guidance Tirage de Carte
+						Rééquilibrage des Chakras + Guidance Tirage de Cartes
 					</h2>
 					<p className="separator3"></p>
 					<p className="text-justify">

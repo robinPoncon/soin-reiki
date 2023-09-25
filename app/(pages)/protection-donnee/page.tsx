@@ -13,7 +13,9 @@ const ProtectionDonneePage = () => {
 				données.
 			</p>
 			<article>
-				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Collecte de vos données personnelles</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">
+					Collecte de vos données personnelles
+				</h2>
 				<p className="mb-2 text-justify">
 					Lorsque vous visitez mon site web, je peux collecter certaines informations
 					personnelles, notamment :
@@ -21,7 +23,7 @@ const ProtectionDonneePage = () => {
 				<p className="text-justify">
 					<strong>- Informations d'identification</strong> : Votre nom, votre prénom,
 					votre numéro de téléphone, votre adresse email et éventuellement d'autres
-					coordonnées que vous choisissez de me fournir via mes formulaires de contact.
+					coordonnées que vous choisissez de me fournir via le formulaire de contact.
 				</p>
 				<p className="text-justify">
 					<strong>- Informations échangées lors d'une séance</strong> : Dans un second
@@ -39,7 +41,9 @@ const ProtectionDonneePage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Utilisation de vos données personnelles</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">
+					Utilisation de vos données personnelles
+				</h2>
 				<p className="mb-2 text-justify">
 					J'utilise les données personnelles collectées pour les finalités suivantes :
 				</p>
@@ -86,7 +90,9 @@ const ProtectionDonneePage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Modifications de la politique</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">
+					Modifications de la politique
+				</h2>
 				<p className="text-justify">
 					Je me réserve le droit de mettre à jour cette politique de protection des
 					données à tout moment pour refléter les changements apportés à mes pratiques ou

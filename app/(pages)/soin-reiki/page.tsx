@@ -31,7 +31,7 @@ const SoinReikiPage = () => {
 			</article>
 			<article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
-					Étape 2 : L'Harmonie Énergétique{" "}
+					Étape 2 : L'Harmonie Énergétique
 				</h2>
 				<div className="flex flex-col justify-center gap-10 mt-10 md:flex-row-reverse">
 					<Image
@@ -55,7 +55,7 @@ const SoinReikiPage = () => {
 			</article>
 			<article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
-					Étape 3 : Intégration et Planification{" "}
+					Étape 3 : Intégration et Planification
 				</h2>
 				<div className="flex flex-col justify-center gap-10 mt-10 md:flex-row">
 					<Image
@@ -68,7 +68,7 @@ const SoinReikiPage = () => {
 					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
 						Une fois le soin achevé, nous prenons le temps de partager nos impressions
 						sur l'expérience vécue. En fonction de vos ressentis et de vos besoins, nous
-						planifions d'autres séances si nécessaire. Généralement, pour des résultats
+						planifions d'autres séances si nécessaires. Généralement, pour des résultats
 						concluants, il est recommandé de prévoir 2 à 3 séances espacées d'une à deux
 						semaines. Dans les jours qui suivent le soin, hydratez-vous davantage pour
 						favoriser la purification et l'élimination des toxines énergétiques.
