@@ -1,6 +1,8 @@
 "use client";
 
+import { useLoader } from "@/_context/LoaderContext";
 import Link from "next/link";
+import { useEffect } from "react";
 
 const ReservationPage = () => {
 	return (

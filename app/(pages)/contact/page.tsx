@@ -5,7 +5,7 @@ import CustomTextarea from "../../_components/Form/CustomTextarea/CustomTextarea
 import useCustomForm from "../../_components/Form/UseCustomForm/UseCustomForm";
 import Image from "next/image";
 import { formDataToObject } from "@/_utils/form";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import FlashMessagesContext from "@/_context/FlashMessagesContext";
 import { useLoader } from "@/_context/LoaderContext";
 
@@ -97,7 +97,7 @@ const ContactPage = () => {
 			</h1>
 			<p className="italic text-justify md:w-3/4 mx-auto">
 				Je suis là pour répondre à toutes vos questions et vous fournir des informations
-				détaillées sur le <strong>Soin Reiki</strong> ou sur les{" "}
+				détaillées sur le <strong>soin Reiki</strong> ou sur les{" "}
 				<strong>guidances en tirage de cartes</strong>. Utilisez simplement le formulaire
 				ci-dessous pour me contacter, et je vous répondrai dans les meilleurs délais !
 			</p>
