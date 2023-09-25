@@ -1,8 +1,6 @@
 "use client";
 
-import { useLoader } from "@/_context/LoaderContext";
 import Link from "next/link";
-import { useEffect } from "react";
 
 const ReservationPage = () => {
 	return (
@@ -28,6 +26,7 @@ const ReservationPage = () => {
 				</p>
 			</div>
 			<iframe
+				title="Récupération du système de réservation de google calendar"
 				className="h-[1180px] sm:h-[1100px] md:h-[590px] outline-offset-0"
 				src={process.env.NEXT_PUBLIC_GOOGLE_AGENDA_LINK}
 				width="100%"

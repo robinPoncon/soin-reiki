@@ -1,6 +1,6 @@
 footer {
 	.lightHover {
-		color: #148bad;
+		color: var(--darkTurquoiseLighter);
 		font-size: 14px;
 		transition: color 0.5s, text-shadow 0.5s;
 		&:hover,

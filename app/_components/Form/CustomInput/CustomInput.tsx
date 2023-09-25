@@ -1,7 +1,6 @@
-import React, { ChangeEvent, FocusEvent, HTMLInputTypeAttribute, useEffect, useState } from "react";
+import React, { ChangeEvent, FocusEvent, useEffect, useState } from "react";
 import "./CustomInput.scss";
 import { formatters, validatorFunction, validators } from "../../../_utils/form";
-import Image from "next/image";
 
 type CustomInputProps = {
 	label: string;
@@ -13,13 +12,34 @@ type CustomInputProps = {
 	maxLength?: number;
 	required?: boolean;
 	formatter?: "number" | "date" | "cardDate" | "price";
-	validator?: "authentication" | "notEmpty" | "email" | "date" | "cardNumber" | "cardDate" | "cardSecurityCode" | "password" | "iban" | "phoneNumber";
+	validator?:
+		| "authentication"
+		| "notEmpty"
+		| "email"
+		| "date"
+		| "cardNumber"
+		| "cardDate"
+		| "cardSecurityCode"
+		| "password"
+		| "iban"
+		| "phoneNumber";
 	icon?: string;
 };
 
-const CustomInput = ({ label, name, defaultValue, returnedValue, placeholder, type = "text", maxLength, required, formatter, validator, icon }: CustomInputProps): JSX.Element => {
+const CustomInput = ({
+	label,
+	name,
+	defaultValue,
+	returnedValue,
+	placeholder,
+	type = "text",
+	maxLength,
+	required,
+	formatter,
+	validator,
+	icon
+}: CustomInputProps): JSX.Element => {
 	const [valueInput, setValueInput] = useState<string>(defaultValue || "");
-	const [typeInput, setTypeInput] = useState<HTMLInputTypeAttribute>(type);
 	const [errors, setErrors] = useState<string[] | null>(null);
 	const [isValidatedInput, setIsValidatedInput] = useState<boolean>(required ? false : true);
 
@@ -68,60 +88,12 @@ const CustomInput = ({ label, name, defaultValue, returnedValue, placeholder, ty
 					id={name}
 					name={name}
 					placeholder={placeholder}
-					type={typeInput}
+					type={type}
 					maxLength={maxLength}
 					value={valueInput}
 					onChange={onChange}
 					onBlur={onBlur}
 				/>
-				{icon === "password" && typeInput === "password" && (
-					<button
-						className="iconPassword"
-						onClick={() => setTypeInput("text")}
-					>
-						<Image
-							alt="icône d'oeil pour afficher le mot de passe"
-							src="icon_eye.svg"
-							width={24}
-							height={24}
-						></Image>
-					</button>
-				)}
-				{icon === "password" && typeInput === "text" && (
-					<button
-						className="iconPassword"
-						onClick={() => setTypeInput("password")}
-					>
-						<Image
-							alt="icône d'oeil pour masquer le mot de passe"
-							src="icon_eye_closed.svg"
-							width={24}
-							height={24}
-						></Image>
-					</button>
-				)}
-				{icon === "bankCard" && (
-					<div className="blocCardLogos">
-						<Image
-							alt="logo d'une carte bancaire mastercard"
-							src="logo_mastercard.svg"
-							width={24}
-							height={24}
-						></Image>
-						<Image
-							alt="logo d'une carte bancaire visa"
-							src="logo_visa.svg"
-							width={24}
-							height={24}
-						></Image>
-						<Image
-							alt="logo d'une carte bancaire american express"
-							src="logo_american_express.svg"
-							width={24}
-							height={24}
-						></Image>
-					</div>
-				)}
 			</div>
 			{errors && errors.map((errorMsg, index) => <p key={index}>{errorMsg}</p>)}
 		</div>

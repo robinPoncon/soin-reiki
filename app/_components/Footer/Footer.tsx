@@ -15,11 +15,11 @@ const Footer = () => {
 		<footer
 			className={`bg-darkTurquoise text-darkTurquoiseLighter p-5 ${isLoading ? "blur" : ""}`}
 		>
-			<div className="flex flex-col justify-around lg:mt-8 lg:flex-row">
-				<div className="flex flex-col justify-center gap-5 md:flex-row md:gap-20 md:mb-10 lg:gap-10 lg:mb-0 xl:gap-20">
+			<div className="flex flex-col justify-around md:mt-8 lg:flex-row">
+				<div className="flex flex-col justify-center gap-10 md:flex-row md:gap-20 md:mb-10 lg:gap-10 lg:mb-0 xl:gap-20">
 					<div className="mt-5 text-center md:text-start">
-						<h3 className="mb-2 italic font-semibold tracking-widest">NAVIGATION</h3>
-						<ul>
+						<h2 className="mb-5 italic font-semibold tracking-widest">NAVIGATION</h2>
+						<ul className="flex flex-col gap-2">
 							<li>
 								<Link
 									className="lightHover"
@@ -71,23 +71,25 @@ const Footer = () => {
 						</ul>
 					</div>
 					<div className="mt-5 text-center md:text-start">
-						<h3 className="mb-2 italic font-semibold tracking-widest">À PROPOS</h3>
-						<p className="text-sm">Robin Ponçon</p>
-						<p className="text-sm">59 rue Pierre Renaudel</p>
-						<p className="text-sm">33130 Bègles</p>
-						<p className="text-sm">
-							Email:{" "}
-							<a
-								className="lightHover"
-								href="mailto:poncon.robin@gmail.com"
-							>
-								poncon.robin@gmail.com
-							</a>
-						</p>
+						<h2 className="mb-5 italic font-semibold tracking-widest">À PROPOS</h2>
+						<div className="flex flex-col gap-2">
+							<p className="text-sm">Robin Ponçon</p>
+							<p className="text-sm">59 rue Pierre Renaudel</p>
+							<p className="text-sm">33130 Bègles</p>
+							<p className="text-sm">
+								Email:{" "}
+								<a
+									className="lightHover"
+									href="mailto:poncon.robin@gmail.com"
+								>
+									poncon.robin@gmail.com
+								</a>
+							</p>
+						</div>
 					</div>
 					<div className="mt-5 text-center mb-10 md:text-start md:mb-0">
-						<h3 className="mb-2 italic font-semibold tracking-widest">INFORMATIONS</h3>
-						<ul>
+						<h2 className="mb-5 italic font-semibold tracking-widest">INFORMATIONS</h2>
+						<ul className="flex flex-col gap-2">
 							<li>
 								<Link
 									className="lightHover"
