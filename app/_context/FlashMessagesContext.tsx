@@ -15,10 +15,7 @@ export const FlashMessagesProvider = ({ children }: { children: ReactNode }) => 
 
 	const addMessage = (message: Omit<Message, "id">) => {
 		const id = Date.now();
-		setMessages((prevMessages: Message[]) => [
-			...prevMessages,
-			{ ...message, id: id } // Add the 'type' property here
-		]);
+		setMessages((prevMessages: Message[]) => [...prevMessages, { ...message, id: id }]);
 	};
 
 	const removeMessage = (id: number) => {

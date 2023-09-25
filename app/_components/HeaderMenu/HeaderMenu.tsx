@@ -6,7 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import "./HeaderMenu.scss";
 import { useRef, useState } from "react";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { CSSTransition } from "react-transition-group";
 
 const HeaderMenu = () => {
 	const { isLoading } = useLoader();
@@ -231,6 +231,7 @@ const HeaderMenu = () => {
 					className={`loginLinkBlocMobile ${
 						isActiveLink("/connexion") ? "activeLink" : ""
 					}`}
+					aria-label="connexion"
 				/>
 			</div>
 		</header>
