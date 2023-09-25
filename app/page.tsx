@@ -83,10 +83,10 @@ const MainPage = () => {
 					}
 				>
 					<p className="text-justify max-w-2xl mx-auto">
-						Je suis ravi de vous accueillir sur mon site dédié au Reiki et à la guidance
-						en tirage de cartes. Je crois profondément en l'importance de prendre soin
-						de son corps, de son esprit et de ses émotions pour atteindre un
-						épanouissement complet dans tous les domaines de sa vie. Vous trouverez
+						Je suis ravi de vous accueillir sur mon site internet dédié au Reiki et à la
+						guidance en tirage de cartes. Je crois profondément en l'importance de
+						prendre soin de son corps, de son esprit et de ses émotions pour atteindre
+						un épanouissement complet dans tous les domaines de sa vie. Vous trouverez
 						toutes les informations nécessaires sur les différents services que je
 						propose au sein des différentes pages de mon site. Je vous souhaite une
 						agréable visite !
@@ -123,7 +123,7 @@ const MainPage = () => {
 				>
 					<p className="font-semibold italic text-center max-w-2xl mx-auto">
 						"Mon but est de trouver la source des problèmes et de les traiter ou
-						idéalement, de les apaiser. Plus profonde sont nos racines, moins nous
+						idéalement, de les apaiser. Plus profondes sont nos racines, moins nous
 						sommes affectés par les événements de la vie, et plus nous pouvons faire
 						éclore les fleurs de notre épanouissement."
 					</p>
@@ -165,7 +165,7 @@ const MainPage = () => {
 							content: `L'utilisation du Reiki se fait par apposition des mains sur
 								différentes parties du corps. Elles peuvent être posées délicatement
 								ou être à 5/10cm au-dessus du corps. Il n'y a aucune manipulation ce
-								qui en fait une méthode de soin très douce et agréable !`,
+								qui en fait une méthode de soins très douce et agréable !`,
 							transitionType: "right"
 						}
 					]}
@@ -184,8 +184,8 @@ const MainPage = () => {
 								Kurama. Cette expérience transpersonnelle lui transmit les
 								enseignements et techniques du Reiki, que nous pratiquons
 								actuellement. Son attrait universel réside dans sa simplicité et son
-								efficacité. Le Reiki ne cherche pas à se substituer à la médecine,
-								mais plutôt à agir en complémentarité avec elle !`,
+								efficacité. Le Reiki continue d'évoluer tout en restant fidèle à ses 
+								principes fondamentaux.`,
 							transitionType: "left"
 						},
 						{
@@ -230,10 +230,10 @@ const MainPage = () => {
 							title: "Sérénité mentale et détente",
 							content: `Le Reiki, grâce à sa nature apaisante, ouvre la voie à une
 								relaxation profonde, offrant ainsi un précieux moyen de diminuer le
-								stress et l'anxiété. En encourageant un lâcher-prise mental, il
+								stress et l'anxiété. En encourageant le lâcher-prise, il
 								permet d'atteindre une clarté mentale qui renforce à la fois la
 								concentration et l'estime de soi. Grâce à cette harmonie retrouvée,
-								le Reiki offre un refuge de calme au cœur du tumulte quotidien.`,
+								le Reiki offre une profonde paix intérieure.`,
 							transitionType: "left"
 						},
 						{
@@ -301,7 +301,7 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_puzzle.svg",
 							title: "Analyse des blocages",
 							content: `Dans un premier temps, les cartes nous offrent la capacité d'explorer l'origine des
-								blocages que vous rencontrez. Grâce à mon interprétation des cartes, combinée à mon intuition,
+								blocages que vous rencontrez. Grâce à mon interprétation des cartes, combinée avec mon intuition,
 								je peux vous aider à discerner la source de ces blocages, qu'ils relèvent du domaine physique,
 								relationnel, professionnel ou familial. Une fois que nous avons identifié leur source,
 								nous pouvons élaborer des solutions en vue de résoudre ces problèmes.`,
@@ -312,10 +312,11 @@ const MainPage = () => {
 							imgAlt: "icône d'une plante symbolisant la guérison",
 							imgSrc: "/icons/icon_healing.svg",
 							title: "Chemins de guérison",
-							content: `Dans un second temps, les cartes nous permettent d'identifier les soutiens et les solutions 
-								potentiels. Ces pistes de guérison peuvent évoquer des pensées ou des conseils qui vous ont peut-être 
-								déjà été transmis et recommandés. De plus, elles ont le potentiel de vous ouvrir les yeux et de vous 
-								offrir une nouvelle perspective sur la situation, vous permettant ainsi d'acquérir un point de vue totalement nouveau.`,
+							content: `Dans un second temps, les cartes nous permettent d'identifier les soutiens et les 
+								solutions potentielles. Ces pistes de guérison peuvent évoquer des pensées ou des conseils 
+								qui vous ont peut-être déjà été transmis et recommandé. De plus, elles ont le potentiel 
+								de vous ouvrir les yeux et de vous offrir une nouvelle perspective sur la situation, 
+								vous permettant ainsi d'acquérir un point de vue totalement nouveau.`,
 							transitionType: "center"
 						},
 						{
@@ -323,10 +324,10 @@ const MainPage = () => {
 							imgAlt: "icône d'un oeil'",
 							imgSrc: "/icons/icon_eye.svg",
 							title: "Prise de conscience",
-							content: `Enfin, l'objectif d'un tirage de cartes est de vous orienter vers votre vérité personnelle.
-								Cela équivaut à une meilleure compréhension de vous-même et de vos expériences. 
-								Il arrive souvent que la simple exploration d'un problème sous un angle nouveau 
-								permette d'en révéler des solutions insoupçonnées. C'est ce qu'on appelle une prise de conscience, 
+							content: `Enfin, l'objectif d'un tirage de cartes est de vous orienter vers votre vérité
+								personnelle. Cela équivaut à une meilleure compréhension de vous-même et de vos expériences. 
+								Il arrive souvent que la simple exploration d'un problème sous un angle nouveau permette 
+								d'en révéler des solutions insoupçonnées. C'est ce qu'on appelle une prise de conscience, 
 								et cela peut transformer profondément tous les aspects de votre vie.`,
 							transitionType: "right"
 						}

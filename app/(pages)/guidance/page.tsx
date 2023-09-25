@@ -22,7 +22,7 @@ const GuidancePage = () => {
 					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0 sm:max-w-sm">
 						Notre séance débute par un échange afin de définir ensemble la question qui
 						sera soumise pour la guidance. Ensuite je vous tirerai au minimum 5 cartes
-						de tarot qui serviront de structure principal, que j'accompagnerai par des
+						de tarot qui serviront de structure principale, que j'accompagnerai par des
 						oracles selon les ressentis du moment. Mon approche se caractérise par une
 						interprétation intuitive des cartes, dans laquelle je vous ferai part de mes
 						observations et de mes analyses personnelles. De plus, je vous fournirai une
@@ -79,7 +79,7 @@ const GuidancePage = () => {
 						peuvent influencer le cours des événements. Il est important de noter que la
 						guidance par le biais d'un tirage de cartes n'est pas une science exacte, ce
 						qui signifie que les conseils que je peux vous offrir ne sont pas gravés
-						dans la pierre en ce qui concerne le temps. Néanmoins, les conseils obtenus,
+						dans le marbre en ce qui concerne le temps. Néanmoins, les conseils obtenus,
 						ainsi que les moments de réflexion et de prise de conscience qui en
 						découlent, eux, sont tout à fait réels et bénéfiques pour votre cheminement
 						personnel.
@@ -110,7 +110,7 @@ const GuidancePage = () => {
 				</p>
 
 				<p className="text-center mt-5">
-					Si vous désirez en savoir davantage sur les guidances en tirage de carte ou pour
+					Si vous désirez en savoir davantage sur les guidances en tirage de cartes ou pour
 					toute autre information, n'hésitez pas à me laisser un message via la{" "}
 					<Link
 						className="redirectLinkYellow"
