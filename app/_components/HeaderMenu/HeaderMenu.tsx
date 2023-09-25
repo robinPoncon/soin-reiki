@@ -133,7 +133,7 @@ const HeaderMenu = () => {
 					></Image>
 				</button>
 				<CSSTransition
-					timeout={1000}
+					timeout={{ enter: 750, exit: 350 }}
 					in={openMobileMenu}
 					unmountOnExit
 					nodeRef={nodeRef}
