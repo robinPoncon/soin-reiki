@@ -18,6 +18,7 @@ const SoinReikiPage = () => {
 						src="/illustrations/illustration_discussion.png"
 						width={320}
 						height={320}
+						loading="eager"
 					/>
 					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
 						Dès le début, nous prenons le temps de discuter de vos intentions et des

@@ -44,6 +44,7 @@ const MainPage = () => {
 		<main className="flex flex-col gap-20">
 			<figure className="shadow-darkTurquoise sm:-mt-5 md:-mt-10 lg:-mt-20">
 				<Image
+					loading="eager"
 					alt="image principal du site avec un arbre et des boules d'énergie"
 					src="/main-site-image.png"
 					height={758}
