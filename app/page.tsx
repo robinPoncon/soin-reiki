@@ -53,7 +53,7 @@ const MainPage = () => {
 			</figure>
 			<section className="flex flex-col gap-10 px-2">
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
-					Bienvenue sur <span className="italic">Les racines de la guérison !</span>
+					Bienvenue sur <span className="italic">Les Racines de la Guérison !</span>
 				</h2>
 				<ScrollAnimation
 					id="text-welcome-bloc"
@@ -85,12 +85,12 @@ const MainPage = () => {
 				>
 					<p className="text-justify max-w-2xl mx-auto">
 						Je suis ravi de vous accueillir sur mon site internet dédié au Reiki et à la
-						guidance en tirage de cartes. Je crois profondément en l'importance de
-						prendre soin de son corps, de son esprit et de ses émotions pour atteindre
-						un épanouissement complet dans tous les domaines de sa vie. Vous trouverez
-						toutes les informations nécessaires sur les différents services que je
-						propose au sein des différentes pages de mon site. Je vous souhaite une
-						agréable visite !
+						guidance en tirage de cartes sur Bordeaux. Je crois profondément en
+						l'importance de prendre soin de son corps, de son esprit et de ses émotions
+						pour atteindre un épanouissement complet dans tous les domaines de sa vie.
+						Vous trouverez toutes les informations nécessaires sur les différents
+						services que je propose au sein des différentes pages de mon site. Je vous
+						souhaite une agréable visite !
 					</p>
 				</ScrollAnimation>
 				<p className="separatorBlue max-w-sm mx-auto md:max-w-xl" />

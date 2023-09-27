@@ -1,5 +1,22 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+	title: "Déroulement d'une Guidance en Tirage de Cartes",
+	description:
+		"Découvrez mes services de guidance en tirage de cartes conçus pour vous accompagner dans la réponse à vos questions. Possibilité d'y faire à distance !",
+	keywords: [
+		"guidance",
+		"tirage de cartes",
+		"présentiel",
+		"distance",
+		"spiritualité",
+		"développement personnel",
+		"guérison",
+		"énergétique"
+	]
+};
 
 const GuidancePage = () => {
 	return (
@@ -110,8 +127,8 @@ const GuidancePage = () => {
 				</p>
 
 				<p className="text-center mt-5">
-					Si vous désirez en savoir davantage sur les guidances en tirage de cartes ou pour
-					toute autre information, n'hésitez pas à me laisser un message via la{" "}
+					Si vous désirez en savoir davantage sur les guidances en tirage de cartes ou
+					pour toute autre information, n'hésitez pas à me laisser un message via la{" "}
 					<Link
 						className="redirectLinkYellow"
 						href="/contact"

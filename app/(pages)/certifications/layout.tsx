@@ -1,8 +1,15 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Mes certifications",
-	description: "Venez prendre un rendez-vous !"
+	title: "Certifications Reiki & Tirage de Cartes",
+	description:
+		"Explorez mes certifications en Reiki et tirage de cartes qui attestent de mon expertise et de mes compétences dans ces domaines.",
+	keywords: [
+		"certifications Reiki",
+		"certification tirage de cartes",
+		"diplômes reiki",
+		"diplôme tirage de cartes"
+	]
 };
 
 export default function CertificationsLayout({ children }: { children: React.ReactNode }) {

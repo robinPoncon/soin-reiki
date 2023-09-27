@@ -1,3 +1,18 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Protection des Données",
+	description:
+		"Découvrez ma politique de confidentialité pour comprendre comment je sécurise vos informations personnelles et maintiens votre confiance en ligne !",
+	keywords: [
+		"protection des données",
+		"politique de confidentialité",
+		"confiance",
+		"informations",
+		"données personnelles"
+	]
+};
+
 const ProtectionDonneePage = () => {
 	return (
 		<section className="flex flex-col gap-12 py-20 px-4 lg:px-24">

@@ -1,5 +1,13 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+	title: "Déroulement d'une Séance de Reiki",
+	description:
+		"Découvrez comment je guide chaque séance de Reiki avec les étapes, ses bienfaits et à quoi vous pouvez vous attendre d'une séance avec moi !",
+	keywords: ["reiki", "séance", "étapes", "bienfaits", "guérison", "soin", "énergétique"]
+};
 
 const SoinReikiPage = () => {
 	return (

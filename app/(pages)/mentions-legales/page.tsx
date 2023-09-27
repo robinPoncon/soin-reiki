@@ -1,4 +1,12 @@
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+	title: "Mentions légales",
+	description:
+		"Consultez mes mentions légales pour obtenir des informations importantes sur Les Racines de la Guérison dans un but de transparence et de confiance !",
+	keywords: ["mentions légales", "transparence", "confiance", "informations"]
+};
 
 const MentionsLegalesPage = () => {
 	return (
@@ -8,7 +16,7 @@ const MentionsLegalesPage = () => {
 			</h1>
 			<p className="text-justify">
 				Bienvenue sur la page des mentions légales sur{" "}
-				<strong className="italic">Les racines de la guérison</strong>. Je tiens à vous
+				<strong className="italic">Les Racines de la Guérison</strong>. Je tiens à vous
 				informer de manière transparente sur les aspects juridiques de mon site. Veuillez
 				prendre quelques instants pour lire les informations suivantes.
 			</p>
@@ -46,7 +54,9 @@ const MentionsLegalesPage = () => {
 				</p>
 			</article>
 			<article>
-				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Collecte de données personnelles</h2>
+				<h2 className="text-xl mb-2 font-semibold md:text-2xl">
+					Collecte de données personnelles
+				</h2>
 				<p className="text-justify">
 					Lorsque vous visitez mon site, je peux collecter certaines informations
 					personnelles conformément à la politique de protection des données. Veuillez

@@ -1,12 +1,18 @@
 import Link from "next/link";
 import "./page.scss";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Mes Différents Tarifs",
+	description:
+		"Découvrez les tarifs pour les séances de Reiki et de tirage de cartes. Ils reflètent mon engagement envers la qualité et la profondeur de chaque séance.",
+	keywords: ["tarifs", "prix", "séances", "reiki", "tirage de cartes", "qualité", "énergétique"]
+};
 
 const TarifsPage = () => {
 	return (
 		<section className="flex flex-col gap-20 py-20 px-4 tarifsPageComponent">
-			<h1
-				className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl"
-			>
+			<h1 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Tarifs de mes prestations
 			</h1>
 			<p className="text-justify italic mx-auto lg:max-w-3xl">

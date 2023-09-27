@@ -24,7 +24,7 @@ const HeaderMenu = () => {
 					href="/"
 					className="websiteName"
 				>
-					Les racines <br /> de la guérison
+					Les Racines <br /> de la Guérison
 				</Link>
 				<nav>
 					<ul className="flex justify-center gap-5 h-full ml-9">
@@ -202,14 +202,14 @@ const HeaderMenu = () => {
 					href="/"
 					className="mainTitleSmallMobile sm:hidden"
 				>
-					Les racines <br /> de la guérison
+					Les Racines <br /> de la Guérison
 				</Link>
 				<Link
 					onClick={() => setOpenMobileMenu(false)}
 					href="/"
 					className="mainTitleMobile hidden sm:block"
 				>
-					Les racines de la guérison
+					Les Racines de la Guérison
 				</Link>
 				{!openMobileMenu && (
 					<Link
