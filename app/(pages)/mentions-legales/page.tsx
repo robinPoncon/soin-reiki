@@ -38,10 +38,10 @@ const MentionsLegalesPage = () => {
 			<article>
 				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Hébergement</h2>
 				{/* TODO maj herbegement */}
-				<p className="mb-2">Ce site est hébergé par : O2switch</p>
+				<p className="mb-2">Ce site est hébergé par : o2switch</p>
 				<p className="flex flex-col">
 					<strong>- Adresse de l'hébergeur :</strong>
-					<span className="italic ml-2">O2switch.com</span>
+					<span className="italic ml-2">https://www.o2switch.fr/</span>
 				</p>
 			</article>
 			<article>
