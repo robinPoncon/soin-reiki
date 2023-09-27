@@ -28,7 +28,7 @@ const BlocTextContent = ({
 }: BlocTextContentProps): JSX.Element => {
 	return (
 		<article
-			className={`flex flex-col gap-10 ${
+			className={`flex flex-col gap-10 px-2 ${
 				darkMode ? "bg-darkBackground text-customWhite py-12 shadow-darkTurquoise" : ""
 			}`}
 		>
@@ -39,7 +39,7 @@ const BlocTextContent = ({
 			>
 				{mainTitle}
 			</h2>
-			<div className="flex flex-col justify-center px-4 gap-10 lg:flex-row">
+			<div className="flex flex-col justify-center px-2 gap-10 lg:flex-row">
 				{textDatasArray?.length > 0 &&
 					textDatasArray.map((data) => (
 						<ScrollAnimation
