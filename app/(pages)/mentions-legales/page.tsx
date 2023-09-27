@@ -37,7 +37,6 @@ const MentionsLegalesPage = () => {
 			</article>
 			<article>
 				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Hébergement</h2>
-				{/* TODO maj herbegement */}
 				<p className="mb-2">Ce site est hébergé par : o2switch</p>
 				<p className="flex flex-col">
 					<strong>- Adresse de l'hébergeur :</strong>
