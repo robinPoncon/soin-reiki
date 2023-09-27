@@ -95,7 +95,7 @@ const ContactPage = () => {
 			<h1 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Ensemble vers votre rééquilibre énergétique !
 			</h1>
-			<p className="italic text-justify md:w-3/4 mx-auto">
+			<p className="italic text-justify md:max-w-3xl mx-auto">
 				Je suis là pour répondre à toutes vos questions et vous fournir des informations
 				détaillées sur le <strong>soin Reiki</strong> ou sur les{" "}
 				<strong>guidances en tirage de cartes</strong>. Utilisez simplement le formulaire

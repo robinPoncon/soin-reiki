@@ -124,7 +124,7 @@ const Footer = () => {
 				/>
 			</div>
 			<div className="text-center">
-				© 2023 - {new Date().getFullYear()}. Les racines de la guérison. Tous droits
+				© 2023 - {new Date().getFullYear()}. Les Racines de la Guérison. Tous droits
 				réservés.
 			</div>
 		</footer>

@@ -1,4 +1,20 @@
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+	title: "Connexion à Votre Espace Client (à venir)",
+	description:
+		"Nouvelle fonctionnalité à venir, qui vous permettra d'avoir un suivi de votre évolution au fil des séances, de la gestion des rendez-vous et bien plus !",
+	keywords: [
+		"connexion",
+		"fonctionnalité",
+		"séances",
+		"rendez-vous",
+		"évolution",
+		"bien-être",
+		"énergétique"
+	]
+};
 
 const LoginPage = () => {
 	return (
