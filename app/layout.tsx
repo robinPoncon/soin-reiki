@@ -22,7 +22,8 @@ export const metadata: Metadata = {
 		"harmonie",
 		"guidance",
 		"Bordeaux"
-	]
+	],
+	robots: "noindex, nofollow"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
