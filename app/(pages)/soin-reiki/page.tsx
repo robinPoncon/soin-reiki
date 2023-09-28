@@ -52,13 +52,13 @@ const SoinReikiPage = () => {
 					/>
 					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
 						Pendant le soin, vous restez confortablement vêtu(e) allongé(e) sur une
-						table de massage standard. L'objectif est que vous soyez à l'aise, et
-						j'accompagne cela avec une douce musique apaisante. Je commence alors le
-						soin en plaçant délicatement mes mains sur les zones de votre corps
-						nécessitant un rééquilibrage énergétique. Pendant cette étape, des
-						sensations telles que chaleur, fraîcheur, picotements, émotions, images,
-						sons ou pensées peuvent se manifester. Tout cela est normal et fait parti du
-						processus naturel de la circulation de l'énergie en vous.
+						table de massage. L'objectif est que vous soyez à l'aise ! J'accompagne cela
+						avec une douce musique apaisante. Je commence le soin en plaçant
+						délicatement mes mains sur les zones de votre corps nécessitant un
+						rééquilibrage énergétique. Pendant cette étape, des sensations telles que
+						chaleur, fraîcheur, picotements, émotions ou autres peuvent se manifester.
+						Tout cela est normal et fait partie du processus naturel de la circulation
+						de l'énergie en vous.
 					</p>
 				</div>
 			</article>
