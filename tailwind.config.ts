@@ -11,6 +11,7 @@ const config: Config = {
 			backgroundColor: {
 				darkTurquoise: "#062933",
 				darkBackground: "#0b3242",
+				blackBackground: "#011721",
 				customWhite: "#fcf2d9",
 				blueGreen: "#3ad9bc",
 				customYellow: "#fdd542"
@@ -39,7 +40,8 @@ const config: Config = {
 			sm: "576px",
 			md: "768px",
 			lg: "1024px",
-			xl: "1280px"
+			xl: "1280px",
+			"2xl": "1536px"
 		}
 	}
 };
