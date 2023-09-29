@@ -37,23 +37,16 @@ export const ReviewsUsersDataProvider = ({ children }: { children: ReactNode }) 
 			},
 			{
 				id: 4,
-				name: "Antoine D",
-				comment:
-					"A chaque fois soin que j'effectue avec Robin c'est un moment de bonheur et de détente profonde. Je recommande à 100% !",
-				note: 5
-			},
-			{
-				id: 5,
 				name: "Adeline P",
 				comment: `Pour ma première séance de reiki je me suis senti vraiment bien, les douleurs se sont 
 					rapidement atténuées, je recommande !`,
 				note: 5
 			},
 			{
-				id: 6,
-				name: "Maëlys G",
-				comment: `Pour ma première séance de reiki je me suis senti vraiment bien, les douleurs se sont 
-					rapidement atténuées, je recommande !`,
+				id: 5,
+				name: "Harris R",
+				comment: `Super expérience ! Robin est très prévenant. A l'issue de la séance de Reiki, je me suis senti 
+					léger et revigoré. Je recommande.`,
 				note: 5
 			}
 		]);
