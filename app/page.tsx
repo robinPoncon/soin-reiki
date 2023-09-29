@@ -56,44 +56,43 @@ const MainPage = () => {
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 					Bienvenue sur <span className="italic">Les Racines de la Guérison !</span>
 				</h2>
-				<ScrollAnimation
-					id="text-welcome-bloc"
-					classContent="flex flex-col gap-10 px-2"
-					styleBeforeTransition={
-						breakpointResponsiveValue < 1024
-							? {
-									opacity: "0",
-									transition: "opacity 2.5s, margin-top 2.5s",
-									marginTop: "100px"
-							  }
-							: {
-									opacity: "0",
-									transition: "opacity 2.5s, margin-left 2.5s",
-									marginLeft: "200px"
-							  }
-					}
-					styleAfterTransition={
-						breakpointResponsiveValue < 1024
-							? {
-									opacity: "1",
-									marginTop: "0px"
-							  }
-							: {
-									opacity: "1",
-									marginLeft: "0px"
-							  }
-					}
-				>
-					<p className="text-justify max-w-2xl mx-auto">
-						Je suis ravi de vous accueillir sur mon site internet dédié au Reiki et à la
-						guidance en tirage de cartes sur Bordeaux. Je crois profondément en
-						l'importance de prendre soin de son corps, de son esprit et de ses émotions
-						pour atteindre un épanouissement complet dans tous les domaines de sa vie.
-						Vous trouverez toutes les informations nécessaires sur les différents
-						services que je propose au sein des différentes pages de mon site. Je vous
-						souhaite une agréable visite !
-					</p>
-				</ScrollAnimation>
+				{breakpointResponsiveValue < 1024 ? (
+					<div className="flex flex-col gap-10 px-2">
+						<p className="text-justify max-w-2xl mx-auto">
+							Je suis ravi de vous accueillir sur mon site internet dédié au Reiki et
+							à la guidance en tirage de cartes sur Bordeaux. Je crois profondément en
+							l'importance de prendre soin de son corps, de son esprit et de ses
+							émotions pour atteindre un épanouissement complet dans tous les domaines
+							de sa vie. Vous trouverez toutes les informations nécessaires sur les
+							différents services que je propose au sein des différentes pages de mon
+							site. Je vous souhaite une agréable visite !
+						</p>
+					</div>
+				) : (
+					<ScrollAnimation
+						id="text-welcome-bloc"
+						classContent="flex flex-col gap-10 px-2"
+						styleBeforeTransition={{
+							opacity: "0",
+							transition: "opacity 2.5s, margin-left 2.5s",
+							marginLeft: "200px"
+						}}
+						styleAfterTransition={{
+							opacity: "1",
+							marginLeft: "0px"
+						}}
+					>
+						<p className="text-justify max-w-2xl mx-auto">
+							Je suis ravi de vous accueillir sur mon site internet dédié au Reiki et
+							à la guidance en tirage de cartes sur Bordeaux. Je crois profondément en
+							l'importance de prendre soin de son corps, de son esprit et de ses
+							émotions pour atteindre un épanouissement complet dans tous les domaines
+							de sa vie. Vous trouverez toutes les informations nécessaires sur les
+							différents services que je propose au sein des différentes pages de mon
+							site. Je vous souhaite une agréable visite !
+						</p>
+					</ScrollAnimation>
+				)}
 				<p className="separatorBlue max-w-sm mx-auto md:max-w-xl" />
 				<ScrollAnimation
 					id="citation-welcome-bloc"
