@@ -30,7 +30,7 @@ const LoginPage = () => {
 					width={320}
 					height={320}
 				/>
-				<p className="text-justify text-sm mx-auto my-auto max-w-xs px-2 sm:px-0 sm:text-base lg:max-w-sm">
+				<p className="text-justify mx-auto my-auto max-w-xs px-2 sm:px-0 sm:text-base lg:max-w-sm">
 					Bientôt, je vais intégrer un tableau de bord de suivi sur le site. Cette
 					fonctionnalité vous permettra, entre autres, de suivre de près votre progression
 					au fil de nos séances, de consulter votre planning avec les rendez-vous déjà
