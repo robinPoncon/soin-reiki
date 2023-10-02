@@ -290,8 +290,6 @@ const MainPage = () => {
 						</Link>
 					</ScrollAnimation>
 				</BlocTextContent>
-			</section>
-			<section>
 				<BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					mainTitle="Les vertus du tirage de cartes"
@@ -361,90 +359,84 @@ const MainPage = () => {
 					</ScrollAnimation>
 				</BlocTextContent>
 			</section>
-			<section className="flex flex-col gap-10 bg-darkBackground text-customWhite py-12 shadow-darkTurquoise">
-				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderYellow p-4 md:text-4xl">
+			<section className="flex flex-col gap-10 py-10">
+				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderPink p-4 md:text-4xl lg:hidden">
 					Mon histoire
 				</h2>
-				<div className="flex flex-col justify-center px-4 gap-10 lg:flex-row">
-					<ScrollAnimation
-						id="profil-picture-bloc"
-						styleBeforeTransition={{
-							opacity: "0",
-							transition: "opacity 2.5s, margin-left 2.5s",
-							marginLeft: "-100px"
-						}}
-						styleAfterTransition={{
-							opacity: "1",
-							marginLeft: "0"
-						}}
-					>
+				<ScrollAnimation
+					id="profil-picture-bloc"
+					styleBeforeTransition={{
+						opacity: "0",
+						transition: "opacity 2.5s, margin-top 2.5s",
+						marginTop: "100px"
+					}}
+					styleAfterTransition={{
+						opacity: "1",
+						marginTop: "0"
+					}}
+				>
+					<div className="flex flex-col justify-center p-4 gap-10 lg:flex-row lg:gap-0 lg:mx-auto">
 						<Image
-							className="customImgYellow mx-auto lg:ml-10"
+							className="rounded-lg mx-auto -scale-x-100 lg:hidden"
 							alt="photo de profil de robin ponçon"
-							src="/my-picture.png"
-							width={150}
-							height={150}
+							src="/photo-profil-pro.jpeg"
+							width={300}
+							height={300}
 						></Image>
-					</ScrollAnimation>
-					<ScrollAnimation
-						id="text-picture-bloc"
-						classContent="flex flex-col gap-6 text-justify max-w-3xl lg:pr-10"
-						styleBeforeTransition={
-							breakpointResponsiveValue < 1024
-								? {
-										opacity: "0",
-										transition: "opacity 2.5s, margin-top 2.5s",
-										marginTop: "100px"
-								  }
-								: {
-										opacity: "0",
-										transition: "opacity 2.5s, margin-right 2.5s",
-										marginRight: "100px"
-								  }
-						}
-						styleAfterTransition={
-							breakpointResponsiveValue < 1024
-								? {
-										opacity: "1",
-										marginTop: "0"
-								  }
-								: {
-										opacity: "1",
-										marginRight: "0"
-								  }
-						}
-					>
-						<p>
-							Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors d'une
-							période introspective en quête de spiritualité il y a {spiritualityAge}{" "}
-							ans. En développant le magnétisme de mes mains, j'ai cherché à apaiser
-							les symptômes du cancer de mon chat, espérant prolonger sa vie et
-							minimiser ses souffrances. Cette expérience a éveillé en moi la volonté
-							d'approfondir cette capacité pour aider autrui.
-						</p>
-						<p>
-							Mon chemin m'a naturellement conduit vers le Reiki, une technique
-							parallèle au magnétisme, mais avec une approche différente car je
-							n'utilise plus ma propre énergie pour guérir les autres mais celle qui
-							est partout autour de nous. J'ai ainsi franchi les trois niveaux du
-							Reiki auprès de Monique Chanoni, maître Reiki de la lignée de Mikao
-							Usui. Je suis certifié maître praticien dans cette discipline, bien que
-							je ne puisse pas initier d'autres personnes au Reiki en tant que maître
-							enseignant.
-						</p>
-						<p>
-							Ma conception des soins énergétiques repose sur une collaboration
-							étroite avec mes clients. La guérison ne peut advenir sans la volonté
-							consciente ou inconsciente du client. Mon but est d'offrir les outils de
-							développement personnel et de guérison, de sorte qu'ils n'aient plus
-							besoin de mes services sur le long terme. Cela peut sembler idéaliste,
-							mais en guidant chacun vers son équilibre et son épanouissement, nous
-							pouvons peut-être façonner un monde et un avenir meilleurs pour tous.
-						</p>
-					</ScrollAnimation>
-				</div>
+						<Image
+							className="hidden rounded-t-lg mr-0 ml-auto -scale-x-100 lg:block"
+							alt="photo de profil de robin ponçon"
+							src="/photo-profil-pro.jpeg"
+							width={400}
+							height={400}
+						></Image>
+						<div className="text-customWhite flex flex-col relative gap-6 rounded-lg p-5 text-justify mx-auto max-w-lg bg-darkBackground lg:p-8 lg:text-start lg:-ml-10 lg:rounded-none lg:rounded-tr-lg">
+							<h2 className="hidden titleFont font-semibold text-3xl italic text-pink lg:block">
+								Mon Histoire
+							</h2>
+							<p>
+								Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors
+								d'une période introspective en quête de spiritualité il y a{" "}
+								{spiritualityAge} ans. En développant le magnétisme de mes mains,
+								j'ai cherché à apaiser les symptômes du cancer de mon chat, espérant
+								prolonger sa vie et minimiser ses souffrances. Cette expérience a
+								éveillé en moi la volonté d'approfondir cette capacité pour aider
+								autrui.
+							</p>
+							<p>
+								Mon chemin m'a naturellement conduit vers le Reiki, une technique
+								parallèle au magnétisme, mais avec une approche différente car je
+								n'utilise plus ma propre énergie pour guérir les autres mais celle
+								qui est partout autour de nous. J'ai ainsi franchi les trois niveaux
+								du Reiki auprès de Monique Chanoni, maître Reiki de la lignée de
+								Mikao Usui. Je suis certifié maître praticien dans cette discipline,
+								bien que je ne puisse pas initier d'autres personnes au Reiki en
+								tant que maître enseignant.
+							</p>
+							<p className="lg:hidden">
+								Ma conception des soins énergétiques repose sur une collaboration
+								étroite avec mes clients. La guérison ne peut advenir sans la
+								volonté consciente ou inconsciente du client. Mon but est d'offrir
+								les outils de développement personnel et de guérison, de sorte
+								qu'ils n'aient plus besoin de mes services sur le long terme. Cela
+								peut sembler idéaliste, mais en guidant chacun vers son équilibre et
+								son épanouissement, nous pouvons peut-être façonner un monde et un
+								avenir meilleurs pour tous.
+							</p>
+						</div>
+					</div>
+					<p className=" text-customWhite relative hidden bg-darkBackground p-5 w-[872px] rounded-b-lg mx-auto -mt-5 lg:block">
+						Ma conception des soins énergétiques repose sur une collaboration étroite
+						avec mes clients. La guérison ne peut advenir sans la volonté consciente ou
+						inconsciente du client. Mon but est d'offrir les outils de développement
+						personnel et de guérison, de sorte qu'ils n'aient plus besoin de mes
+						services sur le long terme. Cela peut sembler idéaliste, mais en guidant
+						chacun vers son équilibre et son épanouissement, nous pouvons peut-être
+						façonner un monde et un avenir meilleurs pour tous.
+					</p>
+				</ScrollAnimation>
 			</section>
-			<section className="flex flex-col gap-20 px-4">
+			<section className="flex flex-col gap-20 py-10 px-4">
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 					Ils ont essayé, pourquoi pas vous ?
 				</h2>

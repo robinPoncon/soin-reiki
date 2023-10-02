@@ -29,7 +29,7 @@ const BlocTextContent = ({
 	return (
 		<article
 			className={`flex flex-col gap-10 px-2 ${
-				darkMode ? "bg-darkBackground text-customWhite py-12 shadow-darkTurquoise" : ""
+				darkMode ? "bg-darkBackground text-customWhite py-20 shadow-darkTurquoise" : "py-10"
 			}`}
 		>
 			<h2
