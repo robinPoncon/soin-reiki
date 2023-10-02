@@ -102,7 +102,9 @@ const BlocTextContent = ({
 							>
 								{data.title}
 							</h3>
-							<p className="text-justify max-w-xs mx-auto">{data.content}</p>
+							<p className="text-justify max-w-xs mx-auto 2xl:max-w-sm">
+								{data.content}
+							</p>
 						</ScrollAnimation>
 					))}
 			</div>

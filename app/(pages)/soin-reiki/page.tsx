@@ -19,7 +19,7 @@ const SoinReikiPage = () => {
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Étape 1 : Une Préparation Bienveillante
 				</h2>
-				<div className="flex flex-col justify-center gap-10 mt-10 md:flex-row">
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgBlueGreen mx-auto md:mx-0"
 						alt="illustration of discussion between two people"
@@ -28,7 +28,7 @@ const SoinReikiPage = () => {
 						height={320}
 						loading="eager"
 					/>
-					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
+					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
 						Dès le début, nous prenons le temps de discuter de vos intentions et des
 						bienfaits que vous recherchez à travers les séances de soin. Je partage
 						ensuite mes connaissances et mon expérience en Reiki, afin que nous
@@ -42,7 +42,7 @@ const SoinReikiPage = () => {
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Étape 2 : L'Harmonie Énergétique
 				</h2>
-				<div className="flex flex-col justify-center gap-10 mt-10 md:flex-row-reverse">
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
 					<Image
 						className="customImgBlueGreen mx-auto md:mx-0"
 						alt="illustration of discussion between two people"
@@ -66,7 +66,7 @@ const SoinReikiPage = () => {
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Étape 3 : Intégration et Planification
 				</h2>
-				<div className="flex flex-col justify-center gap-10 mt-10 md:flex-row">
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgBlueGreen mx-auto md:mx-0"
 						alt="illustration of discussion between two people"
@@ -74,7 +74,7 @@ const SoinReikiPage = () => {
 						width={320}
 						height={320}
 					/>
-					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
+					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
 						Une fois le soin achevé, nous prenons le temps de partager nos impressions
 						sur l'expérience vécue. En fonction de vos ressentis et de vos besoins, nous
 						planifions d'autres séances si nécessaires. Généralement, pour des résultats

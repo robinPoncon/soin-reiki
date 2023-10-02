@@ -27,7 +27,7 @@ const HeaderMenu = () => {
 					Les Racines <br /> de la Guérison
 				</Link>
 				<nav>
-					<ul className="flex justify-center gap-5 h-full ml-9">
+					<ul className="flex justify-center gap-5 h-full ml-9 xl:gap-8">
 						<li className="showServices">
 							<p
 								className={`servicesText greenLight text-xl leading-[80px] ${
@@ -62,7 +62,7 @@ const HeaderMenu = () => {
 								</p>
 							</div>
 						</li>
-						<li className="mr-24">
+						<li className="mr-24 xl:mr-40">
 							<Link
 								className={`greenLight text-xl leading-[80px] ${
 									isActiveLink("/tarifs") ? "activeLink" : ""
