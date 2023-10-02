@@ -28,7 +28,7 @@ const GuidancePage = () => {
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					En présentiel
 				</h2>
-				<div className="flex flex-col justify-center gap-10 mt-10 md:flex-row">
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgYellow max-h-80 my-auto mx-auto md:mx-0"
 						alt="illustration of discussion between two people"
@@ -36,7 +36,7 @@ const GuidancePage = () => {
 						width={320}
 						height={320}
 					/>
-					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0 sm:max-w-sm">
+					<p className="text-start max-w-xs my-auto mx-auto md:mx-0 sm:max-w-sm">
 						Notre séance débute par un échange afin de définir ensemble la question qui
 						sera soumise pour la guidance. Ensuite je vous tirerai au minimum 5 cartes
 						de tarot qui serviront de structure principale, que j'accompagnerai par des
@@ -52,7 +52,7 @@ const GuidancePage = () => {
 			</article>
 			<article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">À distance</h2>
-				<div className="flex flex-col justify-center gap-10 mt-10 md:flex-row-reverse">
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
 					<Image
 						className="customImgYellow max-h-80 my-auto mx-auto md:mx-0"
 						alt="illustration of discussion between two people"
@@ -79,7 +79,7 @@ const GuidancePage = () => {
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Important à savoir avant une guidance
 				</h2>
-				<div className="flex flex-col justify-center gap-10 mt-10 md:flex-row">
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgYellow max-h-80 my-auto mx-auto md:mx-0"
 						alt="illustration of discussion between two people"
@@ -87,7 +87,7 @@ const GuidancePage = () => {
 						width={320}
 						height={320}
 					/>
-					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0 sm:max-w-sm">
+					<p className="text-start max-w-xs my-auto mx-auto md:mx-0 sm:max-w-sm">
 						Ma conception des séances de tirage de cartes ou de guidance repose
 						essentiellement sur le développement personnel. Mon objectif premier
 						consiste à vous orienter de la meilleure manière possible vers votre propre
