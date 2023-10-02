@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="en">
 			<body
-				className={`font-helvetica pt-20 bg-customWhite text-darkTurquoise ${handleeFont.variable}`}
+				className={`font-helvetica font-normal pt-20 bg-customWhite text-darkTurquoise ${handleeFont.variable}`}
 			>
 				<FlashMessagesProvider>
 					<LoaderProvider>
