@@ -7,6 +7,7 @@
 	.blockOffer1,
 	.blockOffer2,
 	.blockOffer3 {
+		background-color: white;
 		border-radius: 4px;
 		display: flex;
 		flex-direction: column;
@@ -14,15 +15,12 @@
 	}
 	.blockOffer1 {
 		border: 5px double var(--customYellow);
-		box-shadow: 0 0 10px var(--customYellow);
 	}
 	.blockOffer2 {
 		border: 5px double var(--blueGreen);
-		box-shadow: 0 0 10px var(--blueGreen);
 	}
 	.blockOffer3 {
 		border: 5px double pink;
-		box-shadow: 0 0 10px pink;
 	}
 
 	.separator1,
@@ -35,12 +33,15 @@
 	}
 	.separator1 {
 		background-color: var(--customYellow);
+		box-shadow: 0 0 10px var(--customYellow);
 	}
 	.separator2 {
 		background-color: var(--blueGreen);
+		box-shadow: 0 0 10px var(--blueGreen);
 	}
 	.separator3 {
 		background-color: pink;
+		box-shadow: 0 0 10px pink;
 	}
 
 	.bottom1 {
@@ -49,7 +50,6 @@
 		font-size: 24px;
 		padding: 10px 15px;
 		margin-left: 10px;
-		font-style: italic;
 		font-weight: 600;
 	}
 	.bottom2 {
@@ -58,7 +58,6 @@
 		font-size: 24px;
 		padding: 10px 15px;
 		margin-left: 10px;
-		font-style: italic;
 		font-weight: 600;
 	}
 	.bottom3 {
@@ -67,7 +66,6 @@
 		font-size: 24px;
 		padding: 10px 15px;
 		margin-left: 10px;
-		font-style: italic;
 		font-weight: 600;
 	}
 }

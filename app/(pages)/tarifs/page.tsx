@@ -49,25 +49,13 @@ const TarifsPage = () => {
 					>
 						En savoir plus sur une Guidance par tirage de cartes
 					</Link>
-					{/* <p className="text-justify">
-						Lors de cette séance, je réalise un tirage de 5 cartes minimum, accompagné
-						de quelques oracles pour vous guider. Pour plus de détails sur le processus,
-						consultez la{" "}
-						<Link
-							className="redirectLinkYellow"
-							href="/guidance"
-						>
-							page dédiée
-						</Link>
-						.
-					</p> */}
 					<p className="separator1"></p>
 					<p className="text-center">
 						<strong>Durée :</strong>
 						<span className="italic"> 30 minutes à 45 minutes</span>
 					</p>
 					<p className="separator1"></p>
-					<p className="text-lg text-center">
+					<p className="text-lg py-2 text-center">
 						<strong>Prix :</strong> <span className="bottom1">50 €</span>
 					</p>
 				</article>
@@ -96,7 +84,7 @@ const TarifsPage = () => {
 						<span className="italic">45 minutes à 1 heure</span>
 					</p>
 					<p className="separator2"></p>
-					<p className="text-lg text-center">
+					<p className="text-lg py-2 text-center">
 						<strong>Prix :</strong> <span className="bottom2">60 €</span>
 					</p>
 				</article>
@@ -133,7 +121,7 @@ const TarifsPage = () => {
 						<span className="italic">1 heure à 1 heure 30</span>
 					</p>
 					<p className="separator3"></p>
-					<p className="text-lg text-center">
+					<p className="text-lg py-2 text-center">
 						<strong>Prix :</strong> <span className="bottom3">90 €</span>
 					</p>
 				</article>
