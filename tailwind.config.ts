@@ -14,8 +14,11 @@ const config: Config = {
 				blackBackground: "#011721",
 				customWhite: "#fcf2d9",
 				blueGreen: "#3ad9bc",
+				blueGreenLighter: "#4eddc3",
 				customYellow: "#fdd542",
-				pink: "pink"
+				customYellowLighter: "#fdd955",
+				pink: "pink",
+				pinkLighter: "#ffc6d0"
 			},
 			colors: {
 				darkTurquoise: "#062933",

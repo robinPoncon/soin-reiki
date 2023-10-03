@@ -26,16 +26,29 @@ const TarifsPage = () => {
 				>
 					page de contact
 				</Link>{" "}
-				pour discuter des modalités de paiement appropriées.
+				pour discuter des modalités de paiement appropriées. Si vous souhaitez en savoir
+				plus sur le soin Reiki c'est{" "}
+				<Link
+					className="redirectLinkBlue"
+					href="/soin-reiki"
+				>
+					par ici.
+				</Link>{" "}
+				Si vous souhaitez en savoir plus sur une Guidance c'est{" "}
+				<Link
+					className="redirectLinkBlue"
+					href="/guidance"
+				>
+					par là.
+				</Link>
 			</p>
 			<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
-				<article className="blockOffer1 max-w-xs mx-auto lg:w-1/3">
-					<h2 className="text-lg font-semibold italic text-center">
+				<article className="flex flex-col gap-5 bg-white w-72 max-w-xs rounded-xl mx-auto lg:w-1/3">
+					<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-customYellowLighter lg:text-xl">
 						Guidance Tirage de Cartes <br />
-						(1 seule question à la fois)
+						<span className="text-base">(1 seule question à la fois)</span>
 					</h2>
-					<p className="separator1"></p>
-					<div className="text-center">
+					<div className="flex flex-col text-center gap-2">
 						<p>Formulation de votre question</p>
 						<p>Tirage de 5 cartes de tarot</p>
 						<p>Utilisation de 2/3 cartes d'oracles</p>
@@ -43,28 +56,21 @@ const TarifsPage = () => {
 						<p>Accès illimité à la vidéo du tirage</p>
 					</div>
 					<p className="separator1"></p>
-					<Link
-						href="/guidance"
-						className="text-center font-semibold redirectLinkYellow"
-					>
-						En savoir plus sur une Guidance par tirage de cartes
-					</Link>
-					<p className="separator1"></p>
 					<p className="text-center">
 						<strong>Durée :</strong>
 						<span className="italic"> 30 minutes à 45 minutes</span>
 					</p>
-					<p className="separator1"></p>
-					<p className="text-lg py-2 text-center">
-						<strong>Prix :</strong> <span className="bottom1">50 €</span>
+					<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-customYellow">
+						50 €
 					</p>
 				</article>
-				<article className="blockOffer2 max-w-xs mx-auto lg:w-1/3">
-					<h2 className="text-lg font-semibold italic text-center">
-						Soin Reiki Complet <br /> (soin traditionnel)
+
+				<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
+					<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
+						Soin Reiki Complet <br />{" "}
+						<span className="text-base">(soin traditionnel)</span>
 					</h2>
-					<p className="separator2"></p>
-					<div className="text-center">
+					<div className="flex flex-col text-center gap-2">
 						<p>Accueil et discussion</p>
 						<p>Identification de la problématique</p>
 						<p>Tirage d'une carte énergétique</p>
@@ -72,29 +78,20 @@ const TarifsPage = () => {
 						<p>Pistes de guérison à explorer</p>
 					</div>
 					<p className="separator2"></p>
-					<Link
-						href="/soin-reiki"
-						className="text-center font-semibold redirectLinkBlue"
-					>
-						En savoir plus sur un soin Reiki complet traditionnel
-					</Link>
-					<p className="separator2"></p>
 					<p className="text-center">
 						<strong>Durée :</strong>{" "}
 						<span className="italic">45 minutes à 1 heure</span>
 					</p>
-					<p className="separator2"></p>
-					<p className="text-lg py-2 text-center">
-						<strong>Prix :</strong> <span className="bottom2">60 €</span>
+					<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
+						60 €
 					</p>
 				</article>
 
-				<article className="blockOffer3 max-w-xs mx-auto lg:w-1/3">
-					<h2 className="text-lg font-semibold italic text-center">
+				<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
+					<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
 						Rééquilibrage des Chakras + Guidance Tirage de Cartes
 					</h2>
-					<p className="separator3"></p>
-					<div className="text-center">
+					<div className="flex flex-col text-center gap-2">
 						<p>Formulation de votre question</p>
 						<p>Tirage tarot et oracles</p>
 						<p>Soin Reiki assis après le tirage</p>
@@ -102,27 +99,12 @@ const TarifsPage = () => {
 						<p>Accès illimité à la vidéo du tirage</p>
 					</div>
 					<p className="separator3"></p>
-					<Link
-						href="/guidance"
-						className="text-center font-semibold redirectLinkPink"
-					>
-						En savoir plus sur une Guidance
-					</Link>
-					<Link
-						href="/soin-reiki"
-						className="text-center font-semibold redirectLinkPink"
-					>
-						En savoir plus sur un soin Reiki
-					</Link>
-
-					<p className="separator3"></p>
 					<p className="text-center">
 						<strong>Durée :</strong>{" "}
 						<span className="italic">1 heure à 1 heure 30</span>
 					</p>
-					<p className="separator3"></p>
-					<p className="text-lg py-2 text-center">
-						<strong>Prix :</strong> <span className="bottom3">90 €</span>
+					<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
+						90 €
 					</p>
 				</article>
 			</div>
