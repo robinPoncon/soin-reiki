@@ -1,35 +1,12 @@
 .tarifsPageComponent {
-	a {
-		font-weight: 700;
-		font-style: italic;
-	}
-
-	.blockOffer1,
-	.blockOffer2,
-	.blockOffer3 {
-		background-color: white;
-		border-radius: 4px;
-		display: flex;
-		flex-direction: column;
-		padding: 20px;
-	}
-	.blockOffer1 {
-		border: 5px double var(--customYellow);
-	}
-	.blockOffer2 {
-		border: 5px double var(--blueGreen);
-	}
-	.blockOffer3 {
-		border: 5px double pink;
-	}
-
 	.separator1,
 	.separator2,
 	.separator3 {
-		width: 100%;
+		width: 80%;
 		height: 2px;
-		margin: 20px auto;
 		border-radius: 10px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.separator1 {
 		background-color: var(--customYellow);
@@ -44,28 +21,4 @@
 		box-shadow: 0 0 10px pink;
 	}
 
-	.bottom1 {
-		background-color: var(--customYellow);
-		border-radius: 5px;
-		font-size: 24px;
-		padding: 10px 15px;
-		margin-left: 10px;
-		font-weight: 600;
-	}
-	.bottom2 {
-		background-color: var(--blueGreen);
-		border-radius: 5px;
-		font-size: 24px;
-		padding: 10px 15px;
-		margin-left: 10px;
-		font-weight: 600;
-	}
-	.bottom3 {
-		background-color: pink;
-		border-radius: 5px;
-		font-size: 24px;
-		padding: 10px 15px;
-		margin-left: 10px;
-		font-weight: 600;
-	}
 }
