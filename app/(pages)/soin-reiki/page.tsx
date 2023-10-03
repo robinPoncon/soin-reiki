@@ -91,7 +91,7 @@ const SoinReikiPage = () => {
 				<p className="text-center mt-5">
 					Besoin d'informations sur les prix ?{" "}
 					<Link
-						className="redirectLinkBlue"
+						className="redirectLinkBlue whitespace-nowrap"
 						href="/tarifs"
 					>
 						Je consulte les tarifs.
@@ -100,7 +100,7 @@ const SoinReikiPage = () => {
 				<p className="text-center mt-5">
 					Envie de tenter l'expérience ?{" "}
 					<Link
-						className="redirectLinkBlue"
+						className="redirectLinkBlue whitespace-nowrap"
 						href="/reservation"
 					>
 						Je réserve ma séance.

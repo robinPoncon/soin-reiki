@@ -359,7 +359,7 @@ const MainPage = () => {
 					</ScrollAnimation>
 				</BlocTextContent>
 			</section>
-			<section className="flex flex-col gap-10 py-10">
+			<section className="flex flex-col gap-10">
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderPink p-4 md:text-4xl lg:hidden">
 					Mon histoire
 				</h2>
@@ -390,7 +390,7 @@ const MainPage = () => {
 							width={400}
 							height={400}
 						></Image>
-						<div className="text-customWhite flex flex-col relative gap-6 rounded-lg p-5 text-justify mx-auto max-w-lg bg-darkBackground lg:p-8 lg:text-start lg:-ml-10 lg:rounded-none lg:rounded-tr-lg">
+						<div className="text-customWhite flex flex-col relative gap-6 rounded-lg p-5 text-center mx-auto max-w-lg bg-darkBackground lg:p-8 lg:text-start lg:-ml-10 lg:rounded-none lg:rounded-tr-lg">
 							<h2 className="hidden titleFont font-semibold text-3xl italic text-pink lg:block">
 								Mon Histoire
 							</h2>
@@ -425,7 +425,7 @@ const MainPage = () => {
 							</p>
 						</div>
 					</div>
-					<p className=" text-customWhite relative hidden bg-darkBackground p-5 w-[872px] rounded-b-lg mx-auto -mt-5 lg:block">
+					<p className=" text-customWhite relative hidden bg-darkBackground p-8 w-[872px] rounded-b-lg mx-auto -mt-5 lg:block">
 						Ma conception des soins énergétiques repose sur une collaboration étroite
 						avec mes clients. La guérison ne peut advenir sans la volonté consciente ou
 						inconsciente du client. Mon but est d'offrir les outils de développement

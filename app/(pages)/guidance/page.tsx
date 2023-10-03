@@ -110,7 +110,7 @@ const GuidancePage = () => {
 				<p className="text-center mt-5">
 					Besoin d'informations sur les prix ?{" "}
 					<Link
-						className="redirectLinkYellow"
+						className="redirectLinkYellow whitespace-nowrap"
 						href="/tarifs"
 					>
 						Je consulte les tarifs.
@@ -119,7 +119,7 @@ const GuidancePage = () => {
 				<p className="text-center mt-5">
 					Envie de tenter l'expérience ?{" "}
 					<Link
-						className="redirectLinkYellow"
+						className="redirectLinkYellow whitespace-nowrap"
 						href="/reservation"
 					>
 						Je réserve ma séance.

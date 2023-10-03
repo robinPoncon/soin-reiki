@@ -27,20 +27,20 @@ const ProtectionDonneePage = () => {
 				vous informer sur la manière dont je collecte, utilise, partage et protège vos
 				données.
 			</p>
-			<article>
-				<h2 className="text-xl mb-2 font-semibold md:text-2xl">
+			<article className="flex flex-col text-justify gap-5">
+				<h2 className="text-xl font-semibold md:text-2xl">
 					Collecte de vos données personnelles
 				</h2>
-				<p className="mb-2 text-justify">
+				<p>
 					Lorsque vous visitez mon site web, je peux collecter certaines informations
 					personnelles, notamment :
 				</p>
-				<p className="text-justify">
+				<p>
 					<strong>- Informations d'identification</strong> : Votre nom, votre prénom,
 					votre numéro de téléphone, votre adresse email et éventuellement d'autres
 					coordonnées que vous choisissez de me fournir via le formulaire de contact.
 				</p>
-				<p className="text-justify">
+				<p>
 					<strong>- Informations échangées lors d'une séance</strong> : Dans un second
 					temps, je prévois de mettre en place un tableau de bord personnel où nous
 					pourrons répertorier toutes les informations échangées lors de nos séances de
@@ -48,45 +48,43 @@ const ProtectionDonneePage = () => {
 					les conseils et les guidances que nous avons partagés, tout en vous offrant la
 					possibilité de suivre de près votre évolution personnelle au fil du temps.
 				</p>
-				<p className="text-justify">
+				<p>
 					<strong>- Données de navigation</strong> : Les informations recueillies
 					automatiquement lorsque vous visitez mon site, telles que votre adresse IP, le
 					type de navigateur que vous utilisez, les pages que vous consultez et la manière
 					dont vous interagissez avec mon site.
 				</p>
 			</article>
-			<article>
-				<h2 className="text-xl mb-2 font-semibold md:text-2xl">
+			<article className="flex flex-col text-justify gap-5">
+				<h2 className="text-xl font-semibold md:text-2xl">
 					Utilisation de vos données personnelles
 				</h2>
-				<p className="mb-2 text-justify">
-					J'utilise les données personnelles collectées pour les finalités suivantes :
-				</p>
-				<p className="text-justify">
+				<p>J'utilise les données personnelles collectées pour les finalités suivantes :</p>
+				<p>
 					<strong>- Répondre à vos demandes</strong> : Si vous me contactez via mon
 					formulaire de contact, j'utilise vos informations pour répondre à vos questions
 					ou demandes.
 				</p>
-				<p className="text-justify">
+				<p>
 					<strong>- Amélioration de mon site</strong> : Je peux utiliser les données de
 					navigation pour comprendre comment les visiteurs utilisent mon site et ainsi
 					l'améliorer en conséquence.
 				</p>
 			</article>
-			<article>
-				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Partage de vos données</h2>
-				<p className="mb-2 text-justify">
+			<article className="flex flex-col text-justify gap-5">
+				<h2 className="text-xl font-semibold md:text-2xl">Partage de vos données</h2>
+				<p>
 					Je ne partage pas vos données personnelles avec des tiers, sauf dans le cas
 					suivant :
 				</p>
-				<p className="text-justify">
+				<p>
 					<strong>- Obligations légales</strong> : Je peux être tenu de divulguer vos
 					informations si la loi l'exige.
 				</p>
 			</article>
-			<article>
-				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Sécurité de vos données</h2>
-				<p className="text-justify">
+			<article className="flex flex-col text-justify gap-5">
+				<h2 className="text-xl font-semibold md:text-2xl">Sécurité de vos données</h2>
+				<p>
 					Je prends des mesures de sécurité appropriées pour protéger vos données
 					personnelles contre la perte, l'accès non autorisé, la divulgation, la
 					modification ou la destruction. Cependant, aucune méthode de transmission sur
@@ -94,9 +92,9 @@ const ProtectionDonneePage = () => {
 					garantir la sécurité absolue de vos données.
 				</p>
 			</article>
-			<article>
-				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Vos droits</h2>
-				<p className="text-justify">
+			<article className="flex flex-col text-justify gap-5">
+				<h2 className="text-xl font-semibold md:text-2xl">Vos droits</h2>
+				<p>
 					Vous avez le droit d'accéder à vos données personnelles, de les rectifier, de
 					les supprimer, de vous opposer au traitement ou de demander leur portabilité.
 					Pour exercer ces droits ou poser des questions sur ma politique de protection
@@ -104,11 +102,9 @@ const ProtectionDonneePage = () => {
 					site.
 				</p>
 			</article>
-			<article>
-				<h2 className="text-xl mb-2 font-semibold md:text-2xl">
-					Modifications de la politique
-				</h2>
-				<p className="text-justify">
+			<article className="flex flex-col text-justify gap-5">
+				<h2 className="text-xl font-semibold md:text-2xl">Modifications de la politique</h2>
+				<p>
 					Je me réserve le droit de mettre à jour cette politique de protection des
 					données à tout moment pour refléter les changements apportés à mes pratiques ou
 					aux exigences légales. Je vous encourage à consulter régulièrement cette page

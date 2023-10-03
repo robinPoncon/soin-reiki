@@ -35,7 +35,21 @@ const TarifsPage = () => {
 						(1 seule question à la fois)
 					</h2>
 					<p className="separator1"></p>
-					<p className="text-justify">
+					<div className="text-center">
+						<p>Formulation de votre question</p>
+						<p>Tirage de 5 cartes de tarot</p>
+						<p>Utilisation de 2/3 cartes d'oracles</p>
+						<p>Interprétation intuitive et détaillée</p>
+						<p>Accès illimité à la vidéo du tirage</p>
+					</div>
+					<p className="separator1"></p>
+					<Link
+						href="/guidance"
+						className="text-center font-semibold redirectLinkYellow"
+					>
+						En savoir plus sur une Guidance par tirage de cartes
+					</Link>
+					{/* <p className="text-justify">
 						Lors de cette séance, je réalise un tirage de 5 cartes minimum, accompagné
 						de quelques oracles pour vous guider. Pour plus de détails sur le processus,
 						consultez la{" "}
@@ -46,13 +60,14 @@ const TarifsPage = () => {
 							page dédiée
 						</Link>
 						.
-					</p>
+					</p> */}
 					<p className="separator1"></p>
-					<p>
+					<p className="text-center">
 						<strong>Durée :</strong>
 						<span className="italic"> 30 minutes à 45 minutes</span>
 					</p>
-					<p className="text-lg mt-5">
+					<p className="separator1"></p>
+					<p className="text-lg text-center">
 						<strong>Prix :</strong> <span className="bottom1">50 €</span>
 					</p>
 				</article>
@@ -61,24 +76,27 @@ const TarifsPage = () => {
 						Soin Reiki Complet <br /> (soin traditionnel)
 					</h2>
 					<p className="separator2"></p>
-					<p className="text-justify">
-						Le Soin Reiki Complet est une expérience classique et complète qui se
-						déroule sur une table de massage. Vous pouvez en savoir plus sur le
-						déroulement d'une séance sur cette{" "}
-						<Link
-							className="redirectLinkBlue"
-							href="/soin-reiki"
-						>
-							page dédiée
-						</Link>
-						.
-					</p>
+					<div className="text-center">
+						<p>Accueil et discussion</p>
+						<p>Identification de la problématique</p>
+						<p>Tirage d'une carte énergétique</p>
+						<p>Réalisation du soin Reiki</p>
+						<p>Pistes de guérison à explorer</p>
+					</div>
 					<p className="separator2"></p>
-					<p>
+					<Link
+						href="/soin-reiki"
+						className="text-center font-semibold redirectLinkBlue"
+					>
+						En savoir plus sur un soin Reiki complet traditionnel
+					</Link>
+					<p className="separator2"></p>
+					<p className="text-center">
 						<strong>Durée :</strong>{" "}
 						<span className="italic">45 minutes à 1 heure</span>
 					</p>
-					<p className="text-lg mt-5">
+					<p className="separator2"></p>
+					<p className="text-lg text-center">
 						<strong>Prix :</strong> <span className="bottom2">60 €</span>
 					</p>
 				</article>
@@ -88,17 +106,34 @@ const TarifsPage = () => {
 						Rééquilibrage des Chakras + Guidance Tirage de Cartes
 					</h2>
 					<p className="separator3"></p>
-					<p className="text-justify">
-						Cette formule est très appréciée car elle éclaire les pistes de guérison
-						grâce aux cartes, puis vous guide à travers un soin Reiki assis, vous
-						offrant bien-être et une profonde reconnexion à vous-même.
-					</p>
+					<div className="text-center">
+						<p>Formulation de votre question</p>
+						<p>Tirage tarot et oracles</p>
+						<p>Soin Reiki assis après le tirage</p>
+						<p>Apaisement, équilibre et bien-être</p>
+						<p>Accès illimité à la vidéo du tirage</p>
+					</div>
 					<p className="separator3"></p>
-					<p>
+					<Link
+						href="/guidance"
+						className="text-center font-semibold redirectLinkPink"
+					>
+						En savoir plus sur une Guidance
+					</Link>
+					<Link
+						href="/soin-reiki"
+						className="text-center font-semibold redirectLinkPink"
+					>
+						En savoir plus sur un soin Reiki
+					</Link>
+
+					<p className="separator3"></p>
+					<p className="text-center">
 						<strong>Durée :</strong>{" "}
 						<span className="italic">1 heure à 1 heure 30</span>
 					</p>
-					<p className="text-lg mt-5">
+					<p className="separator3"></p>
+					<p className="text-lg text-center">
 						<strong>Prix :</strong> <span className="bottom3">90 €</span>
 					</p>
 				</article>
