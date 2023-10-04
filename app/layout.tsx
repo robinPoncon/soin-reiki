@@ -23,7 +23,13 @@ export const metadata: Metadata = {
 		"guidance",
 		"Bordeaux"
 	],
-	robots: "noindex, nofollow"
+	robots: "noindex, nofollow",
+	openGraph: {
+		title: "Les Racines de la Guérison - Soins Reiki & Guidance sur Bordeaux",
+		description:
+			"Découvrez mon univers ainsi que mes services de soins Reiki apaisants et de guidance en tirage de cartes. Explorez l'énergie qui réside en vous !",
+		images: "/photo-couverture-site.png"
+	}
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
