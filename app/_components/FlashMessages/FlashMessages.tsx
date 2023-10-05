@@ -49,7 +49,7 @@ const FlashMessages = () => {
 								src={getIconSource(message.type)}
 								width={24}
 								height={24}
-								alt="icon du statut d'un message flash"
+								alt="icône du statut d'un message flash"
 							/>
 							<div className="flashMessageContent">
 								<div className="flashMessageTextWrapper">

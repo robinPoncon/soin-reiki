@@ -425,7 +425,7 @@ const MainPage = () => {
 							</p>
 						</div>
 					</div>
-					<p className=" text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-4 lg:block">
+					<p className=" text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-5 lg:block">
 						Ma conception des soins énergétiques repose sur une collaboration étroite
 						avec mes clients. La guérison ne peut advenir sans la volonté consciente ou
 						inconsciente du client. Mon but est d'offrir les outils de développement

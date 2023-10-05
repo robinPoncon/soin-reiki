@@ -31,7 +31,7 @@ const GuidancePage = () => {
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgYellow max-h-80 my-auto mx-auto md:mx-0"
-						alt="illustration of discussion between two people"
+						alt="illustration d'une discussion entre deux personnes"
 						src="/illustrations/illustration_consultation.png"
 						width={320}
 						height={320}
@@ -55,7 +55,7 @@ const GuidancePage = () => {
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
 					<Image
 						className="customImgYellow max-h-80 my-auto mx-auto md:mx-0"
-						alt="illustration of discussion between two people"
+						alt="illustration d'un homme qui tire les oracles"
 						src="/illustrations/illustration_man-solo-with-card.png"
 						width={320}
 						height={320}
@@ -82,7 +82,7 @@ const GuidancePage = () => {
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgYellow max-h-80 my-auto mx-auto md:mx-0"
-						alt="illustration of discussion between two people"
+						alt="illustration d'une carte de tarot avec une étoile"
 						src="/illustrations/illustration_oracle.png"
 						width={320}
 						height={320}
