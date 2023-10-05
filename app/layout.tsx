@@ -9,6 +9,7 @@ import CookieBar from "./_components/CookieBar/CookieBar";
 import { handleeFont } from "./fonts";
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://racines-guerison.com"),
 	title: "Les Racines de la Guérison - Soins Reiki & Guidance sur Bordeaux",
 	description:
 		"Découvrez mon univers ainsi que mes services de soins Reiki apaisants et de guidance en tirage de cartes. Explorez l'énergie qui réside en vous !",
@@ -28,7 +29,12 @@ export const metadata: Metadata = {
 		title: "Les Racines de la Guérison - Soins Reiki & Guidance sur Bordeaux",
 		description:
 			"Découvrez mon univers ainsi que mes services de soins Reiki apaisants et de guidance en tirage de cartes. Explorez l'énergie qui réside en vous !",
-		images: "/photo-couverture-site.png"
+		images: [
+			{
+				url: "/photo-couverture-site.png",
+				alt: "image de couverture représentant le site internet"
+			}
+		]
 	}
 };
 
