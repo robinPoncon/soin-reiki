@@ -22,7 +22,7 @@ const SoinReikiPage = () => {
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgBlueGreen mx-auto md:mx-0"
-						alt="illustration of discussion between two people"
+						alt="illustration d'une discussion entre deux personnes assises"
 						src="/illustrations/illustration_discussion.png"
 						width={320}
 						height={320}
@@ -45,7 +45,7 @@ const SoinReikiPage = () => {
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
 					<Image
 						className="customImgBlueGreen mx-auto md:mx-0"
-						alt="illustration of discussion between two people"
+						alt="illustration d'un homme faisant un soin reiki à une femme"
 						src="/illustrations/illustration_energetic-heal.png"
 						width={320}
 						height={320}
@@ -69,7 +69,7 @@ const SoinReikiPage = () => {
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgBlueGreen mx-auto md:mx-0"
-						alt="illustration of discussion between two people"
+						alt="illustration d'un calendrier"
 						src="/illustrations/illustration_calendar.png"
 						width={320}
 						height={320}

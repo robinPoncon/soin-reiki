@@ -24,7 +24,6 @@ export const metadata: Metadata = {
 		"guidance",
 		"Bordeaux"
 	],
-	robots: "noindex, nofollow",
 	openGraph: {
 		title: "Les Racines de la Guérison - Soins Reiki & Guidance sur Bordeaux",
 		description:
