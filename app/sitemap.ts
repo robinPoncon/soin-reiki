@@ -11,7 +11,7 @@ export default function sitemap() {
 		"/soin-reiki",
 		"/tarifs"
 	].map((route) => ({
-		url: `https://www.racines-guerison.com${route}`,
+		url: `https://racines-guerison.com${route}`,
 		lastModified: new Date().toISOString().split("T")[0]
 	}));
 

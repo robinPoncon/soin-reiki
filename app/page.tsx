@@ -379,16 +379,16 @@ const MainPage = () => {
 						<Image
 							className="rounded-lg mx-auto -scale-x-100 lg:hidden"
 							alt="photo de profil de robin ponçon"
-							src="/photo-profil-pro.jpeg"
+							src="/photo-profil-pro.png"
 							width={300}
 							height={300}
 						></Image>
 						<Image
 							className="hidden rounded-t-lg mr-0 ml-auto -scale-x-100 lg:block"
 							alt="photo de profil de robin ponçon"
-							src="/photo-profil-pro.jpeg"
+							src="/photo-profil-pro.png"
 							width={400}
-							height={400}
+							height={500}
 						></Image>
 						<div className="text-customWhite flex flex-col relative gap-6 rounded-lg p-5 text-center mx-auto max-w-lg bg-darkBackground lg:p-8 lg:text-start lg:-ml-10 lg:rounded-none lg:rounded-tr-lg">
 							<h2 className="hidden titleFont font-semibold text-3xl italic text-pink lg:block">
