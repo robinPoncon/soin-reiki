@@ -47,7 +47,7 @@ const MainPage = () => {
 					className="mx-auto"
 					loading="eager"
 					alt="image principal du site avec un arbre et des boules d'énergie"
-					src="/main-image-website.png"
+					src="/main-image-reiki-site.png"
 					height={758}
 					width={1556}
 				/>
@@ -379,14 +379,14 @@ const MainPage = () => {
 						<Image
 							className="rounded-lg mx-auto -scale-x-100 lg:hidden"
 							alt="photo de profil de robin ponçon"
-							src="/photo-profil-robin-poncon.png"
+							src="/photo-profil.png"
 							width={300}
 							height={300}
 						></Image>
 						<Image
 							className="hidden rounded-t-lg mr-0 ml-auto -scale-x-100 lg:block"
 							alt="photo de profil de robin ponçon"
-							src="/photo-profil-robin-poncon.png"
+							src="/photo-profil.png"
 							width={400}
 							height={500}
 						></Image>
