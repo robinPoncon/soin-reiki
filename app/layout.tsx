@@ -34,7 +34,8 @@ export const metadata: Metadata = {
 				alt: "image de couverture représentant le site internet"
 			}
 		]
-	}
+	},
+	robots: "all"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
