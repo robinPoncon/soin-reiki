@@ -48,6 +48,31 @@ export const ReviewsUsersDataProvider = ({ children }: { children: ReactNode }) 
 				comment: `Super expérience ! Robin est très prévenant. A l'issue de la séance de Reiki, je me suis senti 
 					léger et revigoré. Je recommande.`,
 				note: 5
+			},
+			{
+				id: 6,
+				name: "Lucie T",
+				comment: `J'ai pu expérimenté un soin Reiki avec Robin qui a su me comprendre et m'écouter. 
+					Il m'a donné des conseils sur les choses à améliorer pour mon bien être et j'en ai ressenti les effets.
+					En plus d'être un très bon soigneur c'est une personne super. Merci Robin!`,
+				note: 5
+			},
+			{
+				id: 7,
+				name: "Amélie F",
+				comment: `J'ai fais quelques séances de Reiki avec Robin qui m'ont profondément apaisé. J'ai également 
+					fais 2-3 séances de tirage de cartes, qui s'avèrent être très réaliste. Si vous souhaitez des soins reiki 
+					et des tirages de cartes, Robin sera être à votre écoute, vous pouvez y aller les yeux fermés !
+				`,
+				note: 5
+			},
+			{
+				id: 8,
+				name: "Mélie C",
+				comment: `J’ai effectué un soin énergétique avec Robin qui m’a super bien accueilli et mis parfaitement à l’aise. 
+					Je recommande vivement ! Bienveillance et sérieux sont au rendez-vous, merci pour cette expérience !
+				`,
+				note: 5
 			}
 		]);
 	}, []);

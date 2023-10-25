@@ -31,6 +31,14 @@ const Footer = () => {
 							<li>
 								<Link
 									className="lightHover"
+									href="/mon-histoire"
+								>
+									Mon Histoire
+								</Link>
+							</li>
+							<li>
+								<Link
+									className="lightHover"
 									href="/soin-reiki"
 								>
 									Soin reiki
