@@ -134,6 +134,46 @@ const MainPage = () => {
 				<BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					darkMode
+					mainTitle="Vous vous reconnaissez ?"
+					textDatasArray={[
+						{
+							id: "physic-bloc",
+							imgAlt: "icône corps physique",
+							imgSrc: "/icons/icon_universe.svg",
+							title: "Physique",
+							content: `Ressentez-vous fréquemment de la fatigue, même après avoir suffisamment dormi ?
+							Avez-vous des problèmes de sommeil, comme l'insomnie ou des réveils fréquents ?
+							Éprouvez-vous des douleurs corporelles inexplicables ou récurrentes ?
+							`,
+							transitionType: "left"
+						},
+						{
+							id: "mental-bloc",
+							imgAlt: "icône cerveau",
+							imgSrc: "/icons/icon_yin-yang.svg",
+							title: "Mental",
+							content: `Vous arrive-t-il souvent de vous critiquer ou de vous juger durement ?
+							Avez-vous du mal à prendre des décisions ou à faire des choix qui vous conviennent ?
+							Êtes-vous souvent submergé par le stress, l'anxiété ou la dépression ?
+							`,
+							transitionType: "center"
+						},
+						{
+							id: "emotional-bloc",
+							imgAlt: "icône de coeur",
+							imgSrc: "/icons/icon_hands.svg",
+							title: "Émotionnel",
+							content: `Vous sentez-vous souvent seul, même en présence d'autres personnes ?
+							Éprouvez-vous de la difficulté à exprimer vos émotions ou à les comprendre ?
+							Avez-vous du mal à vous sentir heureux ou satisfait de votre vie ?
+							`,
+							transitionType: "right"
+						}
+					]}
+				/>
+				{/* <BlocTextContent
+					breakpointResponsiveValue={breakpointResponsiveValue}
+					darkMode
 					mainTitle="Qu'est-ce que le Reiki ?"
 					textDatasArray={[
 						{
@@ -170,7 +210,7 @@ const MainPage = () => {
 							transitionType: "right"
 						}
 					]}
-				/>
+				/> */}
 				<BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					mainTitle="Origines du Reiki"
