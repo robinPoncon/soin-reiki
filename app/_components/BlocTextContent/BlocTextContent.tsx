@@ -15,7 +15,7 @@ type TextStructure = {
 	imgAlt: string;
 	imgSrc: string;
 	title: string;
-	content: string;
+	content: string[];
 	transitionType: "left" | "center" | "right";
 };
 
@@ -102,9 +102,13 @@ const BlocTextContent = ({
 							>
 								{data.title}
 							</h3>
-							<p className="text-justify max-w-xs mx-auto 2xl:max-w-sm">
-								{data.content}
-							</p>
+							<div className="text-justify max-w-xs mx-auto 2xl:max-w-sm">
+								{data.content && Array.isArray(data.content)
+									? data.content.map((text, index) => (
+											<p key={data.id + index}>{text}</p>
+									  ))
+									: null}
+							</div>
 						</ScrollAnimation>
 					))}
 			</div>

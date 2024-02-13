@@ -139,34 +139,37 @@ const MainPage = () => {
 						{
 							id: "physic-bloc",
 							imgAlt: "icône corps physique",
-							imgSrc: "/icons/icon_universe.svg",
+							imgSrc: "/icons/icon_body.svg",
 							title: "Physique",
-							content: `Ressentez-vous fréquemment de la fatigue, même après avoir suffisamment dormi ?
-							Avez-vous des problèmes de sommeil, comme l'insomnie ou des réveils fréquents ?
-							Éprouvez-vous des douleurs corporelles inexplicables ou récurrentes ?
-							`,
+							content: [
+								"- Ressentez-vous fréquemment de la fatigue, même après avoir suffisamment dormi ?",
+								"- Avez-vous des problèmes de sommeil, comme l'insomnie ou des réveils fréquents ?",
+								"- Éprouvez-vous des douleurs corporelles inexplicables ou récurrentes ?"
+							],
 							transitionType: "left"
 						},
 						{
 							id: "mental-bloc",
 							imgAlt: "icône cerveau",
-							imgSrc: "/icons/icon_yin-yang.svg",
+							imgSrc: "/icons/icon_brain.svg",
 							title: "Mental",
-							content: `Vous arrive-t-il souvent de vous critiquer ou de vous juger durement ?
-							Avez-vous du mal à prendre des décisions ou à faire des choix qui vous conviennent ?
-							Êtes-vous souvent submergé par le stress, l'anxiété ou la dépression ?
-							`,
+							content: [
+								"- Vous arrive-t-il souvent de vous critiquer ou de vous juger durement ?",
+								"- Avez-vous du mal à prendre des décisions ou à faire des choix qui vous conviennent ?",
+								"- Êtes-vous souvent submergé par le stress, l'anxiété ou la dépression ?"
+							],
 							transitionType: "center"
 						},
 						{
 							id: "emotional-bloc",
 							imgAlt: "icône de coeur",
-							imgSrc: "/icons/icon_hands.svg",
+							imgSrc: "/icons/icon_heart.svg",
 							title: "Émotionnel",
-							content: `Vous sentez-vous souvent seul, même en présence d'autres personnes ?
-							Éprouvez-vous de la difficulté à exprimer vos émotions ou à les comprendre ?
-							Avez-vous du mal à vous sentir heureux ou satisfait de votre vie ?
-							`,
+							content: [
+								"- Vous sentez-vous souvent seul, même en présence d'autres personnes ?",
+								"- Éprouvez-vous de la difficulté à exprimer vos émotions ou à les comprendre ?",
+								"- Avez-vous du mal à vous sentir heureux ou satisfait de votre vie ?"
+							],
 							transitionType: "right"
 						}
 					]}
@@ -220,13 +223,15 @@ const MainPage = () => {
 							imgAlt: "icône d'une plante",
 							imgSrc: "/icons/icon_plant.svg",
 							title: "Des racines japonaises",
-							content: `Le Reiki fut révélé à Mikao Usui, érudit et guérisseur japonais du
+							content: [
+								`Le Reiki fut révélé à Mikao Usui, érudit et guérisseur japonais du
 								XIXe siècle, durant une retraite introspective de 21 jours au Mont
 								Kurama. Cette expérience transpersonnelle lui transmit les
 								enseignements et techniques du Reiki, que nous pratiquons
 								actuellement. Son attrait universel réside dans sa simplicité et son
 								efficacité. Le Reiki continue d'évoluer tout en restant fidèle à ses 
-								principes fondamentaux.`,
+								principes fondamentaux.`
+							],
 							transitionType: "left"
 						},
 						{
@@ -234,13 +239,15 @@ const MainPage = () => {
 							imgAlt: "icône d'une ampoule",
 							imgSrc: "/icons/icon_light.svg",
 							title: "Ses principes et sa philosophie",
-							content: `Le Reiki repose sur cinq principes essentiels, appelés les "Cinq
+							content: [
+								`Le Reiki repose sur cinq principes essentiels, appelés les "Cinq
 								Préceptes du Reiki". Ils guident les praticiens vers l'harmonie
 								intérieure et le bien-être en promouvant des valeurs telles que la
 								bienveillance, la gratitude et la paix intérieure. Cette
 								philosophie, ancrée dans la simplicité et la sagesse, encourage
 								chacun à cultiver une connexion profonde avec soi-même et avec
-								l'énergie qui nous entoure.`,
+								l'énergie qui nous entoure.`
+							],
 							transitionType: "center"
 						},
 						{
@@ -248,13 +255,15 @@ const MainPage = () => {
 							imgAlt: "icône de la planète terre",
 							imgSrc: "/icons/icon_globe.svg",
 							title: "Un développement mondial",
-							content: `Depuis ses modestes débuts au Japon, le Reiki a transcendé les
+							content: [
+								`Depuis ses modestes débuts au Japon, le Reiki a transcendé les
 								frontières pour devenir une pratique mondiale de guérison et de
 								bien-être. Son attrait universel réside dans sa simplicité et son
 								efficacité. Au fil des décennies, diverses écoles et approches ont
 								émergé, reflétant la diversité culturelle et les besoins
 								individuels. Le Reiki ne vise pas à se substituer de la médecine,
-								mais plutôt à agir en complémentarité avec elle !`,
+								mais plutôt à agir en complémentarité avec elle !`
+							],
 							transitionType: "right"
 						}
 					]}
@@ -269,12 +278,14 @@ const MainPage = () => {
 							imgAlt: "icône d'un cerveau",
 							imgSrc: "/icons/icon_brain.svg",
 							title: "Sérénité mentale et détente",
-							content: `Le Reiki, grâce à sa nature apaisante, ouvre la voie à une
+							content: [
+								`Le Reiki, grâce à sa nature apaisante, ouvre la voie à une
 								relaxation profonde, offrant ainsi un précieux moyen de diminuer le
 								stress et l'anxiété. En encourageant le lâcher-prise, il
 								permet d'atteindre une clarté mentale qui renforce à la fois la
 								concentration et l'estime de soi. Grâce à cette harmonie retrouvée,
-								le Reiki offre une profonde paix intérieure.`,
+								le Reiki offre une profonde paix intérieure.`
+							],
 							transitionType: "left"
 						},
 						{
@@ -282,12 +293,14 @@ const MainPage = () => {
 							imgAlt: "icône d'un coeur",
 							imgSrc: "/icons/icon_heart.svg",
 							title: "Apaisement émotionnel profond",
-							content: `Le Reiki offre bien plus qu'une simple relaxation physique. Il
+							content: [
+								`Le Reiki offre bien plus qu'une simple relaxation physique. Il
 								travaille également en profondeur pour apaiser les émotions
 								tourmentées, libérant ainsi les blocages qui entravent le bien-être
 								émotionnel. Cette libération émotionnelle peut vous offrir
 								l'opportunité de pratiquer le pardon et de vous reconnecter
-								profondément à vous-même.`,
+								profondément à vous-même.`
+							],
 							transitionType: "center"
 						},
 						{
@@ -295,12 +308,14 @@ const MainPage = () => {
 							imgAlt: "icône d'un éclair représentant l'énergie",
 							imgSrc: "/icons/icon_energy.svg",
 							title: "Renforcement de la vitalité",
-							content: `Le Reiki, de par sa nature énergétique, revitalise le corps et
+							content: [
+								`Le Reiki, de par sa nature énergétique, revitalise le corps et
 								l'esprit. En stimulant la circulation énergétique, il renforce la
 								vitalité, régénère le corps et favorise un sentiment de vigueur
 								renouvelé. Cette vitalité stimule la vitesse de guérison en
 								dynamisant l'ensemble du système immunitaire. Cette énergie nouvelle
-								se traduit par une qualité de vie améliorée.`,
+								se traduit par une qualité de vie améliorée.`
+							],
 							transitionType: "right"
 						}
 					]}
@@ -339,11 +354,13 @@ const MainPage = () => {
 							imgAlt: "icône d'un puzzle",
 							imgSrc: "/icons/icon_puzzle.svg",
 							title: "Analyse des blocages",
-							content: `Dans un premier temps, les cartes nous offrent la capacité d'explorer l'origine des
+							content: [
+								`Dans un premier temps, les cartes nous offrent la capacité d'explorer l'origine des
 								blocages que vous rencontrez. Grâce à mon interprétation des cartes, combinée avec mon intuition,
 								je peux vous aider à discerner la source de ces blocages, qu'ils relèvent du domaine physique,
 								relationnel, professionnel ou familial. Une fois que nous avons identifié leur source,
-								nous pouvons élaborer des solutions en vue de résoudre ces problèmes.`,
+								nous pouvons élaborer des solutions en vue de résoudre ces problèmes.`
+							],
 							transitionType: "left"
 						},
 						{
@@ -351,11 +368,13 @@ const MainPage = () => {
 							imgAlt: "icône d'une plante symbolisant la guérison",
 							imgSrc: "/icons/icon_healing.svg",
 							title: "Chemins de guérison",
-							content: `Dans un second temps, les cartes nous permettent d'identifier les soutiens et les 
+							content: [
+								`Dans un second temps, les cartes nous permettent d'identifier les soutiens et les 
 								solutions potentielles. Ces pistes de guérison peuvent évoquer des pensées ou des conseils 
 								qui vous ont peut-être déjà été transmis et recommandé. De plus, elles ont le potentiel 
 								de vous ouvrir les yeux et de vous offrir une nouvelle perspective sur la situation, 
-								vous permettant ainsi d'acquérir un point de vue totalement nouveau.`,
+								vous permettant ainsi d'acquérir un point de vue totalement nouveau.`
+							],
 							transitionType: "center"
 						},
 						{
@@ -363,11 +382,13 @@ const MainPage = () => {
 							imgAlt: "icône d'un oeil'",
 							imgSrc: "/icons/icon_eye.svg",
 							title: "Prise de conscience",
-							content: `Enfin, l'objectif d'un tirage de cartes est de vous orienter vers votre vérité
+							content: [
+								`Enfin, l'objectif d'un tirage de cartes est de vous orienter vers votre vérité
 								personnelle. Cela équivaut à une meilleure compréhension de vous-même et de vos expériences. 
 								Il arrive souvent que la simple exploration d'un problème sous un angle nouveau permette 
 								d'en révéler des solutions insoupçonnées. C'est ce qu'on appelle une prise de conscience, 
-								et cela peut transformer profondément tous les aspects de votre vie.`,
+								et cela peut transformer profondément tous les aspects de votre vie.`
+							],
 							transitionType: "right"
 						}
 					]}
