@@ -174,6 +174,117 @@ const MainPage = () => {
 						}
 					]}
 				/>
+				<BlocTextContent
+					breakpointResponsiveValue={breakpointResponsiveValue}
+					mainTitle="Le Manque d'Amour de Soi"
+					textDatasArray={[
+						{
+							id: "injuries-bloc",
+							imgAlt: "icône représentant l'énergie universelle",
+							imgSrc: "/icons/icon_injury.svg",
+							title: "Blessures",
+							content: [
+								`La source de ces blessures remonte souvent à l’enfance ou au karma familial 
+								transgénérationnel. Avez-vous vécu une sensation de rejet ou d'abandon de la 
+								part d’un de vos parents ? Si c’est le cas, ces blessures ont provoqué un manque
+								d’amour de soi. Le manque d'amour de soi peut souvent conduire à une perte de 
+								connexion avec votre véritable identité. Et c’est cette déconnexion qui entraîne
+								des symptômes émotionnels, mentaux et physiques identifiés au-dessus.`
+							],
+							transitionType: "left"
+						},
+						{
+							id: "mask-bloc",
+							imgAlt: "icône du yin yang",
+							imgSrc: "/icons/icon_mask.svg",
+							title: "Masques",
+							content: [
+								`Pour éviter de ressentir de nouveau la souffrance due à ces blessures, vous avez
+								inconsciemment créé des masques pour vous adapter aux situations pour ne pas revivre
+								cette sensation de souffrance. Paradoxalement, en mettant un masque, vous n’acceptez
+								pas qui vous êtes, et donc vous vous abandonnez ou vous vous rejetez. Le dilemme 
+								réside dans le fait que malgré ces efforts d'adaptation, un vide intérieur persiste, 
+								souvent comblé par des tentatives extérieures. Cette quête extérieure pour apaiser 
+								ce vide peut souvent nous plonger dans la dépendance affective, provoquant à son 
+								tour un manque de confiance et d'estime de soi.`
+							],
+							transitionType: "center"
+						},
+						{
+							id: "healing-bloc",
+							imgAlt: "icône de mains jointes",
+							imgSrc: "/icons/icon_healing.svg",
+							title: "Guérison",
+							content: [
+								`La bonne nouvelle, c’est qu’une fois que vous avez pris conscience que vous portez
+								un masque, vous pouvez décider de le retirer. Cette prise de conscience est un premier
+								pas essentiel vers la guérison de l'amour de soi, car elle vous invite à explorer vos 
+								blessures passées et à reconnaître les schémas de comportement qui vous limitent. 
+								En reconnaissant ces patterns, vous pouvez entamer un processus de guérison profonde
+								qui vous permettra de renouer avec votre véritable essence et de cultiver un amour 
+								de soi authentique et durable.`
+							],
+							transitionType: "right"
+						}
+					]}
+				/>
+				<BlocTextContent
+					breakpointResponsiveValue={breakpointResponsiveValue}
+					darkMode
+					pinkColor
+					mainTitle="Mon Accompagnement"
+					textDatasArray={[
+						{
+							id: "values-bloc",
+							imgAlt: "icône d'un cerveau",
+							imgSrc: "/icons/icon_hands-pink.svg",
+							title: "Mes valeurs",
+							content: [
+								`Mon objectif c’est que vous soyez dans un espace de confiance et de
+								relaxation, que vous soyez dans un cocon de sécurité et de lâcher prise.
+								C’est cet espace de douceur qui permet ensuite d’entrer en connexion 
+								sur la voie de la guérison. Le jugement n’a pas sa place chez moi et 
+								les valeurs qui me définissent sont l’écoute, la bienveillance, la 
+								compassion et le respect.`
+							],
+							transitionType: "left"
+						},
+						{
+							id: "tools-bloc",
+							imgAlt: "icône d'un coeur",
+							imgSrc: "/icons/icon_music.svg",
+							title: "Mes outils",
+							content: [
+								`Mes outils de travail sont les cartes (oracle et tarot) qui dans un
+								premier temps permettent de mieux identifier une cause. Dans un second
+								temps, j'utilise l’énergie du Reiki qui est à la fois douce et puissante
+								pour apporter de la détente et de la relaxation à votre corps. Enfin, 
+								il y aura des exercices de pleine conscience pour que vous soyez à l’écoute 
+								de votre corps et de vos ressentis pour libérer vos blocages. En parallèle 
+								j’utilise des musiques apaisantes et j’ai pour objectif d’y inclure mes 
+								propres compositions musicales au Handpan.`
+							],
+							transitionType: "center"
+						},
+						{
+							id: "happiness-bloc",
+							imgAlt: "icône d'un éclair représentant l'énergie",
+							imgSrc: "/icons/icon_universe-pink.svg",
+							title: "Votre bonheur",
+							content: [
+								`Finalement que souhaite t-on profondément dans l’amour et la guérison ? 
+								C’est la joie de vivre et le bonheur ! Une fois qu’on est libéré d’un blocage,
+								on retrouve de la liberté, de la légèreté, de la confiance. Et c’est cette 
+								confiance qui renforce notre estime et notre amour de soi. Vous développerez 
+								un cercle vertueux qui vous permettra de manifester tout ce que vous souhaitez. 
+								Mon accompagnement a pour unique but de vous remettre sur le chemin du véritable
+								amour, qui est : L’Amour de Soi. Car sans cet amour envers vous-même, comment 
+								pouvez-vous aimer les autres ?`
+							],
+							transitionType: "right"
+						}
+					]}
+				></BlocTextContent>
 				{/* <BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					darkMode
@@ -214,7 +325,7 @@ const MainPage = () => {
 						}
 					]}
 				/> */}
-				<BlocTextContent
+				{/* <BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					mainTitle="Origines du Reiki"
 					textDatasArray={[
@@ -267,8 +378,9 @@ const MainPage = () => {
 							transitionType: "right"
 						}
 					]}
-				/>
-				<BlocTextContent
+				/> */}
+
+				{/* <BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					darkMode
 					mainTitle="Les bienfaits du Reiki"
@@ -344,7 +456,7 @@ const MainPage = () => {
 							<span className="iconActionLink" />
 						</Link>
 					</ScrollAnimation>
-				</BlocTextContent>
+				</BlocTextContent> */}
 				<BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					mainTitle="Les vertus du tirage de cartes"

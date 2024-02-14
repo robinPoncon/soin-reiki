@@ -32,7 +32,8 @@ const config: Config = {
 			boxShadow: {
 				blueGreen: "0 0 10px #3ad9bc",
 				customYellow: "0 0 10px #fdd542",
-				darkTurquoise: "0 0 10px #062933"
+				darkTurquoise: "0 0 10px #062933",
+				customPink: "0 0 10px #ffc0cb"
 			},
 			border: {
 				blueGreen: "#3ad9bc"

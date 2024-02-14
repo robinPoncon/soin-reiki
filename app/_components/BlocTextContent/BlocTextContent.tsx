@@ -7,6 +7,7 @@ type BlocTextContentProps = {
 	mainTitle: string;
 	textDatasArray: TextStructure[];
 	darkMode?: boolean;
+	pinkColor?: boolean;
 	children?: ReactNode;
 };
 
@@ -24,6 +25,7 @@ const BlocTextContent = ({
 	mainTitle,
 	textDatasArray,
 	darkMode,
+	pinkColor,
 	children
 }: BlocTextContentProps): JSX.Element => {
 	return (
@@ -34,7 +36,11 @@ const BlocTextContent = ({
 		>
 			<h2
 				className={`titleFont font-semibold text-2xl text-center mx-auto w-fit p-4 md:text-4xl ${
-					darkMode ? "customBorderYellow" : "customBorderBlue"
+					pinkColor
+						? "customBorderPink"
+						: darkMode
+						? "customBorderYellow"
+						: "customBorderBlue"
 				}`}
 			>
 				{mainTitle}
@@ -84,7 +90,11 @@ const BlocTextContent = ({
 						>
 							<p
 								className={`bg-darkBackground rounded-full w-fit p-2.5 mx-auto ${
-									darkMode ? "shadow-customYellow" : ""
+									pinkColor
+										? "shadow-customPink"
+										: darkMode
+										? "shadow-customYellow"
+										: ""
 								}`}
 							>
 								<Image
@@ -97,7 +107,7 @@ const BlocTextContent = ({
 							</p>
 							<h3
 								className={`text-xl text-center font-semibold italic mt-6 mb-2 ${
-									darkMode ? "text-customYellow" : ""
+									pinkColor ? "text-pink" : darkMode ? "text-customYellow" : ""
 								}`}
 							>
 								{data.title}
