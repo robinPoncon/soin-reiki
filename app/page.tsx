@@ -83,13 +83,13 @@ const MainPage = () => {
 						}}
 					>
 						<p className="text-justify max-w-2xl mx-auto">
-							Je suis ravi de vous accueillir sur mon site internet dédié au Reiki et
-							à la guidance en tirage de cartes sur Bordeaux. Je crois profondément en
-							l'importance de prendre soin de son corps, de son esprit et de ses
-							émotions pour atteindre un épanouissement complet dans tous les domaines
-							de sa vie. Vous trouverez toutes les informations nécessaires sur les
-							différents services que je propose au sein des différentes pages de mon
-							site. Je vous souhaite une agréable visite !
+							Je suis ravi de vous accueillir sur mon site internet dédié à la
+							reconnexion et à l'amour de soi. Je crois profondément en l'importance
+							de prendre soin de son corps, de son esprit et de ses émotions pour
+							atteindre un épanouissement complet dans tous les domaines de sa vie.
+							Vous trouverez toutes les informations nécessaires sur le déroulé d'une
+							séance et ma vision du soin énergétique. Je vous souhaite une agréable
+							visite !
 						</p>
 					</ScrollAnimation>
 				)}
@@ -123,10 +123,8 @@ const MainPage = () => {
 					}
 				>
 					<p className="font-semibold italic text-center max-w-2xl mx-auto">
-						"Mon but est de trouver la source des problèmes et de les traiter ou
-						idéalement, de les apaiser. Plus profondes sont nos racines, moins nous
-						sommes affectés par les événements de la vie, et plus nous pouvons faire
-						éclore les fleurs de notre épanouissement."
+						"Plus profondes sont nos racines, plus grand est notre amour de soi et plus
+						nous pouvons faire éclore les fleurs de notre épanouissement."
 					</p>
 				</ScrollAnimation>
 			</section>
@@ -186,10 +184,10 @@ const MainPage = () => {
 							content: [
 								`La source de ces blessures remonte souvent à l’enfance ou au karma familial 
 								transgénérationnel. Avez-vous vécu une sensation de rejet ou d'abandon de la 
-								part d’un de vos parents ? Si c’est le cas, ces blessures ont provoqué un manque
-								d’amour de soi. Le manque d'amour de soi peut souvent conduire à une perte de 
-								connexion avec votre véritable identité. Et c’est cette déconnexion qui entraîne
-								des symptômes émotionnels, mentaux et physiques identifiés au-dessus.`
+								part d’un de vos parents ? Si c’est le cas, ces blessures ont provoqué un vide intérieur
+								dû au manque d’amour de soi. Le manque d'amour de soi peut souvent conduire à une perte de 
+								connexion avec votre véritable identité et des schémas d'auto-sabotage. Et c’est cette 
+								déconnexion qui entraîne des symptômes émotionnels, mentaux et physiques identifiés au-dessus.`
 							],
 							transitionType: "left"
 						},
@@ -200,13 +198,11 @@ const MainPage = () => {
 							title: "Masques",
 							content: [
 								`Pour éviter de ressentir de nouveau la souffrance due à ces blessures, vous avez
-								inconsciemment créé des masques pour vous adapter aux situations pour ne pas revivre
-								cette sensation de souffrance. Paradoxalement, en mettant un masque, vous n’acceptez
-								pas qui vous êtes, et donc vous vous abandonnez ou vous vous rejetez. Le dilemme 
-								réside dans le fait que malgré ces efforts d'adaptation, un vide intérieur persiste, 
-								souvent comblé par des tentatives extérieures. Cette quête extérieure pour apaiser 
-								ce vide peut souvent nous plonger dans la dépendance affective, provoquant à son 
-								tour un manque de confiance et d'estime de soi.`
+								inconsciemment créé des masques. Paradoxalement, en mettant un masque, vous n’acceptez
+								pas qui vous êtes, et donc vous vous abandonnez ou vous vous rejetez. Malgré ces efforts
+								d'adaptation, un vide intérieur persiste, souvent comblé par des tentatives extérieures. 
+								Cette quête extérieure pour apaiser ce vide peut souvent nous plonger dans la dépendance 
+								affective, provoquant à son tour un manque de confiance et d'estime de soi.`
 							],
 							transitionType: "center"
 						},
@@ -240,12 +236,11 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_hands-pink.svg",
 							title: "Mes valeurs",
 							content: [
-								`Mon objectif c’est que vous soyez dans un espace de confiance et de
-								relaxation, que vous soyez dans un cocon de sécurité et de lâcher prise.
-								C’est cet espace de douceur qui permet ensuite d’entrer en connexion 
-								sur la voie de la guérison. Le jugement n’a pas sa place chez moi et 
-								les valeurs qui me définissent sont l’écoute, la bienveillance, la 
-								compassion et le respect.`
+								`Mon objectif est de créer un espace de confiance et de relaxation, où vous
+								vous sentirez en sécurité pour lâcher prise. C'est cet environnement de douceur 
+								qui favorise la reconnexion avec votre cœur. Et c'est cette reconnexion avec votre coeur
+								qui vous guide vers votre propre guérison. Chez moi, le jugement n'a pas sa place, 
+								et mes valeurs fondamentales sont l'écoute, la bienveillance, la compassion et le respect.`
 							],
 							transitionType: "left"
 						},
@@ -255,14 +250,11 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_music.svg",
 							title: "Mes outils",
 							content: [
-								`Mes outils de travail sont les cartes (oracle et tarot) qui dans un
-								premier temps permettent de mieux identifier une cause. Dans un second
-								temps, j'utilise l’énergie du Reiki qui est à la fois douce et puissante
-								pour apporter de la détente et de la relaxation à votre corps. Enfin, 
-								il y aura des exercices de pleine conscience pour que vous soyez à l’écoute 
-								de votre corps et de vos ressentis pour libérer vos blocages. En parallèle 
-								j’utilise des musiques apaisantes et j’ai pour objectif d’y inclure mes 
-								propres compositions musicales au Handpan.`
+								`Mon approche thérapeutique combine les cartes (oracle et tarot) pour identifier
+								les causes profondes de vos blocages, le Reiki pour favoriser la détente de votre corps 
+								et de sa relaxation, des exercices de pleine conscience pour libérer vos blocages 
+								émotionnels, et des musiques apaisantes accompagnées de mes propres compositions 
+								musicales au Handpan pour enrichir votre expérience thérapeutique.`
 							],
 							transitionType: "center"
 						},
@@ -272,13 +264,11 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_universe-pink.svg",
 							title: "Votre bonheur",
 							content: [
-								`Finalement que souhaite t-on profondément dans l’amour et la guérison ? 
-								C’est la joie de vivre et le bonheur ! Une fois qu’on est libéré d’un blocage,
-								on retrouve de la liberté, de la légèreté, de la confiance. Et c’est cette 
-								confiance qui renforce notre estime et notre amour de soi. Vous développerez 
-								un cercle vertueux qui vous permettra de manifester tout ce que vous souhaitez. 
-								Mon accompagnement a pour unique but de vous remettre sur le chemin du véritable
-								amour, qui est : L’Amour de Soi. Car sans cet amour envers vous-même, comment 
+								`La quête de la guérison est en réalité une recherche de la joie de 
+								vivre et du bonheur profond. En surmontant les blocages, on retrouve la liberté, 
+								la légèreté et la confiance en soi, créant ainsi un cercle vertueux qui permet de
+								manifester nos rêves les plus profonds. Mon accompagnement vise à vous ramener vers 
+								le véritable amour : l'Amour de Soi. Car sans cet amour envers vous-même, comment 
 								pouvez-vous aimer les autres ?`
 							],
 							transitionType: "right"
@@ -457,7 +447,7 @@ const MainPage = () => {
 						</Link>
 					</ScrollAnimation>
 				</BlocTextContent> */}
-				<BlocTextContent
+				{/* <BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					mainTitle="Les vertus du tirage de cartes"
 					textDatasArray={[
@@ -530,7 +520,82 @@ const MainPage = () => {
 							<span className="iconActionLink" />
 						</Link>
 					</ScrollAnimation>
-				</BlocTextContent>
+				</BlocTextContent> */}
+			</section>
+			<section className="flex flex-col gap-10">
+				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit p-4 md:text-4xl customBorderBlue">
+					Déroulement d'une séance
+				</h2>
+				<article>
+					<h3 className="text-xl text-center font-semibold italic md:text-2xl">
+						Étape 1 : Une Préparation Bienveillante
+					</h3>
+					<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
+						<Image
+							className="customImgBlueGreen mx-auto md:mx-0"
+							alt="illustration d'une discussion entre deux personnes assises"
+							src="/illustrations/illustration_discussion.png"
+							width={320}
+							height={320}
+							loading="eager"
+						/>
+						<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
+							Dès le début, nous prenons le temps de discuter de vos intentions et des
+							bienfaits que vous recherchez à travers les séances. Je vous partage
+							ensuite mes connaissances et mon expérience, afin que nous puissions
+							trouver des solutions durables à vos problématiques. De plus, je vous
+							propose une guidance énergétique à travers le tirage d'une carte, pour
+							vous guider un peu plus loin sur le chemin de la guérison.
+						</p>
+					</div>
+				</article>
+				<article>
+					<h3 className="text-xl text-center font-semibold italic md:text-2xl">
+						Étape 2 : L'Harmonie Énergétique
+					</h3>
+					<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
+						<Image
+							className="customImgBlueGreen mx-auto md:mx-0"
+							alt="illustration d'un homme faisant un soin reiki à une femme"
+							src="/illustrations/illustration_energetic-heal.png"
+							width={320}
+							height={320}
+						/>
+						<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
+							Pendant le soin, vous restez confortablement vêtu(e) allongé(e) sur une
+							table de massage. L'objectif est que vous soyez à l'aise ! J'accompagne
+							cela avec une douce musique apaisante. Je commence le soin en plaçant
+							délicatement mes mains sur les zones de votre corps nécessitant un
+							rééquilibrage énergétique. Pendant cette étape, des sensations telles
+							que chaleur, fraîcheur, picotements, émotions ou autres peuvent se
+							manifester. Tout cela est normal et fait partie du processus naturel de
+							la circulation de l'énergie en vous.
+						</p>
+					</div>
+				</article>
+				<article>
+					<h3 className="text-xl text-center font-semibold italic md:text-2xl">
+						Étape 3 : Intégration et Planification
+					</h3>
+					<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
+						<Image
+							className="customImgBlueGreen mx-auto md:mx-0"
+							alt="illustration d'un calendrier"
+							src="/illustrations/illustration_calendar.png"
+							width={320}
+							height={320}
+						/>
+						<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
+							Une fois le soin achevé, nous prenons le temps de partager nos
+							impressions sur l'expérience vécue. En fonction de vos ressentis et de
+							vos besoins, nous planifions d'autres séances si nécessaires.
+							Généralement, pour des résultats concluants, il est recommandé de
+							prévoir 2 à 3 séances espacées d'une à deux semaines. Dans les jours qui
+							suivent le soin, hydratez-vous davantage pour favoriser la purification
+							et l'élimination des toxines énergétiques.
+						</p>
+					</div>
+				</article>
 			</section>
 			<section className="flex flex-col gap-10">
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderPink p-4 md:text-4xl lg:hidden">
