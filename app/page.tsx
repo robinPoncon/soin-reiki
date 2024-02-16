@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import ReviewsUsers from "./_components/ReviewsUsers/ReviewsUsers";
 import ScrollAnimation from "./_components/ScrollAnimation/ScrollAnimation";
 import { useDatas } from "./_context/ReviewsUsersDataContext";
-import Link from "next/link";
 import BlocTextContent from "./_components/BlocTextContent/BlocTextContent";
 
 const MainPage = () => {
@@ -59,13 +58,13 @@ const MainPage = () => {
 				{breakpointResponsiveValue < 1024 ? (
 					<div className="flex flex-col gap-10 px-2">
 						<p className="text-justify max-w-2xl mx-auto">
-							Je suis ravi de vous accueillir sur mon site internet dédié au Reiki et
-							à la guidance en tirage de cartes sur Bordeaux. Je crois profondément en
-							l'importance de prendre soin de son corps, de son esprit et de ses
-							émotions pour atteindre un épanouissement complet dans tous les domaines
-							de sa vie. Vous trouverez toutes les informations nécessaires sur les
-							différents services que je propose au sein des différentes pages de mon
-							site. Je vous souhaite une agréable visite !
+							Je suis ravi de vous accueillir sur mon site internet dédié à la
+							reconnexion de l'Amour de Soi. Je crois profondément en l'importance de
+							prendre soin de son corps, de son esprit et de ses émotions pour
+							atteindre un épanouissement complet dans tous les domaines de sa vie.
+							Vous trouverez toutes les informations nécessaires sur le déroulé d'une
+							séance et ma vision du soin énergétique. Je vous souhaite une agréable
+							visite !
 						</p>
 					</div>
 				) : (
@@ -84,8 +83,8 @@ const MainPage = () => {
 					>
 						<p className="text-justify max-w-2xl mx-auto">
 							Je suis ravi de vous accueillir sur mon site internet dédié à la
-							reconnexion et à l'amour de soi. Je crois profondément en l'importance
-							de prendre soin de son corps, de son esprit et de ses émotions pour
+							reconnexion de l'Amour de Soi. Je crois profondément en l'importance de
+							prendre soin de son corps, de son esprit et de ses émotions pour
 							atteindre un épanouissement complet dans tous les domaines de sa vie.
 							Vous trouverez toutes les informations nécessaires sur le déroulé d'une
 							séance et ma vision du soin énergétique. Je vous souhaite une agréable
@@ -123,7 +122,7 @@ const MainPage = () => {
 					}
 				>
 					<p className="font-semibold italic text-center max-w-2xl mx-auto">
-						"Plus profondes sont nos racines, plus grand est notre amour de soi et plus
+						"Plus profondes sont nos racines, plus grand est notre Amour de Soi et plus
 						nous pouvons faire éclore les fleurs de notre épanouissement."
 					</p>
 				</ScrollAnimation>
@@ -136,7 +135,7 @@ const MainPage = () => {
 					textDatasArray={[
 						{
 							id: "physic-bloc",
-							imgAlt: "icône corps physique",
+							imgAlt: "icône d'un corps physique",
 							imgSrc: "/icons/icon_body.svg",
 							title: "Physique",
 							content: [
@@ -148,7 +147,7 @@ const MainPage = () => {
 						},
 						{
 							id: "mental-bloc",
-							imgAlt: "icône cerveau",
+							imgAlt: "icône d'un cerveau",
 							imgSrc: "/icons/icon_brain.svg",
 							title: "Mental",
 							content: [
@@ -160,7 +159,7 @@ const MainPage = () => {
 						},
 						{
 							id: "emotional-bloc",
-							imgAlt: "icône de coeur",
+							imgAlt: "icône d'un coeur",
 							imgSrc: "/icons/icon_heart.svg",
 							title: "Émotionnel",
 							content: [
@@ -178,14 +177,14 @@ const MainPage = () => {
 					textDatasArray={[
 						{
 							id: "injuries-bloc",
-							imgAlt: "icône représentant l'énergie universelle",
+							imgAlt: "icône d'une blessure émotionnelle",
 							imgSrc: "/icons/icon_injury.svg",
 							title: "Blessures",
 							content: [
 								`La source de ces blessures remonte souvent à l’enfance ou au karma familial 
 								transgénérationnel. Avez-vous vécu une sensation de rejet ou d'abandon de la 
 								part d’un de vos parents ? Si c’est le cas, ces blessures ont provoqué un vide intérieur
-								dû au manque d’amour de soi. Le manque d'amour de soi peut souvent conduire à une perte de 
+								dû au manque d’Amour de Soi. Le manque d'Amour de Soi peut souvent conduire à une perte de 
 								connexion avec votre véritable identité et des schémas d'auto-sabotage. Et c’est cette 
 								déconnexion qui entraîne des symptômes émotionnels, mentaux et physiques identifiés au-dessus.`
 							],
@@ -193,7 +192,7 @@ const MainPage = () => {
 						},
 						{
 							id: "mask-bloc",
-							imgAlt: "icône du yin yang",
+							imgAlt: "icône d'un masque",
 							imgSrc: "/icons/icon_mask.svg",
 							title: "Masques",
 							content: [
@@ -208,13 +207,13 @@ const MainPage = () => {
 						},
 						{
 							id: "healing-bloc",
-							imgAlt: "icône de mains jointes",
+							imgAlt: "icône d'une fleur",
 							imgSrc: "/icons/icon_healing.svg",
 							title: "Guérison",
 							content: [
 								`La bonne nouvelle, c’est qu’une fois que vous avez pris conscience que vous portez
 								un masque, vous pouvez décider de le retirer. Cette prise de conscience est un premier
-								pas essentiel vers la guérison de l'amour de soi, car elle vous invite à explorer vos 
+								pas essentiel vers la guérison de l'Amour de Soi, car elle vous invite à explorer vos 
 								blessures passées et à reconnaître les schémas de comportement qui vous limitent. 
 								En reconnaissant ces patterns, vous pouvez entamer un processus de guérison profonde
 								qui vous permettra de renouer avec votre véritable essence et de cultiver un amour 
@@ -232,7 +231,7 @@ const MainPage = () => {
 					textDatasArray={[
 						{
 							id: "values-bloc",
-							imgAlt: "icône d'un cerveau",
+							imgAlt: "icône de mains jointes",
 							imgSrc: "/icons/icon_hands-pink.svg",
 							title: "Mes valeurs",
 							content: [
@@ -246,9 +245,9 @@ const MainPage = () => {
 						},
 						{
 							id: "tools-bloc",
-							imgAlt: "icône d'un coeur",
+							imgAlt: "icône d'une note de musique",
 							imgSrc: "/icons/icon_music.svg",
-							title: "Mes outils",
+							title: "Mes services",
 							content: [
 								`Mon approche thérapeutique combine les cartes (oracle et tarot) pour identifier
 								les causes profondes de vos blocages, le Reiki pour favoriser la détente de votre corps 
@@ -260,7 +259,7 @@ const MainPage = () => {
 						},
 						{
 							id: "happiness-bloc",
-							imgAlt: "icône d'un éclair représentant l'énergie",
+							imgAlt: "icône d'un soleil",
 							imgSrc: "/icons/icon_universe-pink.svg",
 							title: "Votre bonheur",
 							content: [
@@ -275,178 +274,7 @@ const MainPage = () => {
 						}
 					]}
 				></BlocTextContent>
-				{/* <BlocTextContent
-					breakpointResponsiveValue={breakpointResponsiveValue}
-					darkMode
-					mainTitle="Qu'est-ce que le Reiki ?"
-					textDatasArray={[
-						{
-							id: "universe-bloc",
-							imgAlt: "icône représentant l'énergie universelle",
-							imgSrc: "/icons/icon_universe.svg",
-							title: "Une énergie universelle",
-							content: `Le Reiki est l'énergie de vie qui englobe toute la matière au sein
-								de notre univers. Elle est partout autour de nous, et mon travail
-								est de la canaliser pour la diffuser en vous. Vous apportant calme,
-								sérénité, lâcher prise et bien être !`,
-							transitionType: "left"
-						},
-						{
-							id: "yin-yang-bloc",
-							imgAlt: "icône du yin yang",
-							imgSrc: "/icons/icon_yin-yang.svg",
-							title: "Une harmonisation énergétique",
-							content: `Durant un soin, l'énergie va circuler dans certaines parties du
-								corps au travers des méridiens et des chakras. Cette harmonisation
-								apporte un rééquilibre au niveau des pensées, des émotions et du
-								corps physique. C'est un moment de reconnexion avec soi !`,
-							transitionType: "center"
-						},
-						{
-							id: "hands-bloc",
-							imgAlt: "icône de mains jointes",
-							imgSrc: "/icons/icon_hands.svg",
-							title: "Un toucher thérapeutique",
-							content: `L'utilisation du Reiki se fait par apposition des mains sur
-								différentes parties du corps. Elles peuvent être posées délicatement
-								ou être à 5/10cm au-dessus du corps. Il n'y a aucune manipulation ce
-								qui en fait une méthode de soins très douce et agréable !`,
-							transitionType: "right"
-						}
-					]}
-				/> */}
-				{/* <BlocTextContent
-					breakpointResponsiveValue={breakpointResponsiveValue}
-					mainTitle="Origines du Reiki"
-					textDatasArray={[
-						{
-							id: "japanese-bloc",
-							imgAlt: "icône d'une plante",
-							imgSrc: "/icons/icon_plant.svg",
-							title: "Des racines japonaises",
-							content: [
-								`Le Reiki fut révélé à Mikao Usui, érudit et guérisseur japonais du
-								XIXe siècle, durant une retraite introspective de 21 jours au Mont
-								Kurama. Cette expérience transpersonnelle lui transmit les
-								enseignements et techniques du Reiki, que nous pratiquons
-								actuellement. Son attrait universel réside dans sa simplicité et son
-								efficacité. Le Reiki continue d'évoluer tout en restant fidèle à ses 
-								principes fondamentaux.`
-							],
-							transitionType: "left"
-						},
-						{
-							id: "light-bloc",
-							imgAlt: "icône d'une ampoule",
-							imgSrc: "/icons/icon_light.svg",
-							title: "Ses principes et sa philosophie",
-							content: [
-								`Le Reiki repose sur cinq principes essentiels, appelés les "Cinq
-								Préceptes du Reiki". Ils guident les praticiens vers l'harmonie
-								intérieure et le bien-être en promouvant des valeurs telles que la
-								bienveillance, la gratitude et la paix intérieure. Cette
-								philosophie, ancrée dans la simplicité et la sagesse, encourage
-								chacun à cultiver une connexion profonde avec soi-même et avec
-								l'énergie qui nous entoure.`
-							],
-							transitionType: "center"
-						},
-						{
-							id: "globe-bloc",
-							imgAlt: "icône de la planète terre",
-							imgSrc: "/icons/icon_globe.svg",
-							title: "Un développement mondial",
-							content: [
-								`Depuis ses modestes débuts au Japon, le Reiki a transcendé les
-								frontières pour devenir une pratique mondiale de guérison et de
-								bien-être. Son attrait universel réside dans sa simplicité et son
-								efficacité. Au fil des décennies, diverses écoles et approches ont
-								émergé, reflétant la diversité culturelle et les besoins
-								individuels. Le Reiki ne vise pas à se substituer de la médecine,
-								mais plutôt à agir en complémentarité avec elle !`
-							],
-							transitionType: "right"
-						}
-					]}
-				/> */}
 
-				{/* <BlocTextContent
-					breakpointResponsiveValue={breakpointResponsiveValue}
-					darkMode
-					mainTitle="Les bienfaits du Reiki"
-					textDatasArray={[
-						{
-							id: "brain-bloc",
-							imgAlt: "icône d'un cerveau",
-							imgSrc: "/icons/icon_brain.svg",
-							title: "Sérénité mentale et détente",
-							content: [
-								`Le Reiki, grâce à sa nature apaisante, ouvre la voie à une
-								relaxation profonde, offrant ainsi un précieux moyen de diminuer le
-								stress et l'anxiété. En encourageant le lâcher-prise, il
-								permet d'atteindre une clarté mentale qui renforce à la fois la
-								concentration et l'estime de soi. Grâce à cette harmonie retrouvée,
-								le Reiki offre une profonde paix intérieure.`
-							],
-							transitionType: "left"
-						},
-						{
-							id: "heart-bloc",
-							imgAlt: "icône d'un coeur",
-							imgSrc: "/icons/icon_heart.svg",
-							title: "Apaisement émotionnel profond",
-							content: [
-								`Le Reiki offre bien plus qu'une simple relaxation physique. Il
-								travaille également en profondeur pour apaiser les émotions
-								tourmentées, libérant ainsi les blocages qui entravent le bien-être
-								émotionnel. Cette libération émotionnelle peut vous offrir
-								l'opportunité de pratiquer le pardon et de vous reconnecter
-								profondément à vous-même.`
-							],
-							transitionType: "center"
-						},
-						{
-							id: "energy-bloc",
-							imgAlt: "icône d'un éclair représentant l'énergie",
-							imgSrc: "/icons/icon_energy.svg",
-							title: "Renforcement de la vitalité",
-							content: [
-								`Le Reiki, de par sa nature énergétique, revitalise le corps et
-								l'esprit. En stimulant la circulation énergétique, il renforce la
-								vitalité, régénère le corps et favorise un sentiment de vigueur
-								renouvelé. Cette vitalité stimule la vitesse de guérison en
-								dynamisant l'ensemble du système immunitaire. Cette énergie nouvelle
-								se traduit par une qualité de vie améliorée.`
-							],
-							transitionType: "right"
-						}
-					]}
-				>
-					<ScrollAnimation
-						id="redirectLinkSoinReiki"
-						classContent="flex flex-col gap-5"
-						styleBeforeTransition={{
-							opacity: "0",
-							transition: "opacity 2.5s, margin-top 2.5s",
-							marginTop: "100px"
-						}}
-						styleAfterTransition={{
-							opacity: "1",
-							marginTop: "0"
-						}}
-					>
-						<h3 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
-							Souhaitez-vous expérimenter une séance de Reiki ?
-						</h3>
-						<Link
-							href="/soin-reiki"
-							className="actionLinkYellow"
-						>
-							<span className="textActionLink">Déroulement d'une séance</span>
-							<span className="iconActionLink" />
-						</Link>
-					</ScrollAnimation>
-				</BlocTextContent> */}
 				{/* <BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					mainTitle="Les vertus du tirage de cartes"
@@ -522,7 +350,7 @@ const MainPage = () => {
 					</ScrollAnimation>
 				</BlocTextContent> */}
 			</section>
-			<section className="flex flex-col gap-10">
+			<section className="flex flex-col gap-20">
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit p-4 md:text-4xl customBorderBlue">
 					Déroulement d'une séance
 				</h2>
@@ -601,97 +429,71 @@ const MainPage = () => {
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderPink p-4 md:text-4xl lg:hidden">
 					Mon histoire
 				</h2>
-				<ScrollAnimation
-					id="profil-picture-bloc"
-					styleBeforeTransition={{
-						opacity: "0",
-						transition: "opacity 2.5s, margin-top 2.5s",
-						marginTop: "100px"
-					}}
-					styleAfterTransition={{
-						opacity: "1",
-						marginTop: "0"
-					}}
-				>
-					<div className="flex flex-col justify-center p-4 gap-10 lg:flex-row lg:gap-0 lg:mx-auto">
-						<Image
-							className="rounded-lg mx-auto -scale-x-100 lg:hidden"
-							alt="photo de profil de robin ponçon"
-							src="/photo-profil.png"
-							width={300}
-							height={300}
-						></Image>
-						<Image
-							className="hidden rounded-t-lg mr-0 ml-auto -scale-x-100 lg:block"
-							alt="photo de profil de robin ponçon"
-							src="/photo-profil.png"
-							width={400}
-							height={500}
-						></Image>
-						<div className="text-customWhite flex flex-col relative gap-6 rounded-lg p-5 text-center mx-auto max-w-lg bg-darkBackground lg:p-8 lg:text-start lg:-ml-10 lg:rounded-none lg:rounded-tr-lg">
-							<h2 className="hidden titleFont font-semibold text-3xl italic text-pink lg:block">
-								Mon Histoire
-							</h2>
-							<p>
-								Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors
-								d'une période introspective en quête de spiritualité il y a{" "}
-								{spiritualityAge} ans. En développant le magnétisme de mes mains,
-								j'ai cherché à apaiser les symptômes du cancer de mon chat, espérant
-								prolonger sa vie et minimiser ses souffrances. Cette expérience a
-								éveillé en moi la volonté d'approfondir cette capacité pour aider
-								autrui.
-							</p>
-							<p>
-								Mon chemin m'a naturellement conduit vers le Reiki, une technique
-								parallèle au magnétisme, mais avec une approche différente car je
-								n'utilise plus ma propre énergie pour guérir les autres mais celle
-								qui est partout autour de nous. J'ai ainsi franchi les trois niveaux
-								du Reiki auprès de Monique Chanoni, maître Reiki de la lignée de
-								Mikao Usui. Je suis certifié maître praticien dans cette discipline,
-								bien que je ne puisse pas initier d'autres personnes au Reiki en
-								tant que maître enseignant.
-							</p>
-							<p className="lg:hidden">
-								Ma conception des soins énergétiques repose sur une collaboration
-								étroite avec mes clients. La guérison ne peut advenir sans la
-								volonté consciente ou inconsciente du client. Mon but est d'offrir
-								les outils de développement personnel et de guérison, de sorte
-								qu'ils n'aient plus besoin de mes services sur le long terme. Cela
-								peut sembler idéaliste, mais en guidant chacun vers son équilibre et
-								son épanouissement, nous pouvons peut-être façonner un monde et un
-								avenir meilleurs pour tous.
-							</p>
-						</div>
+
+				<div className="flex flex-col justify-center p-4 gap-10 lg:flex-row lg:gap-0 lg:mx-auto">
+					<Image
+						className="rounded-lg mx-auto -scale-x-100 lg:hidden"
+						alt="photo de profil de robin ponçon"
+						src="/photo-profil.png"
+						width={300}
+						height={300}
+					></Image>
+					<Image
+						className="hidden rounded-t-lg mr-0 ml-auto -scale-x-100 lg:block"
+						alt="photo de profil de robin ponçon"
+						src="/photo-profil.png"
+						width={400}
+						height={500}
+					></Image>
+					<div className="text-customWhite flex flex-col relative gap-6 rounded-lg p-5 text-center mx-auto max-w-lg bg-darkBackground lg:p-8 lg:text-start lg:-ml-10 lg:rounded-none lg:rounded-tr-lg">
+						<h2 className="hidden titleFont font-semibold text-3xl italic text-pink lg:block">
+							Mon Histoire
+						</h2>
+						<p>
+							Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors d'une
+							période introspective en quête de spiritualité il y a {spiritualityAge}{" "}
+							ans. En développant le magnétisme de mes mains, j'ai cherché à apaiser
+							les symptômes du cancer de mon chat, espérant prolonger sa vie et
+							minimiser ses souffrances. Cette expérience a éveillé en moi la volonté
+							d'approfondir cette capacité pour aider autrui.
+						</p>
+						<p>
+							Mon chemin m'a naturellement conduit vers le Reiki, une technique
+							parallèle au magnétisme, mais avec une approche différente car je
+							n'utilise plus ma propre énergie pour guérir les autres mais celle qui
+							est partout autour de nous. J'ai ainsi franchi les trois niveaux du
+							Reiki auprès de Monique Chanoni, maître Reiki de la lignée de Mikao
+							Usui. Je suis certifié maître praticien dans cette discipline, bien que
+							je ne puisse pas initier d'autres personnes au Reiki en tant que maître
+							enseignant.
+						</p>
+						<p className="lg:hidden">
+							Ma conception des soins énergétiques repose sur une collaboration
+							étroite avec mes clients. La guérison ne peut advenir sans la volonté
+							consciente ou inconsciente du client. Mon but est d'offrir les outils de
+							développement personnel et de guérison, de sorte qu'ils n'aient plus
+							besoin de mes services sur le long terme. Cela peut sembler idéaliste,
+							mais en guidant chacun vers son équilibre et son épanouissement, nous
+							pouvons peut-être façonner un monde et un avenir meilleurs pour tous.
+						</p>
 					</div>
-					<p className=" text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-5 lg:block">
-						Ma conception des soins énergétiques repose sur une collaboration étroite
-						avec mes clients. La guérison ne peut advenir sans la volonté consciente ou
-						inconsciente du client. Mon but est d'offrir les outils de développement
-						personnel et de guérison, de sorte qu'ils n'aient plus besoin de mes
-						services sur le long terme. Cela peut sembler idéaliste, mais en guidant
-						chacun vers son équilibre et son épanouissement, nous pouvons peut-être
-						façonner un monde et un avenir meilleurs pour tous.
-					</p>
-				</ScrollAnimation>
+				</div>
+				<p className=" text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-20 lg:block">
+					Ma conception des soins énergétiques repose sur une collaboration étroite avec
+					mes clients. La guérison ne peut advenir sans la volonté consciente ou
+					inconsciente du client. Mon but est d'offrir les outils de développement
+					personnel et de guérison, de sorte qu'ils n'aient plus besoin de mes services
+					sur le long terme. Cela peut sembler idéaliste, mais en guidant chacun vers son
+					équilibre et son épanouissement, nous pouvons peut-être façonner un monde et un
+					avenir meilleurs pour tous.
+				</p>
 			</section>
 			<section className="flex flex-col gap-20 py-10 px-4">
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 					Ils ont essayé, pourquoi pas vous ?
 				</h2>
-				<ScrollAnimation
-					id="reviewsUsers-bloc"
-					styleBeforeTransition={{
-						opacity: "0",
-						transition: "opacity 2s, margin-top 2s",
-						marginTop: "-50px"
-					}}
-					styleAfterTransition={{
-						opacity: "1",
-						marginTop: "0"
-					}}
-				>
-					<ReviewsUsers reviewsUsers={reviewsUsers} />
-				</ScrollAnimation>
+
+				<ReviewsUsers reviewsUsers={reviewsUsers} />
 			</section>
 		</main>
 	);

@@ -17,7 +17,7 @@ type TextStructure = {
 	imgSrc: string;
 	title: string;
 	content: string[];
-	transitionType: "left" | "center" | "right";
+	transitionType: "left" | "center" | "right" | "none";
 };
 
 const BlocTextContent = ({
@@ -30,7 +30,7 @@ const BlocTextContent = ({
 }: BlocTextContentProps): JSX.Element => {
 	return (
 		<article
-			className={`flex flex-col gap-10 px-2 ${
+			className={`flex flex-col gap-16 px-2 ${
 				darkMode ? "bg-darkBackground text-customWhite py-20 shadow-darkTurquoise" : "py-10"
 			}`}
 		>
@@ -65,10 +65,15 @@ const BlocTextContent = ({
 											transition: "opacity 2.5s, margin-left 2.5s",
 											marginLeft: "100px"
 									  }
-									: {
+									: data.transitionType === "right"
+									? {
 											opacity: "0",
 											transition: "opacity 2.5s, margin-right 2.5s",
 											marginRight: "100px"
+									  }
+									: {
+											opacity: "1",
+											transition: ""
 									  }
 							}
 							styleAfterTransition={
@@ -82,9 +87,13 @@ const BlocTextContent = ({
 											opacity: "1",
 											marginLeft: "0px"
 									  }
-									: {
+									: data.transitionType === "right"
+									? {
 											opacity: "1",
 											marginRight: "0px"
+									  }
+									: {
+											opacity: "1"
 									  }
 							}
 						>
