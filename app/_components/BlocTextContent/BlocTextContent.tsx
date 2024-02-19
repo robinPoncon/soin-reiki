@@ -99,7 +99,7 @@ const BlocTextContent = ({
 						>
 							<p
 								className={`bg-darkBackground rounded-full w-fit p-2.5 mx-auto ${
-									pinkColor
+									darkMode && pinkColor
 										? "shadow-customPink"
 										: darkMode
 										? "shadow-customYellow"
@@ -116,7 +116,11 @@ const BlocTextContent = ({
 							</p>
 							<h3
 								className={`text-xl text-center font-semibold italic mt-6 mb-2 ${
-									pinkColor ? "text-pink" : darkMode ? "text-customYellow" : ""
+									darkMode && pinkColor
+										? "text-pink"
+										: darkMode
+										? "text-customYellow"
+										: ""
 								}`}
 							>
 								{data.title}

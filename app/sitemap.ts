@@ -9,6 +9,8 @@ export default function sitemap() {
 		"/protection-donnee",
 		"/reservation",
 		"/soin-reiki",
+		"/pleine-conscience",
+		"/voyage-sonore",
 		"/tarifs"
 	].map((route) => ({
 		url: `https://racines-guerison.com${route}`,

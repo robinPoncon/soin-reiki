@@ -43,6 +43,16 @@ const HeaderMenu = () => {
 								<p>
 									<Link
 										className={`greenLight text-lg ${
+											isActiveLink("/guidance") ? "activeLink" : ""
+										}`}
+										href="/guidance"
+									>
+										Guidance des Cartes
+									</Link>
+								</p>
+								<p>
+									<Link
+										className={`greenLight text-lg ${
 											isActiveLink("/soin-reiki") ? "activeLink" : ""
 										}`}
 										href="/soin-reiki"
@@ -53,11 +63,21 @@ const HeaderMenu = () => {
 								<p>
 									<Link
 										className={`greenLight text-lg ${
-											isActiveLink("/guidance") ? "activeLink" : ""
+											isActiveLink("/voyage-sonore") ? "activeLink" : ""
 										}`}
-										href="/guidance"
+										href="/voyage-sonore"
 									>
-										Guidance
+										Voyage Sonore
+									</Link>
+								</p>
+								<p>
+									<Link
+										className={`greenLight text-lg ${
+											isActiveLink("/pleine-conscience") ? "activeLink" : ""
+										}`}
+										href="/pleine-conscience"
+									>
+										Pleine Conscience
 									</Link>
 								</p>
 							</div>

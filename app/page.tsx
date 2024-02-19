@@ -81,7 +81,7 @@ const MainPage = () => {
 							marginLeft: "0px"
 						}}
 					>
-						<p className="text-justify max-w-2xl mx-auto">
+						<p className="text-center max-w-2xl mx-auto">
 							Je suis ravi de vous accueillir sur mon site internet dédié à la
 							reconnexion de l'Amour de Soi. Je crois profondément en l'importance de
 							prendre soin de son corps, de son esprit et de ses émotions pour

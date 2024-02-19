@@ -13,10 +13,9 @@ const SoinReikiPage = () => {
 	}, []);
 
 	return (
-		<section className="flex flex-col gap-10">
+		<section className="flex flex-col gap-10 py-10">
 			<BlocTextContent
 				breakpointResponsiveValue={breakpointResponsiveValue}
-				darkMode
 				mainTitle="Qu'est-ce que le Reiki ?"
 				textDatasArray={[
 					{
@@ -62,6 +61,7 @@ const SoinReikiPage = () => {
 			/>
 			<BlocTextContent
 				breakpointResponsiveValue={breakpointResponsiveValue}
+				darkMode
 				mainTitle="Les Origines du Reiki"
 				textDatasArray={[
 					{
@@ -117,7 +117,6 @@ const SoinReikiPage = () => {
 
 			<BlocTextContent
 				breakpointResponsiveValue={breakpointResponsiveValue}
-				darkMode
 				pinkColor
 				mainTitle="Les Bienfaits du Reiki"
 				textDatasArray={[
