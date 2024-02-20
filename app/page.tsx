@@ -185,7 +185,7 @@ const MainPage = () => {
 								transgénérationnel. Avez-vous vécu une sensation de rejet ou d'abandon de la 
 								part d’un de vos parents ? Si c’est le cas, ces blessures ont provoqué un vide intérieur
 								dû au manque d’Amour de Soi. Le manque d'Amour de Soi peut souvent conduire à une perte de 
-								connexion avec votre véritable identité et des schémas d'auto-sabotage. Et c’est cette 
+								connexion avec votre véritable identité et à des schémas d'auto-sabotage. Et c’est cette 
 								déconnexion qui entraîne des symptômes émotionnels, mentaux et physiques identifiés au-dessus.`
 							],
 							transitionType: "left"
@@ -216,8 +216,8 @@ const MainPage = () => {
 								pas essentiel vers la guérison de l'Amour de Soi, car elle vous invite à explorer vos 
 								blessures passées et à reconnaître les schémas de comportement qui vous limitent. 
 								En reconnaissant ces patterns, vous pouvez entamer un processus de guérison profonde
-								qui vous permettra de renouer avec votre véritable essence et de cultiver un amour 
-								de soi authentique et durable.`
+								qui vous permettra de renouer avec votre véritable essence et de cultiver un Amour 
+								de Soi authentique et durable.`
 							],
 							transitionType: "right"
 						}
@@ -417,10 +417,11 @@ const MainPage = () => {
 							Une fois le soin achevé, nous prenons le temps de partager nos
 							impressions sur l'expérience vécue. En fonction de vos ressentis et de
 							vos besoins, nous planifions d'autres séances si nécessaires.
-							Généralement, pour des résultats concluants, il est recommandé de
-							prévoir 2 à 3 séances espacées d'une à deux semaines. Dans les jours qui
-							suivent le soin, hydratez-vous davantage pour favoriser la purification
-							et l'élimination des toxines énergétiques.
+							Généralement, pour une véritable guérison et transformation, il est
+							recommandé de prévoir 3 à 4 séances minimum, espacées d'une à deux
+							semaines. Dans les jours qui suivent le soin, hydratez-vous davantage
+							pour favoriser la purification et l'élimination des toxines
+							énergétiques.
 						</p>
 					</div>
 				</article>

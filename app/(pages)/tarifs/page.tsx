@@ -45,66 +45,66 @@ const TarifsPage = () => {
 			<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
 				<article className="flex flex-col gap-5 bg-white w-72 max-w-xs rounded-xl mx-auto lg:w-1/3">
 					<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-customYellowLighter lg:text-xl">
-						Guidance Tirage de Cartes <br />
-						<span className="text-base">(1 seule question à la fois)</span>
+						Découverte <br />
+						<span className="text-base">(1 seule fois par personne)</span>
 					</h2>
 					<div className="flex flex-col text-center gap-2">
-						<p>Formulation de votre question</p>
-						<p>Tirage de 5 cartes de tarot</p>
-						<p>Utilisation de 2/3 cartes d'oracles</p>
-						<p>Interprétation intuitive et détaillée</p>
-						<p>Accès illimité à la vidéo du tirage</p>
+						<p>Identification de la problématique</p>
+						<p>Tirage d'un oracle</p>
+						<p>Équilibrage & libération énergétique</p>
+						<p>Pistes de guérison à explorer</p>
+						<p>Suivi personnalisé</p>
 					</div>
 					<p className="separator1"></p>
 					<p className="text-center">
 						<strong>Durée :</strong>
-						<span className="italic"> 30 minutes à 45 minutes</span>
+						<span className="italic"> 1 heure et 30 minutes</span>
 					</p>
 					<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-customYellow">
-						50 €
-					</p>
-				</article>
-
-				<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
-					<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
-						Soin Reiki Complet <br />{" "}
-						<span className="text-base">(soin traditionnel)</span>
-					</h2>
-					<div className="flex flex-col text-center gap-2">
-						<p>Accueil et discussion</p>
-						<p>Identification de la problématique</p>
-						<p>Tirage d'une carte énergétique</p>
-						<p>Réalisation du soin Reiki</p>
-						<p>Pistes de guérison à explorer</p>
-					</div>
-					<p className="separator2"></p>
-					<p className="text-center">
-						<strong>Durée :</strong>{" "}
-						<span className="italic">45 minutes à 1 heure</span>
-					</p>
-					<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
 						60 €
 					</p>
 				</article>
 
 				<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
-					<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
-						Rééquilibrage des Chakras + Guidance Tirage de Cartes
+					<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
+						Guérison <br /> <span className="text-base">(séance classique)</span>
 					</h2>
 					<div className="flex flex-col text-center gap-2">
-						<p>Formulation de votre question</p>
-						<p>Tirage tarot et oracles</p>
-						<p>Soin Reiki assis après le tirage</p>
-						<p>Apaisement, équilibre et bien-être</p>
-						<p>Accès illimité à la vidéo du tirage</p>
+						<p>Identification de la problématique</p>
+						<p>Tirage d'un oracle</p>
+						<p>Équilibrage & libération énergétique</p>
+						<p>Pistes de guérison à explorer</p>
+						<p>Suivi personnalisé</p>
+					</div>
+					<p className="separator2"></p>
+					<p className="text-center">
+						<strong>Durée :</strong>{" "}
+						<span className="italic">1 heure et 30 minutes</span>
+					</p>
+					<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
+						90 €
+					</p>
+				</article>
+
+				<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
+					<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
+						Amour de Soi
+						<br /> <span className="text-base">5 séances (4 + 1 offerte)</span>
+					</h2>
+					<div className="flex flex-col text-center gap-2">
+						<p>Guérison définitive de la problématique</p>
+						<p>Méditation guidée de pleine conscience</p>
+						<p>Confiance et Estime de Soi retrouvées</p>
+						<p>Des outils pour être plus heureux</p>
+						<p>Suivi personnalisé sur 3 à 6 mois</p>
 					</div>
 					<p className="separator3"></p>
 					<p className="text-center">
 						<strong>Durée :</strong>{" "}
-						<span className="italic">1 heure à 1 heure 30</span>
+						<span className="italic">7 heures et 30 minutes</span>
 					</p>
 					<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
-						90 €
+						360 €
 					</p>
 				</article>
 			</div>

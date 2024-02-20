@@ -39,6 +39,14 @@ const Footer = () => {
 							<li>
 								<Link
 									className="lightHover"
+									href="/guidance"
+								>
+									Guidance des Cartes
+								</Link>
+							</li>
+							<li>
+								<Link
+									className="lightHover"
 									href="/soin-reiki"
 								>
 									Soin reiki
@@ -47,9 +55,17 @@ const Footer = () => {
 							<li>
 								<Link
 									className="lightHover"
-									href="/guidance"
+									href="/voyage-sonore"
 								>
-									Guidance
+									Voyage Sonore
+								</Link>
+							</li>
+							<li>
+								<Link
+									className="lightHover"
+									href="/pleine-conscience"
+								>
+									Pleine Conscience
 								</Link>
 							</li>
 							<li>
