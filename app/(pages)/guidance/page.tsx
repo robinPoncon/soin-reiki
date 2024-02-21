@@ -1,27 +1,21 @@
-import { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
+"use client";
 
-export const metadata: Metadata = {
-	title: "Déroulement d'une Guidance en Tirage de Cartes",
-	description:
-		"Découvrez mes services de guidance en tirage de cartes conçus pour vous accompagner dans la réponse à vos questions. Possibilité d'y faire à distance !",
-	keywords: [
-		"guidance",
-		"tirage de cartes",
-		"présentiel",
-		"distance",
-		"spiritualité",
-		"développement personnel",
-		"guérison",
-		"énergétique"
-	]
-};
+import BlocTextContent from "@/_components/BlocTextContent/BlocTextContent";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const GuidancePage = () => {
+	const [breakpointResponsiveValue, setBreakpointResponsiveValue] = useState<number>(0);
+
+	useEffect(() => {
+		if (typeof window !== "undefined") {
+			setBreakpointResponsiveValue(window.innerWidth);
+		}
+	}, []);
+
 	return (
-		<section className="flex flex-col gap-20 py-20 px-4 lg:px-24">
-			<h1 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderYellow p-4 md:text-4xl">
+		<section className="py-10">
+			{/* <h1 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderYellow p-4 md:text-4xl">
 				Déroulement d'une guidance
 			</h1>
 			<article>
@@ -102,15 +96,63 @@ const GuidancePage = () => {
 						personnel.
 					</p>
 				</div>
-			</article>
-			<article className="mx-auto max-w-xs md:max-w-xl">
+			</article> */}
+			<BlocTextContent
+				breakpointResponsiveValue={breakpointResponsiveValue}
+				mainTitle="La Guidance des Cartes"
+				textDatasArray={[
+					{
+						id: "decode-blockages-bloc",
+						imgAlt: "icône d'un puzzle",
+						imgSrc: "/icons/icon_puzzle.svg",
+						title: "Analyse des blocages",
+						content: [
+							`Dans un premier temps, les cartes nous offrent la capacité d'explorer l'origine des
+								blocages que vous rencontrez. Grâce à mon interprétation des cartes, combinée avec mon intuition,
+								je peux vous aider à discerner la source de ces blocages, qu'ils relèvent du domaine physique,
+								relationnel, professionnel ou familial. Une fois que nous avons identifié leur source,
+								nous pouvons élaborer des solutions en vue de résoudre ces problèmes.`
+						],
+						transitionType: "none"
+					},
+					{
+						id: "heal-path-bloc",
+						imgAlt: "icône d'une plante symbolisant la guérison",
+						imgSrc: "/icons/icon_healing.svg",
+						title: "Chemins de guérison",
+						content: [
+							`Dans un second temps, les cartes nous permettent d'identifier les soutiens et les 
+								solutions potentielles. Ces pistes de guérison peuvent évoquer des pensées ou des conseils 
+								qui vous ont peut-être déjà été transmis et recommandé. De plus, elles ont le potentiel 
+								de vous ouvrir les yeux et de vous offrir une nouvelle perspective sur la situation, 
+								vous permettant ainsi d'acquérir un point de vue totalement nouveau.`
+						],
+						transitionType: "none"
+					},
+					{
+						id: "awareness-bloc",
+						imgAlt: "icône d'un oeil'",
+						imgSrc: "/icons/icon_eye.svg",
+						title: "Prise de conscience",
+						content: [
+							`Enfin, l'objectif d'un tirage de cartes est de vous orienter vers votre vérité
+								personnelle. Cela équivaut à une meilleure compréhension de vous-même et de vos expériences. 
+								Il arrive souvent que la simple exploration d'un problème sous un angle nouveau permette 
+								d'en révéler des solutions insoupçonnées. C'est ce qu'on appelle une prise de conscience, 
+								et cela peut transformer profondément tous les aspects de votre vie.`
+						],
+						transitionType: "none"
+					}
+				]}
+			></BlocTextContent>
+			{/* <article className="mx-auto max-w-xs md:max-w-xl py-10">
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Pour aller plus loin
 				</h2>
 				<p className="text-center mt-5">
 					Besoin d'informations sur les prix ?{" "}
 					<Link
-						className="redirectLinkYellow whitespace-nowrap"
+						className="redirectLinkBlue whitespace-nowrap"
 						href="/tarifs"
 					>
 						Je consulte les tarifs.
@@ -119,7 +161,7 @@ const GuidancePage = () => {
 				<p className="text-center mt-5">
 					Envie de tenter l'expérience ?{" "}
 					<Link
-						className="redirectLinkYellow whitespace-nowrap"
+						className="redirectLinkBlue whitespace-nowrap"
 						href="/reservation"
 					>
 						Je réserve ma séance.
@@ -130,13 +172,13 @@ const GuidancePage = () => {
 					Si vous désirez en savoir davantage sur les guidances en tirage de cartes ou
 					pour toute autre information, n'hésitez pas à me laisser un message via la{" "}
 					<Link
-						className="redirectLinkYellow"
+						className="redirectLinkBlue"
 						href="/contact"
 					>
 						page de contact.
 					</Link>
 				</p>
-			</article>
+			</article> */}
 		</section>
 	);
 };

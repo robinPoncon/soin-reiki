@@ -62,7 +62,7 @@ const SoinReikiPage = () => {
 			<BlocTextContent
 				breakpointResponsiveValue={breakpointResponsiveValue}
 				darkMode
-				mainTitle="Les Origines du Reiki"
+				mainTitle="Les Origines"
 				textDatasArray={[
 					{
 						id: "japanese-bloc",
@@ -118,7 +118,7 @@ const SoinReikiPage = () => {
 			<BlocTextContent
 				breakpointResponsiveValue={breakpointResponsiveValue}
 				pinkColor
-				mainTitle="Les Bienfaits du Reiki"
+				mainTitle="Les Bienfaits"
 				textDatasArray={[
 					{
 						id: "brain-bloc",

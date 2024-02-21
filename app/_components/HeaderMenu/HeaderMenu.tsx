@@ -43,16 +43,6 @@ const HeaderMenu = () => {
 								<p>
 									<Link
 										className={`greenLight text-lg ${
-											isActiveLink("/guidance") ? "activeLink" : ""
-										}`}
-										href="/guidance"
-									>
-										Guidance des Cartes
-									</Link>
-								</p>
-								<p>
-									<Link
-										className={`greenLight text-lg ${
 											isActiveLink("/soin-reiki") ? "activeLink" : ""
 										}`}
 										href="/soin-reiki"
@@ -63,11 +53,11 @@ const HeaderMenu = () => {
 								<p>
 									<Link
 										className={`greenLight text-lg ${
-											isActiveLink("/voyage-sonore") ? "activeLink" : ""
+											isActiveLink("/guidance") ? "activeLink" : ""
 										}`}
-										href="/voyage-sonore"
+										href="/guidance"
 									>
-										Voyage Sonore
+										Guidance des Cartes
 									</Link>
 								</p>
 								<p>
@@ -78,6 +68,16 @@ const HeaderMenu = () => {
 										href="/pleine-conscience"
 									>
 										Pleine Conscience
+									</Link>
+								</p>
+								<p>
+									<Link
+										className={`greenLight text-lg ${
+											isActiveLink("/voyage-sonore") ? "activeLink" : ""
+										}`}
+										href="/voyage-sonore"
+									>
+										Voyage Sonore
 									</Link>
 								</p>
 							</div>
@@ -177,16 +177,6 @@ const HeaderMenu = () => {
 							<li onClick={() => setOpenMobileMenu(false)}>
 								<Link
 									className={`greenLight text-xl ${
-										isActiveLink("/guidance") ? "activeLink" : ""
-									}`}
-									href="/guidance"
-								>
-									Guidance des Cartes
-								</Link>
-							</li>
-							<li onClick={() => setOpenMobileMenu(false)}>
-								<Link
-									className={`greenLight text-xl ${
 										isActiveLink("/soin-reiki") ? "activeLink" : ""
 									}`}
 									href="/soin-reiki"
@@ -197,11 +187,11 @@ const HeaderMenu = () => {
 							<li onClick={() => setOpenMobileMenu(false)}>
 								<Link
 									className={`greenLight text-xl ${
-										isActiveLink("/voyage-sonore") ? "activeLink" : ""
+										isActiveLink("/guidance") ? "activeLink" : ""
 									}`}
-									href="/voyage-sonore"
+									href="/guidance"
 								>
-									Voyage Sonore
+									Guidance des Cartes
 								</Link>
 							</li>
 							<li onClick={() => setOpenMobileMenu(false)}>
@@ -212,6 +202,16 @@ const HeaderMenu = () => {
 									href="/pleine-conscience"
 								>
 									Pleine Conscience
+								</Link>
+							</li>
+							<li onClick={() => setOpenMobileMenu(false)}>
+								<Link
+									className={`greenLight text-xl ${
+										isActiveLink("/voyage-sonore") ? "activeLink" : ""
+									}`}
+									href="/voyage-sonore"
+								>
+									Voyage Sonore
 								</Link>
 							</li>
 							<li onClick={() => setOpenMobileMenu(false)}>

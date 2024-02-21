@@ -16,11 +16,13 @@ const TarifsPage = () => {
 				Tarifs de mes prestations
 			</h1>
 			<p className="text-justify italic mx-auto lg:max-w-3xl">
-				Pour régler une séance, vous avez actuellement la possibilité de payer en{" "}
-				<strong>espèces</strong> ou par <strong>chèque</strong> à la fin de la séance. Je
-				prévois d'introduire d'autres moyens de paiement à l'avenir pour plus de commodité.
-				Pour les séances à distance, veuillez me contacter par email en utilisant la{" "}
-				<Link
+				Mon objectif est de prendre le temps de bien comprendre votre problématique et de
+				vous accompagner au mieux pour la résoudre. C'est donc pour ça que mes séances
+				durent <strong>1h30</strong> au lieu de 1h. Pour régler une séance, vous avez
+				actuellement la possibilité de payer en <strong>espèces</strong> ou par{" "}
+				<strong>chèque</strong> à la fin de la séance. Je prévois d'introduire d'autres
+				moyens de paiement à l'avenir pour plus de commodité.
+				{/* <Link
 					href="/contact"
 					className="redirectLinkBlue"
 				>
@@ -40,7 +42,7 @@ const TarifsPage = () => {
 					href="/guidance"
 				>
 					par là.
-				</Link>
+				</Link> */}
 			</p>
 			<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
 				<article className="flex flex-col gap-5 bg-white w-72 max-w-xs rounded-xl mx-auto lg:w-1/3">

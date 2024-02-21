@@ -7,6 +7,6 @@ export const metadata: Metadata = {
 	keywords: ["reiki", "séance", "étapes", "bienfaits", "guérison", "soin", "énergétique"]
 };
 
-export default function ContactLayout({ children }: { children: React.ReactNode }) {
+export default function soinReikiLayout({ children }: { children: React.ReactNode }) {
 	return children;
 }
