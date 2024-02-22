@@ -1,7 +1,6 @@
 "use client";
 
 import BlocTextContent from "@/_components/BlocTextContent/BlocTextContent";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const GuidancePage = () => {
@@ -10,6 +9,7 @@ const GuidancePage = () => {
 	useEffect(() => {
 		if (typeof window !== "undefined") {
 			setBreakpointResponsiveValue(window.innerWidth);
+			window.scrollTo(0, 0);
 		}
 	}, []);
 

@@ -9,6 +9,7 @@ const SoinReikiPage = () => {
 	useEffect(() => {
 		if (typeof window !== "undefined") {
 			setBreakpointResponsiveValue(window.innerWidth);
+			window.scrollTo(0, 0);
 		}
 	}, []);
 
@@ -62,7 +63,7 @@ const SoinReikiPage = () => {
 			<BlocTextContent
 				breakpointResponsiveValue={breakpointResponsiveValue}
 				darkMode
-				mainTitle="Les Origines"
+				mainTitle="Les Origines du Reiki"
 				textDatasArray={[
 					{
 						id: "japanese-bloc",
@@ -118,7 +119,7 @@ const SoinReikiPage = () => {
 			<BlocTextContent
 				breakpointResponsiveValue={breakpointResponsiveValue}
 				pinkColor
-				mainTitle="Les Bienfaits"
+				mainTitle="Les Bienfaits du Reiki"
 				textDatasArray={[
 					{
 						id: "brain-bloc",

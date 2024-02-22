@@ -1,4 +1,3 @@
-import Link from "next/link";
 import "./page.scss";
 import { Metadata } from "next";
 
@@ -95,8 +94,8 @@ const TarifsPage = () => {
 					</h2>
 					<div className="flex flex-col text-center gap-2">
 						<p>Guérison définitive de la problématique</p>
+						<p>Guidance de cartes complète offerte</p>
 						<p>Méditation guidée de pleine conscience</p>
-						<p>Confiance et Estime de Soi retrouvées</p>
 						<p>Des outils pour être plus heureux</p>
 						<p>Suivi personnalisé sur 3 à 6 mois</p>
 					</div>

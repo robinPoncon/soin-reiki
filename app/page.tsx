@@ -246,7 +246,7 @@ const MainPage = () => {
 						{
 							id: "tools-bloc",
 							imgAlt: "icône d'une note de musique",
-							imgSrc: "/icons/icon_music.svg",
+							imgSrc: "/icons/icon_music-pink.svg",
 							title: "Mes services",
 							content: [
 								`Mon approche thérapeutique combine les cartes (oracle et tarot) pour identifier
