@@ -13,7 +13,7 @@ const SoundTravelPage = () => {
 		}
 	}, []);
 	return (
-		<section className="pt-10">
+		<section className="flex flex-col gap-10 pt-10">
 			<BlocTextContent
 				breakpointResponsiveValue={breakpointResponsiveValue}
 				mainTitle="Le Voyage Sonore"
@@ -27,9 +27,9 @@ const SoundTravelPage = () => {
 							`Le voyage sonore représente une fusion harmonieuse entre une méditation guidée
 							en pleine conscience et les sonorités envoûtantes du Handpan. Dans un premier temps, 
 							nous définissons ensemble le thème de ce voyage intérieur. Que vous cherchiez à vous 
-							détendre et à réduire le stress, à stimuler votre créativité ou à accueillir vos émotions,
-							chaque voyage sonore est une invitation à la redécouverte de soi. Cette expérience est
-							accessible aux adultes comme aux enfants !`
+							détendre, à stimuler votre créativité ou à accueillir vos émotions, chaque voyage sonore
+							est une invitation à la redécouverte de soi. Cette expérience est accessible aux adultes
+							comme aux enfants !`
 						],
 						transitionType: "none"
 					},
@@ -39,12 +39,12 @@ const SoundTravelPage = () => {
 						imgSrc: "/icons/icon_writing.svg",
 						title: "Écriture intuitive",
 						content: [
-							`En se concentrant pleinement sur notre corps et sur le moment présent, il est possible
-							de considérablement réduire le flot incessant de pensées. En développant cette capacité
-							de détachement et de recul, nous réalisons progressivement que nos pensées ne définissent 
-							pas notre identité individuelle. Ce constat nous conduit naturellement vers un sentiment 
-							de lâcher-prise, favorisant ainsi notre bien-être global. En outre, la diminution du 
-							nombre de pensées contribue de manière significative à atténuer le stress et l'anxiété.`
+							`L'écriture intuitive se révèle être un outil précieux pour laisser libre cours à 
+							l'inspiration et à la créativité intérieure. Dans cette démarche, la pleine 
+							conscience joue un rôle central, me permettant de libérer mon esprit des agitations
+							mentales pour me connecter à mon intuition, émanant du cœur. C'est ainsi que je 
+							parviens à trouver les mots justes et les rimes harmonieuses, qui résonneront avec 
+							vos expériences et vos émotions.`
 						],
 						transitionType: "none"
 					},
@@ -54,12 +54,12 @@ const SoundTravelPage = () => {
 						imgSrc: "/icons/icon_music.svg",
 						title: "Inspiration musicale",
 						content: [
-							`La pleine conscience représente un puissant levier de croissance personnelle. En se 
-							reconnectant à son corps et à ses émotions, on s'engage dans un voyage d'exploration de 
-							soi-même. Cette démarche nous permet de prendre conscience de nos schémas négatifs, sources 
-							de souffrance, et nous donne l'opportunité d'entreprendre des changements progressifs dans 
-							nos comportements. En définitive, pratiquer la pleine conscience est un acte d'Amour de Soi 
-							favorisant la guérison totale.`
+							`Une fois que la trame narrative est établie, je m'attèle à adapter et créer des 
+							compositions musicales qui se fondent harmonieusement dans chaque récit de voyage.
+							Mon instrument le Handpan est accordé en 432Hz, une fréquence réputée pour favoriser
+							la relaxation, la guérison et le bien-être. Ses vibrations sont spécialement conçues
+							pour harmoniser les énergies du corps humain, offrant ainsi une expérience qui 
+							transcende le temps.`
 						],
 						transitionType: "none"
 					}
@@ -77,13 +77,13 @@ const SoundTravelPage = () => {
 						imgSrc: "/icons/icon_healing-pink.svg",
 						title: "Relaxation profonde",
 						content: [
-							`La pleine conscience, est un état d'être plutôt simple à appréhender, la difficulté 
-							réside dans le fait de réussir à maintenir cet état constamment. 
-							Fondamentalement, la pleine conscience consiste à diriger notre conscience vers 
-							nos sensations corporelles, nos émotions et nos pensées. C'est cette prise 
-							de recul et de détachement qui permettent d'observer notre comportement sans porter 
-							de jugement. Un exemple classique illustrant ce processus est la simple observation de 
-							notre respiration.`
+							`Les sonorités du Handpan exercent une empreinte envoûtante et méditative. Cette 
+							forme de relaxation s'avère particulièrement efficace pour apaiser le mental et 
+							dissiper les pensées tumultueuses, contribuant ainsi à réduire considérablement 
+							le stress et l'anxiété. Ce relâchement mental vous offre l'opportunité de vous 
+							immerger pleinement dans le moment présent, favorisant ainsi une reconnexion profonde 
+							à vous-même. Cette prise de conscience peut vous éveiller à des aspects essentiels de 
+							votre vie, ouvrant ainsi la voie à un enrichissement personnel.`
 						],
 						transitionType: "none"
 					},
@@ -93,12 +93,13 @@ const SoundTravelPage = () => {
 						imgSrc: "/icons/icon_heart-pink.svg",
 						title: "Lâcher prise émotionnel",
 						content: [
-							`En se concentrant pleinement sur notre corps et sur le moment présent, il est possible
-							de considérablement réduire le flot incessant de pensées. En développant cette capacité
-							de détachement et de recul, nous réalisons progressivement que nos pensées ne définissent 
-							pas notre identité individuelle. Ce constat nous conduit naturellement vers un sentiment 
-							de lâcher-prise, favorisant ainsi notre bien-être global. En outre, la diminution du 
-							nombre de pensées contribue de manière significative à atténuer le stress et l'anxiété.`
+							`Chaque voyage est constitué d'une guidance à travers ma voix et d'accompagnements 
+							musicaux soigneusement composés. Chaque histoire vise à vous fournir un cadre sûr 
+							pour exprimer librement vos émotions. Mon objectif premier est de créer un espace 
+							empreint de bienveillance, où chacun se sent libre d'exprimer ses ressentis sans 
+							crainte de jugement. En accueillant pleinement les émotions que votre corps souhaite 
+							exprimer, vous vous offrez la reconnexion avec l’Amour de Soi qui a le pouvoir de 
+							transformer votre existence.`
 						],
 						transitionType: "none"
 					},
@@ -108,12 +109,13 @@ const SoundTravelPage = () => {
 						imgSrc: "/icons/icon_yin-yang-pink.svg",
 						title: "Reconnexion de soi",
 						content: [
-							`La pleine conscience représente un puissant levier de croissance personnelle. En se 
-							reconnectant à son corps et à ses émotions, on s'engage dans un voyage d'exploration de 
-							soi-même. Cette démarche nous permet de prendre conscience de nos schémas négatifs, sources 
-							de souffrance, et nous donne l'opportunité d'entreprendre des changements progressifs dans 
-							nos comportements. En définitive, pratiquer la pleine conscience est un acte d'Amour de Soi 
-							favorisant la guérison totale.`
+							`Enfin, l'objectif de chacun de mes voyages est de vous guider vers une destination
+							bien précise : celle de retrouver votre essence véritable. Au cours de ces explorations 
+							intérieures, vous aurez l'opportunité de découvrir vos forces, vos faiblesses, vos 
+							blocages et vos émotions. Cette profonde reconnexion avec vous-même vous permettra de 
+							redonner du sens à votre quotidien et à votre vie. Et lorsque votre existence retrouve sa 
+							signification profonde, la joie, l'amour et le bonheur s'installent pour un séjour 
+							durable et épanouissant.`
 						],
 						transitionType: "none"
 					}

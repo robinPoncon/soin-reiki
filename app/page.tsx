@@ -215,7 +215,7 @@ const MainPage = () => {
 								un masque, vous pouvez décider de le retirer. Cette prise de conscience est un premier
 								pas essentiel vers la guérison de l'Amour de Soi, car elle vous invite à explorer vos 
 								blessures passées et à reconnaître les schémas de comportement qui vous limitent. 
-								En reconnaissant ces patterns, vous pouvez entamer un processus de guérison profonde
+								En reconnaissant ces patterns, vous pouvez entamer un processus de guérison profond
 								qui vous permettra de renouer avec votre véritable essence et de cultiver un Amour 
 								de Soi authentique et durable.`
 							],
