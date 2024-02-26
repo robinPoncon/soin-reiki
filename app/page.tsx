@@ -6,6 +6,7 @@ import ReviewsUsers from "./_components/ReviewsUsers/ReviewsUsers";
 import ScrollAnimation from "./_components/ScrollAnimation/ScrollAnimation";
 import { useDatas } from "./_context/ReviewsUsersDataContext";
 import BlocTextContent from "./_components/BlocTextContent/BlocTextContent";
+import Link from "next/link";
 
 const MainPage = () => {
 	const { reviewsUsers } = useDatas();
@@ -139,9 +140,9 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_body.svg",
 							title: "Physique",
 							content: [
-								"- Ressentez-vous fréquemment de la fatigue, même après avoir suffisamment dormi ?",
+								"- Ressentez-vous souvent des tensions musculaires, surtout au niveau du dos ?",
 								"- Avez-vous des problèmes de sommeil, comme l'insomnie ou des réveils fréquents ?",
-								"- Éprouvez-vous des douleurs corporelles inexplicables ou récurrentes ?"
+								"- Éprouvez-vous fréquemment des maux de tête sans cause médicale évidente ?"
 							],
 							transitionType: "left"
 						},
@@ -151,9 +152,9 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_brain.svg",
 							title: "Mental",
 							content: [
-								"- Vous arrive-t-il souvent de vous critiquer ou de vous juger durement ?",
-								"- Avez-vous du mal à prendre des décisions ou à faire des choix qui vous conviennent ?",
-								"- Êtes-vous souvent submergé par le stress, l'anxiété ou la dépression ?"
+								"- Est-ce que des pensées négatives perturbent votre capacité d'attention ?",
+								"- Ressentez-vous fréquemment une fatigue mentale, même après avoir bien dormi ?",
+								"- Êtes-vous souvent submergé par le stress, l'anxiété, la panique ou la dépression ?"
 							],
 							transitionType: "center"
 						},
@@ -165,15 +166,16 @@ const MainPage = () => {
 							content: [
 								"- Vous sentez-vous souvent seul, même en présence d'autres personnes ?",
 								"- Éprouvez-vous de la difficulté à exprimer vos émotions ou à les comprendre ?",
-								"- Avez-vous du mal à vous sentir heureux ou satisfait de votre vie ?"
+								"- Éprouvez-vous de la tristesse ou une sensation de vide, sans raison apparente ?"
 							],
 							transitionType: "right"
 						}
 					]}
 				/>
-				<BlocTextContent
+				{/* <BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
-					mainTitle="Le Manque d'Amour de Soi"
+					pinkColor
+					mainTitle="Le manque d'amour de soi"
 					textDatasArray={[
 						{
 							id: "injuries-bloc",
@@ -222,10 +224,9 @@ const MainPage = () => {
 							transitionType: "right"
 						}
 					]}
-				/>
+				/> */}
 				<BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
-					darkMode
 					pinkColor
 					mainTitle="Mon Accompagnement"
 					textDatasArray={[
@@ -273,7 +274,32 @@ const MainPage = () => {
 							transitionType: "right"
 						}
 					]}
-				></BlocTextContent>
+				>
+					<ScrollAnimation
+						id="redirectLinkSoinReiki"
+						classContent="flex flex-col gap-5"
+						styleBeforeTransition={{
+							opacity: "0",
+							transition: "opacity 2.5s, margin-top 2.5s",
+							marginTop: "100px"
+						}}
+						styleAfterTransition={{
+							opacity: "1",
+							marginTop: "0"
+						}}
+					>
+						<h3 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+							Vous souhaitez en savoir plus sur mon accompagnement ?
+						</h3>
+						<Link
+							href="/soin-reiki"
+							className="actionLinkPink"
+						>
+							<span className="textActionLink">Déroulement d'une séance</span>
+							<span className="iconActionLink" />
+						</Link>
+					</ScrollAnimation>
+				</BlocTextContent>
 			</section>
 			<section className="flex flex-col gap-20">
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit p-4 md:text-4xl customBorderBlue">

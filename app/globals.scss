@@ -116,7 +116,8 @@
 }
 
 .actionLinkBlue,
-.actionLinkYellow {
+.actionLinkYellow,
+.actionLinkPink {
 	border-radius: 8px;
 	display: flex;
 	gap: 10px;
@@ -169,6 +170,24 @@
 		border: 1px solid var(--customYellow);
 		& .iconActionLink {
 			background-image: url("/icons/icon_double-right-arrow-yellow.svg");
+		}
+		& .textActionLink {
+			margin-right: 14px;
+		}
+	}
+}
+
+.actionLinkPink {
+	background-color: var(--darkBackground);
+	color: white;
+	border: 1px solid white;
+	&:hover,
+	&:active {
+		box-shadow: 0px 0px 10px pink;
+		color: pink;
+		border: 1px solid pink;
+		& .iconActionLink {
+			background-image: url("/icons/icon_double-right-arrow-pink.svg");
 		}
 		& .textActionLink {
 			margin-right: 14px;
