@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const TarifsPage = () => {
 	return (
-		<section className="flex flex-col gap-24 py-20 px-4 tarifsPageComponent">
+		<section className="flex flex-col gap-24 pt-20 tarifsPageComponent">
 			<div className="flex flex-col gap-12">
 				<h1 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderPink p-4 md:text-4xl">
 					Tarifs des Soins Énergétiques
@@ -97,7 +97,7 @@ const TarifsPage = () => {
 							<p>Tous les bienfaits d'une séance classique</p>
 							<p>+ Guidance de cartes complète offerte</p>
 							<p>+ Méditation guidée de pleine conscience</p>
-							<p>+ Des outils pour être plus heureux</p>
+							<p>+ Des outils pour être plus serein(e)</p>
 							<p>Suivi personnalisé sur 3 à 6 mois</p>
 						</div>
 						<p className="separator3"></p>
@@ -111,13 +111,13 @@ const TarifsPage = () => {
 					</article>
 				</div>
 			</div>
-			<div className="flex flex-col gap-14">
-				<h2 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderBlue p-4 md:text-4xl">
+			<div className="flex flex-col gap-14 bg-darkBackground py-20 shadow-darkTurquoise">
+				<h2 className="titleFont text-customWhite font-semibold text-center text-2xl mx-auto w-fit customBorderYellow p-4 md:text-4xl">
 					Tarifs des Prestations Musicales
 				</h2>
 				<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
-						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-customYellowLighter lg:text-xl">
+						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
 							Essence du Handpan
 						</h3>
 						<div className="flex flex-col text-center gap-2">
@@ -126,11 +126,11 @@ const TarifsPage = () => {
 							<p>Réduction du stress et de l'anxiété</p>
 							<p>Très captivant pour les enfants</p>
 						</div>
-						<p className="separator1"></p>
+						<p className="separator2"></p>
 						<p className="text-center">
 							<strong>Durée :</strong> <span className="italic">30 à 45 minutes</span>
 						</p>
-						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-customYellow">
+						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
 							150 €
 						</p>
 					</article>

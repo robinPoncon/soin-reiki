@@ -228,7 +228,7 @@ const MainPage = () => {
 				<BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					pinkColor
-					mainTitle="Mon Accompagnement"
+					mainTitle="Alors je peux vous aider !"
 					textDatasArray={[
 						{
 							id: "values-bloc",
@@ -265,7 +265,7 @@ const MainPage = () => {
 							title: "Votre bonheur",
 							content: [
 								`La quête de la guérison est en réalité une recherche de la joie de 
-								vivre et du bonheur profond. En surmontant les blocages, on retrouve la liberté, 
+								vivre et du bonheur. En surmontant les blocages, on retrouve la liberté, 
 								la légèreté et la confiance en soi, créant ainsi un cercle vertueux qui permet de
 								manifester nos rêves les plus profonds. Mon accompagnement vise à vous ramener vers 
 								le véritable amour : l'Amour de Soi. Car sans cet amour envers vous-même, comment 
@@ -292,7 +292,7 @@ const MainPage = () => {
 							Vous souhaitez en savoir plus sur mon accompagnement ?
 						</h3>
 						<Link
-							href="/soin-reiki"
+							href="/deroulement-seance"
 							className="actionLinkPink"
 						>
 							<span className="textActionLink">Déroulement d'une séance</span>
@@ -301,145 +301,85 @@ const MainPage = () => {
 					</ScrollAnimation>
 				</BlocTextContent>
 			</section>
-			<section className="flex flex-col gap-20">
-				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit p-4 md:text-4xl customBorderBlue">
-					Déroulement d'une séance
-				</h2>
-				<article>
-					<h3 className="text-xl text-center font-semibold italic md:text-2xl">
-						Étape 1 : Une Préparation Bienveillante
-					</h3>
-					<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
-						<Image
-							className="customImgBlueGreen mx-auto md:mx-0"
-							alt="illustration d'une discussion entre deux personnes assises"
-							src="/illustrations/illustration_discussion.png"
-							width={320}
-							height={320}
-							loading="eager"
-						/>
-						<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
-							Dès le début, nous prenons le temps de discuter de vos intentions et des
-							bienfaits que vous recherchez à travers les séances. Je vous partage
-							ensuite mes connaissances et mon expérience, afin que nous puissions
-							trouver des solutions durables à vos problématiques. De plus, je vous
-							propose une guidance énergétique à travers le tirage d'une carte, pour
-							vous guider un peu plus loin sur le chemin de la guérison.
-						</p>
-					</div>
-				</article>
-				<article>
-					<h3 className="text-xl text-center font-semibold italic md:text-2xl">
-						Étape 2 : L'Harmonie Énergétique
-					</h3>
-					<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
-						<Image
-							className="customImgBlueGreen mx-auto md:mx-0"
-							alt="illustration d'un homme faisant un soin reiki à une femme"
-							src="/illustrations/illustration_energetic-heal.png"
-							width={320}
-							height={320}
-						/>
-						<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
-							Pendant le soin, vous restez confortablement vêtu(e) allongé(e) sur une
-							table de massage. L'objectif est que vous soyez à l'aise ! J'accompagne
-							cela avec une douce musique apaisante. Je commence le soin en plaçant
-							délicatement mes mains sur les zones de votre corps nécessitant un
-							rééquilibrage énergétique. Pendant cette étape, des sensations telles
-							que chaleur, fraîcheur, picotements, émotions ou autres peuvent se
-							manifester. Tout cela est normal et fait partie du processus naturel de
-							la circulation de l'énergie en vous.
-						</p>
-					</div>
-				</article>
-				<article>
-					<h3 className="text-xl text-center font-semibold italic md:text-2xl">
-						Étape 3 : Intégration et Planification
-					</h3>
-					<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
-						<Image
-							className="customImgBlueGreen mx-auto md:mx-0"
-							alt="illustration d'un calendrier"
-							src="/illustrations/illustration_calendar.png"
-							width={320}
-							height={320}
-						/>
-						<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
-							Une fois le soin achevé, nous prenons le temps de partager nos
-							impressions sur l'expérience vécue. En fonction de vos ressentis et de
-							vos besoins, nous planifions d'autres séances si nécessaires.
-							Généralement, pour une véritable guérison et transformation, il est
-							recommandé de prévoir 3 à 4 séances minimum, espacées d'une à deux
-							semaines. Dans les jours qui suivent le soin, hydratez-vous davantage
-							pour favoriser la purification et l'élimination des toxines
-							énergétiques.
-						</p>
-					</div>
-				</article>
-			</section>
-			<section className="flex flex-col gap-10">
-				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderPink p-4 md:text-4xl lg:hidden">
-					Mon histoire
-				</h2>
 
-				<div className="flex flex-col justify-center p-4 gap-10 lg:flex-row lg:gap-0 lg:mx-auto">
-					<Image
-						className="rounded-lg mx-auto -scale-x-100 lg:hidden"
-						alt="photo de profil de robin ponçon"
-						src="/photo-profil.png"
-						width={300}
-						height={300}
-					></Image>
-					<Image
-						className="hidden rounded-t-lg mr-0 ml-auto -scale-x-100 lg:block"
-						alt="photo de profil de robin ponçon"
-						src="/photo-profil.png"
-						width={400}
-						height={500}
-					></Image>
-					<div className="text-customWhite flex flex-col relative gap-6 rounded-lg p-5 text-center mx-auto max-w-lg bg-darkBackground lg:p-8 lg:text-start lg:-ml-10 lg:rounded-none lg:rounded-tr-lg">
-						<h2 className="hidden titleFont font-semibold text-3xl italic text-pink lg:block">
-							Mon Histoire
-						</h2>
-						<p>
-							Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors d'une
-							période introspective en quête de spiritualité il y a {spiritualityAge}{" "}
-							ans. En développant le magnétisme de mes mains, j'ai cherché à apaiser
-							les symptômes du cancer de mon chat, espérant prolonger sa vie et
-							minimiser ses souffrances. Cette expérience a éveillé en moi la volonté
-							d'approfondir cette capacité pour aider autrui.
-						</p>
-						<p>
-							Mon chemin m'a naturellement conduit vers le Reiki, une technique
-							parallèle au magnétisme, mais avec une approche différente car je
-							n'utilise plus ma propre énergie pour guérir les autres mais celle qui
-							est partout autour de nous. J'ai ainsi franchi les trois niveaux du
-							Reiki auprès de Monique Chanoni, maître Reiki de la lignée de Mikao
-							Usui. Je suis certifié maître praticien dans cette discipline, bien que
-							je ne puisse pas initier d'autres personnes au Reiki en tant que maître
-							enseignant.
-						</p>
-						<p className="lg:hidden">
-							Ma conception des soins énergétiques repose sur une collaboration
-							étroite avec mes clients. La guérison ne peut advenir sans la volonté
-							consciente ou inconsciente du client. Mon but est d'offrir les outils de
-							développement personnel et de guérison, de sorte qu'ils n'aient plus
-							besoin de mes services sur le long terme. Cela peut sembler idéaliste,
-							mais en guidant chacun vers son équilibre et son épanouissement, nous
-							pouvons peut-être façonner un monde et un avenir meilleurs pour tous.
-						</p>
+			<ScrollAnimation
+				id="profil-picture-bloc"
+				styleBeforeTransition={{
+					opacity: "0",
+					transition: "opacity 2.5s, margin-top 2.5s",
+					marginTop: "100px"
+				}}
+				styleAfterTransition={{
+					opacity: "1",
+					marginTop: "0"
+				}}
+			>
+				<section className="flex flex-col gap-10">
+					<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderPink p-4 md:text-4xl lg:hidden">
+						Mon histoire
+					</h2>
+
+					<div className="flex flex-col justify-center p-4 gap-10 lg:flex-row lg:gap-0 lg:mx-auto">
+						<Image
+							className="rounded-lg mx-auto -scale-x-100 lg:hidden"
+							alt="photo de profil de robin ponçon"
+							src="/photo-profil.png"
+							width={300}
+							height={300}
+						></Image>
+						<Image
+							className="hidden rounded-t-lg mr-0 ml-auto -scale-x-100 lg:block"
+							alt="photo de profil de robin ponçon"
+							src="/photo-profil.png"
+							width={400}
+							height={500}
+						></Image>
+						<div className="text-customWhite flex flex-col relative gap-6 rounded-lg p-5 text-center mx-auto max-w-lg bg-darkBackground lg:p-8 lg:text-start lg:-ml-10 lg:rounded-none lg:rounded-tr-lg">
+							<h2 className="hidden titleFont font-semibold text-3xl italic text-pink lg:block">
+								Mon Histoire
+							</h2>
+							<p>
+								Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors
+								d'une période introspective en quête de spiritualité il y a{" "}
+								{spiritualityAge} ans. En développant le magnétisme de mes mains,
+								j'ai cherché à apaiser les symptômes du cancer de mon chat, espérant
+								prolonger sa vie et minimiser ses souffrances. Cette expérience a
+								éveillé en moi la volonté d'approfondir cette capacité pour aider
+								autrui.
+							</p>
+							<p>
+								Mon chemin m'a naturellement conduit vers le Reiki, une technique
+								parallèle au magnétisme, mais avec une approche différente car je
+								n'utilise plus ma propre énergie pour guérir les autres mais celle
+								qui est partout autour de nous. J'ai ainsi franchi les trois niveaux
+								du Reiki auprès de Monique Chanoni, maître Reiki de la lignée de
+								Mikao Usui. Je suis certifié maître praticien dans cette discipline,
+								bien que je ne puisse pas initier d'autres personnes au Reiki en
+								tant que maître enseignant.
+							</p>
+							<p className="lg:hidden">
+								Ma conception des soins énergétiques repose sur une collaboration
+								étroite avec mes clients. La guérison ne peut advenir sans la
+								volonté consciente ou inconsciente du client. Mon but est d'offrir
+								les outils de développement personnel et de guérison, de sorte
+								qu'ils n'aient plus besoin de mes services sur le long terme. Cela
+								peut sembler idéaliste, mais en guidant chacun vers son équilibre et
+								son épanouissement, nous pouvons peut-être façonner un monde et un
+								avenir meilleurs pour tous.
+							</p>
+						</div>
 					</div>
-				</div>
-				<p className=" text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-20 lg:block">
-					Ma conception des soins énergétiques repose sur une collaboration étroite avec
-					mes clients. La guérison ne peut advenir sans la volonté consciente ou
-					inconsciente du client. Mon but est d'offrir les outils de développement
-					personnel et de guérison, de sorte qu'ils n'aient plus besoin de mes services
-					sur le long terme. Cela peut sembler idéaliste, mais en guidant chacun vers son
-					équilibre et son épanouissement, nous pouvons peut-être façonner un monde et un
-					avenir meilleurs pour tous.
-				</p>
-			</section>
+					<p className=" text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-20 lg:block">
+						Ma conception des soins énergétiques repose sur une collaboration étroite
+						avec mes clients. La guérison ne peut advenir sans la volonté consciente ou
+						inconsciente du client. Mon but est d'offrir les outils de développement
+						personnel et de guérison, de sorte qu'ils n'aient plus besoin de mes
+						services sur le long terme. Cela peut sembler idéaliste, mais en guidant
+						chacun vers son équilibre et son épanouissement, nous pouvons peut-être
+						façonner un monde et un avenir meilleurs pour tous.
+					</p>
+				</section>
+			</ScrollAnimation>
 			<section className="flex flex-col gap-20 py-10 px-4">
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 					Ils ont essayé, pourquoi pas vous ?
