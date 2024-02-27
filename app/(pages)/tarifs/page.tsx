@@ -1,5 +1,7 @@
+import Link from "next/link";
 import "./page.scss";
 import { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
 	title: "Mes Différents Tarifs",
@@ -94,7 +96,7 @@ const TarifsPage = () => {
 							<br /> <span className="text-base">5 séances (4 + 1 offerte)</span>
 						</h3>
 						<div className="flex flex-col text-center gap-2">
-							<p>Tous les bienfaits d'une séance classique</p>
+							<p>Tous les bienfaits des séances classiques</p>
 							<p>+ Guidance de cartes complète offerte</p>
 							<p>+ Méditation guidée de pleine conscience</p>
 							<p>+ Des outils pour être plus serein(e)</p>
@@ -115,6 +117,29 @@ const TarifsPage = () => {
 				<h2 className="titleFont text-customWhite font-semibold text-center text-2xl mx-auto w-fit customBorderYellow p-4 md:text-4xl">
 					Tarifs des Prestations Musicales
 				</h2>
+				<div className="flex flex-col gap-4">
+					<p className="text-justify text-customWhite italic mx-auto lg:max-w-3xl">
+						Mes prestations musicales ont pour but la relaxation, et donc la réduction
+						du stress et de l'anxiété. J'interviens donc dans des espaces de coworking,
+						entreprises, maison de retraite ou lieu avec des enfants. Pour vivre une
+						expérience unique, vous pouvez me contacter par mail ou via la page de{" "}
+						<Link
+							className="text-customYellow redirectLinkYellow"
+							href={"/contact"}
+						>
+							contact.
+						</Link>
+					</p>
+					<p className="text-justify text-customWhite italic mx-auto lg:max-w-3xl">
+						Envie d'en savoir plus sur le voyage sonore ? C'est par{" "}
+						<Link
+							className="text-customYellow redirectLinkYellow"
+							href={"/voyage-sonore"}
+						>
+							ICI.
+						</Link>
+					</p>
+				</div>
 				<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
@@ -124,6 +149,7 @@ const TarifsPage = () => {
 							<p>Découverte d'un instrument atypique</p>
 							<p>Sonorités apaisantes et envoutantes</p>
 							<p>Réduction du stress et de l'anxiété</p>
+							<p>Stimulation de la créativité</p>
 							<p>Très captivant pour les enfants</p>
 						</div>
 						<p className="separator2"></p>
@@ -134,22 +160,28 @@ const TarifsPage = () => {
 							150 €
 						</p>
 					</article>
-
+					<Image
+						className="max-w-xs -mx-20 lg:w-1/3"
+						alt="illustration d'une discussion entre deux personnes assises"
+						src="/handpan-design.png"
+						width={320}
+						height={320}
+						loading="eager"
+					/>
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
 							Voyage Sonore
 						</h3>
 						<div className="flex flex-col text-center gap-2">
-							<p>Méditation guidée</p>
-							<p>Guidance de cartes complète offerte</p>
-							<p>Méditation guidée de pleine conscience</p>
-							<p>Des outils pour être plus heureux</p>
-							<p>Suivi personnalisé sur 3 à 6 mois</p>
+							<p>Tous les bienfaits de l'offre précédente</p>
+							<p>+ Thème du voyage personnalisé</p>
+							<p>+ Méditation guidée de pleine conscience</p>
+							<p>+ Musiques en lien avec l'histoire</p>
+							<p>+ Reconnexion profonde à vos émotions</p>
 						</div>
 						<p className="separator3"></p>
 						<p className="text-center">
-							<strong>Durée :</strong>{" "}
-							<span className="italic">7 heures et 30 minutes</span>
+							<strong>Durée :</strong> <span className="italic">60 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
 							250 €

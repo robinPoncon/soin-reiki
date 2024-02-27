@@ -9,6 +9,7 @@ const ReservationPage = () => {
 	useEffect(() => {
 		if (typeof window !== "undefined") {
 			setBreakpointResponsiveValue(window.innerWidth);
+			window.scrollTo(0, 0);
 		}
 	}, []);
 

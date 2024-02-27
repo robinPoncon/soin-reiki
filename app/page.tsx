@@ -59,13 +59,13 @@ const MainPage = () => {
 				{breakpointResponsiveValue < 1024 ? (
 					<div className="flex flex-col gap-10 px-2">
 						<p className="text-justify max-w-2xl mx-auto">
-							Je suis ravi de vous accueillir sur mon site internet dédié à la
-							reconnexion de l'Amour de Soi. Je crois profondément en l'importance de
-							prendre soin de son corps, de son esprit et de ses émotions pour
-							atteindre un épanouissement complet dans tous les domaines de sa vie.
-							Vous trouverez toutes les informations nécessaires sur le déroulé d'une
-							séance et ma vision du soin énergétique. Je vous souhaite une agréable
-							visite !
+							Je suis ravi de vous accueillir sur mon site internet dédié au bien-être
+							et à la guérison grâce à l'Amour de Soi. Je crois profondément en
+							l'importance d'être à l'écoute de son corps, de son esprit et de ses
+							émotions pour atteindre un épanouissement complet dans tous les domaines
+							de sa vie. Vous trouverez toutes les informations nécessaires sur mes
+							services, le déroulé des séances et ma vision du soin énergétique. Je
+							vous souhaite une agréable visite !
 						</p>
 					</div>
 				) : (
@@ -83,13 +83,13 @@ const MainPage = () => {
 						}}
 					>
 						<p className="text-center max-w-2xl mx-auto">
-							Je suis ravi de vous accueillir sur mon site internet dédié à la
-							reconnexion de l'Amour de Soi. Je crois profondément en l'importance de
-							prendre soin de son corps, de son esprit et de ses émotions pour
-							atteindre un épanouissement complet dans tous les domaines de sa vie.
-							Vous trouverez toutes les informations nécessaires sur le déroulé d'une
-							séance et ma vision du soin énergétique. Je vous souhaite une agréable
-							visite !
+							Je suis ravi de vous accueillir sur mon site internet dédié au bien-être
+							et à la guérison grâce à l'Amour de Soi. Je crois profondément en
+							l'importance d'être à l'écoute de son corps, de son esprit et de ses
+							émotions pour atteindre un épanouissement complet dans tous les domaines
+							de sa vie. Vous trouverez toutes les informations nécessaires sur mes
+							services, le déroulé des séances et ma vision du soin énergétique. Je
+							vous souhaite une agréable visite !
 						</p>
 					</ScrollAnimation>
 				)}
@@ -348,35 +348,38 @@ const MainPage = () => {
 								autrui.
 							</p>
 							<p>
-								Mon chemin m'a naturellement conduit vers le Reiki, une technique
-								parallèle au magnétisme, mais avec une approche différente car je
-								n'utilise plus ma propre énergie pour guérir les autres mais celle
-								qui est partout autour de nous. J'ai ainsi franchi les trois niveaux
-								du Reiki auprès de Monique Chanoni, maître Reiki de la lignée de
-								Mikao Usui. Je suis certifié maître praticien dans cette discipline,
-								bien que je ne puisse pas initier d'autres personnes au Reiki en
-								tant que maître enseignant.
+								Mon parcours m'a guidé naturellement vers le Reiki, une méthode
+								énergétique qui s'apparente au magnétisme, bien qu'elle adopte une
+								approche différente. Dans ma pratique, je ne me sers plus uniquement
+								de mon énergie personnelle pour guérir, mais je canalise plutôt
+								l'énergie omniprésente qui nous entoure. J'ai eu l'opportunité
+								d'explorer les trois niveaux du Reiki sous la tutelle de Monique
+								Chanoni, une maître Reiki établie dans la lignée de Mikao Usui.
+								Aujourd'hui, je suis certifié en tant que maître praticien dans
+								cette discipline.
 							</p>
 							<p className="lg:hidden">
-								Ma conception des soins énergétiques repose sur une collaboration
-								étroite avec mes clients. La guérison ne peut advenir sans la
-								volonté consciente ou inconsciente du client. Mon but est d'offrir
-								les outils de développement personnel et de guérison, de sorte
-								qu'ils n'aient plus besoin de mes services sur le long terme. Cela
-								peut sembler idéaliste, mais en guidant chacun vers son équilibre et
-								son épanouissement, nous pouvons peut-être façonner un monde et un
-								avenir meilleurs pour tous.
+								Mon approche des soins énergétiques repose sur une collaboration
+								étroite avec vous. Je suis convaincu que la guérison ne peut se
+								produire qu'avec votre volonté consciente ou inconsciente. Mon
+								objectif est de vous fournir les outils de développement personnel
+								et de guérison afin que vous puissiez devenir autonome à long terme.
+								Bien que cela puisse sembler idéaliste, je crois fermement qu'en
+								guidant chacun vers son équilibre et son épanouissement, nous
+								pouvons contribuer à façonner un monde et un avenir meilleurs pour
+								tous.
 							</p>
 						</div>
 					</div>
 					<p className=" text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-20 lg:block">
-						Ma conception des soins énergétiques repose sur une collaboration étroite
-						avec mes clients. La guérison ne peut advenir sans la volonté consciente ou
-						inconsciente du client. Mon but est d'offrir les outils de développement
-						personnel et de guérison, de sorte qu'ils n'aient plus besoin de mes
-						services sur le long terme. Cela peut sembler idéaliste, mais en guidant
-						chacun vers son équilibre et son épanouissement, nous pouvons peut-être
-						façonner un monde et un avenir meilleurs pour tous.
+						Mon approche des soins énergétiques repose sur une collaboration étroite
+						avec vous. Je suis convaincu que la guérison ne peut se produire qu'avec
+						votre volonté consciente ou inconsciente. Mon objectif est de vous fournir
+						les outils de développement personnel et de guérison afin que vous puissiez
+						devenir autonome à long terme. Bien que cela puisse sembler idéaliste, je
+						crois fermement qu'en guidant chacun vers son équilibre et son
+						épanouissement, nous pouvons contribuer à façonner un monde et un avenir
+						meilleurs pour tous.
 					</p>
 				</section>
 			</ScrollAnimation>

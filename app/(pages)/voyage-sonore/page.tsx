@@ -121,6 +121,22 @@ const SoundTravelPage = () => {
 					}
 				]}
 			></BlocTextContent>
+			<h2 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderYellow p-4 md:text-4xl">
+				Mon Univers Musical
+			</h2>
+
+			<video
+				className="mx-auto"
+				width="480"
+				height="480"
+				controls
+			>
+				<source
+					src="/videos/handpan-video.mp4"
+					type="video/mp4"
+				/>
+				Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+			</video>
 		</section>
 	);
 };

@@ -29,12 +29,13 @@ const SessionSequencePage = () => {
 						loading="eager"
 					/>
 					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
-						Dès le début, nous prenons le temps de discuter de vos intentions et des
-						bienfaits que vous recherchez à travers les séances. Je vous partage ensuite
-						mes connaissances et mon expérience, afin que nous puissions trouver des
-						solutions durables à vos problématiques. De plus, je vous propose une
-						guidance énergétique à travers le tirage d'une carte, pour vous guider un
-						peu plus loin sur le chemin de la guérison.
+						Dès le début, nous prenons le temps de discuter de vos intentions, des
+						bienfaits et de la transformation que vous recherchez à travers les séances.
+						Je vous partage ensuite mes connaissances et mon expérience, afin que nous
+						puissions trouver des solutions durables à vos problématiques. De plus, je
+						vous propose une guidance énergétique à travers le tirage d'une carte, pour
+						obtenir plus d'informations sur la source de votre problématique afin de
+						vous guider un peu plus loin sur le chemin de la guérison.
 					</p>
 				</div>
 			</article>
@@ -52,13 +53,13 @@ const SessionSequencePage = () => {
 					/>
 					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
 						Pendant le soin, vous restez confortablement vêtu(e) allongé(e) sur une
-						table de massage. L'objectif est que vous soyez à l'aise ! J'accompagne cela
-						avec une douce musique apaisante. Je commence le soin en plaçant
-						délicatement mes mains sur les zones de votre corps nécessitant un
-						rééquilibrage énergétique. Pendant cette étape, des sensations telles que
-						chaleur, fraîcheur, picotements, émotions ou autres peuvent se manifester.
-						Tout cela est normal et fait partie du processus naturel de la circulation
-						de l'énergie en vous.
+						table de massage. Je commence le soin en plaçant délicatement mes mains sur
+						les zones de votre corps nécessitant un rééquilibrage énergétique. Pendant
+						cette étape, des sensations telles que chaleur, fraîcheur, picotements,
+						émotions ou autres peuvent se manifester. Tout cela est normal et fait
+						partie du processus naturel de la circulation de l'énergie en vous. Enfin,
+						une fois que vous êtes détendu, nous passons à des exercices de pleine
+						conscience pour vous libérer de vos blocages.
 					</p>
 				</div>
 			</article>

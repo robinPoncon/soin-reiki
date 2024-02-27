@@ -5,13 +5,19 @@ import CustomTextarea from "../../_components/Form/CustomTextarea/CustomTextarea
 import useCustomForm from "../../_components/Form/UseCustomForm/UseCustomForm";
 import Image from "next/image";
 import { formDataToObject } from "@/_utils/form";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import FlashMessagesContext from "@/_context/FlashMessagesContext";
 import { useLoader } from "@/_context/LoaderContext";
 
 const ContactPage = () => {
 	const flashMessage = useContext(FlashMessagesContext);
 	const { isLoading, showLoader, hideLoader } = useLoader();
+
+	useEffect(() => {
+		if (typeof window !== "undefined") {
+			window.scrollTo(0, 0);
+		}
+	}, []);
 
 	const getSubmit = async (submitDatas: FormData) => {
 		setIsSubmitBtnDisabled(true);
