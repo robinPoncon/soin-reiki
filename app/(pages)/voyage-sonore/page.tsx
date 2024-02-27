@@ -125,7 +125,7 @@ const SoundTravelPage = () => {
 				Mon Univers Musical
 			</h2>
 
-			<video
+			{/* <video
 				className="mx-auto"
 				width="480"
 				height="480"
@@ -136,7 +136,7 @@ const SoundTravelPage = () => {
 					type="video/mp4"
 				/>
 				Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-			</video>
+			</video> */}
 		</section>
 	);
 };
