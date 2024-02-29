@@ -112,6 +112,15 @@ const TarifsPage = () => {
 						</p>
 					</article>
 				</div>
+				<p className="text-center mt-5">
+					Envie de tenter l'expérience ?{" "}
+					<Link
+						className="redirectLinkBlue whitespace-nowrap"
+						href="/reservation"
+					>
+						Je réserve ma séance.
+					</Link>
+				</p>
 			</div>
 			<div className="flex flex-col gap-14 bg-darkBackground py-20 shadow-darkTurquoise">
 				<h2 className="titleFont text-customWhite font-semibold text-center text-2xl mx-auto w-fit customBorderYellow p-4 md:text-4xl">

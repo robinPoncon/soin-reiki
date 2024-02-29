@@ -379,7 +379,7 @@ const MainPage = () => {
 						devenir autonome à long terme. Bien que cela puisse sembler idéaliste, je
 						crois fermement qu'en guidant chacun vers son équilibre et son
 						épanouissement, nous pouvons contribuer à façonner un monde et un avenir
-						meilleurs pour tous.
+						meilleurs pour tous !
 					</p>
 				</section>
 			</ScrollAnimation>

@@ -5,6 +5,7 @@ import "./Footer.scss";
 import ReviewsUsers from "../ReviewsUsers/ReviewsUsers";
 import { useDatas } from "@/_context/ReviewsUsersDataContext";
 import { useLoader } from "@/_context/LoaderContext";
+import Image from "next/image";
 
 const Footer = () => {
 	const { reviewsUsers } = useDatas();
@@ -108,6 +109,44 @@ const Footer = () => {
 								>
 									poncon.robin@gmail.com
 								</a>
+							</p>
+							<p className="flex gap-4">
+								<Link
+									href={"https://www.instagram.com/robinponcon/"}
+									className="flex gap-2 lightHover"
+									target="_blank"
+								>
+									<Image
+										alt="logo instagram"
+										src={"/logos/logo-insta.png"}
+										width={24}
+										height={24}
+									/>
+								</Link>
+								<Link
+									href={"https://www.tiktok.com/@racines_guerison"}
+									className="flex gap-2 lightHover"
+									target="_blank"
+								>
+									<Image
+										alt="logo instagram"
+										src={"/logos/logo-tiktok.png"}
+										width={24}
+										height={24}
+									/>
+								</Link>
+								<Link
+									href={"https://www.youtube.com/@RacinesGuerison/featured"}
+									className="flex gap-2 lightHover"
+									target="_blank"
+								>
+									<Image
+										alt="logo instagram"
+										src={"/logos/logo-youtube.png"}
+										width={24}
+										height={24}
+									/>
+								</Link>
 							</p>
 						</div>
 					</div>
