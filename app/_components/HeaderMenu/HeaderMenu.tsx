@@ -128,15 +128,19 @@ const HeaderMenu = () => {
 					</Link>
 				</nav>
 				<Link
-					href="/connexion"
+					href="/mon-histoire"
 					className="loginLinkBloc"
 				>
-					<p className={`greenLight ${isActiveLink("/connexion") ? "activeLink" : ""}`}>
-						Connexion
-					</p>
 					<p
+						className={`greenLight ${
+							isActiveLink("/mon-histoire") ? "activeLink" : ""
+						}`}
+					>
+						Mon Histoire
+					</p>
+					{/* <p
 						className={`iconContent ${isActiveLink("/connexion") ? "activeLink" : ""}`}
-					></p>
+					></p> */}
 				</Link>
 			</div>
 			<div className="headerContentMobile lg:hidden">
@@ -275,14 +279,14 @@ const HeaderMenu = () => {
 						/>
 					</Link>
 				)}
-				<Link
+				{/* <Link
 					onClick={() => setOpenMobileMenu(false)}
 					href="/connexion"
 					className={`loginLinkBlocMobile ${
 						isActiveLink("/connexion") ? "activeLink" : ""
 					}`}
 					aria-label="connexion"
-				/>
+				/> */}
 			</div>
 		</header>
 	);

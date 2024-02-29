@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const MyStoryPage = () => {
@@ -30,6 +32,127 @@ const MyStoryPage = () => {
 				Mon Histoire
 			</h1>
 			<article>
+				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
+					Un premier pas dans le développement personnel
+				</h2>
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
+					<Image
+						className="customImgPink mx-auto md:mx-0"
+						alt="photo de robin ponçon souriant"
+						src="/photo-profil2.jpeg"
+						width={320}
+						height={320}
+						loading="eager"
+					/>
+					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
+						Je m'appelle Robin Ponçon et j'ai {age} ans. Ma véritable aventure dans le
+						développement personnel et la spiritualité a débuté il y a maintenant{" "}
+						{spiritualityAge} ans, à la suite d'une rupture amoureuse. Aussi loin que je
+						me souvienne j'ai toujours été face à un vide intérieur que je cherchais à
+						combler de l'extérieur. Ce qui m'a enfermé dans de la dépendance affective.
+						En quête de sens et d'un profond désir de changement, mon nouvel objectif
+						était de comprendre et trouver l'essence de "l'Amour".
+					</p>
+				</div>
+			</article>
+			<article>
+				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
+					Une rencontre d'âme et l'éveil de l'amour
+				</h2>
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
+					<Image
+						className="customImgPink mx-auto md:mx-0"
+						alt="photo d'un chat appelé Tommy"
+						src="/photo-chat.png"
+						width={320}
+						height={320}
+					/>
+					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
+						Lui ? C'est Tommy ! Il est apparu dans une période de ma vie très sombre, où
+						ma confiance et mon estime de moi étaient au plus bas. Je ne pense pas qu'il
+						y ai de hasard dans la vie, car notre rencontre a fortement contribué dans
+						ma quête de l'amour. Il m'a enseigné l'amour pur, un amour libre de
+						conditions et d'attentes, l'Amour inconditionnel ! Malheureusement, le
+						cancer est apparu comme obstacle. Et c'est lors d'une expérience de
+						conscience modifiée, en désirant lui envoyé de l'amour, qu'une puissante
+						vague d'énergie s'est manifesté en moi pour se diriger dans mes mains. Mon
+						magnétisme s'était réveillé.
+					</p>
+				</div>
+			</article>
+			<article>
+				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
+					Le Reiki et le bénévolat à l'hôpital
+				</h2>
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
+					<Image
+						className="customImgPink mx-auto md:mx-0"
+						alt="photo de robin ponçon souriant"
+						src="/photo-reiki.png"
+						width={320}
+						height={320}
+						loading="eager"
+					/>
+					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
+						Mon chemin m'a naturellement conduit vers le Reiki, où je suis devenu maître
+						praticien (niveau 3) auprès de Monique Chanoni de la lignée de Mikao Usui.
+						J'ai eu l'opportunité d'intervenir auprès de l'association "sang mille
+						couleurs" à l'hôpital pour apaiser les symptômes de patients atteints de
+						cancer. C'est en voyant tous les bienfaits que j'ai pu apporté aux patients,
+						que j'ai décidé de me lancer à mon compte pour aider un maximum de personne
+						sur le chemin de la guérison !
+					</p>
+				</div>
+			</article>
+			<article>
+				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
+					La prise de conscience qui changea ma vie
+				</h2>
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
+					<Image
+						className="customImgPink mx-auto md:mx-0"
+						alt="photo d'un chat appelé Tommy"
+						src="/photo-selflove.png"
+						width={320}
+						height={320}
+					/>
+					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
+						C'est en 2024, après 3 mois de formation avec la méthode Vibraction d'Hélène
+						Pavot basée sur la pleine conscience, que j'ai compris pourquoi je m'étais
+						incarné sur terre. Mon but de vie était de trouvé l'Amour, mais pas à
+						l'extérieur de moi, mais bien à l'intérieur de moi. L'Amour de Soi était une
+						évidence, comment peut-on remplir le verre des autres si notre propre
+						caraffe est vide ? J'ai donc décidé de me spécialisé dans l'Amour de Soi,
+						qui est pour moi la plus grande force de guérison que l'on puisse effectué
+						dans sa vie sur le long terme !
+					</p>
+				</div>
+			</article>
+			<article>
+				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
+					Ma vision de l'avenir avec la musique
+				</h2>
+				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
+					<Image
+						className="customImgPink mx-auto md:mx-0"
+						alt="photo de robin ponçon souriant"
+						src="/photo-handpan-fille.png"
+						width={320}
+						height={320}
+						loading="eager"
+					/>
+					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
+						J'ai toujours été baigné dans la musique depuis mon enfance. Mais c'est à
+						partir du moment où je me suis mis à jouer d'un instrument de musique, que
+						j'ai vraiment pris conscience du potentiel thérapeutique des sons. Notre
+						corps est composé à 65% d'eau, et l'eau transmet les vibrations du son. Je
+						pense que dans le futur, la sonothérapie sera un des futurs pilliers de la
+						médecine ! Si vous avez déjà été submergé d'émotions ou de bien-être par une
+						musique, vous comprendrez ce que je veux dire !
+					</p>
+				</div>
+			</article>
+			{/* <article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Mes débuts dans la spiritualité
 				</h2>
@@ -143,7 +266,7 @@ const MyStoryPage = () => {
 					méditation, la détente, la libération des blocages émotionnels, et bien d'autres
 					encore. J'ai hâte de partager ces expériences avec vous dans un avenir proche !
 				</p>
-			</article>
+			</article> */}
 		</section>
 	);
 };
