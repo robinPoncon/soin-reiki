@@ -50,7 +50,7 @@ const MyStoryPage = () => {
 						Je m'appelle Robin Ponçon et j'ai {age} ans. Ma véritable aventure dans le
 						développement personnel et la spiritualité a débuté il y a maintenant{" "}
 						{spiritualityAge} ans, à la suite d'une rupture amoureuse. Aussi loin que je
-						me souvienne j'ai toujours été face à un vide intérieur que je cherchais à
+						me souvienne, j'ai toujours été face à un vide intérieur que je cherchais à
 						combler de l'extérieur. Ce qui m'a enfermé dans de la dépendance affective.
 						En quête de sens et d'un profond désir de changement, mon nouvel objectif
 						était de comprendre et trouver l'essence de "l'Amour".
@@ -98,11 +98,11 @@ const MyStoryPage = () => {
 					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
 						Mon chemin m'a naturellement conduit vers le Reiki, où je suis devenu maître
 						praticien (niveau 3) auprès de Monique Chanoni de la lignée de Mikao Usui.
-						J'ai eu l'opportunité d'intervenir auprès de l'association "sang mille
-						couleurs" à l'hôpital pour apaiser les symptômes de patients atteints de
-						cancer. C'est en voyant tous les bienfaits que j'ai pu apporté aux patients,
-						que j'ai décidé de me lancer à mon compte pour aider un maximum de personne
-						sur le chemin de la guérison !
+						J'ai eu l'opportunité d'intervenir depuis 2023, auprès de l'association
+						"sang mille couleurs" à l'hôpital pour apaiser les symptômes de patients
+						atteints de cancer. C'est en voyant tous les bienfaits que j'ai pu leur
+						apporter, que j'ai décidé de me lancer à mon compte pour aider un maximum de
+						personne sur le chemin de la guérison !
 					</p>
 				</div>
 			</article>
@@ -121,8 +121,8 @@ const MyStoryPage = () => {
 					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
 						C'est en 2024, après 3 mois de formation avec la méthode Vibraction d'Hélène
 						Pavot basée sur la pleine conscience, que j'ai compris pourquoi je m'étais
-						incarné sur terre. Mon but de vie était de trouvé l'Amour, mais pas à
-						l'extérieur de moi, mais bien à l'intérieur de moi. L'Amour de Soi était une
+						incarné sur terre. Mon but de vie était de trouvé l'Amour, non pas à
+						l'extérieur de moi, mais bien à l'intérieur. L'Amour de Soi était une
 						évidence, comment peut-on remplir le verre des autres si notre propre
 						caraffe est vide ? J'ai donc décidé de me spécialisé dans l'Amour de Soi,
 						qui est pour moi la plus grande force de guérison que l'on puisse effectué
