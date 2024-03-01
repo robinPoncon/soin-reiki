@@ -376,11 +376,22 @@ const MainPage = () => {
 						avec vous. Je suis convaincu que la guérison ne peut se produire qu'avec
 						votre volonté consciente ou inconsciente. Mon objectif est de vous fournir
 						les outils de développement personnel et de guérison afin que vous puissiez
-						devenir autonome à long terme. Bien que cela puisse sembler idéaliste, je
-						crois fermement qu'en guidant chacun vers son équilibre et son
+						devenir autonome sur le long terme. Bien que cela puisse sembler idéaliste,
+						je crois fermement qu'en guidant chacun vers son équilibre et son
 						épanouissement, nous pouvons contribuer à façonner un monde et un avenir
-						meilleurs pour tous !
+						meilleurs pour tous ! <br />
+						<span className="block mt-2 italic">
+							Vous voulez en savoir plus sur mon parcours ? C'est par{" "}
+							<Link
+								className="text-customYellow redirectLinkYellow"
+								href={"/mon-histoire"}
+							>
+								ICI
+							</Link>{" "}
+							!
+						</span>
 					</p>
+					<p></p>
 				</section>
 			</ScrollAnimation>
 			<section className="flex flex-col gap-20 py-10 px-4">

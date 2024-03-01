@@ -1,16 +1,16 @@
+"use client";
+
 import Link from "next/link";
 import "./page.scss";
-import { Metadata } from "next";
 import Image from "next/image";
-
-export const metadata: Metadata = {
-	title: "Mes Différents Tarifs",
-	description:
-		"Découvrez les tarifs pour les séances de Reiki et de tirage de cartes. Ils reflètent mon engagement envers la qualité et la profondeur de chaque séance.",
-	keywords: ["tarifs", "prix", "séances", "reiki", "tirage de cartes", "qualité", "énergétique"]
-};
+import { useEffect } from "react";
 
 const TarifsPage = () => {
+	useEffect(() => {
+		if (typeof window !== "undefined") {
+			window.scrollTo(0, 0);
+		}
+	}, []);
 	return (
 		<section className="flex flex-col gap-24 pt-20 tarifsPageComponent">
 			<div className="flex flex-col gap-12">
@@ -149,7 +149,7 @@ const TarifsPage = () => {
 						</Link>
 					</p>
 				</div>
-				<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
+				<div className="flex flex-col justify-around gap-5 lg:flex-row lg:gap-5 xl:gap-0">
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
 							Essence du Handpan
@@ -170,7 +170,7 @@ const TarifsPage = () => {
 						</p>
 					</article>
 					<Image
-						className="max-w-xs -mx-20 lg:w-1/3"
+						className="max-w-xs mx-auto lg:-mx-20 lg:w-1/3"
 						alt="illustration d'une discussion entre deux personnes assises"
 						src="/handpan-design.png"
 						width={320}

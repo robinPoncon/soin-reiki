@@ -254,7 +254,7 @@ const HeaderMenu = () => {
 				<Link
 					onClick={() => setOpenMobileMenu(false)}
 					href="/"
-					className="mainTitleSmallMobile sm:hidden"
+					className="mainTitleSmallMobile block sm:hidden"
 				>
 					Les Racines <br /> de la Guérison
 				</Link>

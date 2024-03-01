@@ -137,8 +137,8 @@
 
 .headerContentMobile {
 	height: 100%;
-	display: flex;
-	justify-content: space-between;
+	// display: flex;
+	// justify-content: space-between;
 
 	button {
 		height: 100%;
@@ -156,21 +156,27 @@
 		}
 	}
 
-	.mainTitleSmallMobile,
-	.mainTitleMobile {
+	.mainTitleSmallMobile {
 		color: var(--customYellow);
 		font-family: var(--font-handlee);
 		font-size: 22px;
 		font-style: italic;
 		letter-spacing: 1px;
 		text-align: center;
-		margin-top: auto;
+		margin-left: 24px;
+		margin-top: -72px;
 		margin-bottom: auto;
 	}
 
 	.mainTitleMobile {
-		margin-top: 6px;
+		margin-top: -72px;
 		font-size: 24px;
+		color: var(--customYellow);
+		font-family: var(--font-handlee);
+		font-style: italic;
+		letter-spacing: 1px;
+		text-align: center;
+		margin-bottom: auto;
 	}
 
 	.loginLinkBlocMobile {

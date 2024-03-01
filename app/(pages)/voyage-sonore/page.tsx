@@ -13,7 +13,7 @@ const SoundTravelPage = () => {
 		}
 	}, []);
 	return (
-		<section className="flex flex-col gap-10 pt-10">
+		<section className="flex flex-col gap-10 py-10">
 			<BlocTextContent
 				breakpointResponsiveValue={breakpointResponsiveValue}
 				mainTitle="Le Voyage Sonore"
@@ -121,22 +121,43 @@ const SoundTravelPage = () => {
 					}
 				]}
 			></BlocTextContent>
-			<h2 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderYellow p-4 md:text-4xl">
-				Mon Univers Musical
-			</h2>
-
-			{/* <video
-				className="mx-auto"
-				width="480"
-				height="480"
-				controls
-			>
-				<source
-					src="/videos/handpan-video.mp4"
-					type="video/mp4"
-				/>
-				Votre navigateur ne supporte pas la lecture de vidéos HTML5.
-			</video> */}
+			<article className="flex flex-col py-10 gap-10">
+				<h2 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderYellow p-4 md:text-4xl">
+					Découvrir le Handpan
+				</h2>
+				<p className="text-justify italic mx-auto lg:max-w-3xl">
+					Vous êtes intéressé par cette expérience mais vous n'avez aucune idée de ce
+					qu'est le handpan ? Voici deux extraits vidéos ci-dessous qui vous permettront
+					de découvrir les capacités mélodiques et relaxantes de ce merveilleux instrument
+					!
+				</p>
+				<div className="flex justify-center gap-48">
+					<video
+						className="rounded-xl"
+						width="320"
+						height="320"
+						controls
+					>
+						<source
+							src="/videos/handpan-music1.mp4"
+							type="video/mp4"
+						/>
+						Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+					</video>
+					<video
+						className="rounded-xl"
+						width="320"
+						height="320"
+						controls
+					>
+						<source
+							src="/videos/handpan-music2.mp4"
+							type="video/mp4"
+						/>
+						Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+					</video>
+				</div>
+			</article>
 		</section>
 	);
 };

@@ -110,7 +110,7 @@ const Footer = () => {
 									poncon.robin@gmail.com
 								</a>
 							</p>
-							<p className="flex gap-4">
+							<p className="flex gap-4 justify-center md:justify-start">
 								<Link
 									href={"https://www.instagram.com/robinponcon/"}
 									className="flex gap-2 lightHover"

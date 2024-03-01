@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const MyStoryPage = () => {
@@ -25,6 +24,9 @@ const MyStoryPage = () => {
 		const getSpiritualityAge = calculateAge("2018-07-31");
 		setAge(getAge);
 		setSpiritualityAge(getSpiritualityAge);
+		if (typeof window !== "undefined") {
+			window.scrollTo(0, 0);
+		}
 	}, []);
 	return (
 		<section className="flex flex-col gap-20 py-20 px-4 lg:px-24">
