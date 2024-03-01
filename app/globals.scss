@@ -141,6 +141,12 @@
 		white-space: nowrap;
 		transition: margin-right 0.5s;
 	}
+	&.smallBtn {
+		width: 270px;
+	}
+	&.largeBtn {
+		width: 330px;
+	}
 }
 
 .actionLinkBlue {

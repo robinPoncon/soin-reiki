@@ -48,8 +48,8 @@ const MainPage = () => {
 					loading="eager"
 					alt="image principal du site avec un arbre et des boules d'énergie"
 					src="/main-image-reiki-site.png"
-					height={758}
-					width={1556}
+					height={550}
+					width={1100}
 				/>
 			</figure>
 			<section className="flex flex-col gap-10 px-2">
@@ -380,15 +380,16 @@ const MainPage = () => {
 						je crois fermement qu'en guidant chacun vers son équilibre et son
 						épanouissement, nous pouvons contribuer à façonner un monde et un avenir
 						meilleurs pour tous ! <br />
-						<span className="block mt-2 italic">
-							Vous voulez en savoir plus sur mon parcours ? C'est par{" "}
+						<span className="block mt-6 italic">
 							<Link
-								className="text-customYellow redirectLinkYellow"
-								href={"/mon-histoire"}
+								href="/mon-histoire"
+								className="actionLinkPink largeBtn"
 							>
-								ICI
-							</Link>{" "}
-							!
+								<span className="textActionLink">
+									En savoir plus sur mon histoire
+								</span>
+								<span className="iconActionLink" />
+							</Link>
 						</span>
 					</p>
 					<p></p>

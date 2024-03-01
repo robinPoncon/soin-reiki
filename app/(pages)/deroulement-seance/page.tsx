@@ -86,28 +86,31 @@ const SessionSequencePage = () => {
 					</p>
 				</div>
 			</article>
-			<article className="mx-auto max-w-xs md:max-w-xl py-10">
-				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
-					Pour aller plus loin
-				</h2>
-				<p className="text-center mt-5">
-					Besoin d'informations sur les prix ?{" "}
+			<article className="flex flex-col gap-5 mx-auto max-w-xs md:max-w-lg py-5">
+				<div className="flex flex-col gap-5">
+					<h2 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+						Besoin d'informations sur le prix des accompagnements ?
+					</h2>
 					<Link
-						className="redirectLinkBlue whitespace-nowrap"
 						href="/tarifs"
+						className="actionLinkPink smallBtn"
 					>
-						Je consulte les tarifs.
+						<span className="textActionLink">Je consulte les tarifs</span>
+						<span className="iconActionLink" />
 					</Link>
-				</p>
-				<p className="text-center mt-5">
-					Envie de tenter l'expérience ?{" "}
+				</div>
+				<div className="flex flex-col gap-5">
+					<h2 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+						Envie de tenter l'expérience ?
+					</h2>
 					<Link
-						className="redirectLinkBlue whitespace-nowrap"
 						href="/reservation"
+						className="actionLinkPink smallBtn"
 					>
-						Je réserve ma séance.
+						<span className="textActionLink">Je réserve ma séance</span>
+						<span className="iconActionLink" />
 					</Link>
-				</p>
+				</div>
 
 				{/* <p className="text-center mt-5">
 					Si vous désirez en savoir davantage sur les guidances en tirage de cartes ou

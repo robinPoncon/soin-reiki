@@ -1,6 +1,7 @@
 "use client";
 
 import BlocTextContent from "@/_components/BlocTextContent/BlocTextContent";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const SoundTravelPage = () => {
@@ -120,7 +121,20 @@ const SoundTravelPage = () => {
 						transitionType: "none"
 					}
 				]}
-			></BlocTextContent>
+			>
+				<div className="flex flex-col gap-5">
+					<h3 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+						Envie de tenter l'expérience ?
+					</h3>
+					<Link
+						href="/deroulement-seance"
+						className="actionLinkPink"
+					>
+						<span className="textActionLink">Je consulte les prestations</span>
+						<span className="iconActionLink" />
+					</Link>
+				</div>
+			</BlocTextContent>
 			<article className="flex flex-col py-10 gap-10">
 				<h2 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderYellow p-4 md:text-4xl">
 					Découvrir le Handpan

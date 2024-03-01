@@ -1,6 +1,7 @@
 "use client";
 
 import BlocTextContent from "@/_components/BlocTextContent/BlocTextContent";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const GuidancePage = () => {
@@ -144,7 +145,20 @@ const GuidancePage = () => {
 						transitionType: "none"
 					}
 				]}
-			></BlocTextContent>
+			>
+				<div className="flex flex-col gap-5">
+					<h3 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+						Envie de tenter l'expérience ?
+					</h3>
+					<Link
+						href="/reservation"
+						className="actionLinkBlue smallBtn"
+					>
+						<span className="textActionLink">Je réserve ma séance</span>
+						<span className="iconActionLink" />
+					</Link>
+				</div>
+			</BlocTextContent>
 			{/* <article className="mx-auto max-w-xs md:max-w-xl py-10">
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Pour aller plus loin
