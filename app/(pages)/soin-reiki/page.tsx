@@ -29,7 +29,7 @@ const SoinReikiPage = () => {
 							`Le Reiki est l'énergie de vie qui englobe toute la matière au sein
 								de notre univers. Elle est partout autour de nous, et mon travail
 								est de la canaliser pour la diffuser en vous. Vous apportant calme,
-								sérénité, lâcher prise et bien être !`
+								sérénité, lâcher prise et bien-être !`
 						],
 						transitionType: "none"
 					},
@@ -54,7 +54,7 @@ const SoinReikiPage = () => {
 						content: [
 							`L'utilisation du Reiki se fait par apposition des mains sur
 								différentes parties du corps. Elles peuvent être posées délicatement
-								ou être à 5/10cm au-dessus du corps. Il n'y a aucune manipulation ce
+								ou être à 5/10 cm au-dessus du corps. Il n'y a aucune manipulation, ce
 								qui en fait une méthode de soins très douce et agréable !`
 						],
 						transitionType: "none"
@@ -73,12 +73,10 @@ const SoinReikiPage = () => {
 						title: "Des racines japonaises",
 						content: [
 							`Le Reiki fut révélé à Mikao Usui, érudit et guérisseur japonais du
-								XIXe siècle, durant une retraite introspective de 21 jours au Mont
-								Kurama. Cette expérience transpersonnelle lui transmit les
-								enseignements et techniques du Reiki, que nous pratiquons
-								actuellement. Son attrait universel réside dans sa simplicité et son
-								efficacité. Le Reiki continue d'évoluer tout en restant fidèle à ses 
-								principes fondamentaux.`
+							XIXe siècle, durant une retraite introspective de 21 jours sur le Mont
+							Kurama. C'est cette expérience qui lui permit de canaliser les
+							enseignements et les techniques du Reiki, que nous pratiquons
+							encore aujourd'hui.`
 						],
 						transitionType: "none"
 					},
@@ -89,12 +87,9 @@ const SoinReikiPage = () => {
 						title: "Ses principes et sa philosophie",
 						content: [
 							`Le Reiki repose sur cinq principes essentiels, appelés les "Cinq
-								Préceptes du Reiki". Ils guident les praticiens vers l'harmonie
-								intérieure et le bien-être en promouvant des valeurs telles que la
-								bienveillance, la gratitude et la paix intérieure. Cette
-								philosophie, ancrée dans la simplicité et la sagesse, encourage
-								chacun à cultiver une connexion profonde avec soi-même et avec
-								l'énergie qui nous entoure.`
+							Préceptes du Reiki". Ils guident les praticiens vers l'harmonie
+							intérieure et le bien-être en promouvant des valeurs telles que la
+							compassion, le respect, la gratitude et la paix intérieure.`
 						],
 						transitionType: "none"
 					},
@@ -105,12 +100,10 @@ const SoinReikiPage = () => {
 						title: "Un développement mondial",
 						content: [
 							`Depuis ses modestes débuts au Japon, le Reiki a transcendé les
-								frontières pour devenir une pratique mondiale de guérison et de
-								bien-être. Son attrait universel réside dans sa simplicité et son
-								efficacité. Au fil des décennies, diverses écoles et approches ont
-								émergé, reflétant la diversité culturelle et les besoins
-								individuels. Le Reiki ne vise pas à se substituer de la médecine,
-								mais plutôt à agir en complémentarité avec elle !`
+							frontières pour devenir une pratique mondiale de guérison et de
+							bien-être. Son attrait universel réside dans sa simplicité et son
+							efficacité. Le Reiki ne vise pas à remplacer la médecine,
+							mais plutôt à agir en complémentarité avec elle !`
 						],
 						transitionType: "none"
 					}
@@ -129,11 +122,10 @@ const SoinReikiPage = () => {
 						title: "Sérénité mentale et détente",
 						content: [
 							`Le Reiki, grâce à sa nature apaisante, ouvre la voie à une
-								relaxation profonde, offrant ainsi un précieux moyen de diminuer le
-								stress et l'anxiété. En encourageant le lâcher-prise, il
-								permet d'atteindre une clarté mentale qui renforce à la fois la
-								concentration et l'estime de soi. Grâce à cette harmonie retrouvée,
-								le Reiki offre une profonde paix intérieure.`
+							relaxation profonde, offrant ainsi un précieux moyen de diminuer le
+							stress et l'anxiété. En encourageant le lâcher-prise, il
+							permet d'atteindre une clarté mentale qui renforce à la fois la
+							concentration et l'estime de soi. `
 						],
 						transitionType: "none"
 					},
@@ -144,11 +136,9 @@ const SoinReikiPage = () => {
 						title: "Apaisement émotionnel profond",
 						content: [
 							`Le Reiki offre bien plus qu'une simple relaxation physique. Il
-								travaille également en profondeur pour apaiser les émotions
-								tourmentées, libérant ainsi les blocages qui entravent le bien-être
-								émotionnel. Cette libération émotionnelle peut vous offrir
-								l'opportunité de pratiquer le pardon et de vous reconnecter
-								profondément à vous-même.`
+							travaille également en profondeur pour apaiser les blocages émotionnels
+							qui entravent le bien-être. Cette libération émotionnelle peut vous offrir
+							l'opportunité de vous reconnecter profondément à vous-même.`
 						],
 						transitionType: "none"
 					},
@@ -158,12 +148,9 @@ const SoinReikiPage = () => {
 						imgSrc: "/icons/icon_energy.svg",
 						title: "Renforcement de la vitalité",
 						content: [
-							`Le Reiki, de par sa nature énergétique, revitalise le corps et
-								l'esprit. En stimulant la circulation énergétique, il renforce la
-								vitalité, régénère le corps et favorise un sentiment de vigueur
-								renouvelé. Cette vitalité stimule la vitesse de guérison en
-								dynamisant l'ensemble du système immunitaire. Cette énergie nouvelle
-								se traduit par une qualité de vie améliorée.`
+							`Le Reiki, grâce sa nature énergétique, stimule la circulation énergétique du corps
+							via les chakras et les méridiens. Cette nouvelle énergie de vitalité permet de régénérer le corps, en 
+							favorisant la vitesse de guérison et en dynamisant l'ensemble du système immunitaire.`
 						],
 						transitionType: "none"
 					}

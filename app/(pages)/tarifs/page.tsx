@@ -99,7 +99,7 @@ const TarifsPage = () => {
 							<p>Tous les bienfaits des séances classiques</p>
 							<p>+ Guidance de cartes complète offerte</p>
 							<p>+ Méditation guidée de pleine conscience</p>
-							<p>+ Des outils pour être plus serein(e)</p>
+							<p>+ Identification de votre chemin de vie</p>
 							<p>Suivi personnalisé sur 3 à 6 mois</p>
 						</div>
 						<p className="separator3"></p>
@@ -155,21 +155,22 @@ const TarifsPage = () => {
 				<div className="flex flex-col justify-around gap-5 lg:flex-row lg:gap-5 xl:gap-0">
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
-							Essence du Handpan
+							Voyage Sonore
+							<br /> <span className="text-base">(individuel)</span>
 						</h3>
 						<div className="flex flex-col text-center gap-2">
-							<p>Découverte d'un instrument atypique</p>
+							<p>Thème du voyage personnalisé</p>
 							<p>Sonorités apaisantes et envoutantes</p>
+							<p>Méditation guidée de pleine conscience</p>
 							<p>Réduction du stress et de l'anxiété</p>
-							<p>Stimulation de la créativité</p>
-							<p>Très captivant pour les enfants</p>
+							<p>Reconnexion profonde à vos émotions</p>
 						</div>
 						<p className="separator2"></p>
 						<p className="text-center">
-							<strong>Durée :</strong> <span className="italic">30 à 45 minutes</span>
+							<strong>Durée :</strong> <span className="italic">60 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
-							150 €
+							90 €
 						</p>
 					</article>
 					<Image
@@ -183,13 +184,14 @@ const TarifsPage = () => {
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
 							Voyage Sonore
+							<br /> <span className="text-base">(groupe)</span>
 						</h3>
 						<div className="flex flex-col text-center gap-2">
-							<p>Tous les bienfaits de l'offre précédente</p>
-							<p>+ Thème du voyage personnalisé</p>
-							<p>+ Méditation guidée de pleine conscience</p>
-							<p>+ Musiques en lien avec l'histoire</p>
-							<p>+ Reconnexion profonde à vos émotions</p>
+							<p>Thème du voyage personnalisé</p>
+							<p>Sonorités apaisantes et envoutantes</p>
+							<p>Méditation guidée de pleine conscience</p>
+							<p>Réduction du stress et de l'anxiété</p>
+							<p>Reconnexion profonde à vos émotions</p>
 						</div>
 						<p className="separator3"></p>
 						<p className="text-center">

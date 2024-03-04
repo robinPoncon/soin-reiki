@@ -27,10 +27,8 @@ const SoundTravelPage = () => {
 						content: [
 							`Le voyage sonore représente une fusion harmonieuse entre une méditation guidée
 							en pleine conscience et les sonorités envoûtantes du Handpan. Dans un premier temps, 
-							nous définissons ensemble le thème de ce voyage intérieur. Que vous cherchiez à vous 
-							détendre, à stimuler votre créativité ou à accueillir vos émotions, chaque voyage sonore
-							est une invitation à la redécouverte de soi. Cette expérience est accessible aux adultes
-							comme aux enfants !`
+							nous définissons ensemble le thème de ce voyage intérieur. Chaque voyage sonore
+							est une invitation à la redécouverte de soi !`
 						],
 						transitionType: "none"
 					},
@@ -41,11 +39,9 @@ const SoundTravelPage = () => {
 						title: "Écriture intuitive",
 						content: [
 							`L'écriture intuitive se révèle être un outil précieux pour laisser libre cours à 
-							l'inspiration et à la créativité intérieure. Dans cette démarche, la pleine 
-							conscience joue un rôle central, me permettant de libérer mon esprit des agitations
-							mentales pour me connecter à mon intuition, émanant du cœur. C'est ainsi que je 
-							parviens à trouver les mots justes et les rimes harmonieuses, qui résonneront avec 
-							vos expériences et vos émotions.`
+							l'inspiration et à la créativité. Grâce à la pleine conscience, mon mental s'apaise
+							et je peux écouter l'intuition venant de mon cœur. C'est ainsi que je parviens à 
+							trouver les mots justes, qui résonneront avec vos expériences et vos émotions.`
 						],
 						transitionType: "none"
 					},
@@ -57,10 +53,8 @@ const SoundTravelPage = () => {
 						content: [
 							`Une fois que la trame narrative est établie, je m'attèle à adapter et créer des 
 							compositions musicales qui se fondent harmonieusement dans chaque récit de voyage.
-							Mon instrument le Handpan est accordé en 432Hz, une fréquence réputée pour favoriser
-							la relaxation, la guérison et le bien-être. Ses vibrations sont spécialement conçues
-							pour harmoniser les énergies du corps humain, offrant ainsi une expérience qui 
-							transcende le temps.`
+							Mon instrument de musique est accordé en 432 Hz, les vibrations de cette fréquence qui 
+							en découlent sont réputées pour favoriser la relaxation, la guérison et le bien-être.`
 						],
 						transitionType: "none"
 					}
@@ -81,10 +75,7 @@ const SoundTravelPage = () => {
 							`Les sonorités du Handpan exercent une empreinte envoûtante et méditative. Cette 
 							forme de relaxation s'avère particulièrement efficace pour apaiser le mental et 
 							dissiper les pensées tumultueuses, contribuant ainsi à réduire considérablement 
-							le stress et l'anxiété. Ce relâchement mental vous offre l'opportunité de vous 
-							immerger pleinement dans le moment présent, favorisant ainsi une reconnexion profonde 
-							à vous-même. Cette prise de conscience peut vous éveiller à des aspects essentiels de 
-							votre vie, ouvrant ainsi la voie à un enrichissement personnel.`
+							le stress et l'anxiété.`
 						],
 						transitionType: "none"
 					},
@@ -94,13 +85,10 @@ const SoundTravelPage = () => {
 						imgSrc: "/icons/icon_heart-pink.svg",
 						title: "Lâcher prise émotionnel",
 						content: [
-							`Chaque voyage est constitué d'une guidance à travers ma voix et d'accompagnements 
-							musicaux soigneusement composés. Chaque histoire vise à vous fournir un cadre sûr 
-							pour exprimer librement vos émotions. Mon objectif premier est de créer un espace 
-							empreint de bienveillance, où chacun se sent libre d'exprimer ses ressentis sans 
-							crainte de jugement. En accueillant pleinement les émotions que votre corps souhaite 
-							exprimer, vous vous offrez la reconnexion avec l’Amour de Soi qui a le pouvoir de 
-							transformer votre existence.`
+							`Chaque voyage vise à vous fournir un cadre sûr pour exprimer librement vos émotions. 
+							Mon objectif premier est de créer un espace de bienveillance, où chacun se sent libre 
+							d'exprimer ses ressentis sans crainte de jugement. Ce lâcher-prise permet de renforcer
+							l'Amour de Soi !`
 						],
 						transitionType: "none"
 					},
@@ -110,13 +98,9 @@ const SoundTravelPage = () => {
 						imgSrc: "/icons/icon_yin-yang-pink.svg",
 						title: "Reconnexion de soi",
 						content: [
-							`Enfin, l'objectif de chacun de mes voyages est de vous guider vers une destination
-							bien précise : celle de retrouver votre essence véritable. Au cours de ces explorations 
-							intérieures, vous aurez l'opportunité de découvrir vos forces, vos faiblesses, vos 
-							blocages et vos émotions. Cette profonde reconnexion avec vous-même vous permettra de 
-							redonner du sens à votre quotidien et à votre vie. Et lorsque votre existence retrouve sa 
-							signification profonde, la joie, l'amour et le bonheur s'installent pour un séjour 
-							durable et épanouissant.`
+							`Au cours de ces voyages intérieurs, vous aurez l'opportunité de découvrir vos forces, vos faiblesses, vos 
+							blocages et vos émotions. C'est cette reconnexion à vous-même qui redonne du sens à votre existence. 
+							Et quand sa vie a du sens, le bonheur s'installe pour un séjour durable !`
 						],
 						transitionType: "none"
 					}
@@ -127,7 +111,7 @@ const SoundTravelPage = () => {
 						Envie de tenter l'expérience ?
 					</h3>
 					<Link
-						href="/deroulement-seance"
+						href="/tarifs"
 						className="actionLinkPink"
 					>
 						<span className="textActionLink">Je consulte les prestations</span>
@@ -140,10 +124,9 @@ const SoundTravelPage = () => {
 					Découvrir le Handpan
 				</h2>
 				<p className="text-justify italic mx-auto lg:max-w-3xl">
-					Vous êtes intéressé par cette expérience mais vous n'avez aucune idée de ce
-					qu'est le handpan ? Voici deux extraits vidéos ci-dessous qui vous permettront
-					de découvrir les capacités mélodiques et relaxantes de ce merveilleux instrument
-					!
+					Vous êtes intéressé par cette expérience, mais vous n'avez aucune idée de ce
+					qu'est le Handpan ? Voici deux extraits vidéos ci-dessous qui vous permettront
+					de découvrir le potentiel méditatif et relaxant de ce merveilleux instrument !
 				</p>
 				<div className="flex justify-center gap-48">
 					<video

@@ -237,10 +237,10 @@ const MainPage = () => {
 							title: "Mes valeurs",
 							content: [
 								`Mon objectif est de créer un espace de confiance et de relaxation, où vous
-								vous sentirez en sécurité pour lâcher prise. C'est cet environnement de douceur 
-								qui favorise la reconnexion avec votre cœur. Et c'est cette reconnexion avec votre coeur
-								qui vous guide vers votre propre guérison. Chez moi, le jugement n'a pas sa place, 
-								et mes valeurs fondamentales sont l'écoute, la bienveillance, la compassion et le respect.`
+								vous sentirez en sécurité pour lâcher prise. C'est cet environnement de douceur
+								qui favorise la reconnexion avec votre cœur. Et c'est cette reconnexion qui vous guide
+								sur la voie de la guérison. Mes valeurs profondes sont l'écoute, la bienveillance, 
+								la compassion et le respect.`
 							],
 							transitionType: "left"
 						},
@@ -250,11 +250,11 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_music-pink.svg",
 							title: "Mes services",
 							content: [
-								`Mon approche thérapeutique combine les cartes (oracle et tarot) pour identifier
-								les causes profondes de vos blocages, le Reiki pour favoriser la détente de votre corps 
-								et de sa relaxation, des exercices de pleine conscience pour libérer vos blocages 
-								émotionnels, et des musiques apaisantes accompagnées de mes propres compositions 
-								musicales au Handpan pour enrichir votre expérience thérapeutique.`
+								`Mon approche thérapeutique combine la guidance des cartes pour identifier
+								la source de votre problématique, le Reiki pour favoriser la relaxation de votre corps,
+								des exercices de pleine conscience pour libérer vos blocages émotionnels, et de la 
+								musique apaisante accompagnée de mes propres compositions au Handpan pour enrichir 
+								votre expérience thérapeutique.`
 							],
 							transitionType: "center"
 						},
@@ -264,12 +264,10 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_universe-pink.svg",
 							title: "Votre bonheur",
 							content: [
-								`La quête de la guérison est en réalité une recherche de la joie de 
-								vivre et du bonheur. En surmontant les blocages, on retrouve la liberté, 
-								la légèreté et la confiance en soi, créant ainsi un cercle vertueux qui permet de
-								manifester nos rêves les plus profonds. Mon accompagnement vise à vous ramener vers 
-								le véritable amour : l'Amour de Soi. Car sans cet amour envers vous-même, comment 
-								pouvez-vous aimer les autres ?`
+								`La quête de la guérison est, en fin de compte, une recherche du bonheur. En surmontant
+								vos blocages, vous retrouverez votre liberté, votre légèreté et votre confiance en vous.
+								Mon accompagnement vise à vous ramener vers le véritable amour : l'Amour de Soi. Car 
+								sans cet amour envers vous-même, comment pouvez-vous aimer les autres ?`
 							],
 							transitionType: "right"
 						}
@@ -342,10 +340,9 @@ const MainPage = () => {
 								Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors
 								d'une période introspective en quête de spiritualité il y a{" "}
 								{spiritualityAge} ans. En développant le magnétisme de mes mains,
-								j'ai cherché à apaiser les symptômes du cancer de mon chat, espérant
-								prolonger sa vie et minimiser ses souffrances. Cette expérience a
-								éveillé en moi la volonté d'approfondir cette capacité pour aider
-								autrui.
+								j'ai cherché à apaiser les symptômes du cancer de mon chat. Cette
+								expérience a éveillé en moi la volonté d'approfondir cette capacité
+								pour aider autrui.
 							</p>
 							<p>
 								Mon parcours m'a guidé naturellement vers le Reiki, une méthode
@@ -359,28 +356,36 @@ const MainPage = () => {
 								cette discipline.
 							</p>
 							<p className="lg:hidden">
-								Mon approche des soins énergétiques repose sur une collaboration
-								étroite avec vous. Je suis convaincu que la guérison ne peut se
-								produire qu'avec votre volonté consciente ou inconsciente. Mon
-								objectif est de vous fournir les outils de développement personnel
-								et de guérison afin que vous puissiez devenir autonome à long terme.
-								Bien que cela puisse sembler idéaliste, je crois fermement qu'en
-								guidant chacun vers son équilibre et son épanouissement, nous
-								pouvons contribuer à façonner un monde et un avenir meilleurs pour
-								tous.
+								Je suis convaincu que la guérison ne peut se produire qu'avec votre
+								volonté consciente ou inconsciente. Mon objectif est de vous fournir
+								les outils et le soutien nécessaire pour une véritable guérison,
+								afin que vous puissiez devenir autonome à long terme. Bien que cela
+								puisse sembler idéaliste, je crois fermement qu'en guidant chacun
+								vers son équilibre et son épanouissement, nous pouvons contribuer à
+								façonner un monde et un avenir meilleurs pour tous.
+								<span className="block mt-6 italic">
+									<Link
+										href="/mon-histoire"
+										className="actionLinkPink largeBtn"
+									>
+										<span className="textActionLink">
+											En savoir plus sur mon histoire
+										</span>
+										<span className="iconActionLink" />
+									</Link>
+								</span>
 							</p>
 						</div>
 					</div>
 					<p className=" text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-20 lg:block">
-						Mon approche des soins énergétiques repose sur une collaboration étroite
-						avec vous. Je suis convaincu que la guérison ne peut se produire qu'avec
-						votre volonté consciente ou inconsciente. Mon objectif est de vous fournir
-						les outils de développement personnel et de guérison afin que vous puissiez
-						devenir autonome sur le long terme. Bien que cela puisse sembler idéaliste,
-						je crois fermement qu'en guidant chacun vers son équilibre et son
+						Je suis convaincu que la guérison ne peut se produire qu'avec votre volonté
+						consciente ou inconsciente. Mon objectif est de vous fournir les outils et
+						le soutien nécessaire pour une véritable guérison, afin que vous puissiez
+						devenir autonome à long terme. Bien que cela puisse sembler idéaliste, je
+						crois fermement qu'en guidant chacun vers son équilibre et son
 						épanouissement, nous pouvons contribuer à façonner un monde et un avenir
-						meilleurs pour tous ! <br />
-						<span className="block mt-6 italic">
+						meilleurs pour tous. <br />
+						<span className="block italic">
 							<Link
 								href="/mon-histoire"
 								className="actionLinkPink largeBtn"

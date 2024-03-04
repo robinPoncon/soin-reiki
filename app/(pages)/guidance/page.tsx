@@ -109,10 +109,9 @@ const GuidancePage = () => {
 						title: "Analyse des blocages",
 						content: [
 							`Dans un premier temps, les cartes nous offrent la capacité d'explorer l'origine des
-								blocages que vous rencontrez. Grâce à mon interprétation des cartes, combinée avec mon intuition,
-								je peux vous aider à discerner la source de ces blocages, qu'ils relèvent du domaine physique,
-								relationnel, professionnel ou familial. Une fois que nous avons identifié leur source,
-								nous pouvons élaborer des solutions en vue de résoudre ces problèmes.`
+								blocages que vous rencontrez. Grâce à mon interprétation des cartes et à mon intuition,
+								je peux vous aider à discerner la source de ces blocages, qu'elle soit physique,
+								relationnelle, professionnelle ou familiale.`
 						],
 						transitionType: "none"
 					},
@@ -122,9 +121,8 @@ const GuidancePage = () => {
 						imgSrc: "/icons/icon_healing.svg",
 						title: "Chemins de guérison",
 						content: [
-							`Dans un second temps, les cartes nous permettent d'identifier les soutiens et les 
-								solutions potentielles. Ces pistes de guérison peuvent évoquer des pensées ou des conseils 
-								qui vous ont peut-être déjà été transmis et recommandé. De plus, elles ont le potentiel 
+							`Dans un second temps, les cartes nous permettent d'identifier les 
+								solutions potentielles. Ces pistes de guérison ont le potentiel 
 								de vous ouvrir les yeux et de vous offrir une nouvelle perspective sur la situation, 
 								vous permettant ainsi d'acquérir un point de vue totalement nouveau.`
 						],
@@ -136,11 +134,10 @@ const GuidancePage = () => {
 						imgSrc: "/icons/icon_eye.svg",
 						title: "Prise de conscience",
 						content: [
-							`Enfin, l'objectif d'un tirage de cartes est de vous orienter vers votre vérité
-								personnelle. Cela équivaut à une meilleure compréhension de vous-même et de vos expériences. 
-								Il arrive souvent que la simple exploration d'un problème sous un angle nouveau permette 
+							`Enfin, l'objectif d'un tirage de cartes est de vous orienter vers votre propre vérité
+								La simple exploration d'un problème sous un nouvel angle, permet 
 								d'en révéler des solutions insoupçonnées. C'est ce qu'on appelle une prise de conscience, 
-								et cela peut transformer profondément tous les aspects de votre vie.`
+								et celle-ci peut transformer votre vie !`
 						],
 						transitionType: "none"
 					}

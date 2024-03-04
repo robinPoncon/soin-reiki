@@ -41,7 +41,7 @@ const MyStoryPage = () => {
 					<Image
 						className="customImgPink mx-auto md:mx-0"
 						alt="photo de robin ponçon souriant"
-						src="/photo-profil2.jpeg"
+						src="/photo-profil-small.png"
 						width={320}
 						height={320}
 						loading="eager"
@@ -65,20 +65,18 @@ const MyStoryPage = () => {
 					<Image
 						className="customImgPink mx-auto md:mx-0"
 						alt="photo d'un chat appelé Tommy"
-						src="/photo-chat.png"
+						src="/photo-tommy.png"
 						width={320}
 						height={320}
 					/>
 					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
-						Lui ? C'est Tommy ! Il est apparu dans une période de ma vie très sombre, où
-						ma confiance et mon estime de moi étaient au plus bas. Je ne pense pas qu'il
-						y ai de hasard dans la vie, car notre rencontre a fortement contribué dans
-						ma quête de l'amour. Il m'a enseigné l'amour pur, un amour libre de
-						conditions et d'attentes, l'Amour inconditionnel ! Malheureusement, le
-						cancer est apparu comme obstacle. Et c'est lors d'une expérience de
-						conscience modifiée, en désirant lui envoyé de l'amour, qu'une puissante
-						vague d'énergie s'est manifesté en moi pour se diriger dans mes mains. Mon
-						magnétisme s'était réveillé.
+						Lui ? C'est Tommy ! Il est apparu dans une période de ma vie où ma confiance
+						et mon estime de moi étaient au plus bas. Il m'a enseigné l'amour pur, un
+						amour libre de conditions et d'attentes, l'Amour inconditionnel !
+						Malheureusement, le cancer est apparu comme obstacle. Et c'est lors d'une
+						expérience de conscience modifiée, en désirant lui envoyé de l'amour, qu'une
+						puissante vague d'énergie s'est manifesté en moi pour se diriger dans mes
+						mains. Mon magnétisme s'était réveillé.
 					</p>
 				</div>
 			</article>
