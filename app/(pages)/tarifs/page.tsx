@@ -133,14 +133,7 @@ const TarifsPage = () => {
 					<p className="text-justify text-customWhite italic mx-auto lg:max-w-3xl">
 						Mes prestations musicales ont pour but la relaxation, et donc la réduction
 						du stress et de l'anxiété. J'interviens donc dans des espaces de coworking,
-						entreprises, maison de retraite ou lieu avec des enfants. Pour vivre une
-						expérience unique, vous pouvez me contacter par mail ou via la page de{" "}
-						<Link
-							className="text-customYellow redirectLinkYellow"
-							href={"/contact"}
-						>
-							contact.
-						</Link>
+						entreprises, maison de retraite ou lieu avec des enfants.
 					</p>
 					<p className="text-justify text-customWhite italic mx-auto lg:max-w-3xl">
 						Envie d'en savoir plus sur le voyage sonore ? C'est par{" "}
@@ -167,7 +160,8 @@ const TarifsPage = () => {
 						</div>
 						<p className="separator2"></p>
 						<p className="text-center">
-							<strong>Durée :</strong> <span className="italic">60 minutes</span>
+							<strong>Durée :</strong>{" "}
+							<span className="italic">1 heure et 30 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
 							90 €
@@ -195,12 +189,25 @@ const TarifsPage = () => {
 						</div>
 						<p className="separator3"></p>
 						<p className="text-center">
-							<strong>Durée :</strong> <span className="italic">60 minutes</span>
+							<strong>Durée :</strong>{" "}
+							<span className="italic">1 heure et 30 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
-							250 €
+							Grille de prix
 						</p>
 					</article>
+				</div>
+				<div className="flex flex-col gap-5">
+					<h4 className="text-customWhite text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+						Envie de tenter l'expérience ?
+					</h4>
+					<Link
+						href="/reservation"
+						className="actionLinkPink smallBtn"
+					>
+						<span className="textActionLink">Je prends contact</span>
+						<span className="iconActionLink" />
+					</Link>
 				</div>
 			</div>
 		</section>

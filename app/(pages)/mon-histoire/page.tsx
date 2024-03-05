@@ -64,7 +64,7 @@ const MyStoryPage = () => {
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
-						alt="photo d'un chat appelé Tommy"
+						alt="photo de mon chat appelé Tommy"
 						src="/photo-tommy.png"
 						width={320}
 						height={320}
@@ -74,7 +74,7 @@ const MyStoryPage = () => {
 						et mon estime de moi étaient au plus bas. Il m'a enseigné l'amour pur, un
 						amour libre de conditions et d'attentes, l'Amour inconditionnel !
 						Malheureusement, le cancer est apparu comme obstacle. Et c'est lors d'une
-						expérience de conscience modifiée, en désirant lui envoyé de l'amour, qu'une
+						expérience de conscience modifiée, en désirant lui envoyer de l'amour, qu'une
 						puissante vague d'énergie s'est manifesté en moi pour se diriger dans mes
 						mains. Mon magnétisme s'était réveillé.
 					</p>
@@ -87,7 +87,7 @@ const MyStoryPage = () => {
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
-						alt="photo de robin ponçon souriant"
+						alt="photo d'un soin reiki au niveau de la tête"
 						src="/photo-reiki.png"
 						width={320}
 						height={320}
@@ -111,19 +111,19 @@ const MyStoryPage = () => {
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
-						alt="photo d'un chat appelé Tommy"
-						src="/photo-selflove.png"
+						alt="photo du mot love en bois avec un coeur"
+						src="/photo-love.png"
 						width={320}
 						height={320}
 					/>
 					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
 						C'est en 2024, après 3 mois de formation avec la méthode Vibraction d'Hélène
 						Pavot basée sur la pleine conscience, que j'ai compris pourquoi je m'étais
-						incarné sur terre. Mon but de vie était de trouvé l'Amour, non pas à
+						incarné sur terre. Mon but de vie est de trouver l'Amour, non pas à
 						l'extérieur de moi, mais bien à l'intérieur. L'Amour de Soi était une
-						évidence, comment peut-on remplir le verre des autres si notre propre
-						caraffe est vide ? J'ai donc décidé de me spécialisé dans l'Amour de Soi,
-						qui est pour moi la plus grande force de guérison que l'on puisse effectué
+						évidence ! Comment peut-on remplir le verre des autres si notre propre
+						carafe est vide ? J'ai donc décidé de me spécialisé dans l'Amour de Soi,
+						qui est pour moi la plus grande force de guérison que l'on puisse effectuer
 						dans sa vie sur le long terme !
 					</p>
 				</div>
@@ -135,18 +135,18 @@ const MyStoryPage = () => {
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
-						alt="photo de robin ponçon souriant"
-						src="/photo-handpan-fille.png"
+						alt="photo d'un handpan sur la plage"
+						src="/photo-handpan.png"
 						width={320}
 						height={320}
 						loading="eager"
 					/>
 					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
 						J'ai toujours été baigné dans la musique depuis mon enfance. Mais c'est à
-						partir du moment où je me suis mis à jouer d'un instrument de musique, que
+						partir du moment où je me suis mis à jouer d'un instrument de musique que
 						j'ai vraiment pris conscience du potentiel thérapeutique des sons. Notre
 						corps est composé à 65% d'eau, et l'eau transmet les vibrations du son. Je
-						pense que dans le futur, la sonothérapie sera un des futurs pilliers de la
+						pense que dans le futur, la sonothérapie sera un des futurs piliers de la
 						médecine ! Si vous avez déjà été submergé d'émotions ou de bien-être par une
 						musique, vous comprendrez ce que je veux dire !
 					</p>

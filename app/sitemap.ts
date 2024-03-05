@@ -8,6 +8,7 @@ export default function sitemap() {
 		"/mentions-legales",
 		"/protection-donnee",
 		"/reservation",
+		"/deroulement-seance",
 		"/soin-reiki",
 		"/pleine-conscience",
 		"/voyage-sonore",
