@@ -141,8 +141,14 @@
 		white-space: nowrap;
 		transition: margin-right 0.5s;
 	}
-	&.smallBtn {
+	&.xsmallBtn {
+		width: 240px;
+	}
+	&.mediumBtn {
 		width: 270px;
+	}
+	&.smallBtn {
+		width: 250px;
 	}
 	&.largeBtn {
 		width: 330px;
@@ -198,6 +204,9 @@
 		& .textActionLink {
 			margin-right: 14px;
 		}
+	}
+	&.noborder {
+		border: none;
 	}
 }
 

@@ -149,7 +149,7 @@ const GuidancePage = () => {
 					</h3>
 					<Link
 						href="/reservation"
-						className="actionLinkBlue smallBtn"
+						className="actionLinkBlue mediumBtn"
 					>
 						<span className="textActionLink">Je réserve ma séance</span>
 						<span className="iconActionLink" />

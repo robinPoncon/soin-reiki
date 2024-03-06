@@ -69,7 +69,7 @@ const FullConsciousnessPage = () => {
 					</h3>
 					<Link
 						href="/reservation"
-						className="actionLinkPink smallBtn"
+						className="actionLinkPink mediumBtn"
 					>
 						<span className="textActionLink">Je réserve ma séance</span>
 						<span className="iconActionLink" />

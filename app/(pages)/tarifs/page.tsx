@@ -118,7 +118,7 @@ const TarifsPage = () => {
 					</h4>
 					<Link
 						href="/reservation"
-						className="actionLinkPink smallBtn"
+						className="actionLinkPink mediumBtn"
 					>
 						<span className="textActionLink">Je réserve ma séance</span>
 						<span className="iconActionLink" />
@@ -153,10 +153,11 @@ const TarifsPage = () => {
 						</h3>
 						<div className="flex flex-col text-center gap-2">
 							<p>Thème du voyage personnalisé</p>
-							<p>Sonorités apaisantes et envoutantes</p>
+							<p>Rééquilibrage énergétique</p>
 							<p>Méditation guidée de pleine conscience</p>
-							<p>Réduction du stress et de l'anxiété</p>
 							<p>Reconnexion profonde à vos émotions</p>
+							<p>Réduction du stress et de l'anxiété</p>
+							<p>Tirage d'un oracle en fin de séance</p>
 						</div>
 						<p className="separator2"></p>
 						<p className="text-center">
@@ -167,14 +168,29 @@ const TarifsPage = () => {
 							90 €
 						</p>
 					</article>
-					<Image
-						className="max-w-xs mx-auto lg:-mx-20 lg:w-1/3"
-						alt="illustration d'une discussion entre deux personnes assises"
-						src="/handpan-design.png"
-						width={320}
-						height={320}
-						loading="eager"
-					/>
+					<div className="max-w-xs mx-auto lg:-mx-20 lg:w-1/3 flex flex-col justify-between">
+						<Image
+							className="h-80"
+							alt="illustration d'une discussion entre deux personnes assises"
+							src="/handpan-design.png"
+							width={320}
+							height={320}
+							loading="eager"
+						/>
+						<div className="flex flex-col gap-5">
+							<h4 className="text-customWhite text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+								Envie de tenter l'expérience ?
+							</h4>
+							<Link
+								href="/contact"
+								className="actionLinkYellow xsmallBtn"
+							>
+								<span className="textActionLink">Je prends contact</span>
+								<span className="iconActionLink" />
+							</Link>
+						</div>
+					</div>
+
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
 							Voyage Sonore
@@ -182,32 +198,27 @@ const TarifsPage = () => {
 						</h3>
 						<div className="flex flex-col text-center gap-2">
 							<p>Thème du voyage personnalisé</p>
-							<p>Sonorités apaisantes et envoutantes</p>
+							<p>Reiki pour la détente en début de séance</p>
 							<p>Méditation guidée de pleine conscience</p>
-							<p>Réduction du stress et de l'anxiété</p>
 							<p>Reconnexion profonde à vos émotions</p>
+							<p>Réduction du stress et de l'anxiété</p>
+							<p>Tirage d'un oracle en fin de séance</p>
 						</div>
 						<p className="separator3"></p>
 						<p className="text-center">
 							<strong>Durée :</strong>{" "}
 							<span className="italic">1 heure et 30 minutes</span>
 						</p>
-						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
-							Grille de prix
+						<p className="py-5 h-20 text-center rounded-b-xl font-semibold bg-pink">
+							<Link
+								href="/grille-tarifs"
+								className="actionLinkPink smallBtn noborder"
+							>
+								<span className="textActionLink">Consulter les tarifs</span>
+								<span className="iconActionLink" />
+							</Link>
 						</p>
 					</article>
-				</div>
-				<div className="flex flex-col gap-5">
-					<h4 className="text-customWhite text-xl text-center font-semibold italic mt-6 mb-2 px-4">
-						Envie de tenter l'expérience ?
-					</h4>
-					<Link
-						href="/reservation"
-						className="actionLinkPink smallBtn"
-					>
-						<span className="textActionLink">Je prends contact</span>
-						<span className="iconActionLink" />
-					</Link>
 				</div>
 			</div>
 		</section>
