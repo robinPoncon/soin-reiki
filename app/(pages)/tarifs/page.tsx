@@ -131,9 +131,11 @@ const TarifsPage = () => {
 				</h2>
 				<div className="flex flex-col gap-4">
 					<p className="text-justify text-customWhite italic mx-auto lg:max-w-3xl">
-						Mes prestations musicales ont pour but la relaxation, et donc la réduction
-						du stress et de l'anxiété. J'interviens donc dans des espaces de coworking,
-						entreprises, maison de retraite ou lieu avec des enfants.
+						Mes prestations musicales ont pour but la relaxation et le développement de
+						la créativité. Mais elles ont aussi la capacité de vous aider à accepter et
+						libérer vos émotions ! Mes voyages sonores sont donc très efficaces dans des
+						espaces de coworking, entreprises, maison de retraite ou lieu avec des
+						enfants.
 					</p>
 					<p className="text-justify text-customWhite italic mx-auto lg:max-w-3xl">
 						Envie d'en savoir plus sur le voyage sonore ? C'est par{" "}

@@ -358,11 +358,12 @@ const MainPage = () => {
 							<p className="lg:hidden">
 								Je suis convaincu que la guérison ne peut se produire qu'avec votre
 								volonté consciente ou inconsciente. Mon objectif est de vous fournir
-								les outils et le soutien nécessaire pour une véritable guérison,
-								afin que vous puissiez devenir autonome à long terme. Bien que cela
-								puisse sembler idéaliste, je crois fermement qu'en guidant chacun
-								vers son équilibre et son épanouissement, nous pouvons contribuer à
-								façonner un monde et un avenir meilleurs pour tous.
+								les outils et le soutien nécessaire pour une véritable
+								transformation, afin que vous puissiez devenir autonome à long
+								terme. Bien que cela puisse sembler idéaliste, je crois fermement
+								qu'en guidant chacun vers son équilibre et son épanouissement, nous
+								pouvons contribuer à façonner un monde et un avenir meilleurs pour
+								tous.
 								<span className="block mt-6 italic">
 									<Link
 										href="/mon-histoire"
@@ -380,9 +381,9 @@ const MainPage = () => {
 					<p className=" text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-20 lg:block">
 						Je suis convaincu que la guérison ne peut se produire qu'avec votre volonté
 						consciente ou inconsciente. Mon objectif est de vous fournir les outils et
-						le soutien nécessaire pour une véritable guérison, afin que vous puissiez
-						devenir autonome à long terme. Bien que cela puisse sembler idéaliste, je
-						crois fermement qu'en guidant chacun vers son équilibre et son
+						le soutien nécessaire pour une véritable transformation, afin que vous
+						puissiez devenir autonome à long terme. Bien que cela puisse sembler
+						idéaliste, je crois fermement qu'en guidant chacun vers son équilibre et son
 						épanouissement, nous pouvons contribuer à façonner un monde et un avenir
 						meilleurs pour tous. <br />
 						<span className="block italic">

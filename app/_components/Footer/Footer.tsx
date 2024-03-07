@@ -185,6 +185,14 @@ const Footer = () => {
 									Mes certifications
 								</Link>
 							</li>
+							<li>
+								<Link
+									className="lightHover"
+									href="/grille-tarifs"
+								>
+									Grille Tarifs du Voyage Sonore
+								</Link>
+							</li>
 						</ul>
 					</div>
 				</div>
