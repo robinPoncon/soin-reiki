@@ -157,12 +157,12 @@ const SoinReikiPage = () => {
 				]}
 			>
 				<div className="flex flex-col gap-5">
-					<h2 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+					<h2 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 						Envie de tenter l'expérience ?
 					</h2>
 					<Link
 						href="/reservation"
-						className="actionLinkPink mediumBtn"
+						className="flex actionLinkPink mediumBtn"
 					>
 						<span className="textActionLink">Je réserve ma séance</span>
 						<span className="iconActionLink" />

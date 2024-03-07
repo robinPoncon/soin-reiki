@@ -35,7 +35,7 @@ const BlocTextContent = ({
 			}`}
 		>
 			<h2
-				className={`titleFont font-semibold text-2xl text-center mx-auto w-fit p-4 md:text-4xl ${
+				className={`titleFont font-semibold text-xl text-center mx-auto w-fit p-4 sm:text-2xl md:text-4xl ${
 					pinkColor
 						? "customBorderPink"
 						: darkMode
@@ -115,7 +115,7 @@ const BlocTextContent = ({
 								/>
 							</p>
 							<h3
-								className={`text-xl text-center font-semibold italic mt-6 mb-2 ${
+								className={`text-lg sm:text-xl text-center font-semibold italic mt-6 mb-2 ${
 									darkMode && pinkColor
 										? "text-pink"
 										: darkMode

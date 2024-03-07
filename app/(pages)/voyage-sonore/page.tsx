@@ -107,12 +107,12 @@ const SoundTravelPage = () => {
 				]}
 			>
 				<div className="flex flex-col gap-5">
-					<h3 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+					<h3 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 						Envie de tenter l'expérience ?
 					</h3>
 					<Link
 						href="/tarifs"
-						className="actionLinkPink"
+						className="flex actionLinkPink"
 					>
 						<span className="textActionLink">Je consulte les prestations</span>
 						<span className="iconActionLink" />
@@ -123,12 +123,12 @@ const SoundTravelPage = () => {
 				<h2 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderYellow p-4 md:text-4xl">
 					Découvrir le Handpan
 				</h2>
-				<p className="text-justify italic mx-auto lg:max-w-3xl">
+				<p className="text-justify italic mx-auto px-4 lg:max-w-3xl">
 					Vous êtes intéressé par cette expérience, mais vous n'avez aucune idée de ce
 					qu'est le Handpan ? Voici deux extraits vidéos ci-dessous qui vous permettront
 					de découvrir le potentiel méditatif et relaxant de ce merveilleux instrument !
 				</p>
-				<div className="flex justify-center gap-48">
+				<div className="flex flex-col justify-center mx-auto px-4 gap-20 md:flex-row lg:gap-48">
 					<video
 						className="rounded-xl"
 						width="320"

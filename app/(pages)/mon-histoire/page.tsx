@@ -37,7 +37,7 @@ const MyStoryPage = () => {
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Un premier pas dans le développement personnel
 				</h2>
-				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
+				<div className="flex flex-col justify-center gap-10 sm:gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
 						alt="photo de robin ponçon souriant"
@@ -46,7 +46,7 @@ const MyStoryPage = () => {
 						height={320}
 						loading="eager"
 					/>
-					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
+					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
 						Je m'appelle Robin Ponçon et j'ai {age} ans. Ma véritable aventure dans le
 						développement personnel et la spiritualité a débuté il y a maintenant{" "}
 						{spiritualityAge} ans, à la suite d'une rupture amoureuse. Aussi loin que je
@@ -61,7 +61,7 @@ const MyStoryPage = () => {
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Une rencontre d'âme et l'éveil de l'amour
 				</h2>
-				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
+				<div className="flex flex-col justify-center gap-10 sm:gap-16 mt-10 md:flex-row-reverse">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
 						alt="photo de mon chat appelé Tommy"
@@ -74,9 +74,9 @@ const MyStoryPage = () => {
 						et mon estime de moi étaient au plus bas. Il m'a enseigné l'amour pur, un
 						amour libre de conditions et d'attentes, l'Amour inconditionnel !
 						Malheureusement, le cancer est apparu comme obstacle. Et c'est lors d'une
-						expérience de conscience modifiée, en désirant lui envoyer de l'amour, qu'une
-						puissante vague d'énergie s'est manifesté en moi pour se diriger dans mes
-						mains. Mon magnétisme s'était réveillé.
+						expérience de conscience modifiée, en désirant lui envoyer de l'amour,
+						qu'une puissante vague d'énergie s'est manifesté en moi pour se diriger dans
+						mes mains. Mon magnétisme s'était réveillé.
 					</p>
 				</div>
 			</article>
@@ -84,7 +84,7 @@ const MyStoryPage = () => {
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Le Reiki et le bénévolat à l'hôpital
 				</h2>
-				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
+				<div className="flex flex-col justify-center gap-10 sm:gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
 						alt="photo d'un soin reiki au niveau de la tête"
@@ -93,7 +93,7 @@ const MyStoryPage = () => {
 						height={320}
 						loading="eager"
 					/>
-					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
+					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
 						Mon chemin m'a naturellement conduit vers le Reiki, où je suis devenu maître
 						praticien (niveau 3) auprès de Monique Chanoni de la lignée de Mikao Usui.
 						J'ai eu l'opportunité d'intervenir depuis 2023, auprès de l'association
@@ -108,7 +108,7 @@ const MyStoryPage = () => {
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					La prise de conscience qui changea ma vie
 				</h2>
-				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
+				<div className="flex flex-col justify-center gap-10 sm:gap-16 mt-10 md:flex-row-reverse">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
 						alt="photo du mot love en bois avec un coeur"
@@ -122,9 +122,9 @@ const MyStoryPage = () => {
 						incarné sur terre. Mon but de vie est de trouver l'Amour, non pas à
 						l'extérieur de moi, mais bien à l'intérieur. L'Amour de Soi était une
 						évidence ! Comment peut-on remplir le verre des autres si notre propre
-						carafe est vide ? J'ai donc décidé de me spécialisé dans l'Amour de Soi,
-						qui est pour moi la plus grande force de guérison que l'on puisse effectuer
-						dans sa vie sur le long terme !
+						carafe est vide ? J'ai donc décidé de me spécialisé dans l'Amour de Soi, qui
+						est pour moi la plus grande force de guérison que l'on puisse effectuer dans
+						sa vie sur le long terme !
 					</p>
 				</div>
 			</article>
@@ -132,7 +132,7 @@ const MyStoryPage = () => {
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Ma vision de l'avenir avec la musique
 				</h2>
-				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
+				<div className="flex flex-col justify-center gap-10 sm:gap-16 mt-10 md:flex-row">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
 						alt="photo d'un handpan sur la plage"
@@ -141,7 +141,7 @@ const MyStoryPage = () => {
 						height={320}
 						loading="eager"
 					/>
-					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
+					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
 						J'ai toujours été baigné dans la musique depuis mon enfance. Mais c'est à
 						partir du moment où je me suis mis à jouer d'un instrument de musique que
 						j'ai vraiment pris conscience du potentiel thérapeutique des sons. Notre

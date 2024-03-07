@@ -73,12 +73,12 @@ const PriceList = () => {
 				</div>
 			</article>
 			<div className="flex flex-col gap-5">
-				<h4 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+				<h4 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 					Envie de tenter l'expérience ?
 				</h4>
 				<Link
 					href="/contact"
-					className="actionLinkBlue xsmallBtn"
+					className="flex actionLinkBlue xsmallBtn"
 				>
 					<span className="textActionLink">Je prends contact</span>
 					<span className="iconActionLink" />

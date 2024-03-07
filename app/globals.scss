@@ -119,7 +119,6 @@
 .actionLinkYellow,
 .actionLinkPink {
 	border-radius: 8px;
-	display: flex;
 	gap: 10px;
 	height: 42px;
 	letter-spacing: 0.025rem;
@@ -140,6 +139,9 @@
 	.textActionLink {
 		white-space: nowrap;
 		transition: margin-right 0.5s;
+	}
+	&.xxsmallBtn {
+		width: 210px;
 	}
 	&.xsmallBtn {
 		width: 240px;

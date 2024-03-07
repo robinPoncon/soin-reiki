@@ -41,7 +41,7 @@ const MainPage = () => {
 	}, []);
 
 	return (
-		<main className="flex flex-col gap-20">
+		<main className="flex flex-col gap-16">
 			<figure className="bg-blackBackground sm:-mt-5 md:-mt-10 lg:-mt-20">
 				<Image
 					className="mx-auto"
@@ -286,12 +286,12 @@ const MainPage = () => {
 							marginTop: "0"
 						}}
 					>
-						<h3 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+						<h3 className="text-xl text-center font-semibold italic mb-2 px-4">
 							Vous souhaitez en savoir plus sur mon accompagnement ?
 						</h3>
 						<Link
 							href="/deroulement-seance"
-							className="actionLinkPink"
+							className="flex actionLinkPink"
 						>
 							<span className="textActionLink">Déroulement d'une séance</span>
 							<span className="iconActionLink" />
@@ -367,18 +367,25 @@ const MainPage = () => {
 								<span className="block mt-6 italic">
 									<Link
 										href="/mon-histoire"
-										className="actionLinkPink largeBtn"
+										className="actionLinkPink largeBtn hidden sm:flex"
 									>
 										<span className="textActionLink">
 											En savoir plus sur mon histoire
 										</span>
 										<span className="iconActionLink" />
 									</Link>
+									<Link
+										href="/mon-histoire"
+										className="flex actionLinkPink xxsmallBtn sm:hidden"
+									>
+										<span className="textActionLink">En savoir plus</span>
+										<span className="iconActionLink" />
+									</Link>
 								</span>
 							</p>
 						</div>
 					</div>
-					<p className=" text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-20 lg:block">
+					<p className="text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-20 lg:block">
 						Je suis convaincu que la guérison ne peut se produire qu'avec votre volonté
 						consciente ou inconsciente. Mon objectif est de vous fournir les outils et
 						le soutien nécessaire pour une véritable transformation, afin que vous
@@ -389,7 +396,7 @@ const MainPage = () => {
 						<span className="block italic">
 							<Link
 								href="/mon-histoire"
-								className="actionLinkPink largeBtn"
+								className="flex actionLinkPink largeBtn"
 							>
 								<span className="textActionLink">
 									En savoir plus sur mon histoire
@@ -401,7 +408,7 @@ const MainPage = () => {
 					<p></p>
 				</section>
 			</ScrollAnimation>
-			<section className="flex flex-col gap-20 py-10 px-4">
+			<section className="flex flex-col gap-16 pb-10 px-4">
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 					Ils ont essayé, pourquoi pas vous ?
 				</h2>

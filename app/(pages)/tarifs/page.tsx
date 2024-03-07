@@ -13,7 +13,7 @@ const TarifsPage = () => {
 	}, []);
 	return (
 		<section className="flex flex-col gap-24 pt-20 tarifsPageComponent">
-			<div className="flex flex-col gap-12">
+			<div className="flex flex-col gap-12 px-4">
 				<h1 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderPink p-4 md:text-4xl">
 					Tarifs des Soins Énergétiques
 				</h1>
@@ -113,19 +113,19 @@ const TarifsPage = () => {
 					</article>
 				</div>
 				<div className="flex flex-col gap-5">
-					<h4 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+					<h4 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 						Envie de tenter l'expérience ?
 					</h4>
 					<Link
 						href="/reservation"
-						className="actionLinkPink mediumBtn"
+						className="flex actionLinkPink mediumBtn"
 					>
 						<span className="textActionLink">Je réserve ma séance</span>
 						<span className="iconActionLink" />
 					</Link>
 				</div>
 			</div>
-			<div className="flex flex-col gap-14 bg-darkBackground py-20 shadow-darkTurquoise">
+			<div className="flex flex-col gap-14 bg-darkBackground px-4 py-20 shadow-darkTurquoise">
 				<h2 className="titleFont text-customWhite font-semibold text-center text-2xl mx-auto w-fit customBorderYellow p-4 md:text-4xl">
 					Tarifs des Prestations Musicales
 				</h2>
@@ -147,7 +147,7 @@ const TarifsPage = () => {
 						</Link>
 					</p>
 				</div>
-				<div className="flex flex-col justify-around gap-5 lg:flex-row lg:gap-5 xl:gap-0">
+				<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
 							Voyage Sonore
@@ -170,7 +170,7 @@ const TarifsPage = () => {
 							90 €
 						</p>
 					</article>
-					<div className="max-w-xs mx-auto lg:-mx-20 lg:w-1/3 flex flex-col justify-between">
+					<div className="flex-col justify-between max-w-xs mx-auto hidden lg:flex lg:w-1/3 xl:-mx-20 ">
 						<Image
 							className="h-80"
 							alt="illustration d'une discussion entre deux personnes assises"
@@ -180,12 +180,12 @@ const TarifsPage = () => {
 							loading="eager"
 						/>
 						<div className="flex flex-col gap-5">
-							<h4 className="text-customWhite text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+							<h4 className="text-customWhite text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 								Envie de tenter l'expérience ?
 							</h4>
 							<Link
 								href="/contact"
-								className="actionLinkYellow xsmallBtn"
+								className="flex actionLinkYellow xsmallBtn"
 							>
 								<span className="textActionLink">Je prends contact</span>
 								<span className="iconActionLink" />
@@ -214,13 +214,25 @@ const TarifsPage = () => {
 						<p className="py-5 h-20 text-center rounded-b-xl font-semibold bg-pink">
 							<Link
 								href="/grille-tarifs"
-								className="actionLinkPink smallBtn noborder"
+								className="flex actionLinkPink smallBtn noborder"
 							>
 								<span className="textActionLink">Consulter les tarifs</span>
 								<span className="iconActionLink" />
 							</Link>
 						</p>
 					</article>
+					<div className="flex flex-col gap-5 lg:hidden">
+						<h4 className="text-customWhite text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
+							Envie de tenter l'expérience ?
+						</h4>
+						<Link
+							href="/contact"
+							className="flex actionLinkYellow xsmallBtn"
+						>
+							<span className="textActionLink">Je prends contact</span>
+							<span className="iconActionLink" />
+						</Link>
+					</div>
 				</div>
 			</div>
 		</section>

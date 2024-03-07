@@ -11,7 +11,7 @@ const SessionSequencePage = () => {
 		}
 	}, []);
 	return (
-		<section className="flex flex-col gap-20 py-20">
+		<section className="flex flex-col gap-20 py-20 px-4">
 			<h1 className="titleFont font-semibold text-2xl text-center mx-auto w-fit p-4 md:text-4xl customBorderBlue">
 				Déroulement d'une séance
 			</h1>
@@ -28,7 +28,7 @@ const SessionSequencePage = () => {
 						height={320}
 						loading="eager"
 					/>
-					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
+					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
 						Dès le début, nous prenons le temps de discuter de vos intentions, des
 						bienfaits et de la transformation que vous recherchez à travers les séances.
 						Je vous partage ensuite mes connaissances et mon expérience, afin que nous
@@ -75,7 +75,7 @@ const SessionSequencePage = () => {
 						width={320}
 						height={320}
 					/>
-					<p className="text-start max-w-xs my-auto mx-auto md:mx-0">
+					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
 						Une fois le soin achevé, nous prenons le temps de partager nos impressions
 						sur l'expérience vécue. En fonction de vos ressentis et de vos besoins, nous
 						planifions d'autres séances si nécessaires. Généralement, pour une véritable
@@ -88,24 +88,24 @@ const SessionSequencePage = () => {
 			</article>
 			<article className="flex flex-col gap-5 mx-auto max-w-xs md:max-w-lg py-5">
 				<div className="flex flex-col gap-5">
-					<h2 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+					<h2 className="text-lg sm:text-xl text-center font-semibold italic mt-6 mb-2 px-4">
 						Besoin d'informations sur le prix des accompagnements ?
 					</h2>
 					<Link
 						href="/tarifs"
-						className="actionLinkPink mediumBtn"
+						className="flex actionLinkPink mediumBtn"
 					>
 						<span className="textActionLink">Je consulte les tarifs</span>
 						<span className="iconActionLink" />
 					</Link>
 				</div>
 				<div className="flex flex-col gap-5">
-					<h2 className="text-xl text-center font-semibold italic mt-6 mb-2 px-4">
+					<h2 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 						Envie de tenter l'expérience ?
 					</h2>
 					<Link
 						href="/reservation"
-						className="actionLinkPink mediumBtn"
+						className="flex actionLinkPink mediumBtn"
 					>
 						<span className="textActionLink">Je réserve ma séance</span>
 						<span className="iconActionLink" />
