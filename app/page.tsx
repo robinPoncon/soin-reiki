@@ -48,7 +48,7 @@ const MainPage = () => {
 					loading="eager"
 					alt="image principal du site avec un arbre et des boules d'énergie"
 					src="/main-image-reiki-site.png"
-					height={550}
+					height={534}
 					width={1100}
 				/>
 			</figure>

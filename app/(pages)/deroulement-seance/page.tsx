@@ -52,14 +52,13 @@ const SessionSequencePage = () => {
 						height={320}
 					/>
 					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
-						Pendant le soin, vous restez confortablement vêtu(e) allongé(e) sur une
-						table de massage. Je commence le soin en plaçant délicatement mes mains sur
-						les zones de votre corps nécessitant un rééquilibrage énergétique. Pendant
-						cette étape, des sensations telles que chaleur, fraîcheur, picotements,
-						émotions ou autres peuvent se manifester. Tout cela est normal et fait
-						partie du processus naturel de la circulation de l'énergie en vous. Enfin,
-						une fois que vous êtes détendu, nous passons à des exercices de pleine
-						conscience pour vous libérer de vos blocages.
+						Je commence le soin en plaçant délicatement mes mains sur les zones de votre
+						corps nécessitant un rééquilibrage énergétique. Pendant cette étape, des
+						sensations telles que du chaud, du froid, des picotements, des émotions ou
+						autres peuvent se manifester. Tout cela est normal et fait partie du
+						processus de la circulation de l'énergie en vous. Enfin, une fois que vous
+						êtes détendu, nous passons à des exercices de pleine conscience pour vous
+						libérer définitivement de vos blocages.
 					</p>
 				</div>
 			</article>

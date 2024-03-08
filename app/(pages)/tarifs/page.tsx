@@ -15,7 +15,7 @@ const TarifsPage = () => {
 		<section className="flex flex-col gap-24 pt-20 tarifsPageComponent">
 			<div className="flex flex-col gap-12 px-4">
 				<h1 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderPink p-4 md:text-4xl">
-					Tarifs des Soins Énergétiques
+					Tarifs des Accompagnements
 				</h1>
 				<p className="text-justify italic mx-auto lg:max-w-3xl">
 					Mon objectif est de prendre le temps de bien comprendre votre problématique et
@@ -48,10 +48,10 @@ const TarifsPage = () => {
 				</p>
 				<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs rounded-xl mx-auto lg:w-1/3">
-						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-customYellowLighter lg:text-xl">
+						<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-customYellowLighter lg:text-xl">
 							Découverte <br />
 							<span className="text-base">(1 seule fois par personne)</span>
-						</h3>
+						</h2>
 						<div className="flex flex-col text-center gap-2">
 							<p>Identification de la problématique</p>
 							<p>Tirage d'un oracle spécifique</p>
@@ -70,9 +70,9 @@ const TarifsPage = () => {
 					</article>
 
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
-						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
+						<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
 							Guérison <br /> <span className="text-base">(séance classique)</span>
-						</h3>
+						</h2>
 						<div className="flex flex-col text-center gap-2">
 							<p>Identification de la problématique</p>
 							<p>Tirage d'un oracle spécifique</p>
@@ -91,10 +91,10 @@ const TarifsPage = () => {
 					</article>
 
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
-						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
+						<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
 							Amour de Soi
 							<br /> <span className="text-base">5 séances (4 + 1 offerte)</span>
-						</h3>
+						</h2>
 						<div className="flex flex-col text-center gap-2">
 							<p>Tous les bienfaits des séances classiques</p>
 							<p>+ Guidance de cartes complète offerte</p>
@@ -113,9 +113,9 @@ const TarifsPage = () => {
 					</article>
 				</div>
 				<div className="flex flex-col gap-2">
-					<h4 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
+					<h3 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 						Envie de tenter l'expérience ?
-					</h4>
+					</h3>
 					<Link
 						href="/reservation"
 						className="flex actionLinkPink mediumBtn"
