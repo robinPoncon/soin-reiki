@@ -13,7 +13,7 @@ export default function sitemap() {
 		"/mentions-legales",
 		"/protection-donnee",
 		"/certifications",
-		"/grille-tarifs"
+		"/tarifs-groupe"
 	].map((route) => ({
 		url: `https://racines-guerison.com${route}`,
 		lastModified: new Date().toISOString().split("T")[0]

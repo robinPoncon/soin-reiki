@@ -275,7 +275,7 @@ const MainPage = () => {
 				>
 					<ScrollAnimation
 						id="redirectLinkSoinReiki"
-						classContent="flex flex-col gap-5"
+						classContent="flex flex-col gap-2"
 						styleBeforeTransition={{
 							opacity: "0",
 							transition: "opacity 2.5s, margin-top 2.5s",
@@ -356,14 +356,14 @@ const MainPage = () => {
 								cette discipline.
 							</p>
 							<p className="lg:hidden">
-								Je suis convaincu que la guérison ne peut se produire qu'avec votre
-								volonté consciente ou inconsciente. Mon objectif est de vous fournir
-								les outils et le soutien nécessaire pour une véritable
-								transformation, afin que vous puissiez devenir autonome à long
-								terme. Bien que cela puisse sembler idéaliste, je crois fermement
-								qu'en guidant chacun vers son équilibre et son épanouissement, nous
-								pouvons contribuer à façonner un monde et un avenir meilleurs pour
-								tous.
+								Mon objectif est donc de vous fournir l'écoute, le soutien et
+								l'autonomie nécessaire pour une véritable transformation ! Pour
+								obtenir cette transformation, vous devez avoir la volonté conscience
+								ou inconsciente de vouloir guérir. Je peux vous montrer le chemin,
+								mais je ne peux pas marcher à votre place. Bien que cela puisse
+								sembler idéaliste, je crois fermement qu'en guidant chacun vers son
+								équilibre et son épanouissement, nous pouvons contribuer à façonner
+								un monde plus lumineux et bienveillant pour tous !
 								<span className="block mt-6 italic">
 									<Link
 										href="/mon-histoire"
@@ -386,14 +386,14 @@ const MainPage = () => {
 						</div>
 					</div>
 					<p className="text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-20 lg:block">
-						Je suis convaincu que la guérison ne peut se produire qu'avec votre volonté
-						consciente ou inconsciente. Mon objectif est de vous fournir les outils et
-						le soutien nécessaire pour une véritable transformation, afin que vous
-						puissiez devenir autonome à long terme. Bien que cela puisse sembler
-						idéaliste, je crois fermement qu'en guidant chacun vers son équilibre et son
-						épanouissement, nous pouvons contribuer à façonner un monde et un avenir
-						meilleurs pour tous. <br />
-						<span className="block italic">
+						Mon objectif est donc de vous fournir l'écoute, le soutien et l'autonomie
+						nécessaire pour une véritable transformation ! Pour obtenir cette
+						transformation, vous devez avoir la volonté conscience ou inconsciente de
+						vouloir guérir. Je peux vous montrer le chemin, mais je ne peux pas marcher
+						à votre place. Bien que cela puisse sembler idéaliste, je crois fermement
+						qu'en guidant chacun vers son équilibre et son épanouissement, nous pouvons
+						contribuer à façonner un monde plus lumineux et bienveillant pour tous !
+						<span className="block mt-5 italic">
 							<Link
 								href="/mon-histoire"
 								className="flex actionLinkPink largeBtn"

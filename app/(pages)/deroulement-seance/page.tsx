@@ -86,8 +86,8 @@ const SessionSequencePage = () => {
 					</p>
 				</div>
 			</article>
-			<article className="flex flex-col gap-5 mx-auto max-w-xs md:max-w-lg py-5">
-				<div className="flex flex-col gap-5">
+			<article className="flex flex-col gap-10 mx-auto max-w-xs md:max-w-lg py-5">
+				<div className="flex flex-col gap-2">
 					<h2 className="text-lg sm:text-xl text-center font-semibold italic mt-6 mb-2 px-4">
 						Besoin d'informations sur le prix des accompagnements ?
 					</h2>
@@ -99,7 +99,7 @@ const SessionSequencePage = () => {
 						<span className="iconActionLink" />
 					</Link>
 				</div>
-				<div className="flex flex-col gap-5">
+				<div className="flex flex-col gap-2">
 					<h2 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 						Envie de tenter l'expérience ?
 					</h2>

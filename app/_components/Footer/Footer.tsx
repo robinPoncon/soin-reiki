@@ -188,9 +188,9 @@ const Footer = () => {
 							<li>
 								<Link
 									className="lightHover"
-									href="/grille-tarifs"
+									href="/tarifs-groupe"
 								>
-									Grille Tarifs du Voyage Sonore
+									Tarifs Voyage Sonore de groupe
 								</Link>
 							</li>
 						</ul>

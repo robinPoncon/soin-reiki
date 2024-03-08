@@ -112,7 +112,7 @@ const TarifsPage = () => {
 						</p>
 					</article>
 				</div>
-				<div className="flex flex-col gap-5">
+				<div className="flex flex-col gap-2">
 					<h4 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 						Envie de tenter l'expérience ?
 					</h4>
@@ -179,7 +179,7 @@ const TarifsPage = () => {
 							height={320}
 							loading="eager"
 						/>
-						<div className="flex flex-col gap-5">
+						<div className="flex flex-col gap-2">
 							<h4 className="text-customWhite text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 								Envie de tenter l'expérience ?
 							</h4>
@@ -213,7 +213,7 @@ const TarifsPage = () => {
 						</p>
 						<p className="py-5 h-20 text-center rounded-b-xl font-semibold bg-pink">
 							<Link
-								href="/grille-tarifs"
+								href="/tarifs-groupe"
 								className="flex actionLinkPink smallBtn noborder"
 							>
 								<span className="textActionLink">Consulter les tarifs</span>
@@ -221,7 +221,7 @@ const TarifsPage = () => {
 							</Link>
 						</p>
 					</article>
-					<div className="flex flex-col gap-5 lg:hidden">
+					<div className="flex flex-col gap-2 lg:hidden">
 						<h4 className="text-customWhite text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 							Envie de tenter l'expérience ?
 						</h4>

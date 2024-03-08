@@ -156,7 +156,7 @@ const SoinReikiPage = () => {
 					}
 				]}
 			>
-				<div className="flex flex-col gap-5">
+				<div className="flex flex-col gap-2">
 					<h2 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 						Envie de tenter l'expérience ?
 					</h2>
