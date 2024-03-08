@@ -12,22 +12,26 @@ export const metadata: Metadata = {
 	metadataBase: new URL("https://racines-guerison.com"),
 	title: "Les Racines de la Guérison - Retrouver l'Amour de Soi",
 	description:
-		"Je vous accompagne pour apprivoiser votre mental, vous reconnecter à votre corps et à vos émotions grâce à l'Amour de Soi afin de retrouver votre Bonheur !",
+		"Je vous accompagne pour apprivoiser votre mental, vous reconnecter à votre corps et vos émotions grâce à l'Amour de Soi, afin de retrouver votre Bonheur !",
 	keywords: [
-		"Reiki",
+		"reiki",
+		"amour de soi",
+		"développement personnel",
 		"guérison",
 		"tirage de cartes",
 		"énergie",
 		"spiritualité",
 		"bien-être",
-		"harmonie",
+		"transformation",
+		"voyage sonore",
+		"pleine conscience",
 		"guidance",
 		"Bordeaux"
 	],
 	openGraph: {
-		title: "Les Racines de la Guérison - Soins Reiki & Guidance sur Bordeaux",
+		title: "Les Racines de la Guérison - Retrouver l'Amour de Soi",
 		description:
-			"Découvrez mon univers ainsi que mes services de soins Reiki apaisants et de guidance en tirage de cartes. Explorez l'énergie qui réside en vous !",
+			"Je vous accompagne pour apprivoiser votre mental, vous reconnecter à votre corps et vos émotions grâce à l'Amour de Soi, afin de retrouver votre Bonheur !",
 		images: [
 			{
 				url: "/photo-couverture-site.png",
