@@ -10,7 +10,7 @@ import { handleeFont } from "./fonts";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://racines-guerison.com"),
-	title: "Les Racines de la Guérison - Retrouver l'Amour de Soi",
+	title: "Les Racines de la Guérison - Accompagnement Énergétique Bordeaux",
 	description:
 		"Je vous accompagne pour apprivoiser votre mental, vous reconnecter à votre corps et vos émotions grâce à l'Amour de Soi, afin de retrouver votre Bonheur !",
 	keywords: [

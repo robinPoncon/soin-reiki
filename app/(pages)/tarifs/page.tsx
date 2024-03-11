@@ -133,9 +133,9 @@ const TarifsPage = () => {
 					<p className="text-justify text-customWhite italic mx-auto lg:max-w-3xl">
 						Mes prestations musicales ont pour but la relaxation et le développement de
 						la créativité. Mais elles ont aussi la capacité de vous aider à accepter et
-						libérer vos émotions ! Mes voyages sonores sont donc très efficaces dans des
+						libérer vos émotions ! Mes voyages sonores sont donc très efficaces pour des
 						espaces de coworking, entreprises, maison de retraite ou lieu avec des
-						enfants.
+						enfants !
 					</p>
 					<p className="text-justify text-customWhite italic mx-auto lg:max-w-3xl">
 						Envie d'en savoir plus sur le voyage sonore ? C'est par{" "}

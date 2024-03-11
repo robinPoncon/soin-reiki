@@ -154,7 +154,7 @@ const MainPage = () => {
 							content: [
 								"- Est-ce que des pensées négatives perturbent votre capacité d'attention ?",
 								"- Ressentez-vous fréquemment une fatigue mentale, même après avoir bien dormi ?",
-								"- Êtes-vous souvent submergé par le stress, l'anxiété, la panique ou la dépression ?"
+								"- Êtes-vous souvent submergé par le stress, l'anxiété, des angoisses ou la dépression ?"
 							],
 							transitionType: "center"
 						},
