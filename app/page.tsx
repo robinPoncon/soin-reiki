@@ -337,12 +337,12 @@ const MainPage = () => {
 								Mon Histoire
 							</h2>
 							<p>
-								Je m'appelle Robin Ponçon et j'ai {age} ans. Tout a débuté lors
-								d'une période introspective en quête de spiritualité il y a{" "}
-								{spiritualityAge} ans. En développant le magnétisme de mes mains,
-								j'ai cherché à apaiser les symptômes du cancer de mon chat. Cette
-								expérience a éveillé en moi la volonté d'approfondir cette capacité
-								pour aider autrui.
+								Je m'appelle Robin Ponçon, j'ai {age} ans et je suis thérapeute
+								énergétique. Tout a débuté lors d'une période introspective en quête
+								de spiritualité il y a {spiritualityAge} ans. En développant le
+								magnétisme de mes mains, j'ai cherché à apaiser les symptômes du
+								cancer de mon chat. Cette expérience a éveillé en moi la volonté
+								d'approfondir cette capacité pour aider autrui.
 							</p>
 							<p>
 								Mon parcours m'a guidé naturellement vers le Reiki, une méthode
