@@ -1,12 +1,30 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Mes Différents Tarifs",
+	title: "Tarifs des Accompagnements et des Prestations",
 	description:
-		"Découvrez les tarifs pour les séances de Reiki et de tirage de cartes. Ils reflètent mon engagement envers la qualité et la profondeur de chaque séance.",
-	keywords: ["tarifs", "prix", "séances", "reiki", "tirage de cartes", "qualité", "énergétique"]
+		"Découvrez plus en détail mes accompagnements et mes prestations musicales d'une durée de 90 minutes !",
+	keywords: [
+		"tarifs",
+		"tirage de carte",
+		"accompagnement énergétique",
+		"équilibre énergétique",
+		"guérison",
+		"suivi personnalisé",
+		"guidance",
+		"méditation guidée",
+		"méditation pleine conscience",
+		"pleine conscience",
+		"chemin de vie",
+		"prestation musicale",
+		"émotions",
+		"relaxation",
+		"voyage sonore",
+		"stress",
+		"anxiété"
+	]
 };
 
-export default function TarifLayout({ children }: { children: React.ReactNode }) {
+export default function PricesLayout({ children }: { children: React.ReactNode }) {
 	return children;
 }

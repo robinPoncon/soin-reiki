@@ -143,12 +143,12 @@ const MyStoryPage = () => {
 					/>
 					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
 						J'ai toujours été baigné dans la musique depuis mon enfance. Mais c'est à
-						partir du moment où je me suis mis à jouer d'un instrument de musique que
-						j'ai vraiment pris conscience du potentiel thérapeutique des sons. Notre
-						corps est composé à 65% d'eau, et l'eau transmet les vibrations du son. Je
-						pense que dans le futur, la sonothérapie sera un des futurs piliers de la
-						médecine ! Si vous avez déjà été submergé d'émotions ou de bien-être par une
-						musique, vous comprendrez ce que je veux dire !
+						partir du moment où je me suis mis à jouer d'un instrument de musique avec
+						le Handpan, que j'ai vraiment pris conscience du potentiel thérapeutique des
+						sons. Notre corps est composé à 65% d'eau, et l'eau transmet les vibrations
+						du son. Je pense que dans le futur, la sonothérapie sera un des futurs
+						piliers de la médecine ! Si vous avez déjà été submergé d'émotions ou de
+						bien-être par une musique, vous comprendrez ce que je veux exprimer !
 					</p>
 				</div>
 			</article>

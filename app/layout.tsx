@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 	description:
 		"Je vous accompagne pour apprivoiser vos pensées, vous reconnecter à votre corps et à vos émotions grâce à l'Amour de Soi, afin de retrouver votre Bonheur !",
 	keywords: [
+		"soin",
 		"soin reiki",
 		"amour de soi",
 		"guérison",

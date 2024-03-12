@@ -19,6 +19,6 @@ export const metadata: Metadata = {
 	]
 };
 
-export default function soinReikiLayout({ children }: { children: React.ReactNode }) {
+export default function SoinReikiLayout({ children }: { children: React.ReactNode }) {
 	return children;
 }

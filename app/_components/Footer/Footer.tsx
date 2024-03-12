@@ -190,7 +190,7 @@ const Footer = () => {
 									className="lightHover"
 									href="/tarifs-groupe"
 								>
-									Tarifs Voyage Sonore de groupe
+									Tarifs Voyage Sonore en groupe
 								</Link>
 							</li>
 						</ul>

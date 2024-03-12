@@ -24,8 +24,9 @@ const ReservationPage = () => {
 						Important à savoir avant de réserver !
 					</h2>
 					<p className="text-justify mt-5 max-w-lg mx-auto px-4">
-						Les réservations se font uniquement pour les séances de soin ! Pour une
-						prestation musicale merci de bien vouloir me contacter par email ou via la{" "}
+						Les réservations se font uniquement pour les séances d'accompagnement
+						énergétique ! Pour une prestation musicale merci de bien vouloir me
+						contacter par email ou via la{" "}
 						<Link
 							className="redirectLinkPink"
 							href="/contact"

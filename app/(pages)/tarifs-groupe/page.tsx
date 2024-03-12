@@ -3,11 +3,11 @@
 import Link from "next/link";
 import "./page.scss";
 
-const PriceList = () => {
+const PriceListPage = () => {
 	return (
 		<section className="flex flex-col px-4 gap-14 py-20">
 			<h1 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderPink p-4 md:text-4xl">
-				Tarifs du Voyage Sonore de groupe
+				Tarifs du Voyage Sonore en groupe
 			</h1>
 			<p className="max-w-3xl mx-auto text-justify italic">
 				Vous retrouverez ci-dessous les différents <strong>tarifs</strong> pour les groupes
@@ -89,4 +89,4 @@ const PriceList = () => {
 	);
 };
 
-export default PriceList;
+export default PriceListPage;

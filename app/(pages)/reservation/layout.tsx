@@ -1,18 +1,15 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Réservez Votre Séance",
+	title: "Réservez votre Séance",
 	description:
-		"Réservez votre séance de Reiki ou de tirage de cartes en choisissant la date et l'heure qui vous conviennent pour votre voyage vers le bien-être !",
+		"Réservez votre séance d'accompagnement énergétique en choisissant la date et l'heure qui vous conviennent !",
 	keywords: [
-		"réserver",
 		"réservation",
 		"rendez-vous",
 		"séance",
-		"reiki",
-		"planifier",
-		"tirage de cartes",
-		"énergétique"
+		"accompagnement énergétique",
+		"prestation musicale"
 	]
 };
 

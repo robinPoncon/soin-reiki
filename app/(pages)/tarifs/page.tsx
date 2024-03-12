@@ -5,7 +5,7 @@ import "./page.scss";
 import Image from "next/image";
 import { useEffect } from "react";
 
-const TarifsPage = () => {
+const PricesPage = () => {
 	useEffect(() => {
 		if (typeof window !== "undefined") {
 			window.scrollTo(0, 0);
@@ -23,7 +23,7 @@ const TarifsPage = () => {
 					séances durent <strong>1h30</strong> au lieu de 1h. Pour régler une séance, vous
 					avez actuellement la possibilité de payer en <strong>espèces</strong> ou par{" "}
 					<strong>chèque</strong> à la fin de la séance. Je prévois d'introduire d'autres
-					moyens de paiement à l'avenir pour plus de commodité.
+					moyens de paiement à l'avenir pour plus de commodité !
 					{/* <Link
 					href="/contact"
 					className="redirectLinkBlue"
@@ -239,4 +239,4 @@ const TarifsPage = () => {
 	);
 };
 
-export default TarifsPage;
+export default PricesPage;

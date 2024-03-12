@@ -3,15 +3,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
 	title: "Contactez-moi pour plus d'informations",
 	description:
-		"Si vous avez besoin de renseignements ou si vous souhaitez planifier une séance de Reiki ou de tirage de cartes, n'hésitez pas à me contacter ! :)",
-	keywords: [
-		"contact",
-		"informations",
-		"soin reiki",
-		"tirage de cartes",
-		"renseignement",
-		"énergétique"
-	]
+		"Si vous avez besoin de renseignements sur mon accompagnement énergétique ou mes prestations musicales, n'hésitez pas à me contacter !",
+	keywords: ["contactez-moi", "guérison", "accompagnement énergétique", "prestation musicale"]
 };
 
 export default function ContactLayout({ children }: { children: React.ReactNode }) {

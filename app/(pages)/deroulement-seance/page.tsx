@@ -92,7 +92,7 @@ const SessionSequencePage = () => {
 					</h2>
 					<Link
 						href="/tarifs"
-						className="flex actionLinkPink mediumBtn"
+						className="flex actionLinkBlue mediumBtn"
 					>
 						<span className="textActionLink">Je consulte les tarifs</span>
 						<span className="iconActionLink" />
@@ -104,7 +104,7 @@ const SessionSequencePage = () => {
 					</h2>
 					<Link
 						href="/reservation"
-						className="flex actionLinkPink mediumBtn"
+						className="flex actionLinkBlue mediumBtn"
 					>
 						<span className="textActionLink">Je réserve ma séance</span>
 						<span className="iconActionLink" />

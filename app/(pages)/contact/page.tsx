@@ -103,9 +103,9 @@ const ContactPage = () => {
 			</h1>
 			<p className="italic text-justify md:max-w-3xl mx-auto px-2">
 				Je suis là pour répondre à toutes vos questions et vous fournir des informations
-				détaillées sur les différents services et accompagnements que je propose. Utilisez
-				simplement le formulaire ci-dessous pour me contacter, et je vous répondrai dans les
-				meilleurs délais !
+				détaillées sur les différents services, accompagnements et prestations que je
+				propose. Utilisez simplement le formulaire ci-dessous pour me contacter, et je vous
+				répondrai dans les meilleurs délais !
 			</p>
 			<div className="flex flex-col-reverse gap-20 px-2 justify-between lg:flex-row">
 				<form
