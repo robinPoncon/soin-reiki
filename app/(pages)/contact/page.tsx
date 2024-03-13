@@ -97,17 +97,17 @@ const ContactPage = () => {
 	);
 
 	return (
-		<div className={`flex flex-col gap-20 py-20 px-2 lg:px-24 ${isLoading ? "blur-md" : ""}`}>
+		<div className={`flex flex-col gap-16 py-20 px-4 lg:px-24 ${isLoading ? "blur-md" : ""}`}>
 			<h1 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 				Ensemble vers votre Guérison !
 			</h1>
-			<p className="italic text-justify md:max-w-3xl mx-auto px-2">
+			<p className="italic text-justify md:max-w-3xl mx-auto">
 				Je suis là pour répondre à toutes vos questions et vous fournir des informations
 				détaillées sur les différents services, accompagnements et prestations que je
 				propose. Utilisez simplement le formulaire ci-dessous pour me contacter, et je vous
 				répondrai dans les meilleurs délais !
 			</p>
-			<div className="flex flex-col-reverse gap-20 px-2 justify-between lg:flex-row">
+			<div className="flex flex-col gap-16 justify-between lg:flex-row">
 				<form
 					className="gap-5 flex flex-col lg:w-2/3"
 					onSubmit={handleSubmit}
@@ -121,11 +121,11 @@ const ContactPage = () => {
 						defaultValue={formDatas[0].value}
 						returnedValue={handleChange}
 					/>
-					<div className="flex flex-col gap-5 md:flex-row">
+					<div className="flex flex-col gap-5 xl:flex-row">
 						<CustomInput
 							label="Votre prénom"
 							name="firstName"
-							placeholder="Exemple : Cécile"
+							placeholder="Exemple : Arthur"
 							required
 							validator={formDatas[1].validator}
 							defaultValue={formDatas[1].value}
@@ -134,18 +134,18 @@ const ContactPage = () => {
 						<CustomInput
 							label="Votre nom"
 							name="lastName"
-							placeholder="Exemple : Encieux"
+							placeholder="Exemple : Pendragon"
 							required
 							validator={formDatas[2].validator}
 							defaultValue={formDatas[2].value}
 							returnedValue={handleChange}
 						/>
 					</div>
-					<div className="flex flex-col gap-5 md:flex-row">
+					<div className="flex flex-col gap-5 xl:flex-row">
 						<CustomInput
 							label="Votre email"
 							name="email"
-							placeholder="Exemple : cecile.encieux@gmail.com"
+							placeholder="Exemple : arthur.pendragon@gmail.com"
 							required
 							validator={formDatas[3].validator}
 							defaultValue={formDatas[3].value}
@@ -168,7 +168,27 @@ const ContactPage = () => {
 						Envoyer
 					</button>
 				</form>
-				<figure className="lg:w-1/3">
+				<iframe
+					title="map google avec l'adresse de l'entreprise"
+					className="hidden mx-auto customImgBlueGreen sm:block"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.674599562002!2d-0.5713973000000001!3d44.8078198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527a2a84c3b35%3A0x2ce7908c3dc9906e!2sLes%20Racines%20de%20la%20Gu%C3%A9rison%20-%20Accompagnement%20%C3%89nerg%C3%A9tique%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1710323655363!5m2!1sfr!2sfr"
+					width="400"
+					height="400"
+					style={{ border: "none" }}
+					loading="lazy"
+					referrerPolicy="no-referrer-when-downgrade"
+				></iframe>
+				<iframe
+					title="map google avec l'adresse de l'entreprise"
+					className="mx-auto customImgBlueGreen sm:hidden"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.674599562002!2d-0.5713973000000001!3d44.8078198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527a2a84c3b35%3A0x2ce7908c3dc9906e!2sLes%20Racines%20de%20la%20Gu%C3%A9rison%20-%20Accompagnement%20%C3%89nerg%C3%A9tique%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1710323655363!5m2!1sfr!2sfr"
+					width="280"
+					height="280"
+					style={{ border: "none" }}
+					loading="lazy"
+					referrerPolicy="no-referrer-when-downgrade"
+				></iframe>
+				{/* <figure className="lg:w-1/3">
 					<Image
 						className="m-auto customImgBlueGreen"
 						alt="illustration d'un envoi d'email"
@@ -176,7 +196,7 @@ const ContactPage = () => {
 						height={350}
 						width={350}
 					/>
-				</figure>
+				</figure> */}
 			</div>
 		</div>
 	);
