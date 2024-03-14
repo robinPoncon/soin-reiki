@@ -286,7 +286,7 @@ const MainPage = () => {
 							marginTop: "0"
 						}}
 					>
-						<h3 className="text-xl text-center font-semibold italic mb-2 px-4">
+						<h3 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 							Vous souhaitez en savoir plus sur mon accompagnement ?
 						</h3>
 						<Link
@@ -326,11 +326,11 @@ const MainPage = () => {
 							height={300}
 						></Image>
 						<Image
-							className="hidden rounded-t-lg mr-0 ml-auto -scale-x-100 lg:block"
+							className="hidden h-[450px] rounded-t-lg mr-0 ml-auto -scale-x-100 lg:block"
 							alt="photo de profil de robin ponçon"
 							src="/photo-profil.png"
 							width={400}
-							height={500}
+							height={450}
 						></Image>
 						<div className="text-customWhite flex flex-col relative gap-6 rounded-lg p-5 text-center mx-auto max-w-lg bg-darkBackground lg:p-8 lg:text-start lg:-ml-10 lg:rounded-none lg:rounded-tr-lg">
 							<h2 className="hidden titleFont font-semibold text-3xl italic text-pink lg:block">
@@ -345,25 +345,23 @@ const MainPage = () => {
 								d'approfondir cette capacité pour aider autrui.
 							</p>
 							<p>
-								Mon parcours m'a guidé naturellement vers le Reiki, une méthode
-								énergétique qui s'apparente au magnétisme, bien qu'elle adopte une
-								approche différente. Dans ma pratique, je ne me sers plus uniquement
-								de mon énergie personnelle pour guérir, mais je canalise plutôt
-								l'énergie omniprésente qui nous entoure. J'ai eu l'opportunité
-								d'explorer les trois niveaux du Reiki sous la tutelle de Monique
-								Chanoni, une maître Reiki établie dans la lignée de Mikao Usui.
-								Aujourd'hui, je suis certifié en tant que maître praticien dans
-								cette discipline.
+								Mon parcours m'a naturellement guidé vers le Reiki, une méthode de
+								soin énergétique japonaise. En canalisant l'énergie qui nous
+								entoure, je peux renforcer l'efficacité de mes soins. J'ai eu
+								l'opportunité d'explorer les trois niveaux du Reiki sous la tutelle
+								de Monique Chanoni, une maître Reiki établie dans la lignée de Mikao
+								Usui. Aujourd'hui, je suis certifié en tant que maître praticien
+								dans cette discipline.
 							</p>
 							<p className="lg:hidden">
 								Mon objectif est donc de vous fournir l'écoute, le soutien et
-								l'autonomie nécessaire pour une véritable transformation ! Pour
-								obtenir cette transformation, vous devez avoir la volonté conscience
-								ou inconsciente de vouloir guérir. Je peux vous montrer le chemin,
-								mais je ne peux pas marcher à votre place. Bien que cela puisse
-								sembler idéaliste, je crois fermement qu'en guidant chacun vers son
-								équilibre et son épanouissement, nous pouvons contribuer à façonner
-								un monde plus lumineux et bienveillant pour tous !
+								l'autonomie nécessaire pour une véritable transformation personnelle
+								! Pour obtenir cette transformation, vous devez avoir la volonté
+								conscience ou inconsciente de vouloir guérir. Je peux vous montrer
+								le chemin, mais je ne peux pas marcher à votre place. Bien que cela
+								puisse sembler idéaliste, je crois fermement qu'en guidant chacun
+								vers son équilibre et son épanouissement, nous pouvons contribuer à
+								façonner un monde plus lumineux et bienveillant pour tous !
 								<span className="block mt-6 italic">
 									<Link
 										href="/mon-histoire"

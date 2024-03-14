@@ -7,6 +7,7 @@ import Footer from "./_components/Footer/Footer";
 import { ReviewsUsersDataProvider } from "./_context/ReviewsUsersDataContext";
 import CookieBar from "./_components/CookieBar/CookieBar";
 import { handleeFont } from "./fonts";
+import Script from "next/script";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://racines-guerison.com"),
@@ -60,7 +61,20 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
-		<html lang="en">
+		<html lang="fr">
+			<Script
+				src="https://www.googletagmanager.com/gtag/js?id=AW-755379002"
+				strategy="afterInteractive"
+			></Script>
+			<Script
+				id="google-analytics"
+				strategy="afterInteractive"
+			>
+				{`window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());gtag('config', 'AW-755379002');
+				`}
+			</Script>
 			<body
 				className={`font-helvetica font-normal pt-20 bg-customWhite text-darkTurquoise ${handleeFont.variable}`}
 			>

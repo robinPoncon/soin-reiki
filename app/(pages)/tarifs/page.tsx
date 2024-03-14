@@ -52,7 +52,7 @@ const PricesPage = () => {
 							Découverte <br />
 							<span className="text-base">(1 seule fois par personne)</span>
 						</h2>
-						<div className="flex flex-col text-center gap-2">
+						<div className="flex flex-col px-2 text-center gap-2">
 							<p>Identification de la problématique</p>
 							<p>Tirage d'un oracle spécifique</p>
 							<p>Équilibrage & libération énergétique</p>
@@ -73,7 +73,7 @@ const PricesPage = () => {
 						<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
 							Guérison <br /> <span className="text-base">(séance classique)</span>
 						</h2>
-						<div className="flex flex-col text-center gap-2">
+						<div className="flex flex-col px-2 text-center gap-2">
 							<p>Identification de la problématique</p>
 							<p>Tirage d'un oracle spécifique</p>
 							<p>Équilibrage & libération énergétique</p>
@@ -95,7 +95,7 @@ const PricesPage = () => {
 							Amour de Soi
 							<br /> <span className="text-base">5 séances (4 + 1 offerte)</span>
 						</h2>
-						<div className="flex flex-col text-center gap-2">
+						<div className="flex flex-col px-2 text-center gap-2">
 							<p>Tous les bienfaits des séances classiques</p>
 							<p>+ Guidance de cartes complète offerte</p>
 							<p>+ Méditation guidée de pleine conscience</p>
@@ -153,7 +153,7 @@ const PricesPage = () => {
 							Voyage Sonore
 							<br /> <span className="text-base">(individuel)</span>
 						</h3>
-						<div className="flex flex-col text-center gap-2">
+						<div className="flex flex-col px-2 text-center gap-2">
 							<p>Thème du voyage personnalisé</p>
 							<p>Rééquilibrage énergétique</p>
 							<p>Méditation guidée de pleine conscience</p>
@@ -198,7 +198,7 @@ const PricesPage = () => {
 							Voyage Sonore
 							<br /> <span className="text-base">(groupe)</span>
 						</h3>
-						<div className="flex flex-col text-center gap-2">
+						<div className="flex flex-col px-2 text-center gap-2">
 							<p>Thème du voyage personnalisé</p>
 							<p>Reiki pour la détente en début de séance</p>
 							<p>Méditation guidée de pleine conscience</p>

@@ -37,9 +37,10 @@ export const ReviewsUsersDataProvider = ({ children }: { children: ReactNode }) 
 			},
 			{
 				id: 4,
-				name: "Adeline P",
-				comment: `Pour ma première séance de reiki je me suis senti vraiment bien, les douleurs se sont 
-					rapidement atténuées, je recommande !`,
+				name: "Antoine D",
+				comment: `J'ai consulté Robin pour des rééquilibrages énergétiques et des soins reiki pour des 
+					problèmes de dos. Un autre point très positif est le fait que ces séances m'ont aidées à dormir 
+					et à avoir un bien meilleur sommeil. Du coup je recommande Robin et ses soins les yeux fermés !!`,
 				note: 5
 			},
 			{
@@ -72,6 +73,29 @@ export const ReviewsUsersDataProvider = ({ children }: { children: ReactNode }) 
 				comment: `J’ai effectué un soin énergétique avec Robin qui m’a super bien accueilli et mis parfaitement à l’aise. 
 					Je recommande vivement ! Bienveillance et sérieux sont au rendez-vous, merci pour cette expérience !
 				`,
+				note: 5
+			},
+			{
+				id: 9,
+				name: "Guillaume M",
+				comment: `Rencontre en toute simplicité grâce à l’écoute et l’accueil de Robin. Être à l’écoute de son corps est
+				 	la clé afin que Robin puisse vous donner son meilleur. Il est engagé dans son travail et vous aidera, avec une
+					véritable volonté, si vous vous engagez aussi. Je suis certain que nous nous reverrons ! Merci mille fois !`,
+				note: 5
+			},
+			{
+				id: 10,
+				name: "Julien S",
+				comment: `J'ai eu la chance de passer entre les mains de Robin, et même en étant habitué aux soins énergétiques etc.
+					J'ai senti une puissance très intense chez Robin. Il a réussi à me libérer très rapidement de poids que je 
+					supportais depuis très longtemps. Merci encore pour ta bienveillance et ton empathie !`,
+				note: 5
+			},
+			{
+				id: 11,
+				name: "Adeline P",
+				comment: `Pour ma première séance de reiki je me suis senti vraiment bien, les douleurs se sont 
+					rapidement atténuées, je recommande !`,
 				note: 5
 			}
 		]);

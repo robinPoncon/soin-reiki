@@ -171,6 +171,16 @@ const HeaderMenu = () => {
 							<li onClick={() => setOpenMobileMenu(false)}>
 								<Link
 									className={`greenLight text-xl ${
+										isActiveLink("/") ? "activeLink" : ""
+									}`}
+									href="/"
+								>
+									Accueil
+								</Link>
+							</li>
+							<li onClick={() => setOpenMobileMenu(false)}>
+								<Link
+									className={`greenLight text-xl ${
 										isActiveLink("/mon-histoire") ? "activeLink" : ""
 									}`}
 									href="/mon-histoire"
