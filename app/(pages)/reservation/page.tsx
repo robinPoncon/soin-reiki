@@ -38,6 +38,7 @@ const ReservationPage = () => {
 				</div>
 			</div>
 			<iframe
+				id="iframeCalendar"
 				title="Récupération du système de réservation de google calendar"
 				className="outline-offset-0 mx-auto relative bg-white rounded-lg h-[1520px] sm:h-[1300px] md:h-[720px]"
 				src={process.env.NEXT_PUBLIC_GOOGLE_AGENDA_LINK}
