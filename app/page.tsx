@@ -100,9 +100,8 @@ const MainPage = () => {
 					styleBeforeTransition={
 						breakpointResponsiveValue < 1024
 							? {
-									opacity: "0",
-									transition: "opacity 2.5s, margin-top 2.5s",
-									marginTop: "100px"
+									opacity: "1",
+									transition: ""
 							  }
 							: {
 									opacity: "0",
@@ -113,8 +112,7 @@ const MainPage = () => {
 					styleAfterTransition={
 						breakpointResponsiveValue < 1024
 							? {
-									opacity: "1",
-									marginTop: "0px"
+									opacity: "1"
 							  }
 							: {
 									opacity: "1",
@@ -276,15 +274,28 @@ const MainPage = () => {
 					<ScrollAnimation
 						id="redirectLinkSoinReiki"
 						classContent="flex flex-col gap-2"
-						styleBeforeTransition={{
-							opacity: "0",
-							transition: "opacity 2.5s, margin-top 2.5s",
-							marginTop: "100px"
-						}}
-						styleAfterTransition={{
-							opacity: "1",
-							marginTop: "0"
-						}}
+						styleBeforeTransition={
+							breakpointResponsiveValue < 1024
+								? {
+										opacity: "1",
+										transition: ""
+								  }
+								: {
+										opacity: "0",
+										transition: "opacity 2.5s, margin-top 2.5s",
+										marginTop: "100px"
+								  }
+						}
+						styleAfterTransition={
+							breakpointResponsiveValue < 1024
+								? {
+										opacity: "1"
+								  }
+								: {
+										opacity: "1",
+										marginTop: "0"
+								  }
+						}
 					>
 						<h3 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
 							Vous souhaitez en savoir plus sur mon accompagnement ?
@@ -302,15 +313,28 @@ const MainPage = () => {
 
 			<ScrollAnimation
 				id="profil-picture-bloc"
-				styleBeforeTransition={{
-					opacity: "0",
-					transition: "opacity 2.5s, margin-top 2.5s",
-					marginTop: "100px"
-				}}
-				styleAfterTransition={{
-					opacity: "1",
-					marginTop: "0"
-				}}
+				styleBeforeTransition={
+					breakpointResponsiveValue < 1024
+						? {
+								opacity: "1",
+								transition: ""
+						  }
+						: {
+								opacity: "0",
+								transition: "opacity 2.5s, margin-top 2.5s",
+								marginTop: "100px"
+						  }
+				}
+				styleAfterTransition={
+					breakpointResponsiveValue < 1024
+						? {
+								opacity: "1"
+						  }
+						: {
+								opacity: "1",
+								marginTop: "0"
+						  }
+				}
 			>
 				<section className="flex flex-col gap-10">
 					<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderPink p-4 md:text-4xl lg:hidden">

@@ -53,7 +53,13 @@ const BlocTextContent = ({
 							id={data.id}
 							classContent="flex flex-col lg:w-1/3"
 							styleBeforeTransition={
-								breakpointResponsiveValue < 1024 || data.transitionType === "center"
+								breakpointResponsiveValue < 768 || data.transitionType === "none"
+									? {
+											opacity: "1",
+											transition: ""
+									  }
+									: breakpointResponsiveValue < 1024 ||
+									  data.transitionType === "center"
 									? {
 											opacity: "0",
 											transition: "opacity 2.5s, margin-top 2.5s",
@@ -65,15 +71,10 @@ const BlocTextContent = ({
 											transition: "opacity 2.5s, margin-left 2.5s",
 											marginLeft: "100px"
 									  }
-									: data.transitionType === "right"
-									? {
+									: {
 											opacity: "0",
 											transition: "opacity 2.5s, margin-right 2.5s",
 											marginRight: "100px"
-									  }
-									: {
-											opacity: "1",
-											transition: ""
 									  }
 							}
 							styleAfterTransition={
