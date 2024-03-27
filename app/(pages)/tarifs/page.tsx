@@ -86,7 +86,7 @@ const PricesPage = () => {
 							<span className="italic">1 heure et 30 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
-							90 €
+							80 €
 						</p>
 					</article>
 
@@ -108,7 +108,7 @@ const PricesPage = () => {
 							<span className="italic">7 heures et 30 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
-							360 €
+							320 €
 						</p>
 					</article>
 				</div>
