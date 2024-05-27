@@ -24,7 +24,7 @@ const ReservationPage = () => {
 					<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 						Important à savoir avant de réserver !
 					</h2>
-					<div className="flex justify-center mt-5 gap-3 italic">
+					{/* <div className="flex justify-center mt-5 gap-3 italic">
 						<Image
 							alt="icone warning"
 							src={"/icons/icon_warning.svg"}
@@ -35,7 +35,7 @@ const ReservationPage = () => {
 							Congé annuel du 1er Mai au 21 Mai
 							<br /> Je reste joignable par email si vous avez la moindre question !
 						</p>
-					</div>
+					</div> */}
 					<p className="text-justify mt-5 max-w-lg mx-auto px-4">
 						Les réservations se font uniquement pour les séances d'accompagnement
 						énergétique ! Pour une prestation musicale merci de bien vouloir me
