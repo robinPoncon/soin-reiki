@@ -65,7 +65,7 @@ const PricesPage = () => {
 							<span className="italic"> 1 heure et 30 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-customYellow">
-							60 €
+							50 €
 						</p>
 					</article>
 
@@ -86,13 +86,13 @@ const PricesPage = () => {
 							<span className="italic">1 heure et 30 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
-							80 €
+							60 €
 						</p>
 					</article>
 
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
-							Amour de Soi
+							Connaissance de Soi
 							<br /> <span className="text-base">5 séances (4 + 1 offerte)</span>
 						</h2>
 						<div className="flex flex-col px-2 text-center gap-2">
@@ -108,7 +108,7 @@ const PricesPage = () => {
 							<span className="italic">7 heures et 30 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
-							320 €
+							250 €
 						</p>
 					</article>
 				</div>
