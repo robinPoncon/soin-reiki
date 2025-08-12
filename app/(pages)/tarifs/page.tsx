@@ -108,7 +108,7 @@ const PricesPage = () => {
 							<span className="italic">7 heures et 30 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
-							250 €
+							300 €
 						</p>
 					</article>
 				</div>
@@ -167,7 +167,7 @@ const PricesPage = () => {
 							<span className="italic">1 heure et 30 minutes</span>
 						</p>
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
-							90 €
+							60 €
 						</p>
 					</article>
 					<div className="flex-col justify-between max-w-xs mx-auto hidden lg:flex lg:w-1/3 xl:-mx-20 ">
@@ -211,7 +211,10 @@ const PricesPage = () => {
 							<strong>Durée :</strong>{" "}
 							<span className="italic">1 heure et 30 minutes</span>
 						</p>
-						<p className="py-5 h-20 text-center rounded-b-xl font-semibold bg-pink">
+						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
+							150 €
+						</p>
+						{/* <p className="py-5 h-20 text-center rounded-b-xl font-semibold bg-pink">
 							<Link
 								href="/tarifs-groupe"
 								className="flex actionLinkPink smallBtn noborder"
@@ -219,7 +222,7 @@ const PricesPage = () => {
 								<span className="textActionLink">Consulter les tarifs</span>
 								<span className="iconActionLink" />
 							</Link>
-						</p>
+						</p> */}
 					</article>
 					<div className="flex flex-col gap-2 lg:hidden">
 						<h4 className="text-customWhite text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">

@@ -28,17 +28,17 @@ const PriceListPage = () => {
 					<div className="flex flex-col gap-4">
 						<div className="px-6 pt-6 flex justify-between">
 							<p className="sm:text-lg">2 personnes</p>
-							<p className="font-semibold text-lg sm:text-xl">150€</p>
+							<p className="font-semibold text-lg sm:text-xl">120€</p>
 						</div>
 						<p className="separateLine" />
 						<div className="px-6 flex justify-between">
 							<p className="sm:text-lg">3 personnes</p>
-							<p className="font-semibold text-lg sm:text-xl">180€</p>
+							<p className="font-semibold text-lg sm:text-xl">150€</p>
 						</div>
 						<p className="separateLine" />
 						<div className="px-6 flex justify-between">
 							<p className="sm:text-lg">4 personnes</p>
-							<p className="font-semibold text-lg sm:text-xl">210€</p>
+							<p className="font-semibold text-lg sm:text-xl">180€</p>
 						</div>
 						<p className="separateLine" />
 						<div className="px-6 flex justify-between">
