@@ -8,6 +8,7 @@ import { formDataToObject } from "@/_utils/form";
 import { useContext, useEffect } from "react";
 import FlashMessagesContext from "@/_context/FlashMessagesContext";
 import { useLoader } from "@/_context/LoaderContext";
+import { sendMailAction } from "@/_actions/sendMailAction";
 
 const ContactPage = () => {
 	const flashMessage = useContext(FlashMessagesContext);
@@ -25,28 +26,18 @@ const ContactPage = () => {
 		const submitDatasConverted = formDataToObject(submitDatas);
 
 		try {
-			const response = await fetch("/api/contactEmail", {
-				method: "POST",
-				body: JSON.stringify(submitDatasConverted)
+			// const response = await fetch("/api/contactEmail", {
+			// 	method: "POST",
+			// 	body: JSON.stringify(submitDatasConverted)
+			// });
+			await sendMailAction(submitDatasConverted);
+			hideLoader();
+			flashMessage.addMessage({
+				type: "success",
+				title: "Succès",
+				text: "Merci ! Votre message a bien été envoyé, je vous ferai un retour rapidement."
 			});
-
-			if (response.ok) {
-				hideLoader();
-				flashMessage.addMessage({
-					type: "success",
-					title: "Succès",
-					text: "Merci ! Votre message a bien été envoyé, je vous ferai un retour rapidement."
-				});
-				resetFormDataValues();
-			} else {
-				hideLoader();
-				setIsSubmitBtnDisabled(false);
-				flashMessage.addMessage({
-					type: "error",
-					title: "Erreur",
-					text: "Une erreur est survenue durant l'envoi de votre message, n'hésitez pas à me contacter directement par email. Vous trouverez mon email en bas de la page."
-				});
-			}
+			resetFormDataValues();
 		} catch (error) {
 			hideLoader();
 			setIsSubmitBtnDisabled(false);
