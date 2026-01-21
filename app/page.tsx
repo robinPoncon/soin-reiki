@@ -83,12 +83,13 @@ const MainPage = () => {
 						}}
 					>
 						<p className="text-center max-w-2xl mx-auto">
-							Je suis ravi de vous accueillir sur mon site internet dédié au bien-être
-							et à la guérison grâce à l'Amour de Soi. Je crois profondément en
-							l'importance d'être à l'écoute de son corps, de son esprit et de ses
-							émotions pour atteindre un épanouissement complet dans tous les domaines
-							de sa vie. Vous trouverez toutes les informations nécessaires sur mes
-							services, le déroulé des séances et ma vision du soin énergétique. Je
+							Je suis ravi de vous accueillir sur ce site, dédié à un accompagnement
+							basé sur l’écoute, le ressenti et la clarification intérieure. Je crois
+							profondément en l’importance de prêter attention à son corps, à ses
+							ressentis et à ses émotions pour mieux comprendre ce qui nous traverse
+							et poser des choix plus justes pour soi. Vous trouverez ici toutes les
+							informations nécessaires concernant mon approche, le déroulement des
+							séances et la manière dont j’accompagne les personnes que je reçois. Je
 							vous souhaite une agréable visite !
 						</p>
 					</ScrollAnimation>
@@ -121,8 +122,8 @@ const MainPage = () => {
 					}
 				>
 					<p className="font-semibold italic text-center max-w-2xl mx-auto">
-						"Plus profondes sont nos racines, plus grand est notre Amour de Soi et plus
-						nous pouvons faire éclore les fleurs de notre épanouissement."
+						"Plus profondes sont nos racines, plus claire devient notre vision de
+						nous-mêmes, et plus nos pas peuvent se poser avec justesse."
 					</p>
 				</ScrollAnimation>
 			</section>
