@@ -59,13 +59,14 @@ const MainPage = () => {
 				{breakpointResponsiveValue < 1024 ? (
 					<div className="flex flex-col gap-10 px-2">
 						<p className="text-justify max-w-2xl mx-auto">
-							Je suis ravi de vous accueillir sur mon site internet dédié au bien-être
-							et à la guérison grâce à l'Amour de Soi. Je crois profondément en
-							l'importance d'être à l'écoute de son corps, de son esprit et de ses
-							émotions pour atteindre un épanouissement complet dans tous les domaines
-							de sa vie. Vous trouverez toutes les informations nécessaires sur mes
-							services, le déroulé des séances et ma vision du soin énergétique. Je
-							vous souhaite une agréable visite !
+							Je suis ravi de vous accueillir sur ce site, dédié à un accompagnement
+							basé sur l’écoute, le ressenti et la recherche de clarté intérieure. Je
+							crois profondément en l’importance de prêter attention à son corps, à
+							ses ressentis et à ses émotions pour mieux comprendre ce que nous
+							traversons et poser des choix plus justes pour soi. Vous trouverez ici
+							toutes les informations concernant mon approche, le déroulement des
+							séances et la manière dont j’accompagne les personnes que je reçois. Je
+							vous souhaite une agréable visite.
 						</p>
 					</div>
 				) : (
@@ -103,27 +104,27 @@ const MainPage = () => {
 							? {
 									opacity: "1",
 									transition: ""
-							  }
+								}
 							: {
 									opacity: "0",
 									transition: "opacity 2.5s, margin-right 2.5s",
 									marginRight: "200px"
-							  }
+								}
 					}
 					styleAfterTransition={
 						breakpointResponsiveValue < 1024
 							? {
 									opacity: "1"
-							  }
+								}
 							: {
 									opacity: "1",
 									marginRight: "0px"
-							  }
+								}
 					}
 				>
 					<p className="font-semibold italic text-center max-w-2xl mx-auto">
-						"Plus profondes sont nos racines, plus claire devient notre vision de
-						nous-mêmes, et plus nos pas peuvent se poser avec justesse."
+						"Plus profondes sont nos racines, plus justes sont nos pas, et plus notre
+						chemin se révèle."
 					</p>
 				</ScrollAnimation>
 			</section>
@@ -280,22 +281,22 @@ const MainPage = () => {
 								? {
 										opacity: "1",
 										transition: ""
-								  }
+									}
 								: {
 										opacity: "0",
 										transition: "opacity 2.5s, margin-top 2.5s",
 										marginTop: "100px"
-								  }
+									}
 						}
 						styleAfterTransition={
 							breakpointResponsiveValue < 1024
 								? {
 										opacity: "1"
-								  }
+									}
 								: {
 										opacity: "1",
 										marginTop: "0"
-								  }
+									}
 						}
 					>
 						<h3 className="text-lg sm:text-xl text-center font-semibold italic mb-2 px-4">
@@ -319,22 +320,22 @@ const MainPage = () => {
 						? {
 								opacity: "1",
 								transition: ""
-						  }
+							}
 						: {
 								opacity: "0",
 								transition: "opacity 2.5s, margin-top 2.5s",
 								marginTop: "100px"
-						  }
+							}
 				}
 				styleAfterTransition={
 					breakpointResponsiveValue < 1024
 						? {
 								opacity: "1"
-						  }
+							}
 						: {
 								opacity: "1",
 								marginTop: "0"
-						  }
+							}
 				}
 			>
 				<section className="flex flex-col gap-10">
