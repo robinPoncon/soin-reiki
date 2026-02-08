@@ -132,7 +132,7 @@ const MainPage = () => {
 				<BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					darkMode
-					mainTitle="Vous vous reconnaissez ?"
+					mainTitle="Vous traversez peut-être ..."
 					textDatasArray={[
 						{
 							id: "physic-bloc",
@@ -140,9 +140,9 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_body.svg",
 							title: "Physique",
 							content: [
-								"- Ressentez-vous souvent des tensions musculaires, surtout au niveau du dos ?",
-								"- Avez-vous des problèmes de sommeil, comme l'insomnie ou des réveils fréquents ?",
-								"- Éprouvez-vous fréquemment des maux de tête sans cause médicale évidente ?"
+								"- Une sensation de fatigue ou un manque d’énergie liée à une période intense ?",
+								"- Des difficultés à ralentir ou à vraiment récupérer, même lorsque le corps en ressent le besoin ?",
+								"- Des tensions ou une lourdeur corporelle, comme si le corps avait du mal à relâcher ?"
 							],
 							transitionType: "left"
 						},
@@ -152,9 +152,9 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_brain.svg",
 							title: "Mental",
 							content: [
-								"- Est-ce que des pensées négatives perturbent votre capacité d'attention ?",
-								"- Ressentez-vous fréquemment une fatigue mentale, même après avoir bien dormi ?",
-								"- Êtes-vous souvent submergé par le stress, l'anxiété, des angoisses ou la dépression ?"
+								"- Une impression de tourner en rond ou de ne plus savoir dans quelle direction avancer ?",
+								"- Une perte de motivation ou de confiance, accompagnée d’un regard plus dur envers vous-même ?",
+								"- Des questionnements persistants sur le sens, l’avenir ou les choix à faire ?"
 							],
 							transitionType: "center"
 						},
@@ -164,9 +164,9 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_heart.svg",
 							title: "Émotionnel",
 							content: [
-								"- Vous sentez-vous souvent seul, même en présence d'autres personnes ?",
-								"- Éprouvez-vous de la difficulté à exprimer vos émotions ou à les comprendre ?",
-								"- Éprouvez-vous de la tristesse ou une sensation de vide, sans raison apparente ?"
+								"- Une sensibilité accrue, avec des émotions qui prennent plus de place que d’habitude ?",
+								"- Une sensation de fatigue émotionnelle, de mélancolie ou de perte d’élan ?",
+								"- Un sentiment de frustration ou d’injustice face à une situation qui semble ne pas évoluer ?"
 							],
 							transitionType: "right"
 						}
@@ -234,13 +234,11 @@ const MainPage = () => {
 							id: "values-bloc",
 							imgAlt: "icône de mains jointes",
 							imgSrc: "/icons/icon_hands-pink.svg",
-							title: "Mes valeurs",
+							title: "Mon intention",
 							content: [
-								`Mon objectif est de créer un espace de confiance et de relaxation, où vous
-								vous sentirez en sécurité pour lâcher prise. C'est cet environnement de douceur
-								qui favorise la reconnexion avec votre cœur. Et c'est cette reconnexion qui vous guide
-								sur la voie de la guérison. Mes valeurs profondes sont l'écoute, la bienveillance, 
-								la compassion et le respect.`
+								`Mon intention est d’offrir un espace d’écoute, de présence et de douceur, dans lequel chacun peut prendre le temps de se poser et de mieux comprendre ce qu’il traverse.
+								Cet espace permet de ralentir, de retrouver de la clarté et de se reconnecter à ses propres ressentis, afin d’avancer plus justement, à son rythme.
+								Les valeurs qui guident mon accompagnement sont l’écoute, le respect, la bienveillance et la simplicité.`
 							],
 							transitionType: "left"
 						},
@@ -248,13 +246,11 @@ const MainPage = () => {
 							id: "tools-bloc",
 							imgAlt: "icône d'une note de musique",
 							imgSrc: "/icons/icon_music-pink.svg",
-							title: "Mes services",
+							title: "Mes outils",
 							content: [
-								`Mon approche thérapeutique combine la guidance des cartes pour identifier
-								la source de votre problématique, le Reiki pour favoriser la relaxation de votre corps,
-								des exercices de pleine conscience pour libérer vos blocages émotionnels, et de la 
-								musique apaisante accompagnée de mes propres compositions au Handpan pour enrichir 
-								votre expérience thérapeutique.`
+								`Les séances s’appuient sur différents outils : les cartes, le Reiki, la pleine conscience et le voyage sonore au Handpan.
+								Ces pratiques sont utilisées comme des supports pour favoriser le relâchement, l’écoute intérieure et l’émergence de ce qui a besoin d’être compris ou clarifié pendant la séance.
+								Elles ne constituent pas une méthode à suivre, mais des moyens d’accompagner chaque personne dans ce qu’elle traverse, à son propre rythme.`
 							],
 							transitionType: "center"
 						},
@@ -262,12 +258,11 @@ const MainPage = () => {
 							id: "happiness-bloc",
 							imgAlt: "icône d'un soleil",
 							imgSrc: "/icons/icon_universe-pink.svg",
-							title: "Votre bonheur",
+							title: "Votre chemin",
 							content: [
-								`La quête de la guérison est, en fin de compte, une recherche du bonheur. En surmontant
-								vos blocages, vous retrouverez votre liberté, votre légèreté et votre confiance en vous.
-								Mon accompagnement vise à vous ramener vers le véritable amour : l'Amour de Soi. Car 
-								sans cet amour envers vous-même, comment pouvez-vous aimer les autres ?`
+								`Cet accompagnement a pour objectif d’offrir un espace pour ralentir et mieux comprendre ce que vous traversez.	
+								En prenant le temps d’observer, de mettre des mots sur vos ressentis et d’identifier ce qui est réellement en jeu pour vous, un nouveau regard peut émerger
+								À partir de ce regard, les choix deviennent plus justes, et le prochain pas sur votre chemin peut alors se dessiner plus naturellement.`
 							],
 							transitionType: "right"
 						}
@@ -363,31 +358,27 @@ const MainPage = () => {
 								Mon Histoire
 							</h2>
 							<p>
-								Je m'appelle Robin Ponçon, j'ai {age} ans et je suis thérapeute
-								énergétique. Tout a débuté lors d'une période introspective en quête
-								de spiritualité il y a {spiritualityAge} ans. En développant le
-								magnétisme de mes mains, j'ai cherché à apaiser les symptômes du
-								cancer de mon chat. Cette expérience a éveillé en moi la volonté
-								d'approfondir cette capacité pour aider autrui.
+								Je m’appelle Robin Ponçon, j’ai {age} et j’accompagne des personnes
+								qui traversent des périodes de doute ou de transition dans leur vie.
+								Mon chemin a commencé il y a plusieurs années, lors d’une période
+								profondément introspective, marquée par une recherche de sens et de
+								compréhension de ce que je vivais. C’est à ce moment que j’ai eu
+								l'éveil du magnétisme de manière intuitive.
 							</p>
 							<p>
-								Mon parcours m'a naturellement guidé vers le Reiki, une méthode de
-								soin énergétique japonaise. En canalisant l'énergie qui nous
-								entoure, je peux renforcer l'efficacité de mes soins. J'ai eu
-								l'opportunité d'explorer les trois niveaux du Reiki sous la tutelle
-								de Monique Chanoni, une maître Reiki établie dans la lignée de Mikao
-								Usui. Aujourd'hui, je suis certifié en tant que maître praticien
-								dans cette discipline.
+								Mon parcours m’a ensuite conduit vers le Reiki, une pratique
+								énergétique japonaise que j’ai étudiée et approfondie au fil des
+								années. Ces apprentissages ont constitué une base importante, mais
+								c’est surtout l’expérience humaine, l’écoute et le chemin parcouru
+								qui ont progressivement façonné ma manière d’accompagner
+								aujourd’hui.
 							</p>
 							<p className="lg:hidden">
-								Mon objectif est donc de vous fournir l'écoute, le soutien et
-								l'autonomie nécessaire pour une véritable transformation personnelle
-								! Pour obtenir cette transformation, vous devez avoir la volonté
-								conscience ou inconsciente de vouloir guérir. Je peux vous montrer
-								le chemin, mais je ne peux pas marcher à votre place. Bien que cela
-								puisse sembler idéaliste, je crois fermement qu'en guidant chacun
-								vers son équilibre et son épanouissement, nous pouvons contribuer à
-								façonner un monde plus lumineux et bienveillant pour tous !
+								Mon intention n’est pas de transformer ou de guérir à la place de
+								l’autre, mais d’offrir un espace d’écoute et de présence permettant
+								à chacun de mieux comprendre ce qu’il traverse et de retrouver sa
+								propre capacité à avancer. Je peux éclairer certaines étapes du
+								chemin, mais chacun reste libre de ses pas.
 								<span className="block mt-6 italic">
 									<Link
 										href="/mon-histoire"
@@ -410,13 +401,11 @@ const MainPage = () => {
 						</div>
 					</div>
 					<p className="text-customWhite relative hidden bg-darkBackground p-6 w-[872px] rounded-b-lg mx-auto -mt-20 lg:block">
-						Mon objectif est donc de vous fournir l'écoute, le soutien et l'autonomie
-						nécessaire pour une véritable transformation ! Pour obtenir cette
-						transformation, vous devez avoir la volonté conscience ou inconsciente de
-						vouloir guérir. Je peux vous montrer le chemin, mais je ne peux pas marcher
-						à votre place. Bien que cela puisse sembler idéaliste, je crois fermement
-						qu'en guidant chacun vers son équilibre et son épanouissement, nous pouvons
-						contribuer à façonner un monde plus lumineux et bienveillant pour tous !
+						Mon intention n’est pas de transformer ou de guérir à la place de l’autre,
+						mais d’offrir un espace d’écoute et de présence permettant à chacun de mieux
+						comprendre ce qu’il traverse et de retrouver sa propre capacité à avancer.
+						Je peux éclairer certaines étapes du chemin, mais chacun reste libre de ses
+						pas.
 						<span className="block mt-5 italic">
 							<Link
 								href="/mon-histoire"
