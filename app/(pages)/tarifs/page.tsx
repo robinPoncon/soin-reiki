@@ -15,15 +15,13 @@ const PricesPage = () => {
 		<section className="flex flex-col gap-24 pt-20 tarifsPageComponent">
 			<div className="flex flex-col gap-12 px-4">
 				<h1 className="titleFont font-semibold text-center text-2xl mx-auto w-fit customBorderPink p-4 md:text-4xl">
-					Tarifs des Accompagnements
+					Tarifs des séances
 				</h1>
 				<p className="text-justify italic mx-auto lg:max-w-3xl">
-					Mon objectif est de prendre le temps de bien comprendre votre problématique et
-					de vous accompagner au mieux pour la résoudre. C'est donc pour ça que mes
-					séances durent <strong>1h30</strong> au lieu de 1h. Pour régler une séance, vous
-					avez actuellement la possibilité de payer en <strong>espèces</strong> ou par{" "}
-					<strong>chèque</strong> à la fin de la séance. Je prévois d'introduire d'autres
-					moyens de paiement à l'avenir pour plus de commodité !
+					Une séance dure généralement entre <strong>1h et 1h30</strong>, afin de prendre
+					le temps d’échanger, de se poser et d’accueillir et de mieux comprendre ce que
+					vous traversez. Le règlement s’effectue à la fin de la séance, en{" "}
+					<strong>espèces ou par chèque</strong>.
 					{/* <Link
 					href="/contact"
 					className="redirectLinkBlue"

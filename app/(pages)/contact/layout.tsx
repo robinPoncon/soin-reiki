@@ -1,10 +1,18 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Contactez-moi pour plus d'informations",
+	title: "Contact – Prendre contact et poser vos questions",
 	description:
-		"Si vous avez besoin de renseignements sur mon accompagnement énergétique ou mes prestations musicales, n'hésitez pas à me contacter !",
-	keywords: ["contactez-moi", "guérison", "accompagnement énergétique", "prestation musicale"]
+		"Pour toute question concernant le déroulement des séances, mon accompagnement ou mes prestations musicales, vous pouvez me contacter via ce formulaire. Je vous répondrai dans les meilleurs délais.",
+	keywords: [
+		"contact",
+		"accompagnement",
+		"reiki bordeaux",
+		"prise de rendez-vous",
+		"question accompagnement",
+		"prestation musicale",
+		"contact thérapeute"
+	]
 };
 
 export default function ContactLayout({ children }: { children: React.ReactNode }) {

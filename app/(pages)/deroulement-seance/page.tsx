@@ -17,7 +17,7 @@ const SessionSequencePage = () => {
 			</h1>
 			<article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
-					Étape 1 : Une Préparation Bienveillante
+					Étape 1 : Un temps d’accueil et d’écoute
 				</h2>
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
@@ -29,19 +29,19 @@ const SessionSequencePage = () => {
 						loading="eager"
 					/>
 					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
-						Dès le début, nous prenons le temps de discuter de vos intentions, des
-						bienfaits et de la transformation que vous recherchez à travers les séances.
-						Je vous partage ensuite mes connaissances et mon expérience, afin que nous
-						puissions trouver des solutions durables à vos problématiques. De plus, je
-						vous propose une guidance énergétique à travers le tirage d'une carte, pour
-						obtenir plus d'informations sur la source de votre problématique afin de
-						vous guider un peu plus loin sur le chemin de la guérison.
+						Au début de la séance, nous prenons le temps d’échanger sur ce que vous
+						traversez actuellement, vos ressentis et les questions qui vous amènent. Cet
+						espace permet de poser les choses simplement, sans jugement, et de clarifier
+						ce qui a besoin d’être entendu ou compris. Selon le moment et ce qui émerge,
+						un tirage de cartes peut être proposé comme support de réflexion, afin
+						d’ouvrir un autre regard ou d’apporter une piste de compréhension
+						supplémentaire.
 					</p>
 				</div>
 			</article>
 			<article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
-					Étape 2 : L'Harmonie Énergétique
+					Étape 2 : Un temps de relaxation corporelle
 				</h2>
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row-reverse">
 					<Image
@@ -52,19 +52,19 @@ const SessionSequencePage = () => {
 						height={320}
 					/>
 					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
-						Je commence le soin en plaçant délicatement mes mains sur les zones de votre
-						corps nécessitant un rééquilibrage énergétique. Pendant cette étape, des
-						sensations telles que du chaud, du froid, des picotements, des émotions ou
-						autres peuvent se manifester. Tout cela est normal et fait partie du
-						processus de la circulation de l'énergie en vous. Enfin, une fois que vous
-						êtes détendu, nous passons à des exercices de pleine conscience pour vous
-						libérer définitivement de vos blocages.
+						La séance se poursuit par un temps de soin énergétique et de relaxation. Le
+						Reiki est utilisé comme un support pour favoriser la détente du corps et un
+						apaisement global. Des sensations physiques ou émotionnelles peuvent
+						apparaître et sont simplement accueillies comme faisant partie du processus.
+						Selon les besoins, des temps de pleine conscience ou un voyage sonore
+						peuvent accompagner cette phase, afin de soutenir l’écoute intérieure et
+						laisser émerger ce qui a besoin de se déposer.
 					</p>
 				</div>
 			</article>
 			<article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
-					Étape 3 : Intégration et Planification
+					Étape 3 : Intégration et mise en perspective
 				</h2>
 				<div className="flex flex-col justify-center gap-16 mt-10 md:flex-row">
 					<Image
@@ -75,13 +75,13 @@ const SessionSequencePage = () => {
 						height={320}
 					/>
 					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
-						Une fois le soin achevé, nous prenons le temps de partager nos impressions
-						sur l'expérience vécue. En fonction de vos ressentis et de vos besoins, nous
-						planifions d'autres séances si nécessaires. Généralement, pour une véritable
-						guérison et transformation, il est recommandé de prévoir 3 à 4 séances
-						minimum, espacées d'une à deux semaines. Dans les jours qui suivent le soin,
-						hydratez-vous davantage pour favoriser la purification et l'élimination des
-						toxines énergétiques.
+						En fin de séance, nous prenons un moment pour revenir sur ce qui a été vécu
+						et mettre des mots sur ce qui a pu émerger. Ce temps permet de prendre du
+						recul et d’identifier, lorsque cela fait sens, un prochain pas juste à
+						explorer dans votre quotidien. Pour beaucoup de personnes, ce travail
+						s’inscrit naturellement sur plusieurs séances espacées dans le temps, afin
+						d’observer ce qui évolue, d’affiner la compréhension et d’avancer
+						progressivement à son propre rythme.
 					</p>
 				</div>
 			</article>

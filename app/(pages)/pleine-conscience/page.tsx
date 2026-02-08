@@ -26,11 +26,9 @@ const FullConsciousnessPage = () => {
 						imgSrc: "/icons/icon_eye-pink.svg",
 						title: "Observer l'instant présent",
 						content: [
-							`Fondamentalement, la pleine conscience consiste à diriger notre conscience vers 
-							nos sensations corporelles, nos émotions et nos pensées. C'est cette prise 
-							de recul et de détachement qui permettent d'observer notre comportement sans porter 
-							de jugement. Un exemple classique illustrant ce processus est la simple observation de 
-							notre respiration.`
+							`La pleine conscience consiste à porter son attention sur l’instant présent, en observant simplement les sensations du corps, 
+							les émotions et les pensées telles qu’elles apparaissent. Cette observation sans jugement permet de prendre du recul 
+							et de mieux comprendre ce qui se vit intérieurement.`
 						],
 						transitionType: "none"
 					},
@@ -38,12 +36,11 @@ const FullConsciousnessPage = () => {
 						id: "heal-path-bloc",
 						imgAlt: "icône d'une plante symbolisant la guérison",
 						imgSrc: "/icons/icon_think.svg",
-						title: "Apprivoiser ses pensées",
+						title: "Apaiser le mental",
 						content: [
-							`En se concentrant pleinement sur notre corps et sur le moment présent, il est possible
-							de considérablement réduire le flot incessant de pensées. Avec l'expérience, nous réalisons 
-							progressivement que nos pensées ne définissent pas qui nous sommes. Ce constat produit un 
-							état de lâcher-prise, favorisant ainsi notre bien-être global.`
+							`En ramenant doucement l’attention au corps et aux sensations, le flot des pensées peut naturellement ralentir. 
+							Cette prise de distance permet de ne plus se laisser emporter par le mental et de retrouver un espace plus calme 
+							et plus stable face à ce qui est vécu.`
 						],
 						transitionType: "none"
 					},
@@ -51,13 +48,10 @@ const FullConsciousnessPage = () => {
 						id: "awareness-bloc",
 						imgAlt: "icône d'un oeil'",
 						imgSrc: "/icons/icon_healing-pink.svg",
-						title: "Transformer sa vie",
+						title: "Retrouver de la clarté",
 						content: [
-							`La pleine conscience représente un puissant levier de croissance personnelle. En se 
-							reconnectant à son corps et à ses émotions, on s'engage dans un voyage d'exploration de 
-							soi-même. Et ce voyage permet de se libérer de nos comportements et schémas de pensées négatifs.
-							En définitive, pratiquer la pleine conscience est un acte d'Amour de Soi 
-							favorisant la guérison totale.`
+							`La pleine conscience n’a pas pour objectif de transformer ou de supprimer ce qui est ressenti, mais d’apprendre à l’accueillir différemment. 
+							Avec le temps, cette écoute permet de mieux se situer face à ses émotions et d’avancer avec davantage de justesse dans ses choix.`
 						],
 						transitionType: "none"
 					}

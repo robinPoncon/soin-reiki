@@ -1,15 +1,16 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Réservez votre Séance",
+	title: "Réserver une séance",
 	description:
-		"Réservez votre séance d'accompagnement énergétique en choisissant la date et l'heure qui vous conviennent !",
+		"Réservez votre séance d’accompagnement en choisissant simplement la date et l’horaire qui vous conviennent.",
 	keywords: [
 		"réservation",
 		"rendez-vous",
 		"séance",
-		"accompagnement énergétique",
-		"prestation musicale"
+		"accompagnement",
+		"reiki bordeaux",
+		"prise de rendez-vous"
 	]
 };
 

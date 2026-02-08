@@ -90,13 +90,13 @@ const ContactPage = () => {
 	return (
 		<div className={`flex flex-col gap-16 py-20 px-4 lg:px-24 ${isLoading ? "blur-md" : ""}`}>
 			<h1 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
-				Ensemble vers votre Guérison !
+				Un premier pas
 			</h1>
 			<p className="italic text-justify md:max-w-3xl mx-auto">
-				Je suis là pour répondre à toutes vos questions et vous fournir des informations
-				détaillées sur les différents services, accompagnements et prestations que je
-				propose. Utilisez simplement le formulaire ci-dessous pour me contacter, et je vous
-				répondrai dans les meilleurs délais !
+				Je reste disponible pour répondre à vos questions ou vous apporter des précisions
+				sur le déroulement des séances et mon accompagnement. Vous pouvez utiliser le
+				formulaire ci-dessous pour me contacter, et je vous répondrai dans les meilleurs
+				délais.
 			</p>
 			<div className="flex flex-col gap-16 justify-between lg:flex-row">
 				<form

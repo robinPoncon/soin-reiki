@@ -3,12 +3,14 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
 	title: "Certifications Reiki & Tirage de Cartes",
 	description:
-		"Découvrez mes certifications en Reiki et tirage de cartes qui attestent de mon expertise et de mes compétences dans ces domaines.",
+		"Découvrez les formations et certifications qui ont accompagné mon parcours en Reiki et en guidance par les cartes, et qui soutiennent aujourd’hui ma pratique d’accompagnement.",
 	keywords: [
-		"certifications Reiki",
-		"certification tirage de cartes",
-		"diplômes reiki",
-		"diplôme tirage de cartes"
+		"certification reiki",
+		"diplôme reiki",
+		"formation reiki",
+		"tirage de cartes",
+		"formation guidance",
+		"praticien reiki"
 	]
 };
 

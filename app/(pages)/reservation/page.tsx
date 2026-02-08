@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -18,12 +17,12 @@ const ReservationPage = () => {
 		<section>
 			<div className="flex flex-col gap-20 py-20 lg:px-24">
 				<h1 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderPink p-4 md:text-4xl">
-					Réserver ma séance
+					Réserver une séance
 				</h1>
 				<div>
-					<h2 className="text-xl text-center font-semibold italic md:text-2xl">
+					{/* <h2 className="text-xl text-center font-semibold italic md:text-2xl">
 						Important à savoir avant de réserver !
-					</h2>
+					</h2> */}
 					{/* <div className="flex justify-center mt-5 gap-3 italic">
 						<Image
 							alt="icone warning"
@@ -36,10 +35,10 @@ const ReservationPage = () => {
 							<br /> Je reste joignable par email si vous avez la moindre question !
 						</p>
 					</div> */}
-					<p className="text-justify mt-5 max-w-lg mx-auto px-4">
-						Les réservations se font uniquement pour les séances d'accompagnement
-						énergétique ! Pour une prestation musicale merci de bien vouloir me
-						contacter par email ou via la{" "}
+					<p className="text-justify max-w-lg mx-auto px-4">
+						Les réservations en ligne concernent uniquement les séances
+						d’accompagnement. Pour toute demande de prestation musicale, vous pouvez me
+						contacter directement par email ou via la{" "}
 						<Link
 							className="redirectLinkPink"
 							href="/contact"
