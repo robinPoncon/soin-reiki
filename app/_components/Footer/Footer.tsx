@@ -185,14 +185,14 @@ const Footer = () => {
 									Mes certifications
 								</Link>
 							</li>
-							<li>
+							{/* <li>
 								<Link
 									className="lightHover"
 									href="/tarifs-groupe"
 								>
 									Tarifs Voyage Sonore en groupe
 								</Link>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>

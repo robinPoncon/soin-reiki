@@ -51,17 +51,19 @@ const PricesPage = () => {
 							<span className="text-base">(1 seule fois par personne)</span>
 						</h2>
 						<div className="flex flex-col px-2 text-center gap-2">
-							<p>Identification de la problématique</p>
-							<p>Tirage d'un oracle spécifique</p>
-							<p>Équilibrage & libération énergétique</p>
-							<p>Pistes de guérison à explorer</p>
-							<p>Suivi personnalisé</p>
+							<p>Première rencontre</p>
+							<p className="separator1"></p>
+							<p>Poser ce que vous traversez</p>
+							<p className="separator1"></p>
+							<p>Espace d’écoute et de relâchement</p>
+							<p className="separator1"></p>
+							<p>Découvrir l’accompagnement</p>
 						</div>
-						<p className="separator1"></p>
+						{/* <p className="separator1"></p>
 						<p className="text-center">
 							<strong>Durée :</strong>
 							<span className="italic"> 1 heure et 30 minutes</span>
-						</p>
+						</p> */}
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-customYellow">
 							50 €
 						</p>
@@ -69,20 +71,22 @@ const PricesPage = () => {
 
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
-							Guérison <br /> <span className="text-base">(séance classique)</span>
+							Approfondissement <br />{" "}
+							<span className="text-base">(séance classique)</span>
 						</h2>
 						<div className="flex flex-col px-2 text-center gap-2">
-							<p>Identification de la problématique</p>
-							<p>Tirage d'un oracle spécifique</p>
-							<p>Équilibrage & libération énergétique</p>
-							<p>Pistes de guérison à explorer</p>
-							<p>Suivi personnalisé</p>
+							<p>Prendre du recul</p>
+							<p className="separator2"></p>
+							<p>Clarifier la situation</p>
+							<p className="separator2"></p>
+							<p>Écoute et présence</p>
+							<p className="separator2"></p>
+							<p>Avancer à votre rythme</p>
 						</div>
-						<p className="separator2"></p>
-						<p className="text-center">
+						{/* <p className="text-center">
 							<strong>Durée :</strong>{" "}
 							<span className="italic">1 heure et 30 minutes</span>
-						</p>
+						</p> */}
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
 							60 €
 						</p>
@@ -90,23 +94,26 @@ const PricesPage = () => {
 
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h2 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
-							Connaissance de Soi
-							<br /> <span className="text-base">5 séances (4 + 1 offerte)</span>
+							Dans la durée
+							<br /> <span className="text-base">(3 séances)</span>
 						</h2>
 						<div className="flex flex-col px-2 text-center gap-2">
-							<p>Tous les bienfaits des séances classiques</p>
-							<p>+ Guidance de cartes complète offerte</p>
-							<p>+ Méditation guidée de pleine conscience</p>
-							<p>+ Identification de votre chemin de vie</p>
-							<p>Suivi personnalisé sur 3 à 6 mois</p>
+							<p>Inscrire le travail dans le temps</p>
+							<p className="separator3"></p>
+							<p>Observer les évolutions</p>
+							<p className="separator3"></p>
+							<p>Approfondir progressivement</p>
+							<p className="separator3"></p>
+							<p>Plus de clarté pas à pas</p>
+							{/* <p>Suivi personnalisé sur 3 à 6 mois</p> */}
 						</div>
-						<p className="separator3"></p>
-						<p className="text-center">
+
+						{/* <p className="text-center">
 							<strong>Durée :</strong>{" "}
 							<span className="italic">7 heures et 30 minutes</span>
-						</p>
+						</p> */}
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
-							300 €
+							150 €
 						</p>
 					</article>
 				</div>
@@ -129,11 +136,11 @@ const PricesPage = () => {
 				</h2>
 				<div className="flex flex-col gap-4">
 					<p className="text-justify text-customWhite italic mx-auto lg:max-w-3xl">
-						Mes prestations musicales ont pour but la relaxation et le développement de
-						la créativité. Mais elles ont aussi la capacité de vous aider à accepter et
-						libérer vos émotions ! Mes voyages sonores sont donc très efficaces pour des
-						espaces de coworking, entreprises, maison de retraite ou lieu avec des
-						enfants !
+						Les prestations musicales autour du Handpan proposent un moment de pause et
+						d’écoute, invitant à la détente et à l’exploration sonore. Ces voyages
+						musicaux peuvent s’intégrer dans différents contextes : espaces de
+						coworking, entreprises, maisons de retraite ou événements accueillant
+						enfants et adultes.
 					</p>
 					<p className="text-justify text-customWhite italic mx-auto lg:max-w-3xl">
 						Envie d'en savoir plus sur le voyage sonore ? C'est par{" "}
@@ -148,24 +155,27 @@ const PricesPage = () => {
 				<div className="flex flex-col justify-around gap-20 lg:flex-row lg:gap-5 xl:gap-0">
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-blueGreenLighter lg:text-xl">
-							Voyage Sonore
-							<br /> <span className="text-base">(individuel)</span>
+							Voyage Sonore petit groupe
+							<br /> <span className="text-base">(jusqu'à 10 personnes)</span>
 						</h3>
 						<div className="flex flex-col px-2 text-center gap-2">
-							<p>Thème du voyage personnalisé</p>
-							<p>Rééquilibrage énergétique</p>
-							<p>Méditation guidée de pleine conscience</p>
-							<p>Reconnexion profonde à vos émotions</p>
-							<p>Réduction du stress et de l'anxiété</p>
-							<p>Tirage d'un oracle en fin de séance</p>
+							<p>Voyage sonore guidé au Handpan</p>
+							<p className="separator2"></p>
+							<p>Thème adapté au groupe présent</p>
+							<p className="separator2"></p>
+							<p>Installation simple assis ou allongés</p>
+							<p className="separator2"></p>
+							<p>Expérience immersive accessible à tous</p>
+							<p className="separator2"></p>
+							<p>Moment de pause et de relaxation</p>
 						</div>
-						<p className="separator2"></p>
-						<p className="text-center">
+
+						{/* <p className="text-center">
 							<strong>Durée :</strong>{" "}
 							<span className="italic">1 heure et 30 minutes</span>
-						</p>
+						</p> */}
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-blueGreen">
-							60 €
+							200 €
 						</p>
 					</article>
 					<div className="flex-col justify-between max-w-xs mx-auto hidden lg:flex lg:w-1/3 xl:-mx-20 ">
@@ -193,24 +203,26 @@ const PricesPage = () => {
 
 					<article className="flex flex-col gap-5 bg-white w-72 max-w-xs mx-auto rounded-xl lg:w-1/3">
 						<h3 className="text-lg rounded-t-xl font-semibold italic py-5 text-center bg-pinkLighter lg:text-xl">
-							Voyage Sonore
-							<br /> <span className="text-base">(groupe)</span>
+							Voyage Sonore grand groupe
+							<br /> <span className="text-base">(plus de 10 personnes)</span>
 						</h3>
 						<div className="flex flex-col px-2 text-center gap-2">
-							<p>Thème du voyage personnalisé</p>
-							<p>Reiki pour la détente en début de séance</p>
-							<p>Méditation guidée de pleine conscience</p>
-							<p>Reconnexion profonde à vos émotions</p>
-							<p>Réduction du stress et de l'anxiété</p>
-							<p>Tirage d'un oracle en fin de séance</p>
+							<p>Voyage sonore guidé au Handpan</p>
+							<p className="separator3"></p>
+							<p>Thème adapté au groupe présent</p>
+							<p className="separator3"></p>
+							<p>Installation simple assis ou allongés</p>
+							<p className="separator3"></p>
+							<p>Expérience immersive accessible à tous</p>
+							<p className="separator3"></p>
+							<p>Moment de pause et de relaxation</p>
 						</div>
-						<p className="separator3"></p>
-						<p className="text-center">
+						{/* <p className="text-center">
 							<strong>Durée :</strong>{" "}
 							<span className="italic">1 heure et 30 minutes</span>
-						</p>
+						</p> */}
 						<p className="text-4xl py-5 text-center rounded-b-xl font-semibold bg-pink">
-							150 €
+							300 €
 						</p>
 						{/* <p className="py-5 h-20 text-center rounded-b-xl font-semibold bg-pink">
 							<Link

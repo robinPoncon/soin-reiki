@@ -36,16 +36,16 @@ const ReservationPage = () => {
 						</p>
 					</div> */}
 					<p className="text-justify max-w-lg mx-auto px-4">
-						Les réservations en ligne concernent uniquement les séances
-						d’accompagnement. Pour toute demande de prestation musicale, vous pouvez me
-						contacter directement par email ou via la{" "}
+						Les réservations en ligne concernent uniquement les séances d’accompagnement
+						individuel. Si vous souhaitez organiser un voyage sonore ou une prestation
+						musicale, vous pouvez me contacter directement par email ou via la{" "}
 						<Link
 							className="redirectLinkPink"
 							href="/contact"
 						>
 							page de contact
 						</Link>
-						.
+						{` afin d’en discuter ensemble.`}
 					</p>
 				</div>
 			</div>

@@ -23,12 +23,11 @@ const SoundTravelPage = () => {
 						id: "custom-theme-bloc",
 						imgAlt: "icône d'une boussole",
 						imgSrc: "/icons/icon_explore.svg",
-						title: "Thème personnalisé",
+						title: "Un thème partagé",
 						content: [
-							`Le voyage sonore représente une fusion harmonieuse entre une méditation guidée
-							en pleine conscience et les sonorités envoûtantes du Handpan. Dans un premier temps, 
-							nous définissons ensemble le thème de ce voyage intérieur. Chaque voyage sonore
-							est une invitation à la redécouverte de soi !`
+							`Le voyage sonore associe un temps de relaxation guidée et les sonorités du Handpan. 
+							Chaque séance s’articule autour d’un thème ou d’une intention simple, créant un espace propice au relâchement, 
+							à l’écoute et à l’immersion sonore.`
 						],
 						transitionType: "none"
 					},
@@ -36,12 +35,11 @@ const SoundTravelPage = () => {
 						id: "intuitive-writing-bloc",
 						imgAlt: "icône d'une plume qui écrit sur une feuille",
 						imgSrc: "/icons/icon_writing.svg",
-						title: "Écriture intuitive",
+						title: "Une trame intuitive",
 						content: [
-							`L'écriture intuitive se révèle être un outil précieux pour laisser libre cours à 
-							l'inspiration et à la créativité. Grâce à la pleine conscience, mon mental s'apaise
-							et je peux écouter l'intuition venant de mon cœur. C'est ainsi que je parviens à 
-							trouver les mots justes, qui résonneront avec vos expériences et vos émotions.`
+							`Le récit du voyage est écrit en amont, de manière intuitive, autour d’un thème ou d’une intention. 
+							Les mots servent de fil conducteur, permettant au mental de se déposer progressivement et de laisser émerger sensations, 
+							images ou ressentis, sans attente particulière.`
 						],
 						transitionType: "none"
 					},
@@ -49,12 +47,10 @@ const SoundTravelPage = () => {
 						id: "music-inspiration-bloc",
 						imgAlt: "icône d'une note de musique'",
 						imgSrc: "/icons/icon_music.svg",
-						title: "Inspiration musicale",
+						title: "Une immersion musicale",
 						content: [
-							`Une fois que la trame narrative est établie, je m'attèle à adapter et créer des 
-							compositions musicales qui se fondent harmonieusement dans chaque récit de voyage.
-							Mon instrument de musique est accordé en 432 Hz, les vibrations de cette fréquence qui 
-							en découlent sont réputées pour favoriser la relaxation, la guérison et le bien-être.`
+							`La musique accompagne ce temps d’expérience en soutenant la détente et l’attention portée aux sensations. 
+							Les compositions au Handpan créent une ambiance douce et enveloppante, favorisant un moment de calme et d’intégration.`
 						],
 						transitionType: "none"
 					}
@@ -70,12 +66,10 @@ const SoundTravelPage = () => {
 						id: "deep-relax-bloc",
 						imgAlt: "icône d'une fleur de lotus",
 						imgSrc: "/icons/icon_healing-pink.svg",
-						title: "Relaxation profonde",
+						title: "Un temps de relaxation",
 						content: [
-							`Les sonorités du Handpan exercent une empreinte envoûtante et méditative. Cette 
-							forme de relaxation s'avère particulièrement efficace pour apaiser le mental et 
-							dissiper les pensées tumultueuses, contribuant ainsi à réduire considérablement 
-							le stress et l'anxiété.`
+							`Les sonorités du Handpan invitent naturellement au ralentissement et à la détente. 
+							Ce moment permet au corps et au mental de se relâcher progressivement, offrant un espace de calme où les pensées peuvent s’apaiser.`
 						],
 						transitionType: "none"
 					},
@@ -83,12 +77,10 @@ const SoundTravelPage = () => {
 						id: "emotion-let-go-bloc",
 						imgAlt: "icône d'un coeur",
 						imgSrc: "/icons/icon_heart-pink.svg",
-						title: "Lâcher prise émotionnel",
+						title: "Un espace d’accueil émotionnel",
 						content: [
-							`Chaque voyage vise à vous fournir un cadre sûr pour exprimer librement vos émotions. 
-							Mon objectif premier est de créer un espace de bienveillance, où chacun se sent libre 
-							d'exprimer ses ressentis sans crainte de jugement. Ce lâcher-prise permet de renforcer
-							l'Amour de Soi !`
+							`Le voyage sonore propose un cadre doux et sécurisant, dans lequel chacun peut simplement accueillir ce qui est présent. 
+							Les ressentis ou émotions qui émergent sont reçus sans jugement, dans une atmosphère de présence et d’écoute.`
 						],
 						transitionType: "none"
 					},
@@ -96,11 +88,11 @@ const SoundTravelPage = () => {
 						id: "self-reconnection-bloc",
 						imgAlt: "icône du yin yang'",
 						imgSrc: "/icons/icon_yin-yang-pink.svg",
-						title: "Reconnexion de soi",
+						title: "Un moment pour se reconnecter à soi",
 						content: [
-							`Au cours de ces voyages intérieurs, vous aurez l'opportunité de découvrir vos forces, vos faiblesses, vos 
-							blocages et vos émotions. C'est cette reconnexion à vous-même qui redonne du sens à votre existence. 
-							Et quand sa vie a du sens, le bonheur s'installe pour un séjour durable !`
+							`En se laissant porter par la musique et l’expérience intérieure, certaines personnes ressentent une sensation 
+							de recentrage ou de clarté. Ce moment permet avant tout de revenir à ses sensations et de prendre un temps pour soi,
+							sans attente particulière.`
 						],
 						transitionType: "none"
 					}
@@ -124,9 +116,9 @@ const SoundTravelPage = () => {
 					Découvrir le Handpan
 				</h2>
 				<p className="text-justify italic mx-auto px-4 lg:max-w-3xl">
-					Vous êtes intéressé par cette expérience, mais vous n'avez aucune idée de ce
-					qu'est le Handpan ? Voici deux extraits vidéos ci-dessous qui vous permettront
-					de découvrir le potentiel méditatif et relaxant de ce merveilleux instrument !
+					Vous ne connaissez pas encore le Handpan ? Ces deux extraits vous permettent de
+					découvrir les sonorités de cet instrument et l’atmosphère musicale qui
+					accompagne les voyages sonores.
 				</p>
 				<div className="flex flex-col justify-center mx-auto px-4 gap-20 md:flex-row lg:gap-48">
 					<video

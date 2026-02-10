@@ -1,27 +1,25 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Tarifs des Accompagnements et des Prestations",
+	title: "Tarifs des accompagnements et des voyages sonores",
 	description:
-		"Découvrez plus en détail mes accompagnements et mes prestations musicales d'une durée de 90 minutes !",
+		"Découvrez les tarifs des accompagnements individuels et des voyages sonores en groupe, ainsi que le déroulement des différentes propositions.",
 	keywords: [
-		"tarifs",
-		"tirage de carte",
+		"tarifs accompagnement",
 		"accompagnement énergétique",
-		"équilibre énergétique",
-		"guérison",
-		"suivi personnalisé",
-		"guidance",
-		"méditation guidée",
-		"méditation pleine conscience",
+		"reiki bordeaux",
+		"tirage de carte",
 		"pleine conscience",
-		"chemin de vie",
-		"prestation musicale",
-		"émotions",
-		"relaxation",
 		"voyage sonore",
+		"handpan",
+		"relaxation",
+		"méditation guidée",
+		"écoute",
+		"clarifier sa situation",
 		"stress",
-		"anxiété"
+		"anxiété",
+		"émotions",
+		"prestation musicale"
 	]
 };
 

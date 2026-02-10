@@ -85,13 +85,13 @@ const MainPage = () => {
 					>
 						<p className="text-center max-w-2xl mx-auto">
 							Je suis ravi de vous accueillir sur ce site, dédié à un accompagnement
-							basé sur l’écoute, le ressenti et la clarification intérieure. Je crois
-							profondément en l’importance de prêter attention à son corps, à ses
-							ressentis et à ses émotions pour mieux comprendre ce qui nous traverse
-							et poser des choix plus justes pour soi. Vous trouverez ici toutes les
-							informations nécessaires concernant mon approche, le déroulement des
+							basé sur l’écoute, le ressenti et la recherche de clarté intérieure. Je
+							crois profondément en l’importance de prêter attention à son corps, à
+							ses ressentis et à ses émotions pour mieux comprendre ce que nous
+							traversons et poser des choix plus justes pour soi. Vous trouverez ici
+							toutes les informations concernant mon approche, le déroulement des
 							séances et la manière dont j’accompagne les personnes que je reçois. Je
-							vous souhaite une agréable visite !
+							vous souhaite une agréable visite.
 						</p>
 					</ScrollAnimation>
 				)}
@@ -140,7 +140,7 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_body.svg",
 							title: "Physique",
 							content: [
-								"- Une sensation de fatigue ou un manque d’énergie liée à une période intense ?",
+								"- Une sensation de fatigue ou un manque d’énergie lié à une période intense ?",
 								"- Des difficultés à ralentir ou à vraiment récupérer, même lorsque le corps en ressent le besoin ?",
 								"- Des tensions ou une lourdeur corporelle, comme si le corps avait du mal à relâcher ?"
 							],
@@ -152,7 +152,7 @@ const MainPage = () => {
 							imgSrc: "/icons/icon_brain.svg",
 							title: "Mental",
 							content: [
-								"- Une impression de tourner en rond ou de ne plus savoir dans quelle direction avancer ?",
+								"- Une impression de tourner en rond ou de ne plus savoir quelle direction prendre ?",
 								"- Une perte de motivation ou de confiance, accompagnée d’un regard plus dur envers vous-même ?",
 								"- Des questionnements persistants sur le sens, l’avenir ou les choix à faire ?"
 							],
@@ -228,7 +228,7 @@ const MainPage = () => {
 				<BlocTextContent
 					breakpointResponsiveValue={breakpointResponsiveValue}
 					pinkColor
-					mainTitle="Alors je peux vous aider !"
+					mainTitle="Mon accompagnement"
 					textDatasArray={[
 						{
 							id: "values-bloc",
@@ -261,7 +261,7 @@ const MainPage = () => {
 							title: "Votre chemin",
 							content: [
 								`Cet accompagnement a pour objectif d’offrir un espace pour ralentir et mieux comprendre ce que vous traversez.	
-								En prenant le temps d’observer, de mettre des mots sur vos ressentis et d’identifier ce qui est réellement en jeu pour vous, un nouveau regard peut émerger
+								En prenant le temps d’observer, de mettre des mots sur vos ressentis et d’identifier ce qui est réellement en jeu pour vous, un nouveau regard peut émerger.
 								À partir de ce regard, les choix deviennent plus justes, et le prochain pas sur votre chemin peut alors se dessiner plus naturellement.`
 							],
 							transitionType: "right"

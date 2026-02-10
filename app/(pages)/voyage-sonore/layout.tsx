@@ -1,27 +1,22 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Le Voyage Sonore",
-	description: "Découvrez une expérience de relaxation unique avec le Voyage Sonore !",
+	title: "Le Voyage Sonore – Expérience musicale au Handpan",
+	description:
+		"Découvrez le voyage sonore, une expérience immersive mêlant relaxation guidée et musique au Handpan, invitant au relâchement, à l’écoute intérieure et à un moment de pause.",
 	keywords: [
 		"voyage sonore",
-		"méditation pleine conscience",
-		"méditation guidée",
-		"pleine conscience",
 		"handpan",
-		"voyage intérieur",
-		"écriture intuitive",
-		"créativité",
-		"émotions",
-		"instrument de musique",
+		"méditation guidée",
 		"relaxation",
-		"guérison",
-		"bien-être",
-		"stress",
-		"anxiété",
-		"lâcher-prise",
-		"amour de soi",
-		"bonheur"
+		"expérience sonore",
+		"musique méditative",
+		"pleine conscience",
+		"écoute intérieure",
+		"détente",
+		"instrument handpan",
+		"voyage musical",
+		"bordeaux"
 	]
 };
 
