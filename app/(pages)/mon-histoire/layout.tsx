@@ -1,26 +1,25 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Mon Histoire",
+	title: "Mon Histoire | Robin Ponçon – Accompagnement à Bordeaux",
 	description:
-		"Découvrez en plus sur qui je suis, mon histoire et mon parcours dans le domaine énergétique et le développement personnel !",
+		"Découvrez mon histoire, mon parcours et la manière dont mon expérience a façonné ma vision de l’accompagnement, basée sur l’écoute, la présence et la recherche de clarté intérieure.",
 	keywords: [
-		"développement personnel",
-		"dépendance affective",
-		"estime de soi",
-		"amour inconditionnel",
-		"amour de soi",
-		"magnétisme",
-		"soin reiki",
-		"guérison",
-		"bienfaits",
-		"bien-être",
-		"prise de conscience",
+		"mon histoire",
+		"parcours thérapeute",
+		"accompagnement",
+		"écoute",
 		"pleine conscience",
-		"instrument de musique",
-		"handpan",
+		"reiki bordeaux",
+		"magnétisme",
+		"accompagnement énergétique",
+		"chemin personnel",
+		"clarté",
 		"émotions",
-		"sonothérapie"
+		"handpan",
+		"voyage sonore",
+		"bien-être",
+		"bordeaux"
 	]
 };
 

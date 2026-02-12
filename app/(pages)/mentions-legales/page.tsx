@@ -34,6 +34,14 @@ const MentionsLegalesPage = () => {
 					<strong>- Adresse email :</strong>
 					<span className="italic ml-2">poncon.robin@gmail.com</span>
 				</p>
+				<p className="flex flex-col">
+					<strong>- Statut :</strong>
+					<span className="italic ml-2">Auto-entrepreneur</span>
+				</p>
+				<p className="flex flex-col">
+					<strong>- Numéro SIRET :</strong>
+					<span className="italic ml-2"> 89099526900028</span>
+				</p>
 			</article>
 			<article>
 				<h2 className="text-xl mb-2 font-semibold md:text-2xl">Hébergement</h2>

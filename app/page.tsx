@@ -56,47 +56,21 @@ const MainPage = () => {
 				<h2 className="titleFont font-semibold text-2xl text-center mx-auto w-fit customBorderBlue p-4 md:text-4xl">
 					Bienvenue sur <span className="italic">Les Racines de la Guérison !</span>
 				</h2>
-				{breakpointResponsiveValue < 1024 ? (
-					<div className="flex flex-col gap-10 px-2">
-						<p className="text-justify max-w-2xl mx-auto">
-							Je suis ravi de vous accueillir sur ce site, dédié à un accompagnement
-							basé sur l’écoute, le ressenti et la recherche de clarté intérieure. Je
-							crois profondément en l’importance de prêter attention à son corps, à
-							ses ressentis et à ses émotions pour mieux comprendre ce que nous
-							traversons et poser des choix plus justes pour soi. Vous trouverez ici
-							toutes les informations concernant mon approche, le déroulement des
-							séances et la manière dont j’accompagne les personnes que je reçois. Je
-							vous souhaite une agréable visite.
-						</p>
-					</div>
-				) : (
-					<ScrollAnimation
-						id="text-welcome-bloc"
-						classContent="flex flex-col gap-10 px-2"
-						styleBeforeTransition={{
-							opacity: "0",
-							transition: "opacity 2.5s, margin-left 2.5s",
-							marginLeft: "200px"
-						}}
-						styleAfterTransition={{
-							opacity: "1",
-							marginLeft: "0px"
-						}}
-					>
-						<p className="text-center max-w-2xl mx-auto">
-							Je suis ravi de vous accueillir sur ce site, dédié à un accompagnement
-							basé sur l’écoute, le ressenti et la recherche de clarté intérieure. Je
-							crois profondément en l’importance de prêter attention à son corps, à
-							ses ressentis et à ses émotions pour mieux comprendre ce que nous
-							traversons et poser des choix plus justes pour soi. Vous trouverez ici
-							toutes les informations concernant mon approche, le déroulement des
-							séances et la manière dont j’accompagne les personnes que je reçois. Je
-							vous souhaite une agréable visite.
-						</p>
-					</ScrollAnimation>
-				)}
+				<div className="flex flex-col gap-10 px-2">
+					<p className="text-justify max-w-2xl mx-auto">
+						Je suis ravi de vous accueillir sur ce site, dédié à un accompagnement basé
+						sur l’écoute, le ressenti et la recherche de clarté intérieure. Je crois
+						profondément en l’importance de prêter attention à son corps, à ses
+						ressentis et à ses émotions pour mieux comprendre ce que nous traversons et
+						poser des choix plus justes pour soi. Vous trouverez ici toutes les
+						informations concernant mon approche, le déroulement des séances et la
+						manière dont j’accompagne les personnes que je reçois. Je vous souhaite une
+						agréable visite.
+					</p>
+				</div>
+
 				<p className="separatorBlue max-w-sm mx-auto md:max-w-xl" />
-				<ScrollAnimation
+				{/* <ScrollAnimation
 					id="citation-welcome-bloc"
 					classContent="flex flex-col gap-10 px-2"
 					styleBeforeTransition={
@@ -121,12 +95,12 @@ const MainPage = () => {
 									marginRight: "0px"
 								}
 					}
-				>
-					<p className="font-semibold italic text-center max-w-2xl mx-auto">
-						"Plus profondes sont nos racines, plus justes sont nos pas, et plus notre
-						chemin se révèle."
-					</p>
-				</ScrollAnimation>
+				> */}
+				<p className="font-semibold italic text-center max-w-2xl mx-auto">
+					"Plus profondes sont nos racines, plus justes sont nos pas, et plus notre chemin
+					se révèle."
+				</p>
+				{/* </ScrollAnimation> */}
 			</section>
 			<section className="flex flex-col gap-10">
 				<BlocTextContent

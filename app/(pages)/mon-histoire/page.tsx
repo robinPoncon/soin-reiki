@@ -35,33 +35,9 @@ const MyStoryPage = () => {
 			</h1>
 			<article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
-					Un premier pas dans le développement personnel
+					Le point de départ
 				</h2>
 				<div className="flex flex-col justify-center gap-10 sm:gap-16 mt-10 md:flex-row">
-					<Image
-						className="customImgPink mx-auto md:mx-0"
-						alt="photo de robin ponçon souriant"
-						src="/photo-profil-small.png"
-						width={320}
-						height={320}
-						loading="eager"
-					/>
-					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
-						Je m'appelle Robin Ponçon et j'ai {age} ans. Ma véritable aventure dans le
-						développement personnel et la spiritualité a débuté il y a maintenant{" "}
-						{spiritualityAge} ans, à la suite d'une rupture amoureuse. Aussi loin que je
-						me souvienne, j'ai toujours été face à un vide intérieur que je cherchais à
-						combler de l'extérieur. Ce qui m'a enfermé dans de la dépendance affective.
-						En quête de sens et d'un profond désir de changement, mon nouvel objectif
-						était de comprendre et trouver l'essence de "l'Amour".
-					</p>
-				</div>
-			</article>
-			<article>
-				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
-					Une rencontre d'âme et l'éveil de l'amour
-				</h2>
-				<div className="flex flex-col justify-center gap-10 sm:gap-16 mt-10 md:flex-row-reverse">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
 						alt="photo de mon chat appelé Tommy"
@@ -69,22 +45,21 @@ const MyStoryPage = () => {
 						width={320}
 						height={320}
 					/>
-					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
-						Lui ? C'est Tommy ! Il est apparu dans une période de ma vie où ma confiance
-						et mon estime de moi étaient au plus bas. Il m'a enseigné l'amour pur, un
-						amour libre de conditions et d'attentes, l'Amour inconditionnel !
-						Malheureusement, le cancer est apparu comme obstacle. Et c'est lors d'une
-						expérience de conscience modifiée, en désirant lui envoyer de l'amour,
-						qu'une puissante vague d'énergie s'est manifesté en moi pour se diriger dans
-						mes mains. Mon magnétisme s'était réveillé.
+					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
+						Je m'appelle Robin Ponçon et j'ai {age} ans. Il y a quelques années, j’ai
+						traversé une période de vie difficile, comme beaucoup peuvent en connaître.
+						Une rupture sentimentale, ainsi que mon chat atteint d’un cancer, m’ont
+						confronté à la tristesse et l’impuissance face à laquelle je cherchais du
+						sens et des réponses. C’est dans ce contexte que j’ai commencé à découvrir
+						le magnétisme, d’abord simplement pour tenter d’apaiser ses douleurs. Cette
+						expérience a éveillé en moi l’envie d’explorer plus profondément cette
+						sensibilité dans ce domaine.
 					</p>
 				</div>
 			</article>
 			<article>
-				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
-					Le Reiki et le bénévolat à l'hôpital
-				</h2>
-				<div className="flex flex-col justify-center gap-10 sm:gap-16 mt-10 md:flex-row">
+				<h2 className="text-xl text-center font-semibold italic md:text-2xl">Le chemin</h2>
+				<div className="flex flex-col justify-center gap-10 sm:gap-16 mt-10 md:flex-row-reverse">
 					<Image
 						className="customImgPink mx-auto md:mx-0"
 						alt="photo d'un soin reiki au niveau de la tête"
@@ -93,18 +68,44 @@ const MyStoryPage = () => {
 						height={320}
 						loading="eager"
 					/>
-					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
-						Mon chemin m'a naturellement conduit vers le Reiki, où je suis devenu maître
-						praticien (niveau 3) auprès de Monique Chanoni de la lignée de Mikao Usui.
-						J'ai eu l'opportunité d'intervenir depuis 2023, auprès de l'association
-						"sang mille couleurs" à l'hôpital pour apaiser les symptômes de patients
-						atteints de cancer. C'est en voyant tous les bienfaits que j'ai pu leur
-						apporter, que j'ai décidé de me lancer à mon compte pour aider un maximum de
-						personne sur le chemin de la guérison !
+					<p className="text-justify max-w-xs my-auto mx-auto md:mx-0">
+						Porté par cette curiosité, j’ai découvert le Reiki, les cartes et la pleine
+						conscience, qui m’ont permis d’explorer plus profondément certaines
+						questions. Avec le temps, cette quête de sens m’a aussi conduite à une
+						période de doute, où je me suis senti perdu. À force de chercher comment
+						vivre ma vie, j’avais oublié le fait de simplement la vivre. J’ai alors
+						appris progressivement à ralentir, à m’écouter et à apporter plus de douceur
+						dans ce que je traversais. Je ne prétends pas être arrivé, mais aujourd’hui
+						je poursuis ce chemin avec davantage de paix.
 					</p>
 				</div>
 			</article>
 			<article>
+				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
+					Aujourd'hui
+				</h2>
+				<div className="flex flex-col justify-center gap-10 sm:gap-16 mt-10 md:flex-row">
+					<Image
+						className="customImgPink mx-auto md:mx-0"
+						alt="photo d'un handpan sur la plage"
+						src="/photo-handpan.png"
+						width={320}
+						height={320}
+						loading="eager"
+					/>
+					<p className="text-justify md:text-start max-w-xs my-auto mx-auto md:mx-0">
+						Aujourd’hui, mon accompagnement est le fruit de ce parcours. Je ne cherche
+						pas à apporter des réponses toutes faites ni à transformer les personnes que
+						je reçois. Mon intention est d’offrir un espace d’écoute, de présence et de
+						clarté, dans lequel chacun peut faire un pas de côté, mieux comprendre ce
+						qu’il traverse et avancer de manière plus juste pour lui. Chaque
+						accompagnement est différent, car chaque personne l’est aussi. Mon rôle
+						n’est pas de guider un chemin, mais d’éclairer, le temps d’une rencontre, le
+						prochain pas possible.
+					</p>
+				</div>
+			</article>
+			{/* <article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					La prise de conscience qui changea ma vie
 				</h2>
@@ -127,8 +128,8 @@ const MyStoryPage = () => {
 						sa vie sur le long terme !
 					</p>
 				</div>
-			</article>
-			<article>
+			</article> */}
+			{/* <article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Ma vision de l'avenir avec la musique
 				</h2>
@@ -151,7 +152,7 @@ const MyStoryPage = () => {
 						bien-être par une musique, vous comprendrez ce que je veux exprimer !
 					</p>
 				</div>
-			</article>
+			</article> */}
 			{/* <article>
 				<h2 className="text-xl text-center font-semibold italic md:text-2xl">
 					Mes débuts dans la spiritualité
