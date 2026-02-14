@@ -19,7 +19,7 @@ const PricesPage = () => {
 				</h1>
 				<p className="text-justify italic mx-auto lg:max-w-3xl">
 					Une séance dure généralement entre <strong>1h et 1h30</strong>, afin de prendre
-					le temps d’échanger, de se poser et d’accueillir et de mieux comprendre ce que
+					le temps d’échanger, de se poser, d’accueillir et de mieux comprendre ce que
 					vous traversez. Le règlement s’effectue à la fin de la séance, en{" "}
 					<strong>espèces ou par chèque</strong>.
 					{/* <Link
