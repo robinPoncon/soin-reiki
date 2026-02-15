@@ -332,12 +332,12 @@ const MainPage = () => {
 								Mon Histoire
 							</h2>
 							<p>
-								Je m’appelle Robin Ponçon, j’ai {age} et j’accompagne des personnes
-								qui traversent des périodes de doute ou de transition dans leur vie.
-								Mon chemin a commencé il y a plusieurs années, lors d’une période
-								profondément introspective, marquée par une recherche de sens et de
-								compréhension de ce que je vivais. C’est à ce moment que j’ai eu
-								l'éveil du magnétisme de manière intuitive.
+								Je m’appelle Robin Ponçon, j’ai {age} ans et j’accompagne des
+								personnes qui traversent des périodes de doute ou de transition dans
+								leur vie. Mon chemin a commencé il y a plusieurs années, lors d’une
+								période profondément introspective, marquée par une recherche de
+								sens et de compréhension de ce que je vivais. C’est à ce moment que
+								j’ai eu l'éveil du magnétisme de manière intuitive.
 							</p>
 							<p>
 								Mon parcours m’a ensuite conduit vers le Reiki, une pratique
