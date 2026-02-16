@@ -21,9 +21,9 @@ This project was fully designed and developed as a real-world product, from visu
 
 ## Tech Stack
 
-- React
+- Next.js / React
 - JavaScript / TypeScript
-- Responsive CSS
+- Responsive CSS and Tailwind
 - SEO-oriented structure
 - Git versioning
 
