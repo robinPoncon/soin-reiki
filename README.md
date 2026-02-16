@@ -8,6 +8,14 @@ The objective of the project was to create a calm, accessible and reassuring dig
 
 This project was fully designed and developed as a real-world product, from visual structure to technical implementation.
 
+Designed and developed entirely by myself, from UX structure to technical implementation.
+
+---
+
+## Live Demo
+
+https://racines-guerison.com
+
 ---
 
 ## Screenshots
@@ -56,6 +64,7 @@ This project focuses on:
 - Maintaining simplicity in both design and code structure
 - Creating reusable components
 - Ensuring long-term maintainability
+- Special attention was given to performance optimization, image loading and accessibility to ensure a smooth experience on mobile devices.
 
 ---
 
