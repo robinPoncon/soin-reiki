@@ -13,6 +13,7 @@ This project was fully designed and developed as a real-world product, from visu
 ## Screenshots
 
 Main pages of the website illustrating the visual direction and user experience.
+
 ![Homepage](./public/screenshot_website_home.png)
 ![Homepage](public/screenshot_website_sound-journey.png)
 
