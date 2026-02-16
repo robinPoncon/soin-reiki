@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Healing Roots Website
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Healing Roots is a website designed for a therapeutic activity focused on helping people navigate periods of life transition and regain inner stability.
+
+The objective of the project was to create a calm, accessible and reassuring digital experience, translating a human-centered approach into a clear and minimalist interface.
+
+This project was fully designed and developed as a real-world product, from visual structure to technical implementation.
+
+---
+
+## Goals
+
+- Present a therapeutic activity in a simple and understandable way
+- Create a peaceful and distraction-free user experience
+- Ensure readability and accessibility across devices
+- Build a fast and maintainable website
+
+---
+
+## Tech Stack
+
+- React
+- JavaScript / TypeScript
+- Responsive CSS
+- SEO-oriented structure
+- Git versioning
+
+---
+
+## Features
+
+- Responsive design (mobile-first approach)
+- Clear navigation and content hierarchy
+- Optimized performance
+- Contact and presentation pages
+- Simple and scalable structure for future evolution
+
+---
+
+## Technical Focus
+
+This project focuses on:
+
+- Translating an emotional and human intention into UI decisions
+- Maintaining simplicity in both design and code structure
+- Creating reusable components
+- Ensuring long-term maintainability
+
+---
+
+## Installation
 
 ```bash
+git clone https://github.com/robinPoncon/healing-roots-website.git
+cd healing-roots-website
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
