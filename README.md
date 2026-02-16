@@ -14,7 +14,7 @@ Designed and developed entirely by myself, from UX structure to technical implem
 
 ## Live Demo
 
-https://racines-guerison.com
+👉 [Visit the live website](https://racines-guerison.com)
 
 ---
 
