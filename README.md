@@ -23,7 +23,7 @@ Designed and developed entirely by myself, from UX structure to technical implem
 Main pages of the website illustrating the visual direction and user experience.
 
 ![Homepage](./public/screenshot_website_home.png)
-![Homepage](public/screenshot_website_sound-journey.png)
+![Sound-journey](public/screenshot_website_sound-journey.png)
 
 ---
 
